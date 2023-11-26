@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "dp_connector")(type "KiCad")(uri "${KIPRJMOD}/library/dp_connector.pretty")(options "")(descr ""))
+)

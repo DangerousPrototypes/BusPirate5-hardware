@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DMMT3906W-7
+#
+DEF DMMT3906W-7 U 0 40 Y Y 1 L N
+F0 "U" -215 348 50 H V L BNN
+F1 "DMMT3906W-7" -189 -599 50 H V L BNN
+F2 "SOT65P210X110-6N" 0 0 50 H I L BNN
+F3 "1773643" 0 0 50 H I L BNN
+F4 "51R6457" 0 0 50 H I L BNN
+F5 "DMMT3906W-7" 0 0 50 H I L BNN
+F6 "SOT-323-6" 0 0 50 H I L BNN
+F7 "Diodes Inc" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 300 -500 -500 N
+P 2 0 0 16 -500 -500 500 -500 N
+P 2 0 0 16 500 -500 500 300 N
+P 2 0 0 16 500 300 -500 300 N
+X B1 2 -700 100 200 R 40 40 0 0 P 
+X B2 1 -700 0 200 R 40 40 0 0 P 
+X E1 4 -700 -200 200 R 40 40 0 0 P 
+X E2 5 -700 -300 200 R 40 40 0 0 P 
+X C1 3 700 100 200 L 40 40 0 0 P 
+X C2 6 700 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
