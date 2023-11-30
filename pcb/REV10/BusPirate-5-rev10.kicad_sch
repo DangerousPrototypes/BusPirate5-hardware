@@ -97,6 +97,11 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 6f8a9429-e0a1-4765-bd1a-417e1728ea12)
   )
+  (text "TODO: add some pull down to VREF_VOUT to ensure proper partial power down of 74lvc1t45"
+    (at 91.44 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a997ddca-ae61-4145-a89e-e4fbdab73301)
+  )
   (text "IO buffer" (at 158.75 93.98 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid b4bdb112-dd0d-45c3-9e86-5b804d1d114f)
