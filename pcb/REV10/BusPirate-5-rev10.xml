@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\buspirate5-hardware\pcb\REV10\BusPirate-5-rev10.kicad_sch</source>
-    <date>11/30/2023 10:11:40 AM</date>
+    <date>12/1/2023 9:45:42 AM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -695,7 +695,7 @@
       <tstamps>974e0e69-913c-4899-b2d1-a18aa8757afb</tstamps>
     </comp>
     <comp ref="R320">
-      <value>1K</value>
+      <value>510R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.004864</field>
@@ -2609,6 +2609,23 @@
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
       <tstamps>00000000-0000-0000-0000-00006132fdb4</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.005749</field>
+        <field name="Supplier">https://item.szlcsc.com/61543.html</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.005749"/>
+      <property name="Supplier" value="https://item.szlcsc.com/61543.html"/>
+      <property name="Sheetname" value="bpu-iobufffer"/>
+      <property name="Sheetfile" value="bpu-iobufffer.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
+      <tstamps>c995bb8c-78a2-4ad7-aea7-664f10860a20</tstamps>
     </comp>
     <comp ref="RN301">
       <value>330R</value>
@@ -4695,6 +4712,7 @@
       <node ref="Q202" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R201" pin="1" pintype="passive"/>
       <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
       <node ref="R401" pin="2" pintype="passive"/>
       <node ref="R405" pin="2" pintype="passive"/>
       <node ref="R407" pin="1" pintype="passive"/>
@@ -5374,6 +5392,7 @@
       <node ref="Q307" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q401" pin="1" pinfunction="E1" pintype="passive"/>
       <node ref="Q402" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
       <node ref="R319" pin="2" pintype="passive"/>
       <node ref="U301" pin="6" pinfunction="VCCB" pintype="power_in"/>
       <node ref="U302" pin="6" pinfunction="VCCB" pintype="power_in"/>
