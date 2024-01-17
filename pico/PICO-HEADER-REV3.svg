@@ -1,0 +1,3839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.799999mm"
+   height="8mm"
+   viewBox="0 0 50.799999 8"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="PICO-HEADER-REV3.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="PICO-HEADER-REV3-B.pdf"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4"
+     inkscape:cx="78.625"
+     inkscape:cy="-2.875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6"
+     showguides="true"
+     inkscape:export-bgcolor="#ffffffff">
+    <sodipodi:guide
+       position="2.54,11.952248"
+       orientation="-1,0"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="48.259999,10.291836"
+       orientation="-1,0"
+       id="guide2"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="5.0799999,9.3563926"
+       orientation="-1,0"
+       id="guide3"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="7.6199999,8.631424"
+       orientation="-1,0"
+       id="guide4"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="10.16,7.9999998"
+       orientation="-1,0"
+       id="guide5"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="12.7,8.6548101"
+       orientation="-1,0"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="15.24,7.9999998"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="17.78,6.8540817"
+       orientation="-1,0"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="20.32,7.4514205"
+       orientation="-1,0"
+       id="guide9"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="22.86,7.9999998"
+       orientation="-1,0"
+       id="guide10"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="25.4,7.9999998"
+       orientation="-1,0"
+       id="guide11"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="27.94,7.4514205"
+       orientation="-1,0"
+       id="guide12"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="30.48,7.4514205"
+       orientation="-1,0"
+       id="guide13"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="33.02,8.8268227"
+       orientation="-1,0"
+       id="guide14"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="35.56,9.3559893"
+       orientation="-1,0"
+       id="guide15"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="38.1,6.9008539"
+       orientation="-1,0"
+       id="guide16"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="40.639999,7.9999998"
+       orientation="-1,0"
+       id="guide17"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="43.179999,8.5144936"
+       orientation="-1,0"
+       id="guide18"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="45.719999,8.0046501"
+       orientation="-1,0"
+       id="guide19"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="50.799999,9.3890622"
+       orientation="-1,0"
+       id="guide20"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="-8.3085051"
+       y="40.658642"
+       width="37.442383"
+       height="27.400389"
+       id="rect1" />
+    <rect
+       x="42.583389"
+       y="77.333435"
+       width="13.250018"
+       height="9.9166803"
+       id="rect8" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.008133"
+       height="14.604589"
+       id="rect6" />
+    <rect
+       x="29.114676"
+       y="36.405037"
+       width="33.346508"
+       height="40.669704"
+       id="rect5" />
+    <rect
+       x="0"
+       y="0"
+       width="52.675423"
+       height="214.54207"
+       id="rect4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="193.51181"
+       id="rect3" />
+    <rect
+       x="32.125984"
+       y="0"
+       width="25.621147"
+       height="188.56152"
+       id="rect2" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter46"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(200,55,55)"
+         flood-opacity="1"
+         id="feFlood45" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage45" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend45" />
+      <feMerge
+         result="result3"
+         id="feMerge46">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode45" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode46" />
+      </feMerge>
+    </filter>
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.426076"
+       id="rect6-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.897482"
+       id="rect6-1-8" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648379"
+       id="rect6-1-8-8" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-62" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="14.02985"
+       id="rect6-1-8-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.308225"
+       id="rect6-1-8-66" />
+    <rect
+       x="0"
+       y="0"
+       width="39.93911"
+       height="13.217741"
+       id="rect6-1-8-10" />
+    <rect
+       x="0"
+       y="0"
+       width="38.910511"
+       height="14.648377"
+       id="rect6-1-8-12" />
+    <rect
+       x="0"
+       y="0"
+       width="33.893753"
+       height="14.650656"
+       id="rect6-1-8-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.71524"
+       height="14.650659"
+       id="rect6-1-8-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-4" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="14.648374"
+       id="rect6-1-8-39" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-30" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.243835"
+       height="14.648377"
+       id="rect6-1-8-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.426076"
+       id="rect6-1-8-16" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648378"
+       id="rect6-1-8-95" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="16.49021"
+       id="rect6-1-8-67" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-2" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-21" />
+    <rect
+       x="42.583389"
+       y="77.333435"
+       width="13.250018"
+       height="9.9166803"
+       id="rect8-8" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-21-7" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-2-2" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-67-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-95-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-16-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-7-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-9-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-30-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-39-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-4-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-3-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-2-2" />
+    <rect
+       x="0"
+       y="0"
+       width="38.79266"
+       height="10.507161"
+       id="rect6-1-8-12-6" />
+    <rect
+       x="0"
+       y="0"
+       width="40.292664"
+       height="10.507161"
+       id="rect6-1-8-10-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-66-3" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="9.381814"
+       id="rect6-1-8-1-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-62-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-6-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-8-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-79" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-2" />
+    <rect
+       x="29.114676"
+       y="36.405037"
+       width="33.346508"
+       height="40.669704"
+       id="rect5-4" />
+    <rect
+       x="32.125984"
+       y="0"
+       width="25.621147"
+       height="188.56152"
+       id="rect2-8" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-5" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-51" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="16.49021"
+       id="rect6-1-8-67-5" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648378"
+       id="rect6-1-8-95-4" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.426076"
+       id="rect6-1-8-16-5" />
+    <rect
+       x="0"
+       y="0"
+       width="32.243835"
+       height="14.648377"
+       id="rect6-1-8-7-42" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-9-22" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-30-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="14.648374"
+       id="rect6-1-8-39-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-4-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.71524"
+       height="14.650659"
+       id="rect6-1-8-3-31" />
+    <rect
+       x="0"
+       y="0"
+       width="33.893753"
+       height="14.650656"
+       id="rect6-1-8-2-6" />
+    <rect
+       x="0"
+       y="0"
+       width="38.910511"
+       height="14.648377"
+       id="rect6-1-8-12-4" />
+    <rect
+       x="0"
+       y="0"
+       width="39.93911"
+       height="13.217741"
+       id="rect6-1-8-10-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.308225"
+       id="rect6-1-8-66-6" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="14.02985"
+       id="rect6-1-8-1-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-62-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-6-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648379"
+       id="rect6-1-8-8-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.897482"
+       id="rect6-1-8-22" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.426076"
+       id="rect6-1-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.008133"
+       height="14.604589"
+       id="rect6-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.5474"
+       id="rect6-2-5" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.783102"
+       id="rect6-1-4-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.143566"
+       height="14.03381"
+       id="rect6-1-8-79-7" />
+    <rect
+       x="0"
+       y="0"
+       width="42.196747"
+       height="16.227322"
+       id="rect6-1-8-8-2-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.061535"
+       height="18.619429"
+       id="rect6-1-8-6-8-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.756844"
+       height="17.695894"
+       id="rect6-1-8-62-4-0" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-66-3-4" />
+    <rect
+       x="0"
+       y="0"
+       width="40.292664"
+       height="10.507161"
+       id="rect6-1-8-10-4-3" />
+    <rect
+       x="0"
+       y="0"
+       width="38.79266"
+       height="10.507161"
+       id="rect6-1-8-12-6-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-2-2-7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-3-3-7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-4-0-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-39-0-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-30-4-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-9-2-5" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-7-4-7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-16-4-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-95-8-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-67-0-0" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-1" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-5-4" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-51-7" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-3" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-51-7-7" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-5-4-6" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-1-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-67-0-0-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-95-8-2-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-16-4-2-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-7-4-7-7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-9-2-5-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-30-4-2-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-39-0-9-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-4-0-3-7" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-3-3-7-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-2-2-7-1" />
+    <rect
+       x="0"
+       y="0"
+       width="38.79266"
+       height="10.507161"
+       id="rect6-1-8-12-6-0-3" />
+    <rect
+       x="0"
+       y="0"
+       width="40.292664"
+       height="10.507161"
+       id="rect6-1-8-10-4-3-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-66-3-4-3" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-3-3" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.756844"
+       height="17.695894"
+       id="rect6-1-8-62-4-0-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.061535"
+       height="18.619429"
+       id="rect6-1-8-6-8-0-3" />
+    <rect
+       x="0"
+       y="0"
+       width="42.196747"
+       height="16.227322"
+       id="rect6-1-8-8-2-6-5" />
+    <rect
+       x="0"
+       y="0"
+       width="32.143566"
+       height="14.03381"
+       id="rect6-1-8-79-7-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.783102"
+       id="rect6-1-4-3-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.5474"
+       id="rect6-2-5-0" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-3-3-4" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.5474"
+       id="rect6-2-5-0-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.75684"
+       height="15.783102"
+       id="rect6-1-4-3-6-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.143566"
+       height="14.03381"
+       id="rect6-1-8-79-7-3-4" />
+    <rect
+       x="0"
+       y="0"
+       width="42.196747"
+       height="16.227322"
+       id="rect6-1-8-8-2-6-5-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.061535"
+       height="18.619429"
+       id="rect6-1-8-6-8-0-3-2" />
+    <rect
+       x="0"
+       y="0"
+       width="31.756844"
+       height="17.695894"
+       id="rect6-1-8-62-4-0-6-3" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-1-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-66-3-4-3-2" />
+    <rect
+       x="0"
+       y="0"
+       width="40.292664"
+       height="10.507161"
+       id="rect6-1-8-10-4-3-3-9" />
+    <rect
+       x="0"
+       y="0"
+       width="38.79266"
+       height="10.507161"
+       id="rect6-1-8-12-6-0-3-2" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-2-2-7-1-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-3-3-7-2-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-4-0-3-7-6" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-39-0-9-2-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-30-4-2-3-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-9-2-5-9-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-7-4-7-7-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-16-4-2-2-0" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-95-8-2-1-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.125984"
+       height="10.833348"
+       id="rect6-1-8-67-0-0-1-2" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-1-6-7" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-5-4-6-6" />
+    <rect
+       x="-60.811264"
+       y="29.751858"
+       width="29.227119"
+       height="23.048128"
+       id="rect7-9-51-7-7-9" />
+    <rect
+       x="0"
+       y="0"
+       width="32.008133"
+       height="14.604589"
+       id="rect6-71" />
+    <rect
+       x="0"
+       y="0"
+       width="39.337337"
+       height="14.691675"
+       id="rect6-1-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.897482"
+       id="rect6-1-8-94" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648379"
+       id="rect6-1-8-8-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-6-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-62-7" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="14.02985"
+       id="rect6-1-8-1-1" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.308225"
+       id="rect6-1-8-66-2" />
+    <rect
+       x="0"
+       y="0"
+       width="39.93911"
+       height="13.217741"
+       id="rect6-1-8-10-9" />
+    <rect
+       x="0"
+       y="0"
+       width="38.910511"
+       height="14.648377"
+       id="rect6-1-8-12-5" />
+    <rect
+       x="0"
+       y="0"
+       width="33.893753"
+       height="14.650656"
+       id="rect6-1-8-2-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.71524"
+       height="14.650659"
+       id="rect6-1-8-3-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-4-60" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="14.648374"
+       id="rect6-1-8-39-5" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-30-7" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-9-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.243835"
+       height="14.648377"
+       id="rect6-1-8-7-9" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.426076"
+       id="rect6-1-8-16-6" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648378"
+       id="rect6-1-8-95-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="16.49021"
+       id="rect6-1-8-67-4" />
+    <rect
+       x="0"
+       y="0"
+       width="32.008133"
+       height="14.604589"
+       id="rect6-71-5" />
+    <rect
+       x="0"
+       y="0"
+       width="39.337337"
+       height="14.691675"
+       id="rect6-1-3-8" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.897482"
+       id="rect6-1-8-94-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648379"
+       id="rect6-1-8-8-3-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-6-7-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-62-7-8" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="14.02985"
+       id="rect6-1-8-1-1-8" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.308225"
+       id="rect6-1-8-66-2-2" />
+    <rect
+       x="0"
+       y="0"
+       width="39.93911"
+       height="13.217741"
+       id="rect6-1-8-10-9-4" />
+    <rect
+       x="0"
+       y="0"
+       width="38.910511"
+       height="14.648377"
+       id="rect6-1-8-12-5-4" />
+    <rect
+       x="0"
+       y="0"
+       width="33.893753"
+       height="14.650656"
+       id="rect6-1-8-2-1-3" />
+    <rect
+       x="0"
+       y="0"
+       width="32.71524"
+       height="14.650659"
+       id="rect6-1-8-3-6-2" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-4-60-5" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="14.648374"
+       id="rect6-1-8-39-5-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect6-1-8-30-7-2" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect6-1-8-9-1-8" />
+    <rect
+       x="0"
+       y="0"
+       width="32.243835"
+       height="14.648377"
+       id="rect6-1-8-7-9-0" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.426076"
+       id="rect6-1-8-16-6-9" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648378"
+       id="rect6-1-8-95-3-3" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="16.49021"
+       id="rect6-1-8-67-4-8" />
+    <rect
+       x="-8.3085051"
+       y="40.658642"
+       width="37.442383"
+       height="27.400389"
+       id="rect1-9" />
+    <rect
+       x="0"
+       y="0"
+       width="38.79266"
+       height="10.507161"
+       id="rect6-1-8-12-6-0-3-2-8" />
+    <rect
+       x="0"
+       y="0"
+       width="40.292664"
+       height="10.507161"
+       id="rect6-1-8-10-4-3-3-9-7" />
+    <rect
+       x="0"
+       y="0"
+       width="37.723621"
+       height="11.815059"
+       id="rect6-1-8-1-8-1-1-0-1" />
+    <rect
+       x="0"
+       y="0"
+       width="32.008133"
+       height="14.604589"
+       id="rect64" />
+    <rect
+       x="0"
+       y="0"
+       width="39.337337"
+       height="14.691675"
+       id="rect65" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.897482"
+       id="rect66" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648379"
+       id="rect67" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect68" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect69" />
+    <rect
+       x="0"
+       y="0"
+       width="37.959324"
+       height="14.02985"
+       id="rect70" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="13.308225"
+       id="rect71" />
+    <rect
+       x="0"
+       y="0"
+       width="39.93911"
+       height="13.217741"
+       id="rect72" />
+    <rect
+       x="0"
+       y="0"
+       width="38.910511"
+       height="14.648377"
+       id="rect73" />
+    <rect
+       x="0"
+       y="0"
+       width="33.893753"
+       height="14.650656"
+       id="rect74" />
+    <rect
+       x="0"
+       y="0"
+       width="32.71524"
+       height="14.650659"
+       id="rect75" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect76" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="14.648374"
+       id="rect77" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.661779"
+       id="rect78" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.308225"
+       id="rect79" />
+    <rect
+       x="0"
+       y="0"
+       width="32.243835"
+       height="14.648377"
+       id="rect80" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="13.426076"
+       id="rect81" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087336"
+       height="14.648378"
+       id="rect82" />
+    <rect
+       x="0"
+       y="0"
+       width="31.087337"
+       height="16.49021"
+       id="rect83" />
+    <rect
+       x="-8.3085051"
+       y="40.658642"
+       width="37.442383"
+       height="27.400389"
+       id="rect84" />
+    <rect
+       x="-8.3085051"
+       y="40.658642"
+       width="37.442383"
+       height="27.400389"
+       id="rect85" />
+  </defs>
+  <text
+     xml:space="preserve"
+     transform="matrix(0,0.26458333,-0.26458333,0,29.755825,21.260476)"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect2);display:inline" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0,0.26458333,-0.26458333,0,29.755825,21.260476)"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect5);display:inline" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0,0.26458333,-0.26458333,0,29.755825,21.260476)"
+     id="text8"
+     style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8);display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="A-SIDE 7pt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.8136944,0.27480916)"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan1">GP0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.3488882,0.27480914)"
+       id="text6-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan2">GP1</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9"
+       width="5.7755213"
+       height="2.3295596"
+       x="-1.8838552e-17"
+       y="-7.7083378"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.8840815,0.27480921)"
+       id="text6-6-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan4"><tspan
+           style="fill:#ffffff"
+           id="tspan3">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.419275,0.27480921)"
+       id="text6-6-9-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan5">GP2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.954468,0.27480895)"
+       id="text6-6-9-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan6">GP3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.489662,0.27480895)"
+       id="text6-6-9-40"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan7">GP4</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,18.024855,0.27480921)"
+       id="text6-6-9-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan8">GP5</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11"
+       width="5.7755213"
+       height="2.6284029"
+       x="-4.85537e-10"
+       y="-20.384304"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.560048,0.27480921)"
+       id="text6-6-9-03"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan10"><tspan
+           style="fill:#ffffff"
+           id="tspan9">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,23.095242,0.27480895)"
+       id="text6-6-9-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan11">GP6</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.630435,0.27480895)"
+       id="text6-6-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan12">GP7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.166231,0.27480921)"
+       id="text6-6-9-45"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan13">GP8</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.701425,0.27480895)"
+       id="text6-6-9-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan14">GP9</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4"
+       width="5.7755213"
+       height="2.3295596"
+       x="-1.5233924e-09"
+       y="-33.060272"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.236015,0.27480895)"
+       id="text6-6-9-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan16"><tspan
+           style="fill:#ffffff"
+           id="tspan15">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.771208,0.27480895)"
+       id="text6-6-9-37"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan17">GP10</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.306402,0.27480895)"
+       id="text6-6-9-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan18">GP11</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.841595,0.27480895)"
+       id="text6-6-9-98"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan19">GP12</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.376788,0.27480895)"
+       id="text6-6-9-24"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan20">GP13</tspan></text>
+    <g
+       id="g1"
+       transform="matrix(0,0.67873039,-1,0,63.460794,0.00631338)"
+       style="stroke-width:1.21382">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.321154"
+         id="rect11-0"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,45.911982,0.27480869)"
+       id="text6-6-9-23"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan22"><tspan
+           style="fill:#ffffff"
+           id="tspan21">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.447175,0.27480895)"
+       id="text6-6-9-20"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan23">GP14</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,50.982368,0.27480895)"
+       id="text6-6-9-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan24">GP15</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="A-SIDE 7pt rev1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.8136941,0.27480915)"
+       id="text6-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-71);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan25">0     TX</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.3488883,0.27480905)"
+       id="text6-6-60"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan26">1     RX</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-7"
+       width="8.5"
+       height="2.3295596"
+       x="0"
+       y="-7.7083378"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.8840816,0.27480915)"
+       id="text6-6-9-29"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-94);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan28"><tspan
+           style="fill:#ffffff"
+           id="tspan27">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.419275,0.27480915)"
+       id="text6-6-9-8-60"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan29">2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.954468,0.27480885)"
+       id="text6-6-9-4-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan30">3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.489662,0.27480885)"
+       id="text6-6-9-40-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan31">4</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,18.024855,0.27480915)"
+       id="text6-6-9-0-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan32">5</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-7"
+       width="8.5"
+       height="2.6284029"
+       x="0"
+       y="-20.533726"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.560048,0.27480915)"
+       id="text6-6-9-03-12"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan34"><tspan
+           style="fill:#ffffff"
+           id="tspan33">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,23.095242,0.27480885)"
+       id="text6-6-9-6-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan35">6</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.630435,0.27480885)"
+       id="text6-6-9-9-88"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-5);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan36">7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.166231,0.27480915)"
+       id="text6-6-9-45-16"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan37">8</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.701425,0.27480885)"
+       id="text6-6-9-2-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan38">9</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-96"
+       width="8.5"
+       height="2.3295596"
+       x="0"
+       y="-33.060272"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.236015,0.27480885)"
+       id="text6-6-9-3-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-60);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan40"><tspan
+           style="fill:#ffffff"
+           id="tspan39">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.771208,0.27480885)"
+       id="text6-6-9-37-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-5);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan41">10</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.306402,0.27480885)"
+       id="text6-6-9-7-77"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan42">11</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.841595,0.27480885)"
+       id="text6-6-9-98-14"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan43">12</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.376788,0.27480885)"
+       id="text6-6-9-24-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan44">13</tspan></text>
+    <g
+       id="g2-05"
+       transform="matrix(0,0.99890695,-1,0,63.460794,0.00929156)"
+       style="display:inline;stroke-width:1.00055">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.264728"
+         id="rect11-0-7"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,45.911982,0.27480865)"
+       id="text6-6-9-23-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan46"><tspan
+           style="fill:#ffffff"
+           id="tspan45">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.447175,0.27480885)"
+       id="text6-6-9-20-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan47">14</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,50.982368,0.27480885)"
+       id="text6-6-9-5-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-4);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan48">15</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="A-SIDE 8pt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.8467802,0.25792771)"
+       id="text6-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-7);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan49">GP0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.4098242,0.25792771)"
+       id="text6-6-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-6);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan50">GP1</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-9"
+       width="8.5"
+       height="2.3295596"
+       x="-0.016880913"
+       y="-7.6056156"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.9728682,0.25792771)"
+       id="text6-6-9-033"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-22);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan52"><tspan
+           style="fill:#ffffff"
+           id="tspan51">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.535912,0.25792771)"
+       id="text6-6-9-8-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-0);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan53">GP2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,13.098956,0.25792771)"
+       id="text6-6-9-4-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-6);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan54">GP3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.662,0.25792771)"
+       id="text6-6-9-40-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-1);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan55">GP4</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,18.225044,0.25792771)"
+       id="text6-6-9-0-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-7);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan56">GP5</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-2"
+       width="8.5"
+       height="2.3295596"
+       x="-0.016880913"
+       y="-20.420835"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.788088,0.25792771)"
+       id="text6-6-9-03-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-6);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan58"><tspan
+           style="fill:#ffffff"
+           id="tspan57">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,23.351132,0.25792771)"
+       id="text6-6-9-6-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-7);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan59">GP6</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.914176,0.25792771)"
+       id="text6-6-9-9-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-4);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan60">GP7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.477909,0.25792771)"
+       id="text6-6-9-45-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-6);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan61">GP8</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,31.040953,0.25792771)"
+       id="text6-6-9-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-31);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan62">GP9</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-9"
+       width="8.5"
+       height="2.3295596"
+       x="-0.016880913"
+       y="-33.236057"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.603308,0.25792771)"
+       id="text6-6-9-3-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-6);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan64"><tspan
+           style="fill:#ffffff"
+           id="tspan63">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,36.166352,0.25792771)"
+       id="text6-6-9-37-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-1);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan65">GP10</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.729396,0.25792771)"
+       id="text6-6-9-7-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-0);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan66">GP11</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,41.29244,0.25792771)"
+       id="text6-6-9-98-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-22);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan67">GP12</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.855484,0.25792771)"
+       id="text6-6-9-24-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-42);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan68">GP13</tspan></text>
+    <g
+       id="g2-1"
+       transform="matrix(0,0.99890694,-1,0,63.775832,-0.00758929)"
+       style="display:inline;stroke-width:1.00055">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.264728"
+         id="rect11-0-3"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,46.418528,0.25792771)"
+       id="text6-6-9-23-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-5);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan70"><tspan
+           style="fill:#ffffff"
+           id="tspan69">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.981572,0.25792771)"
+       id="text6-6-9-20-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-4);display:inline"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan71">GP14</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.544621,0.25792771)"
+       id="text6-6-9-5-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-5);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="9.6080775"
+         id="tspan72">GP15</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="B-SIDE 6pt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0046514)"
+       id="text2-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect2-8);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0046514)"
+       id="text4-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect5-4);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0976694)"
+       id="text6-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-2);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan73">VBUS</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.616184,0.0976694)"
+       id="text6-6-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan74">VSYS</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-5"
+       width="5.0684242"
+       height="2.3295596"
+       x="-0.0046505886"
+       y="-46.067337"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,46.051576,-0.0046506)"
+       id="text6-6-9-46"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-79);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan76"><tspan
+           style="fill:#ffffff"
+           id="tspan75">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.693673,0.0170534)"
+       id="text6-6-9-8-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-2);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan77">3V3_EN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.933211,0.0170534)"
+       id="text6-6-9-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-8);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan78">3V3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.3593,0.0976694)"
+       id="text6-6-9-40-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan79">VREF</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.991579,-0.0046506)"
+       id="text6-6-9-0-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan80">GP28</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04"
+       width="5.0684242"
+       height="2.3295596"
+       x="-0.0046505886"
+       y="-33.246876"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9"
+       width="2.9999938"
+       height="2.3295596"
+       x="5.5000062"
+       y="-36.006821"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.231117,-0.0046506)"
+       id="text6-6-9-03-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-3);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan82"><tspan
+           style="fill:#ffffff"
+           id="tspan81">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.863395,-0.0046506)"
+       id="text6-6-9-6-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan83">GP27</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.299303,-0.0046506)"
+       id="text6-6-9-9-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-6);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan84">GP26</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.55176,-0.0583936)"
+       id="text6-6-9-45-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-2);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan85">RUN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,22.974749,-0.0046506)"
+       id="text6-6-9-2-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-3);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan86">GP22</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-3"
+       width="5.0637741"
+       height="2.3295596"
+       x="-4.7683716e-07"
+       y="-20.426418"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.410658,-0.0046506)"
+       id="text6-6-9-3-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-0);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan88"><tspan
+           style="fill:#ffffff"
+           id="tspan87">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,17.846566,-0.0046506)"
+       id="text6-6-9-37-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-0);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan89">GP21</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.282474,-0.0046506)"
+       id="text6-6-9-7-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan90">GP20</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.718899,-0.0046506)"
+       id="text6-6-9-98-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-2);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan91">GP19</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.154807,-0.0046506)"
+       id="text6-6-9-24-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan92">GP18</tspan></text>
+    <g
+       id="g2"
+       transform="matrix(0,0.59508699,-1,0,25.330515,0.00553459)"
+       style="stroke-width:1.29631">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.342982"
+         id="rect11-0-8"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.590199,-0.0046506)"
+       id="text6-6-9-23-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-4);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan94"><tspan
+           style="fill:#ffffff"
+           id="tspan93">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.026107,-0.0046506)"
+       id="text6-6-9-20-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-8);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan95">GP17</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.462015,-0.0046506)"
+       id="text6-6-9-5-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-0);display:inline"><tspan
+         x="0"
+         y="7.2060354"
+         id="tspan96">GP16</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.782036,21.92924)"
+       id="text7"
+       style="font-size:7.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9);display:inline"><tspan
+         x="-60.810547"
+         y="36.424368"
+         id="tspan98"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan97">A2</tspan></tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-8"
+       width="2.9999938"
+       height="2.3295596"
+       x="5.5000062"
+       y="-30.879154"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.654368,21.92924)"
+       id="text7-77"
+       style="font-size:7.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-5);display:inline"><tspan
+         x="-60.810547"
+         y="36.424368"
+         id="tspan100"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan99">A1</tspan></tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-4"
+       width="2.9999938"
+       height="2.3295596"
+       x="5.5000062"
+       y="-28.315062"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,36.102119,21.92924)"
+       id="text7-3"
+       style="font-size:7.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-51);display:inline"><tspan
+         x="-60.810547"
+         y="36.424368"
+         id="tspan102"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan101">A0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0046514)"
+       id="text8-9"
+       style="font-size:8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8-8);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="900"
+       inkscape:export-ydpi="900" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="B-SIDE 7pt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0976694)"
+       id="text6-3-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-2-5);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan103">VBUS</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.616189,0.0976694)"
+       id="text6-6-6-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-4-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan104">VSYS</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-5-0"
+       width="5.4826951"
+       height="2.3295596"
+       x="-0.0046505691"
+       y="-45.875755"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,46.051499,-0.0046506)"
+       id="text6-6-9-46-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-79-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan106"><tspan
+           style="fill:#ffffff"
+           id="tspan105">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.498866,0.0170534)"
+       id="text6-6-9-8-3-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-2-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan107">3VEN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.934779,0.0170534)"
+       id="text6-6-9-4-0-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-8-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan108">3V3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.359237,0.0976694)"
+       id="text6-6-9-40-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-4-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan109">VREF</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.795753,-0.0046506)"
+       id="text6-6-9-0-1-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan110">GP28</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-5"
+       width="5.4826951"
+       height="2.3295596"
+       x="-0.0046505691"
+       y="-33.055019"
+       transform="rotate(90)" />
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-2"
+       width="2.2360473"
+       height="2.3295596"
+       x="6.2639537"
+       y="-35.619408"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.230763,-0.0046506)"
+       id="text6-6-9-03-7-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-3-4);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan112"><tspan
+           style="fill:#ffffff"
+           id="tspan111">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.666975,-0.0046506)"
+       id="text6-6-9-6-0-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-4-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan113">GP27</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.102888,-0.0046506)"
+       id="text6-6-9-9-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-6-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan114">GP26</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.553873,-0.0583936)"
+       id="text6-6-9-45-1-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-2-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan115">RUN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,22.974713,-0.0046506)"
+       id="text6-6-9-2-1-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-3-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan116">GP22</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-3-4"
+       width="5.478045"
+       height="2.3295596"
+       x="-4.5314943e-07"
+       y="-20.234882"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.410626,-0.0046506)"
+       id="text6-6-9-3-9-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-0-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan118"><tspan
+           style="fill:#ffffff"
+           id="tspan117">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,17.846539,-0.0046506)"
+       id="text6-6-9-37-3-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-0-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan119">GP21</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.282452,-0.0046506)"
+       id="text6-6-9-7-7-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-4-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan120">GP20</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.718967,-0.0046506)"
+       id="text6-6-9-98-1-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-2-5);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan121">GP19</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.15488,-0.0046506)"
+       id="text6-6-9-24-5-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-4-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan122">GP18</tspan></text>
+    <g
+       id="g2-0"
+       transform="matrix(0,0.6437714,-1,0,25.139002,0.00598825)"
+       style="display:inline;stroke-width:1.24633">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.329758"
+         id="rect11-0-8-2"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.5901899,-0.0046506)"
+       id="text6-6-9-23-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-4-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan124"><tspan
+           style="fill:#ffffff"
+           id="tspan123">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.0261026,-0.0046506)"
+       id="text6-6-9-20-6-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-8-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan125">GP17</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.4620154,-0.0046506)"
+       id="text6-6-9-5-5-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-0-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan126">GP16</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.297519,22.388382)"
+       id="text7-0"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-1);display:inline"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan128"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan127">A2</tspan></tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-8-6"
+       width="2.2360473"
+       height="2.3295596"
+       x="6.2639537"
+       y="-30.491232"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.169345,22.487429)"
+       id="text7-77-9"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-5-4);display:inline"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan130"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan129">A1</tspan></tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-4-4"
+       width="2.2360475"
+       height="2.3295596"
+       x="6.2639537"
+       y="-27.927145"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.616023,22.387521)"
+       id="text7-3-3"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-51-7);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan132"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan131">A0</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="B-SIDE 7pt - power"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,36.420272,6.0408511)"
+       id="text6-6-9-0-1-6-2-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8-1-3-3);display:inline;fill:#ffffff"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan133">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,51.180276,0.0976694)"
+       id="text6-3-7-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-2-5-0);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan134">VBUS</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.616189,0.0976694)"
+       id="text6-6-6-9-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-4-3-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan135">VSYS</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-5-0-3"
+       width="5.4826951"
+       height="2.3295596"
+       x="-0.0046505029"
+       y="-45.875755"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,46.051499,-0.0046506)"
+       id="text6-6-9-46-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-79-7-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan137"><tspan
+           style="fill:#ffffff"
+           id="tspan136">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.498866,0.0170534)"
+       id="text6-6-9-8-3-7-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-2-6-5);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan138">3EN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.934779,0.0170534)"
+       id="text6-6-9-4-0-2-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-8-0-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan139">3V3</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect9-2"
+       width="15.147421"
+       height="1.3239889"
+       x="36.052578"
+       y="7.1760111" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.359237,0.0976694)"
+       id="text6-6-9-40-2-8-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-4-0-6);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan140">VREF</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.795753,-0.0046506)"
+       id="text6-6-9-0-1-6-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8-1-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan141">GP28</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-5-7"
+       width="5.4826951"
+       height="2.3295596"
+       x="-0.0046505029"
+       y="-33.055019"
+       transform="rotate(90)" />
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-2-6"
+       width="2.2360473"
+       height="2.3295596"
+       x="6.2639537"
+       y="-35.815231"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,33.230763,-0.0046506)"
+       id="text6-6-9-03-7-2-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-3-4-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan143"><tspan
+           style="fill:#ffffff"
+           id="tspan142">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.666975,-0.0046506)"
+       id="text6-6-9-6-0-7-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-4-3-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan144">GP27</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.102888,-0.0046506)"
+       id="text6-6-9-9-8-2-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-6-0-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan145">G26A0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.553873,-0.0583936)"
+       id="text6-6-9-45-1-0-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-2-7-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan146">RUN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,22.974713,-0.0046506)"
+       id="text6-6-9-2-1-8-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-3-7-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan147">GP22</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-3-4-7"
+       width="5.478045"
+       height="2.3295596"
+       x="-3.8712159e-07"
+       y="-20.234882"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,20.410626,-0.0046506)"
+       id="text6-6-9-3-9-7-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-0-3-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan149"><tspan
+           style="fill:#ffffff"
+           id="tspan148">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,17.846539,-0.0046506)"
+       id="text6-6-9-37-3-5-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-0-9-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan150">GP21</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.282452,-0.0046506)"
+       id="text6-6-9-7-7-1-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-4-2-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan151">GP20</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.718967,-0.0046506)"
+       id="text6-6-9-98-1-3-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-2-5-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan152">GP19</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.15488,-0.0046506)"
+       id="text6-6-9-24-5-8-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-4-7-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan153">GP18</tspan></text>
+    <g
+       id="g2-0-5"
+       transform="matrix(0,0.6437714,-1,0,25.139002,0.0059883)"
+       style="display:inline;stroke-width:1.24633">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.329758"
+         id="rect11-0-8-2-5"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,7.59019,-0.0046506)"
+       id="text6-6-9-23-9-9-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-4-2-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan155"><tspan
+           style="fill:#ffffff"
+           id="tspan154">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.026103,-0.0046506)"
+       id="text6-6-9-20-6-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-8-2-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan156">GP17</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.462015,-0.0046506)"
+       id="text6-6-9-5-5-0-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-0-0-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan157">GP16</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.493344,22.388382)"
+       id="text7-0-8"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-1-6);display:inline"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan159"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan158">A2</tspan></tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-8-6-1"
+       width="2.2360473"
+       height="2.3295596"
+       x="6.2639537"
+       y="-30.687653"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.365764,22.487429)"
+       id="text7-77-9-4"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-5-4-6);display:inline"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan161"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan160">A1</tspan></tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-04-9-4-4-0"
+       width="2.2360475"
+       height="2.3295596"
+       x="6.2639537"
+       y="-28.123562"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.812438,22.387521)"
+       id="text7-3-3-8"
+       style="font-size:6.66667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7-9-51-7-7);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="-60.810547"
+         y="35.817791"
+         id="tspan163"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan162">A0</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="A-SIDE RA 7pt rev2"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,0.10973757,8.8955288)"
+       id="text6-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-71-5);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"
+       x="29.421865"
+       y="0"><tspan
+         x="13.851569"
+         y="8.4070384"
+         id="tspan164">     0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,2.6750764,10.555204)"
+       id="text6-6-60-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-3-8);display:inline"
+       x="28.920563"
+       y="0"><tspan
+         x="21.181647"
+         y="8.4070384"
+         id="tspan165">     1</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-9-7-7"
+       width="8.5"
+       height="2.3295596"
+       x="-8.5"
+       y="5.3787785"
+       transform="rotate(-90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,5.2030352,8.6509271)"
+       id="text6-6-9-29-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-94-0);display:inline"
+       x="19.82877"
+       y="0"><tspan
+         x="10.347663"
+         y="8.4070384"
+         id="tspan167"><tspan
+           style="fill:#ffffff"
+           id="tspan166">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,7.7454633,8.6497214)"
+       id="text6-6-9-8-60-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-8-3-3);display:inline"
+       x="4.4889307"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan168">2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,10.250511,8.6678081)"
+       id="text6-6-9-4-1-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-6-7-3);display:inline"
+       x="4.4388003"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan169">3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,12.81585,8.7172452)"
+       id="text6-6-9-40-9-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-62-7-8);display:inline"
+       x="4.8033838"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan170">4</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,15.289548,10.517135)"
+       id="text6-6-9-0-4-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-1-1-8);display:inline"
+       x="4.4934878"
+       y="0"><tspan
+         x="32.768231"
+         y="8.4070384"
+         id="tspan171">5</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-7-7"
+       width="8.5"
+       height="2.6284029"
+       x="-8.5"
+       y="17.905323"
+       transform="rotate(-90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,17.879001,8.6509271)"
+       id="text6-6-9-03-12-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-66-2-2);display:inline"
+       x="19.82877"
+       y="0"><tspan
+         x="10.347663"
+         y="8.4070384"
+         id="tspan173"><tspan
+           style="fill:#ffffff"
+           id="tspan172">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,20.391286,11.027871)"
+       id="text6-6-9-6-3-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-10-9-4);display:inline"
+       x="4.461587"
+       y="0"><tspan
+         x="34.7487"
+         y="8.4070384"
+         id="tspan174">6</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,22.925273,10.733832)"
+       id="text6-6-9-9-88-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-12-5-4);display:inline"
+       x="4.3795557"
+       y="0"><tspan
+         x="33.719403"
+         y="8.4070384"
+         id="tspan175">7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,25.461068,9.4055753)"
+       id="text6-6-9-45-16-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-2-1-3);display:inline"
+       x="4.3932276"
+       y="0"><tspan
+         x="28.703778"
+         y="8.4070384"
+         id="tspan176">8</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,27.996263,9.0898323)"
+       id="text6-6-9-2-3-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-3-6-2);display:inline"
+       x="4.461587"
+       y="0"><tspan
+         x="27.52409"
+         y="8.4070384"
+         id="tspan177">9</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect11-4-96-2"
+       width="8.5"
+       height="2.3295596"
+       x="-8.5"
+       y="30.730713"
+       transform="rotate(-90)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,30.55497,8.6509271)"
+       id="text6-6-9-3-7-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-4-60-5);display:inline"
+       x="19.82877"
+       y="0"><tspan
+         x="10.347663"
+         y="8.4070384"
+         id="tspan179"><tspan
+           style="fill:#ffffff"
+           id="tspan178">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,33.067252,8.6521329)"
+       id="text6-6-9-37-6-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-39-5-0);display:inline"
+       x="9.1829395"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan180">10</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,35.63259,8.3723913)"
+       id="text6-6-9-7-77-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-30-7-2);display:inline"
+       x="7.6106749"
+       y="0"><tspan
+         x="21.221358"
+         y="8.4070384"
+         id="tspan181">11</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,38.167783,8.6497214)"
+       id="text6-6-9-98-14-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-9-1-8);display:inline"
+       x="9.1738253"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan182">12</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,40.672832,8.9737326)"
+       id="text6-6-9-24-1-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-7-9-0);display:inline"
+       x="9.2421846"
+       y="0"><tspan
+         x="21.862634"
+         y="8.4070384"
+         id="tspan183">13</tspan></text>
+    <g
+       id="g2-05-2"
+       transform="matrix(0,-0.99890695,1,0,25.682123,8.4907087)"
+       style="display:inline;stroke-width:1.00055">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.264728"
+         id="rect11-0-7-4"
+         width="8.5093012"
+         height="2.3295596"
+         x="-0.0093017593"
+         y="17.724556" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,43.230935,8.6509271)"
+       id="text6-6-9-23-7-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-16-6-9);display:inline"
+       x="19.82877"
+       y="0"><tspan
+         x="10.347663"
+         y="8.4070384"
+         id="tspan185"><tspan
+           style="fill:#ffffff"
+           id="tspan184">GND</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,45.773363,8.7172452)"
+       id="text6-6-9-20-2-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect6-1-8-95-3-3);display:inline"
+       x="9.4290333"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan186">14</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,48.278412,3.1686886)"
+       id="text6-6-9-5-9-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-4-8);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan187">15</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,-10.658813,5.8236441)"
+       id="text1"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1);display:inline"><tspan
+         x="-8.3085938"
+         y="49.150369"
+         id="tspan189"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan188">TX</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,-8.1085469,5.9514571)"
+       id="text1-0"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1-9);display:inline"><tspan
+         x="-8.3085938"
+         y="49.150369"
+         id="tspan191"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan190">RX</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="B-SIDE 7pt - power rev2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,50.870811,0.54978506)"
+       id="text6-3-7-9-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-2-5-0-6);display:inline"
+       inkscape:export-filename="text6-3.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan192">VBUS</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,48.330817,0.54978506)"
+       id="text6-6-6-9-1-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-4-3-6-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan193">VSYS</tspan></text>
+    <g
+       id="g27"
+       transform="translate(-0.2612797)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect11-9-5-0-3-6"
+         width="8.0093002"
+         height="2.3295596"
+         x="-0.0046503088"
+         y="-45.875755"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,-0.26458333,0,46.0515,0.43041254)"
+         id="text6-6-9-46-3-3-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-79-7-3-4);display:inline"><tspan
+           x="0"
+           y="8.4070384"
+           id="tspan195"><tspan
+             style="fill:#ffffff"
+             id="tspan194">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,43.26168,0.45573398)"
+       id="text6-6-9-8-3-7-8-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-8-2-6-5-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan196">3EN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,40.721685,0.45573398)"
+       id="text6-6-9-4-0-2-0-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-6-8-0-3-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan197">3V3</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect9-2-5"
+       width="15.239998"
+       height="0.52343565"
+       x="35.560001"
+       y="7.4765644" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,38.170236,0.54978506)"
+       id="text6-6-9-40-2-8-3-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-62-4-0-6-3);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan198">VREF</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.642299,0.48708434)"
+       id="text6-6-9-0-1-6-1-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8-1-1-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan199">28</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,35.626624,4.5658675)"
+       id="text6-6-9-0-1-6-1-0-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-1-8-1-1-0-1);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan200">A2</tspan></text>
+    <g
+       id="g26"
+       transform="translate(-0.14051625)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect11-04-5-7-8"
+         width="8.0093002"
+         height="2.3295596"
+         x="-0.0046503143"
+         y="-33.055019"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,-0.26458333,0,33.230764,0.43041254)"
+         id="text6-6-9-03-7-2-3-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-66-3-4-3-2);display:inline"><tspan
+           x="0"
+           y="8.4070384"
+           id="tspan202"><tspan
+             style="fill:#ffffff"
+             id="tspan201">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.546635,0.48708434)"
+       id="text6-6-9-6-0-7-6-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-4-3-3-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan203">27</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,30.546635,4.5658675)"
+       id="text6-6-9-6-0-7-6-6-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-10-4-3-3-9-7);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan204">A1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.021713,0.48708434)"
+       id="text6-6-9-9-8-2-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-6-0-3-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan205">26 </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,28.021713,4.5658675)"
+       id="text6-6-9-9-8-2-9-9-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-12-6-0-3-2-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan206">A0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,25.485335,0.36771183)"
+       id="text6-6-9-45-1-0-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-2-2-7-1-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan207">RUN</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,22.926651,0.48708434)"
+       id="text6-6-9-2-1-8-5-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-3-3-7-2-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan208">22</tspan></text>
+    <g
+       id="g25"
+       transform="translate(-0.02035171)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect11-4-3-4-7-2"
+         width="8"
+         height="2.3295596"
+         x="-1.9348226e-07"
+         y="-20.234882"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,-0.26458333,0,20.410627,0.43041254)"
+         id="text6-6-9-3-9-7-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-4-0-3-7-6);display:inline"><tspan
+           x="0"
+           y="8.4070384"
+           id="tspan210"><tspan
+             style="fill:#ffffff"
+             id="tspan209">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,17.846662,0.48708434)"
+       id="text6-6-9-37-3-5-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-39-0-9-2-0);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan211">21</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,15.32174,0.48708434)"
+       id="text6-6-9-7-7-1-2-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-30-4-2-3-4);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan212">20</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,12.782348,0.35324243)"
+       id="text6-6-9-98-1-3-8-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-9-2-5-9-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan213">19</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,10.242354,0.35324243)"
+       id="text6-6-9-24-5-8-9-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-7-4-7-7-8);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan214">18</tspan></text>
+    <g
+       id="g24"
+       transform="translate(0.10011112)">
+      <g
+         id="g2-0-5-8"
+         transform="matrix(0,0.94014778,-1,0,25.139003,0.00874473)"
+         style="display:inline;stroke-width:1.03133">
+        <rect
+           style="fill:#000000;fill-rule:evenodd;stroke-width:0.272874"
+           id="rect11-0-8-2-5-5"
+           width="8.5093012"
+           height="2.3295596"
+           x="-0.0093017593"
+           y="17.724556" />
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,-0.26458333,0,7.590191,0.43041254)"
+         id="text6-6-9-23-9-9-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-16-4-2-2-0);display:inline"><tspan
+           x="0"
+           y="8.4070384"
+           id="tspan216"><tspan
+             style="fill:#ffffff"
+             id="tspan215">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,5.1466898,0.35324243)"
+       id="text6-6-9-20-6-3-3-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-95-8-2-1-9);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan217">17</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,0.26458333,-0.26458333,0,2.6217676,0.35324243)"
+       id="text6-6-9-5-5-0-8-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect6-1-8-67-0-0-1-2);display:inline"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan218">16</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g64"
+     inkscape:label="A-SIDE RA 7pt rev3"
+     style="display:none">
+    <g
+       id="g31"
+       transform="translate(-0.20534681)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect9"
+         width="8"
+         height="2.3295596"
+         x="-8"
+         y="5.3905668"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,5.2148235,8.6509271)"
+         id="text10"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect66);display:inline"
+         x="19.82877"
+         y="0"><tspan
+           x="10.347663"
+           y="8.4070384"
+           id="tspan220"><tspan
+             style="fill:#ffffff"
+             id="tspan219">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,7.5530938,8.6497214)"
+       id="text11"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect67);display:inline"
+       x="4.4889307"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan221">2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,10.078021,8.6678081)"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect68);display:inline"
+       x="4.4388003"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan222">3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,12.633094,8.7172452)"
+       id="text13"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect69);display:inline"
+       x="4.8033838"
+       y="0"><tspan
+         x="25.897137"
+         y="8.4070384"
+         id="tspan223">4</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,15.142346,10.517135)"
+       id="text14"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect70);display:inline"
+       x="4.4934878"
+       y="0"><tspan
+         x="32.768231"
+         y="8.4070384"
+         id="tspan224">5</tspan></text>
+    <g
+       id="g32">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect14"
+         width="8"
+         height="2.3299999"
+         x="-8"
+         y="17.885"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,17.709476,8.6509271)"
+         id="text16"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect71);display:inline"
+         x="19.82877"
+         y="0"><tspan
+           x="10.347663"
+           y="8.4070384"
+           id="tspan226"><tspan
+             style="fill:#ffffff"
+             id="tspan225">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,20.238021,11.027871)"
+       id="text17"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect72);display:inline"
+       x="4.461587"
+       y="0"><tspan
+         x="34.7487"
+         y="8.4070384"
+         id="tspan227">6</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,22.777418,10.733832)"
+       id="text18"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect73);display:inline"
+       x="4.3795557"
+       y="0"><tspan
+         x="33.719403"
+         y="8.4070384"
+         id="tspan228">7</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,25.317418,9.4055753)"
+       id="text19"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect74);display:inline"
+       x="4.3932276"
+       y="0"><tspan
+         x="28.703778"
+         y="8.4070384"
+         id="tspan229">8</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,27.857418,9.0898323)"
+       id="text20"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect75);display:inline"
+       x="4.461587"
+       y="0"><tspan
+         x="27.52409"
+         y="8.4070384"
+         id="tspan230">9</tspan></text>
+    <g
+       id="g29"
+       transform="translate(-0.27350169)">
+      <rect
+         style="display:inline;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+         id="rect20"
+         width="8"
+         height="2.3295596"
+         x="-8"
+         y="30.858721"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,30.682978,8.6509271)"
+         id="text22"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect76);display:inline"
+         x="19.82877"
+         y="0"><tspan
+           x="10.347663"
+           y="8.4070384"
+           id="tspan232"><tspan
+             style="fill:#ffffff"
+             id="tspan231">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,32.938021,8.6521329)"
+       id="text23"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect77);display:inline"
+       x="9.1829395"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan233">10</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,35.493093,8.3723913)"
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect78);display:inline"
+       x="7.6106749"
+       y="0"><tspan
+         x="21.221358"
+         y="8.4070384"
+         id="tspan234">11</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,38.033093,8.6497214)"
+       id="text25"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect79);display:inline"
+       x="9.1738253"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan235">12</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,40.55802,8.9737326)"
+       id="text57"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect80);display:inline"
+       x="9.2421846"
+       y="0"><tspan
+         x="21.862634"
+         y="8.4070384"
+         id="tspan236">13</tspan></text>
+    <g
+       id="g28"
+       transform="translate(-0.30757934)">
+      <g
+         id="g57"
+         transform="matrix(0,-0.94014766,1,0,25.868242,7.9912548)"
+         style="display:inline;stroke-width:1.03134">
+        <rect
+           style="fill:#000000;fill-rule:evenodd;stroke-width:0.272875"
+           id="rect57"
+           width="8.5093012"
+           height="2.3295596"
+           x="-0.0093017593"
+           y="17.724556" />
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,43.417054,8.6509271)"
+         id="text59"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect81);display:inline"
+         x="19.82877"
+         y="0"><tspan
+           x="10.347663"
+           y="8.4070384"
+           id="tspan238"><tspan
+             style="fill:#ffffff"
+             id="tspan237">GND</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,45.653092,8.7172452)"
+       id="text60"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect82);display:inline"
+       x="9.4290333"
+       y="0"><tspan
+         x="20.706384"
+         y="8.4070384"
+         id="tspan239">14</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,48.17802,3.1686886)"
+       id="text61"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect83);display:inline"
+       inkscape:export-filename="text6.pdf"
+       inkscape:export-xdpi="1200"
+       inkscape:export-ydpi="1200"><tspan
+         x="0"
+         y="8.4070384"
+         id="tspan240">15</tspan></text>
+    <g
+       id="g34">
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,-0.08197824,8.8955288)"
+         id="text5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect64);display:inline"
+         inkscape:export-filename="text6.pdf"
+         inkscape:export-xdpi="1200"
+         inkscape:export-ydpi="1200"
+         x="29.421865"
+         y="0"><tspan
+           x="13.851569"
+           y="8.4070384"
+           id="tspan241">     0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,-10.869219,5.1991114)"
+       id="text62"
+       style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect84);display:inline"><tspan
+         x="-8.3085938"
+         y="49.150369"
+         id="tspan243"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan242">TX</tspan></tspan></text>
+    <g
+       id="g33">
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,2.473094,10.555204)"
+         id="text9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect65);display:inline"
+         x="28.920563"
+         y="0"><tspan
+           x="21.181647"
+           y="8.4070384"
+           id="tspan244">     1</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0,-0.26458333,0.26458333,0,-8.3105294,5.3269244)"
+         id="text64"
+         style="font-size:9.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect85);display:inline"><tspan
+           x="-8.3085938"
+           y="49.150369"
+           id="tspan246"><tspan
+             style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+             id="tspan245">RX</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
