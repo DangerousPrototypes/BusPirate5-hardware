@@ -1,0 +1,7 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+dso/*
+function-generator/*
+kf141r-adapter/*
+kf141v-adapter/*
+wave-gen/*
