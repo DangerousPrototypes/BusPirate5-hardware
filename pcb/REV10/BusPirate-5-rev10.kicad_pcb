@@ -1941,7 +1941,7 @@
         (effects (font (size 0.85 0.85) (thickness 0.15)))
       (tstamp 7c38d498-ab56-4fef-a52a-b6d7bd067a90)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a8e24d35-0fe7-4e0d-a0cb-35fd1b348655)
     )
@@ -2007,7 +2007,7 @@
         (effects (font (size 0.85 0.85) (thickness 0.15)))
       (tstamp 37e53447-85ec-46ba-a38f-9d321a9ad969)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f235568e-d48c-4270-bdaf-374bbaf90716)
     )
@@ -2073,7 +2073,7 @@
         (effects (font (size 0.85 0.85) (thickness 0.15)))
       (tstamp a4e8bc00-bc7d-4897-8c2c-9242b533f2a1)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 981f0153-925e-4d68-94bc-cda0538fc084)
     )
@@ -2139,7 +2139,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45a4af51-c405-407f-a97f-84564a78106d)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab") hide
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b8c5ffce-d87e-4610-9788-dd18e5a33db8)
     )
@@ -6741,7 +6741,7 @@
       (net 38 "VREG_OUT") (pinfunction "S") (pintype "passive") (tstamp 391167bc-cf64-471a-b8f9-753d98d7dae4))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "VREF_VOUT") (pinfunction "D") (pintype "passive") (tstamp 123c545c-11ef-4be2-9da2-84e9d73d2ffa))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7417,7 +7417,7 @@
         (effects (font (size 0.85 0.85) (thickness 0.15)))
       (tstamp 625d90d4-4d53-4c85-95b3-2925d90d799e)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22961678-fa80-48cf-b5c9-af97cc0db10b)
     )
@@ -7769,7 +7769,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4b026b78-65ed-4a2f-9c60-bd577ab35fe1)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 955fe54e-eb82-450f-ba78-bca2fc147713)
     )
@@ -7975,7 +7975,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a3fd7dc-eba0-4935-ad6d-197a2c6df3f7)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9bfdfd5-a7e8-4785-ae59-3aeaed7cdf3b)
     )
@@ -8493,7 +8493,7 @@
         (effects (font (size 0.85 0.85) (thickness 0.15)))
       (tstamp da2964f1-99db-4a70-8983-4387e547a6ba)
     )
-    (fp_text value "SN74LVC1T45DCK" (at 0 2 270) (layer "F.Fab")
+    (fp_text value "74LVC1T45" (at 0 2 270) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18406ca5-57da-4a1b-af6c-999ccdda1daf)
     )
@@ -8689,6 +8689,11 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 584a3d24-580f-4876-964e-cb665a9a4c83))
     (pad "S4" thru_hole oval (at 4.32 0 180) (size 1.05 2.1) (drill oval 0.65 1.25) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d9b247d0-c015-46ea-b628-2a3f8ca82ce2))
+    (model "${KIPRJMOD}/library-3d/CSP-USC16-TR--3DModel-STEP-468060.STEP"
+      (offset (xyz 0 3.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (layer "F.Cu")
@@ -8884,6 +8889,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp fa3ff7d4-011c-464d-8e41-5b5ba2c2de2a))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -8937,6 +8947,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp 309a460a-4faa-427b-b266-6843a3a91268))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -8990,6 +9005,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp 5fe3c372-c98d-4313-ba53-cea5aae7adaf))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -9043,6 +9063,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp bec7e5e2-c2a2-45c0-a9a5-e0ee627694dd))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -9096,6 +9121,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp 90316b7e-bec8-42d8-b6a1-842b45c8d8c0))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -9149,6 +9179,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp 2c30b049-f3cf-478c-b14b-93961e87ca3d))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-LED:SK6812-side-a_b" (layer "F.Cu")
@@ -9202,6 +9237,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp afb83d9c-8d4d-4dd9-891f-7ddb72df043a))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_Array_Convex_4x0402" (layer "F.Cu")
@@ -9215,7 +9255,7 @@
     (property "Supplier" "https://item.szlcsc.com/26241.html")
     (property "ki_description" "4 resistor network, star topology, bussed resistors, split")
     (property "ki_keywords" "R network star-topology")
-    (path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-000061f2e926")
+    (path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-000061f2d49f")
     (clearance 0.08)
     (attr smd)
     (fp_text reference "RN315" (at 0 -2.1 90) (layer "F.SilkS") hide
@@ -9644,9 +9684,14 @@
       (net 43 "CURRENT_DETECT") (pinfunction "S") (pintype "passive") (tstamp 1e3a9e85-5f39-400c-b2c2-4908921fbb9b))
     (pad "3" smd rect (at 0.645 0) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 78 "Net-(D602-A)") (pinfunction "D") (pintype "passive") (tstamp 3ce514c8-2188-4e55-9ae9-a094bedf83a9))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.7 0.5 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -10349,7 +10394,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp e3ce3a12-951f-4924-80c6-c9839f64276f))
     (pad "3" smd rect (at 0.645 0) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 105 "Net-(Q301-D)") (pinfunction "D") (pintype "passive") (tstamp 67ed1b63-15a7-41a6-a758-4f4d8e7d3c20))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10407,7 +10452,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp c2584616-aae5-4fe8-b65e-58e5697735da))
     (pad "3" smd rect (at 0.645 0) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 106 "Net-(Q302-D)") (pinfunction "D") (pintype "passive") (tstamp 1178cf23-92f4-4202-9c5d-bc1d6c06b63e))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10465,7 +10510,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp c648e3b1-6758-43da-a688-6be4539822fa))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 107 "Net-(Q303-D)") (pinfunction "D") (pintype "passive") (tstamp 78d1b51d-231b-4758-83c8-87dd523951a5))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10579,7 +10624,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp 384612e6-a256-4d1b-8237-df86ccb7f418))
     (pad "3" smd rect (at 0.645 0) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 104 "Net-(Q300-D)") (pinfunction "D") (pintype "passive") (tstamp d19a3fd0-9155-4ee8-b77f-6086951974ca))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10777,7 +10822,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp 37aff754-f057-4d3e-b4c2-87c416f40f01))
     (pad "3" smd rect (at 0.645 0 180) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 108 "Net-(Q304-D)") (pinfunction "D") (pintype "passive") (tstamp 7468909f-9669-44e7-9146-61ac4b567a56))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10835,7 +10880,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp 7e2af188-5b31-444b-8317-f02195efb60e))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 109 "Net-(Q305-D)") (pinfunction "D") (pintype "passive") (tstamp ed1d5c56-2358-4a59-ae4c-324368b6a038))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10893,7 +10938,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp 2d0f5668-276c-4e8f-8844-44dbd488d26c))
     (pad "3" smd rect (at 0.645 0 180) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 110 "Net-(Q306-D)") (pinfunction "D") (pintype "passive") (tstamp bae185d7-8206-42ac-9656-69d113491ec3))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10951,7 +10996,7 @@
       (net 3 "VREF_VOUT") (pinfunction "S") (pintype "passive") (tstamp 16d83bda-91b9-4eb9-b66b-b8d5cdbf854e))
     (pad "3" smd rect (at 0.645 0 180) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 111 "Net-(Q307-D)") (pinfunction "D") (pintype "passive") (tstamp d6ede56d-030f-4149-bc22-003179bb4962))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10969,7 +11014,7 @@
     (property "Supplier" "https://item.szlcsc.com/45893.html")
     (property "ki_description" "4 resistor network, star topology, bussed resistors, split")
     (property "ki_keywords" "R network star-topology")
-    (path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-0000650dfb7e")
+    (path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-0000650e00ce")
     (solder_mask_margin 0.03)
     (clearance 0.08)
     (attr smd)
@@ -11647,6 +11692,11 @@
       (net 33 "+3V3") (pinfunction "HOLD/IO3") (pintype "bidirectional") (tstamp 1f5f91ec-3479-429c-9ea7-dd9d73caa719))
     (pad "8" smd roundrect (at 3.85 -1.905 180) (size 0.9 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.45)
       (net 33 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 4750cffb-a75e-4ffc-b0eb-f9f4420afeff))
+    (model "${KIPRJMOD}/library-3d/MT29F1G01ABAFDWB-IT F.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -11756,6 +11806,11 @@
       (options (clearance outline) (anchor rect))
       (primitives
       ) (tstamp 97d6aacf-d882-4cf5-85bc-4202614e6cb9))
+    (model "${KIPRJMOD}/library-3d/SK6812 4020.step"
+      (offset (xyz 0 -1 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -12137,7 +12192,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03d2168b-3053-451a-a23f-f58c21c24cd3)
     )
-    (fp_text value "BAT54C" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "BAS40-05T" (at 0 1.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c619c2f9-4724-479a-9def-20af41c33079)
     )
@@ -12173,7 +12228,7 @@
       (net 181 "Net-(RN318C-R1.1)") (pintype "passive") (tstamp 269e62bd-4f54-490b-a7fe-3374b9c3e66c))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "+VUSB") (pintype "passive") (tstamp 6b3c293d-f6de-444d-bbed-19f7dd53d3c9))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12195,7 +12250,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 61d6d72b-0c9e-457e-a378-a765d26be7d7)
     )
-    (fp_text value "BAT54C" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "BAS40-05T" (at 0 1.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62e325b3-3d79-411a-b019-7f334e25256a)
     )
@@ -12231,7 +12286,7 @@
       (net 183 "Net-(RN318A-R1.1)") (pintype "passive") (tstamp ea5b90c1-c55f-407e-b33d-dd04c7a78652))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "+VUSB") (pintype "passive") (tstamp e6f754ff-8e51-4430-a70c-eab5c0faea13))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12449,7 +12504,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d94d34d-2c3a-4e8f-a76c-287e7f91eda1)
     )
-    (fp_text value "BAT54C" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "BAS40-05T" (at 0 1.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6b9776ab-0a68-4baf-b8cb-82bfbb46b2ca)
     )
@@ -12485,7 +12540,7 @@
       (net 175 "unconnected-(D500-Pad2)") (pintype "passive") (tstamp da745578-124f-4fea-b673-f51350b14fd6))
     (pad "3" smd rect (at 0.645 0 90) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "+VUSB") (pintype "passive") (tstamp 3dad741c-daea-4b33-9f66-b7869f4b32bf))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12619,7 +12674,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b3bfbf7-38a1-421d-9aef-b80a2fc16005)
     )
-    (fp_text value "BAT54C" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "BAS40-05T" (at 0 1.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc1403b4-3577-4d1f-b843-0e3dd2e7cd91)
     )
@@ -12655,7 +12710,7 @@
       (net 177 "Net-(RN317C-R1.1)") (pintype "passive") (tstamp 6c2f0bd5-76a9-415d-a45a-aa09d9a38c92))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "+VUSB") (pintype "passive") (tstamp 842ea5f9-8786-4c2f-a333-58221aca0d6a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12677,7 +12732,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a31de56-1cee-4375-b11a-02f70df2c22c)
     )
-    (fp_text value "BAT54C" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "BAS40-05T" (at 0 1.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 023f579f-424f-46e4-a5f3-19ed774d543e)
     )
@@ -12713,7 +12768,7 @@
       (net 179 "Net-(RN317A-R1.1)") (pintype "passive") (tstamp 8e8f244f-9ca3-41ba-b6fb-ec04008847b5))
     (pad "3" smd rect (at 0.645 0 270) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "+VUSB") (pintype "passive") (tstamp fa148140-dbf8-44b9-a367-1b9ba088227d))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl"
+    (model "${KIPRJMOD}/library-3d/SOT-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12787,7 +12842,7 @@
     (property "Supplier" "https://item.szlcsc.com/45893.html")
     (property "ki_description" "4 resistor network, star topology, bussed resistors, split")
     (property "ki_keywords" "R network star-topology")
-    (path "/00000000-0000-0000-0000-000060e58ecc/6225c884-ee1a-46bd-95b1-89d0d3e18ffb")
+    (path "/00000000-0000-0000-0000-000060e58ecc/e7ae6aa5-ec52-44ed-84fd-2afb9298f309")
     (attr smd)
     (fp_text reference "RN318" (at 0 -2.1 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
@@ -13107,6 +13162,11 @@
       (net 157 "unconnected-(SW102-Pad3)") (pinfunction "3") (pintype "passive+no_connect") (tstamp 6fd38479-651e-4cbf-b69f-38b83a250352))
     (pad "4" smd rect (at 1.88 -1 90) (size 1.25 0.7) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 33 "+3V3") (pinfunction "4") (pintype "passive") (tstamp cb8c9e64-b590-44f1-81d0-436f538ef81e))
+    (model ":KICAD7_3DMODEL_DIR:Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.5 0.5 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "dp-logo:logo_fcc" (layer "B.Cu")
@@ -13522,6 +13582,11 @@
       (net 63 "DISPLAY_RESET") (pinfunction "RESET") (pintype "input") (tstamp 9b4b6bc8-1ab9-4a38-9b4c-163aede78f6a))
     (pad "12" smd rect locked (at -2.5 -7.825 270) (size 0.6 2.55) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 0d6c3a33-9e69-4cb0-8424-c334f3f8dfa8))
+    (model "${KIPRJMOD}/library-3d/lcd-1774060.step"
+      (offset (xyz 0 0.5 0))
+      (scale (xyz 0.7 0.8001 0.7))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (gr_line (start 158.2 116.1) (end 158.2 64.1)
@@ -13558,7 +13623,7 @@
     (stroke (width 0.05) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea21))
   (gr_circle (center 103.9 116.1) (end 103.9 117.1)
     (stroke (width 0.05) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea24))
-  (gr_arc (start 99.650001 64.1) (mid 100.988674 61.261831) (end 103.899916 60.090538)
+  (gr_arc (start 99.650001 64.1) (mid 100.988681 61.261837) (end 103.899915 60.090537)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea27))
   (gr_arc (start 159.9 116.1) (mid 158.728427 118.928427) (end 155.9 120.1)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea2a))
@@ -13570,7 +13635,7 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea36))
   (gr_line (start 155.95 60.100001) (end 103.9 60.1)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea3f))
-  (gr_line (start 99.65 50.25) (end 99.65 130.25)
+  (gr_line (start 99.650001 64.1) (end 99.9 116.1)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea45))
   (gr_line (start 100.35 71.95) (end 100.35 75.25)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6ea4e))
@@ -13644,24 +13709,8 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6eaf0))
   (gr_line (start 159.35 75.35) (end 156.45 75.35)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f6eaf3))
-  (gr_line (start 169.9 64.1) (end 169.9 116.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000060f704ad))
-  (gr_line (start 160.109074 64.10081) (end 160.2 64.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-0000610295a0))
-  (gr_line (start 89.9 50.1) (end 169.9 50.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061029823))
-  (gr_line (start 100.15 55.05) (end 160.15 55.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-00006102988c))
-  (gr_line (start 169.9 50.1) (end 169.9 64.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-0000610298e8))
-  (gr_line (start 169.9 116.1) (end 169.9 130.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061029952))
-  (gr_line (start 89.9 130.1) (end 169.9 130.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061029962))
-  (gr_line (start 160.2 50.1) (end 160.15 130.1)
+  (gr_line (start 160.109074 64.10081) (end 159.9 116.1)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-0000610299e0))
-  (gr_line (start 99.867082 125.106566) (end 160.35 125.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061029ff9))
   (gr_line (start 148.15 60.55) (end 148.15 60.65)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-0000612404ee))
   (gr_line (start 144.65 60.55) (end 144.65 60.65)
@@ -13734,12 +13783,6 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061240aa5))
   (gr_line (start 144.65 119.65) (end 144.65 119.55)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061240aa6))
-  (gr_line (start 89.9 50.1) (end 89.9 64.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061a9f99d))
-  (gr_line (start 89.9 64.1) (end 89.9 116.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061a9f9a0))
-  (gr_line (start 89.9 116.1) (end 89.9 130.1)
-    (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000061a9f9a3))
   (gr_line (start 156.45 91.85) (end 156.35 91.85)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000065546eac))
   (gr_line (start 159.45 91.85) (end 159.35 91.85)
@@ -13766,8 +13809,6 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 00000000-0000-0000-0000-000065546eb7))
   (gr_line (start 159.35 71.85) (end 159.45 71.85)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 030038d8-6abb-4f83-8903-989857e4fce7))
-  (gr_arc (start 99.643934 115.993934) (mid 99.807403 115.961418) (end 99.9 116.1)
-    (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 03a4ea98-0f2e-41fb-8e7a-17a2a687cfa4))
   (gr_line (start 144.65 63.55) (end 144.65 63.65)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 07ae1e8b-3ecf-4c8d-9129-0aaf33b19712))
   (gr_line (start 148.15 63.55) (end 148.15 63.65)
@@ -13788,14 +13829,8 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 42382198-9469-4560-a78e-1f321f0efc07))
   (gr_line (start 103.45 108.25) (end 103.45 108.35)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 443c6f76-246b-46fd-b263-6be295d0a9cf))
-  (gr_arc (start 99.65 50.258073) (mid 99.569982 50.164405) (end 99.675 50.100001)
-    (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 4be56df3-c111-47cb-ab9a-521047fc6d60))
-  (gr_arc (start 99.867082 125.106566) (mid 99.72114 125.1) (end 99.65 124.972402)
-    (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 4cf2d5c1-917b-494e-a131-aa333baadb66))
   (gr_line (start 103.45 91.75) (end 103.45 91.85)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 53f0cdb8-399e-4fb2-a36d-ffb9fe5a62e0))
-  (gr_arc (start 159.900001 116.10495) (mid 159.988365 115.957786) (end 160.15 115.9)
-    (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 5d64c2d1-7fee-44f8-ba5b-967a7bc25249))
   (gr_line (start 115.15 63.55) (end 115.15 63.65)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 64af4a3e-db76-48ac-bb65-997d51d5bee8))
   (gr_line (start 156.45 108.35) (end 156.35 108.35)
@@ -13804,8 +13839,6 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 6d97ede9-2cc2-4096-a708-08a4a1ba4188))
   (gr_line (start 103.35 104.85) (end 103.45 104.85)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 72e66ad1-e13a-4bb0-98da-a11788cb908f))
-  (gr_arc (start 100.15 55.05) (mid 99.795234 54.916709) (end 99.650831 54.566319)
-    (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 744f89d1-9595-4d62-8411-f4ef73bb1255))
   (gr_line (start 148.05 60.55) (end 148.15 60.55)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 791abd90-8f5d-4075-94c4-1385ea737fca))
   (gr_line (start 100.45 108.35) (end 100.35 108.35)
@@ -13897,18 +13930,6 @@
   )
   (gr_text "SWDIO" (at 150.55 72.45 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb05)
     (effects (font (size 1 0.85) (thickness 0.1875)) (justify right))
-  )
-  (gr_text "NOV 2023" (at 154.94 86.615762 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb08)
-    (effects (font (size 1 1.1) (thickness 0.25)))
-  )
-  (gr_text "SMDPRUTSER" (at 144.745333 79.756) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb0b)
-    (effects (font (size 1.1 1.1) (thickness 0.25)))
-  )
-  (gr_text "v.trocio" (at 144.745333 81.28) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb20)
-    (effects (font (size 1.25 1.25) (thickness 0.25)))
-  )
-  (gr_text "Ian Lesnet" (at 144.745333 77.724) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb23)
-    (effects (font (size 1.25 1.25) (thickness 0.25)))
   )
   (gr_text "SWCLK" (at 153.1 72.45 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060f6eb2c)
     (effects (font (size 1 0.85) (thickness 0.1875)) (justify right))
