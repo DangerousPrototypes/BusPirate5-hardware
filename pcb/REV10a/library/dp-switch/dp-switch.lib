@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 4P_button_sw
+#
+DEF 4P_button_sw SW 0 40 Y Y 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "4P_button_sw" 0 -150 50 H V C CNN
+F2 "dp-switch:GT-TC026X-HXXX-LX" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -70 50 20 1 1 0 N
+C 70 50 20 1 1 0 N
+P 2 1 1 0 -90 100 90 100 N
+P 2 1 1 0 0 100 0 170 N
+P 3 1 1 0 -100 -50 -100 50 -90 50 N
+P 3 1 1 0 100 -50 100 50 90 50 N
+X 1 1 -200 50 100 R 50 50 1 1 P
+X 2 2 -200 -50 100 R 50 50 1 1 P
+X 3 3 200 -50 100 L 50 50 1 1 P
+X 4 4 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

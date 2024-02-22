@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1-1734592-4
+#
+DEF 1-1734592-4 J 0 40 Y Y 1 L N
+F0 "J" -300 850 50 H V L BNN
+F1 "1-1734592-4" -300 -950 50 H V L BNN
+F2 "TE_1-1734592-4" 0 0 50 H I L BNN
+F3 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F4 "2.05mm" 0 0 50 H I L BNN
+F5 "TE Connectivity" 0 0 50 H I L BNN
+F6 "C" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 800 -300 -900 N
+P 2 0 0 10 -300 -900 300 -900 N
+P 2 0 0 10 300 -900 300 800 N
+P 2 0 0 10 300 800 -300 800 N
+X SHIELD S1 -500 -800 200 R 40 40 0 0 P 
+X SHIELD S2 -500 -800 200 R 40 40 0 0 P 
+X 1 1 -500 700 200 R 40 40 0 0 P 
+X 2 2 -500 600 200 R 40 40 0 0 P 
+X 3 3 -500 500 200 R 40 40 0 0 P 
+X 4 4 -500 400 200 R 40 40 0 0 P 
+X 5 5 -500 300 200 R 40 40 0 0 P 
+X 6 6 -500 200 200 R 40 40 0 0 P 
+X 7 7 -500 100 200 R 40 40 0 0 P 
+X 8 8 -500 0 200 R 40 40 0 0 P 
+X 9 9 -500 -100 200 R 40 40 0 0 P 
+X 10 10 -500 -200 200 R 40 40 0 0 P 
+X 11 11 -500 -300 200 R 40 40 0 0 P 
+X 12 12 -500 -400 200 R 40 40 0 0 P 
+X 13 13 -500 -500 200 R 40 40 0 0 P 
+X 14 14 -500 -600 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

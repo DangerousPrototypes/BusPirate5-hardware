@@ -1,0 +1,3 @@
+sources
+
+Lattice FPGA symbols from https://kicad.github.io/symbols/FPGA_Lattice
