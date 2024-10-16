@@ -1784,12 +1784,6 @@
 		)
 	)
 	(junction
-		(at 59.69 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0011b588-844a-4461-8cb1-bd984292b5b7")
-	)
-	(junction
 		(at 167.64 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1856,12 +1850,6 @@
 		(uuid "4a2bf82c-e76b-4e62-afbd-4110d67b78a9")
 	)
 	(junction
-		(at 190.5 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a733fca-5dd5-444c-8b50-35b3e05c4f44")
-	)
-	(junction
 		(at 100.33 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1886,34 +1874,10 @@
 		(uuid "6f134052-b992-477f-a8be-51e880f4e389")
 	)
 	(junction
-		(at 123.19 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7265dc3b-cd08-417f-96f0-c5421ab9af82")
-	)
-	(junction
 		(at 36.83 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845f954e-23dc-41ad-a37b-19e6362a6702")
-	)
-	(junction
-		(at 264.16 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87dbbc99-1e06-44a5-ac98-a025615f941a")
-	)
-	(junction
-		(at 123.19 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882fcdfb-d897-4604-9c2d-0b1516f6e193")
-	)
-	(junction
-		(at 191.77 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "896ba147-e3f4-4c9b-ba35-75af26f0f188")
 	)
 	(junction
 		(at 238.76 95.25)
@@ -1932,12 +1896,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b5679b-874a-43a1-91c1-560fc821b7bb")
-	)
-	(junction
-		(at 59.69 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d8b884b-bad6-4135-b641-f6cf37c474ec")
 	)
 	(junction
 		(at 168.91 46.99)
@@ -2016,12 +1974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2543066-71b6-48df-b025-d9dbea8624bc")
-	)
-	(junction
-		(at 261.62 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4f298df-b6cf-408f-885c-ce6a867ed5de")
 	)
 	(junction
 		(at 251.46 29.21)
@@ -2147,16 +2099,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed7a6cb-977e-496b-8e97-8e0ed3cdc500")
-	)
-	(wire
-		(pts
 			(xy 170.18 100.33) (xy 167.64 100.33)
 		)
 		(stroke
@@ -2214,16 +2156,6 @@
 			(type default)
 		)
 		(uuid "18d0eb47-4cae-40f8-8861-eba809f1f3b8")
-	)
-	(wire
-		(pts
-			(xy 59.69 106.68) (xy 59.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1accc1-a27f-45d9-bac1-b06aeda87bad")
 	)
 	(wire
 		(pts
@@ -2327,16 +2259,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 40.64) (xy 123.19 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2862875b-1bca-4885-97b8-b890c92cb8c7")
-	)
-	(wire
-		(pts
 			(xy 46.99 31.75) (xy 46.99 30.48)
 		)
 		(stroke
@@ -2417,16 +2339,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 41.91) (xy 59.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e5b736-be84-4732-ab68-ae1938973bcb")
-	)
-	(wire
-		(pts
 			(xy 171.45 46.99) (xy 168.91 46.99)
 		)
 		(stroke
@@ -2474,16 +2386,6 @@
 			(type default)
 		)
 		(uuid "4291f827-061a-4773-a629-4969d6d4c4d3")
-	)
-	(wire
-		(pts
-			(xy 190.5 102.87) (xy 190.5 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4670aa3b-278e-4d3e-887b-3b21eed0c856")
 	)
 	(wire
 		(pts
@@ -3067,16 +2969,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 97.79) (xy 261.62 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ac4fda-0f0d-485f-9376-228660ee2829")
-	)
-	(wire
-		(pts
 			(xy 167.64 100.33) (xy 158.75 100.33)
 		)
 		(stroke
@@ -3164,16 +3056,6 @@
 			(type default)
 		)
 		(uuid "ce759d0f-5fc2-42f9-99db-bfcc39692092")
-	)
-	(wire
-		(pts
-			(xy 191.77 41.91) (xy 191.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cecc60a2-d7d9-4a68-9228-f4a186900695")
 	)
 	(wire
 		(pts
@@ -3414,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "fe74a680-6964-475d-9998-d22f814a7370")
-	)
-	(wire
-		(pts
-			(xy 264.16 48.26) (xy 264.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fead45b0-7ab7-4f3d-ab2e-2716966f9e24")
 	)
 	(text "Small pull-down on VOUT_VREF.\nEnsures proper partial power down \nfunction of the 74LVC1T45"
 		(exclude_from_sim no)
@@ -4763,71 +4635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e8d7ea7")
-		(property "Reference" "#PWR0317"
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44513c1b-9667-4351-8a6a-27cab6b0c519")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 86.36 90)
 		(unit 1)
@@ -5481,71 +5288,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e915eff")
-		(property "Reference" "#PWR0319"
-			(at 59.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01830228-8d62-4257-9988-b47d0de29bd4")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -6211,71 +5953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 123.19 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e9405e9")
-		(property "Reference" "#PWR0321"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35c816dd-959d-4308-bdfe-35cb80dc0c12")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 85.09 90)
 		(unit 1)
@@ -6929,71 +6606,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "#PWR0325")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e94e9cd")
-		(property "Reference" "#PWR0338"
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b05cb62-aec4-49f4-8cee-4614ac429414")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -7659,71 +7271,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e956ec8")
-		(property "Reference" "#PWR0340"
-			(at 261.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f982d13-f550-42b5-89d1-9bcbeb94bdbd")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0340")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 246.38 29.21 90)
 		(unit 1)
@@ -8377,71 +7924,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "#PWR0328")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 264.16 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e965941")
-		(property "Reference" "#PWR0342"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bccdacfe-ffc5-4ca1-9794-0f6fbdaf8a16")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -9107,71 +8589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e96e5d3")
-		(property "Reference" "#PWR0355"
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d991c96-9d27-495f-969f-fc16f4ef3253")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0355")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 173.99 30.48 90)
 		(unit 1)
@@ -9825,71 +9242,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "#PWR0346")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e978b5c")
-		(property "Reference" "#PWR0357"
-			(at 191.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89e99408-e9f4-4bda-b3ab-7ee475820c58")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR0357")
 					(unit 1)
 				)
 			)
@@ -10617,111 +9969,6 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 59.69 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060fab3a2")
-		(property "Reference" "RN304"
-			(at 61.9252 48.3616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 61.9252 50.673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 57.658 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 63.5 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5417749-3e46-4704-a8e3-54b5ab72ac8e")
-		)
-		(pin "8"
-			(uuid "66e7d7d6-a05c-42f0-9b09-835c5f6577bb")
-		)
-		(pin "2"
-			(uuid "c8c8b8fa-a25f-4a8e-af4e-3bcda7ffcfa6")
-		)
-		(pin "7"
-			(uuid "4a0a86b3-8ed6-43c2-b3ec-42280afacae7")
-		)
-		(pin "3"
-			(uuid "b331d96a-3701-4d96-b852-e7d25b94788d")
-		)
-		(pin "6"
-			(uuid "c4a59da3-6f69-4e7a-864b-56d2cb081f40")
-		)
-		(pin "4"
-			(uuid "f8a28a18-d530-4ac3-94ea-f7fe0add1464")
-		)
-		(pin "5"
-			(uuid "3ca8836e-28e3-45c2-a737-4c777237ae47")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
 		(at 63.5 41.91 270)
 		(mirror x)
 		(unit 1)
@@ -11137,111 +10384,6 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 59.69 109.22 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610f6d31")
-		(property "Reference" "RN304"
-			(at 61.9252 108.0516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 61.9252 110.363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 57.658 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 63.5 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd448d56-d457-46ca-9a2a-918b520536b9")
-		)
-		(pin "8"
-			(uuid "462e85e4-0c0e-45d2-a2a7-60332390f18e")
-		)
-		(pin "2"
-			(uuid "3c7469da-f71b-4ae9-9118-6586839ec33c")
-		)
-		(pin "7"
-			(uuid "4838f9c1-5aa8-4212-a2b1-29da5e1bd209")
-		)
-		(pin "3"
-			(uuid "0ced3174-7282-43b3-b132-fee0cf56d7bd")
-		)
-		(pin "6"
-			(uuid "e90dcba8-0c84-4d5f-976b-971589df8a8a")
-		)
-		(pin "4"
-			(uuid "3081fe34-70f7-4c89-bde4-fae42f9c342b")
-		)
-		(pin "5"
-			(uuid "fe8cf101-ff27-44bb-9e26-61166c3b99ac")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN304")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
 		(at 62.23 97.79 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -11649,111 +10791,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "RN303")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
-		(at 123.19 50.8 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061108cb2")
-		(property "Reference" "RN304"
-			(at 125.4252 49.6316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 125.4252 51.943 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 121.158 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 127 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 123.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 123.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f3b2a7f-5f67-4d52-98c1-d977f1d3dccd")
-		)
-		(pin "8"
-			(uuid "cf0f972b-97a1-4a63-a729-902ecc9e3943")
-		)
-		(pin "2"
-			(uuid "502faa9b-cdac-4186-81e3-5442c9b19d6f")
-		)
-		(pin "7"
-			(uuid "867b47b1-7185-443a-9563-c957fbfe07ed")
-		)
-		(pin "3"
-			(uuid "5da57722-8e60-420f-b18a-27bbc48e168d")
-		)
-		(pin "6"
-			(uuid "96125265-f008-42fe-8c7b-08cb4cffdd85")
-		)
-		(pin "4"
-			(uuid "1d2a1791-532a-4d80-b72d-b476216a595f")
-		)
-		(pin "5"
-			(uuid "19beb1de-f75f-4944-991b-1a985d9a2114")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN304")
 					(unit 3)
 				)
 			)
@@ -12278,111 +11315,6 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 123.19 106.68 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061122b20")
-		(property "Reference" "RN304"
-			(at 125.4252 105.5116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 125.4252 107.823 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 121.158 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 127 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 123.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 123.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bd57ab3-ae8e-4601-b9be-cdb509dc729f")
-		)
-		(pin "8"
-			(uuid "d8364626-0df2-4391-9c94-0720a85a7b7a")
-		)
-		(pin "2"
-			(uuid "46cbba23-9fe4-42a0-a8ab-03d0232e72aa")
-		)
-		(pin "7"
-			(uuid "b9650e36-b35a-486e-8cd2-be406f2bd5d8")
-		)
-		(pin "3"
-			(uuid "2dd15765-a4e7-467c-843c-090dd9eb2b3a")
-		)
-		(pin "6"
-			(uuid "c0458c9b-602c-42f4-85fa-6a5d8a54b2e2")
-		)
-		(pin "4"
-			(uuid "43b62a0c-286f-48c8-8b39-d3e9a77e735d")
-		)
-		(pin "5"
-			(uuid "55990662-8e66-48df-85a1-dd3bc5bb3acc")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN304")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
 		(at 125.73 96.52 270)
 		(unit 4)
 		(exclude_from_sim no)
@@ -12582,111 +11514,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "RN309")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
-		(at 191.77 52.07 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006112771c")
-		(property "Reference" "RN310"
-			(at 194.0052 50.9016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 194.0052 53.213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.738 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 195.58 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 191.77 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 191.77 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b95d633-75fe-45f7-a213-7da1dd664226")
-		)
-		(pin "8"
-			(uuid "f5b6ee1c-d22b-4bd0-9bbf-e1edce6b6fd4")
-		)
-		(pin "2"
-			(uuid "4341e3fa-f665-4707-9936-8e5f3faa173d")
-		)
-		(pin "7"
-			(uuid "39b3475e-793c-462e-abb6-ff488e60e902")
-		)
-		(pin "3"
-			(uuid "dd244e97-c654-4d6d-97af-b363cc186677")
-		)
-		(pin "6"
-			(uuid "77e249d4-187c-480d-aa89-85d42a6195c5")
-		)
-		(pin "4"
-			(uuid "2d82a072-1703-4be1-95b9-3e1a1c24e9dc")
-		)
-		(pin "5"
-			(uuid "67635cee-c76a-414d-b554-b22fd514610d")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN310")
 					(unit 4)
 				)
 			)
@@ -13213,111 +12040,6 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 261.62 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006113764a")
-		(property "Reference" "RN310"
-			(at 263.8552 99.1616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 263.8552 101.473 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 259.588 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 265.43 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a929560-1ab3-471e-bd23-c86d2673dbb7")
-		)
-		(pin "8"
-			(uuid "bd5de28b-92e0-40f9-9666-cf615cecd8d2")
-		)
-		(pin "2"
-			(uuid "d37feab6-8b90-4dbb-a42c-917fd53c3fb2")
-		)
-		(pin "7"
-			(uuid "4bda7ae1-d297-43b9-aea2-2b36e7681a3c")
-		)
-		(pin "3"
-			(uuid "b8b939cf-2af7-4c7d-9047-37430a984627")
-		)
-		(pin "6"
-			(uuid "2e4a9f04-6c72-444d-a841-2f19c5c8b3dc")
-		)
-		(pin "4"
-			(uuid "aa512cd6-d353-4d6d-a00e-76073c370975")
-		)
-		(pin "5"
-			(uuid "dfc87e66-6c5d-4e86-a635-6e6a0c79bdf2")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
 		(at 264.16 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13732,111 +12454,6 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 264.16 50.8 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006113d315")
-		(property "Reference" "RN310"
-			(at 266.3952 49.6316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 266.3952 51.943 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 262.128 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 267.97 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 264.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 264.16 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f834fb39-44c6-4f97-b3be-c7bbd0189b2e")
-		)
-		(pin "8"
-			(uuid "7c188f44-629c-4ae9-b8aa-127d698747d5")
-		)
-		(pin "2"
-			(uuid "42c75d02-5dc4-42a5-be46-75e7a7bd7d00")
-		)
-		(pin "7"
-			(uuid "4c6b0232-b21e-4848-aca6-9f2a71a7e777")
-		)
-		(pin "3"
-			(uuid "5c1d0d84-c4e4-4124-ab68-466699a96818")
-		)
-		(pin "6"
-			(uuid "7f98d0f7-66c4-46e5-9bef-5dc3e24542aa")
-		)
-		(pin "4"
-			(uuid "b39f5f13-bf84-4aaa-9265-76dd05fc7ce2")
-		)
-		(pin "5"
-			(uuid "7ebc2d0f-52ee-4b5f-b857-38d52f9169b5")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN310")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
 		(at 266.7 40.64 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -14245,111 +12862,6 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "RN308")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dp-rarray:R_Array")
-		(at 190.5 105.41 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061143baa")
-		(property "Reference" "RN310"
-			(at 192.7352 104.2416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 192.7352 106.553 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 188.468 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 194.31 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.03666"
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b5350eb-b512-4849-978a-8ca784344b11")
-		)
-		(pin "8"
-			(uuid "9ec63a7f-61cf-46b5-986d-6e116c0de9cf")
-		)
-		(pin "2"
-			(uuid "aec1e20b-1472-45ee-9968-da52cc4c38b5")
-		)
-		(pin "7"
-			(uuid "b64c73a3-e251-4a4d-a590-c052aec5399a")
-		)
-		(pin "3"
-			(uuid "8cda3eb1-0773-4365-afc1-e78af26bfa16")
-		)
-		(pin "6"
-			(uuid "152114be-adfa-4bb1-96d2-bb17650cb64c")
-		)
-		(pin "4"
-			(uuid "ed8faa90-4c93-47fd-ae2a-9088a1e9a1ea")
-		)
-		(pin "5"
-			(uuid "f4663d16-a9bd-4925-b1d6-f8927f92f342")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "RN310")
-					(unit 3)
 				)
 			)
 		)
