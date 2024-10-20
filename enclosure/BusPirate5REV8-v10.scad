@@ -182,7 +182,7 @@ echo("----------END----------");
 //
 module body_top(){
     //case body
-    diff("mask"){
+    diff(){
         cube(size=[body_xy, body_xy,top_h], anchor=BOTTOM){
             //top chamfer
             chamfer_list=[RIGHT, LEFT, BACK, FRONT];
@@ -302,7 +302,7 @@ module header_prog_top(){
 //
 module body_bottom(){
     //bottom and chamfers
-    diff("mask"){
+    diff(){
         cube(size=[body_xy, body_xy,bottom_h], anchor=BOTTOM){
             //bottom chamfer
             chamfer_list=[RIGHT, LEFT, BACK, FRONT];
