@@ -240,9 +240,21 @@
 			)
 		)
 	)
+	(text "VOUT protection"
+		(exclude_from_sim no)
+		(at 32.766 54.483 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "12173159-4b0f-47e5-86c6-8b4553df105d")
+	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
-		(at 132.08 59.69 0)
+		(at 128.27 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -253,9 +265,33 @@
 		)
 		(uuid "177643b5-01d9-419f-9212-2f44aed2a315")
 	)
+	(text "Programmable Power Supply"
+		(exclude_from_sim no)
+		(at 32.766 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "50b72fcc-0d45-4519-98ec-8944a03cb549")
+	)
+	(text "BPIO input/output"
+		(exclude_from_sim no)
+		(at 182.118 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "601c4ade-849d-4365-b43b-0fc09ac5f275")
+	)
 	(text "Adjustable power \nsupply"
 		(exclude_from_sim no)
-		(at 123.19 95.25 0)
+		(at 25.4 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -266,9 +302,21 @@
 		)
 		(uuid "6f8a9429-e0a1-4765-bd1a-417e1728ea12")
 	)
+	(text "Peripherals and Display"
+		(exclude_from_sim no)
+		(at 81.026 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9408b3d6-d66f-42a7-9d7e-5fcce3471286")
+	)
 	(text "IO buffer"
 		(exclude_from_sim no)
-		(at 158.75 93.98 0)
+		(at 177.8 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -281,7 +329,7 @@
 	)
 	(text "Peripherals"
 		(exclude_from_sim no)
-		(at 90.17 93.98 0)
+		(at 77.47 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -294,7 +342,7 @@
 	)
 	(text "RGB LEDs"
 		(exclude_from_sim no)
-		(at 184.15 90.17 0)
+		(at 76.2 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -307,7 +355,7 @@
 	)
 	(text "Pull-X resistors"
 		(exclude_from_sim no)
-		(at 178.816 69.596 0)
+		(at 176.276 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -318,9 +366,33 @@
 		)
 		(uuid "f0ecd76b-1109-41f7-a02b-627bc788fcda")
 	)
+	(text "RP2350"
+		(exclude_from_sim no)
+		(at 134.112 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f11c4db4-734a-4497-9c2c-b4d0e22445e2")
+	)
+	(text "Auxiliary Voltages\n"
+		(exclude_from_sim no)
+		(at 33.528 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f9fa3d8e-df4d-4053-8f14-a5d307b56cbb")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 116.84 0)
+		(at 109.22 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -328,7 +400,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fcb6417")
 		(property "Reference" "H2"
-			(at 154.94 115.6716 0)
+			(at 111.76 171.5516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +409,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 117.983 0)
+			(at 111.76 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +418,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 116.84 0)
+			(at 109.22 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 116.84 0)
+			(at 109.22 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 116.84 0)
+			(at 109.22 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +455,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 127 0)
+		(at 109.22 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -391,7 +463,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fcb6e57")
 		(property "Reference" "H1"
-			(at 154.94 125.8316 0)
+			(at 111.76 181.7116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +472,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 128.143 0)
+			(at 111.76 184.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +481,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 127 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -418,7 +490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 127 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 127 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +518,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 171.45 116.84 0)
+		(at 128.27 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -454,7 +526,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fcb6fec")
 		(property "Reference" "H3"
-			(at 173.99 115.6716 0)
+			(at 130.81 171.5516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,7 +535,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 173.99 117.983 0)
+			(at 130.81 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +544,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 171.45 116.84 0)
+			(at 128.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 116.84 0)
+			(at 128.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 116.84 0)
+			(at 128.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +581,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 171.45 127 0)
+		(at 128.27 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -517,7 +589,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fcb72fe")
 		(property "Reference" "H4"
-			(at 173.99 125.8316 0)
+			(at 130.81 181.7116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +598,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 173.99 128.143 0)
+			(at 130.81 184.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +607,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 171.45 127 0)
+			(at 128.27 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,7 +616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 127 0)
+			(at 128.27 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,7 +625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 127 0)
+			(at 128.27 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +644,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 109.22 116.84 0)
+		(at 66.04 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -580,7 +652,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060e68b5e")
 		(property "Reference" "FID1"
-			(at 111.379 115.6716 0)
+			(at 68.199 171.5516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +661,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 111.379 117.983 0)
+			(at 68.199 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +670,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 109.22 116.84 0)
+			(at 66.04 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 116.84 0)
+			(at 66.04 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 116.84 0)
+			(at 66.04 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +707,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 109.22 127 0)
+		(at 66.04 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -643,7 +715,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060e69aaa")
 		(property "Reference" "FID2"
-			(at 111.379 125.8316 0)
+			(at 68.199 181.7116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +724,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 111.379 128.143 0)
+			(at 68.199 184.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +733,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 109.22 127 0)
+			(at 66.04 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 127 0)
+			(at 66.04 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 127 0)
+			(at 66.04 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,7 +770,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 130.81 127 0)
+		(at 87.63 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -706,7 +778,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061344b66")
 		(property "Reference" "FID3"
-			(at 132.969 125.8316 0)
+			(at 89.789 181.7116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +787,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 132.969 128.143 0)
+			(at 89.789 184.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +796,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 130.81 127 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 127 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 127 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +833,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 130.81 116.84 0)
+		(at 87.63 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -769,7 +841,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613452dc")
 		(property "Reference" "FID4"
-			(at 132.969 115.6716 0)
+			(at 89.789 171.5516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +850,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 132.969 117.983 0)
+			(at 89.789 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +859,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 130.81 116.84 0)
+			(at 87.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 116.84 0)
+			(at 87.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 116.84 0)
+			(at 87.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +896,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 120.65 121.92 0)
+		(at 77.47 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -832,7 +904,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613457d9")
 		(property "Reference" "FID5"
-			(at 122.809 120.7516 0)
+			(at 79.629 176.6316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,7 +913,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 122.809 123.063 0)
+			(at 79.629 178.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +922,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 120.65 121.92 0)
+			(at 77.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 121.92 0)
+			(at 77.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 121.92 0)
+			(at 77.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +959,7 @@
 	)
 	(symbol
 		(lib_id "DP_logo_kicad:fcc_logo")
-		(at 93.98 121.92 0)
+		(at 50.8 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -895,7 +967,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000653863d6")
 		(property "Reference" "logo1"
-			(at 99.7712 120.7516 0)
+			(at 56.5912 176.6316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +976,7 @@
 			)
 		)
 		(property "Value" "fcc_logo"
-			(at 99.7712 123.063 0)
+			(at 56.5912 178.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +985,7 @@
 			)
 		)
 		(property "Footprint" "dp-logo:logo_fcc"
-			(at 93.98 121.92 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 121.92 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +1003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 121.92 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +1022,7 @@
 	)
 	(symbol
 		(lib_id "DP_logo_kicad:fcc_logo")
-		(at 93.98 132.08 0)
+		(at 50.8 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -958,7 +1030,7 @@
 		(dnp no)
 		(uuid "a74e6168-89a2-4216-baa4-dd1ea2f18ce5")
 		(property "Reference" "logo2"
-			(at 99.7712 130.9116 0)
+			(at 56.5912 186.7916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +1039,7 @@
 			)
 		)
 		(property "Value" "ce_logo"
-			(at 99.7712 133.223 0)
+			(at 56.5912 189.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +1048,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:CE-Logo_11.2x8mm_SilkScreen"
-			(at 93.98 132.08 0)
+			(at 50.8 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 132.08 0)
+			(at 50.8 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 132.08 0)
+			(at 50.8 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,8 +1084,8 @@
 		)
 	)
 	(sheet
-		(at 152.4 83.82)
-		(size 24.13 19.05)
+		(at 171.45 22.86)
+		(size 24.13 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1024,7 +1096,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005f344f30")
 		(property "Sheetname" "bpu-iobufffer"
-			(at 152.4 83.1084 0)
+			(at 171.45 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1105,7 @@
 			)
 		)
 		(property "Sheetfile" "bpu-iobufffer.kicad_sch"
-			(at 152.4 103.4546 0)
+			(at 171.45 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,8 +1122,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 85.09)
-		(size 24.13 19.05)
+		(at 21.59 22.86)
+		(size 24.13 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1062,7 +1134,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005f46fad3")
 		(property "Sheetname" "bpu-current_limiter"
-			(at 119.38 84.3784 0)
+			(at 21.59 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1143,7 @@
 			)
 		)
 		(property "Sheetfile" "bpu-current_limiter.kicad_sch"
-			(at 119.38 104.7246 0)
+			(at 21.59 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1160,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 44.45)
+		(at 116.84 22.86)
 		(size 38.1 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -1100,7 +1172,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000060c8ec36")
 		(property "Sheetname" "micro-rp2040"
-			(at 120.65 43.7384 0)
+			(at 116.84 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1181,7 @@
 			)
 		)
 		(property "Sheetfile" "micro-rp2040.kicad_sch"
-			(at 120.65 75.5146 0)
+			(at 116.84 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1198,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 85.09)
+		(at 72.39 22.86)
 		(size 21.59 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -1138,7 +1210,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000060e58ecc")
 		(property "Sheetname" "IO-expand-595-mux"
-			(at 85.09 84.3784 0)
+			(at 72.39 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1219,7 @@
 			)
 		)
 		(property "Sheetfile" "IO-expand-595-mux.kicad_sch"
-			(at 85.09 100.9146 0)
+			(at 72.39 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,8 +1236,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 83.82)
-		(size 17.78 11.43)
+		(at 72.39 46.99)
+		(size 22.225 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1176,7 +1248,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000060edd46d")
 		(property "Sheetname" "leds"
-			(at 180.34 83.1084 0)
+			(at 72.39 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1257,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 180.34 95.8346 0)
+			(at 72.39 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1274,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 59.69)
+		(at 171.45 46.99)
 		(size 24.765 17.145)
 		(fields_autoplaced yes)
 		(stroke
@@ -1214,7 +1286,7 @@
 		)
 		(uuid "70d89944-cef2-4c07-9520-6c47f8613415")
 		(property "Sheetname" "Pull-X resistor system"
-			(at 173.99 58.9784 0)
+			(at 171.45 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1295,7 @@
 			)
 		)
 		(property "Sheetfile" "pull-x-resistors.kicad_sch"
-			(at 173.99 77.4196 0)
+			(at 171.45 64.7196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,6 +1307,82 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 46.99)
+		(size 24.765 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95c5ca91-1e6b-49a9-86b2-64918a8e6404")
+		(property "Sheetname" "VOUT protection"
+			(at 21.59 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vout_protection.kicad_sch"
+			(at 21.59 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 68.58)
+		(size 24.765 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a10886b0-1bb2-4849-bbfb-dd2334cfdc53")
+		(property "Sheetname" "Auxilary Voltages"
+			(at 21.59 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aux_voltages.kicad_sch"
+			(at 21.59 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
+					(page "8")
 				)
 			)
 		)
