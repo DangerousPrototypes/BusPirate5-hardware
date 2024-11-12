@@ -8236,7 +8236,7 @@
 		(at 311.15 109.22 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8256,7 +8256,7 @@
 		(at 311.15 88.9 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8296,7 +8296,7 @@
 		(at 311.15 104.14 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8438,7 +8438,7 @@
 		(at 297.18 180.34 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8498,7 +8498,7 @@
 		(at 297.18 157.48 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8540,7 +8540,7 @@
 		(at 297.18 177.8 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8659,12 +8659,12 @@
 			)
 		)
 	)
-	(global_label "CURRENT_DETECT"
-		(shape input)
+	(global_label "~{Activate_VOUT}"
+		(shape output)
 		(at 297.18 129.54 0)
 		(effects
 			(font
-				(size 0.9906 0.9906)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8704,7 +8704,7 @@
 		(at 297.18 127 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8824,7 +8824,7 @@
 		(at 297.18 121.92 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8866,7 +8866,7 @@
 		(at 311.15 83.82 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -8886,7 +8886,7 @@
 		(at 311.15 119.38 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9050,7 +9050,7 @@
 		(at 311.15 81.28 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9070,7 +9070,7 @@
 		(at 297.18 167.64 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9112,7 +9112,7 @@
 		(at 311.15 116.84 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9376,7 +9376,7 @@
 		(at 311.15 86.36 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9478,7 +9478,7 @@
 		(at 311.15 96.52 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9664,7 +9664,7 @@
 		(at 311.15 111.76 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9726,7 +9726,7 @@
 		(at 311.15 101.6 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9766,7 +9766,7 @@
 		(at 311.15 91.44 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9786,7 +9786,7 @@
 		(at 311.15 93.98 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9806,7 +9806,7 @@
 		(at 311.15 99.06 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9846,7 +9846,7 @@
 		(at 311.15 114.3 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9866,7 +9866,7 @@
 		(at 311.15 106.68 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9906,7 +9906,7 @@
 		(at 297.18 170.18 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9966,7 +9966,7 @@
 		(at 306.07 187.96 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -9986,7 +9986,7 @@
 		(at 306.07 185.42 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)

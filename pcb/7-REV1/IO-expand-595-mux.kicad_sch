@@ -3562,12 +3562,6 @@
 		(uuid "2d331a6b-656f-4116-bdb0-0482b7ecaedf")
 	)
 	(junction
-		(at 246.38 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35296bac-c001-480b-be86-18ad91cd6314")
-	)
-	(junction
 		(at 76.2 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4215,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 167.64) (xy 240.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d59c27-a0a2-4ffb-826a-2d27cd49ff2d")
+	)
+	(wire
+		(pts
 			(xy 237.49 142.24) (xy 240.03 142.24)
 		)
 		(stroke
@@ -4402,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "55553ca7-ebf4-4674-a297-080618ed6bf9")
-	)
-	(wire
-		(pts
-			(xy 246.38 167.64) (xy 246.38 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55744bdf-9f2f-417f-8f76-1245fd51b86e")
 	)
 	(wire
 		(pts
@@ -4802,16 +4796,6 @@
 			(type default)
 		)
 		(uuid "91e92076-06b4-4712-9de9-09d57a93b4f2")
-	)
-	(wire
-		(pts
-			(xy 246.38 167.64) (xy 247.65 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b13e32-dbcc-47e1-b412-632330f133da")
 	)
 	(wire
 		(pts
@@ -5445,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 167.64) (xy 247.65 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d952bbfb-3ef3-47b0-866c-5a98e934b9c7")
+	)
+	(wire
+		(pts
 			(xy 142.24 121.92) (xy 157.48 121.92)
 		)
 		(stroke
@@ -5764,7 +5758,7 @@
 		(at 237.49 162.56 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -5784,7 +5778,7 @@
 		(at 273.05 162.56 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -5846,7 +5840,7 @@
 		(at 273.05 160.02 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -5908,7 +5902,7 @@
 		(at 237.49 144.78 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6010,7 +6004,7 @@
 		(at 237.49 147.32 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6112,7 +6106,7 @@
 		(at 237.49 165.1 180)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6152,7 +6146,7 @@
 		(at 237.49 152.4 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6316,7 +6310,7 @@
 		(at 237.49 149.86 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6418,7 +6412,7 @@
 		(at 237.49 157.48 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6553,6 +6547,28 @@
 			)
 		)
 	)
+	(global_label "CURRENT_DETECT"
+		(shape input)
+		(at 237.49 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ac82c18-d07d-454e-8ca8-66abaf34e1af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.8306 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BPIO7_TVS"
 		(shape input)
 		(at 34.29 78.74 180)
@@ -6598,7 +6614,7 @@
 		(at 237.49 142.24 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6724,7 +6740,7 @@
 		(at 237.49 139.7 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6786,7 +6802,7 @@
 		(at 273.05 154.94 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6826,7 +6842,7 @@
 		(at 237.49 154.94 180)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -7054,7 +7070,7 @@
 		(at 273.05 157.48 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -10808,7 +10824,7 @@
 		(dnp no)
 		(uuid "182c245c-20b1-46b8-9168-2cd41913d983")
 		(property "Reference" "R320"
-			(at 226.06 158.75 90)
+			(at 211.836 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10833,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 224.79 161.29 90)
+			(at 219.202 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,6 +11895,93 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 242.57 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ca3cb98-dc40-464f-a8f3-c020894e76bf")
+		(property "Reference" "R44"
+			(at 210.82 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510R"
+			(at 217.932 167.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.004864"
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/61542.html"
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63ad37a2-ba0c-46e3-9d89-31335fa1db42")
+		)
+		(pin "2"
+			(uuid "9683f953-1c8a-4319-bf4e-af3e6a21d162")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -14112,7 +14215,7 @@
 		(dnp no)
 		(uuid "94a5a56d-ff74-4ad5-be30-14f23ba53ed3")
 		(property "Reference" "R3"
-			(at 226.06 161.29 90)
+			(at 209.804 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14121,7 +14224,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 224.79 163.83 90)
+			(at 219.202 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16321,7 +16424,7 @@
 		(dnp no)
 		(uuid "d717ebeb-afb2-46f1-b8ab-b5ff70079cc0")
 		(property "Reference" "R5"
-			(at 226.06 163.83 90)
+			(at 209.55 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16330,7 +16433,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 224.79 166.37 90)
+			(at 219.456 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
