@@ -1,0 +1,108 @@
+(footprint "pad-between-spiked-oneside-half"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5a3fede5-f529-47cd-8787-06debdeab8ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "pad-between"
+		(at 0 -3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd272216-57ed-4b25-b34e-e2e90545c5eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb3f2fbb-5b8b-4498-85c4-4aa0fce71ff4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9724b335-69c1-48da-9111-d7195221619f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e3060d-e611-44fe-bf84-fa9497080b16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd trapezoid
+		(at -0.26 0.44 45)
+		(size 0.2475 0.2475)
+		(rect_delta 0 0.2474)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7e0ab104-fb01-4779-bec7-f106f12c6822")
+	)
+	(pad "1" smd trapezoid
+		(at -0.25 -0.4 315)
+		(size 0.2828 0.2828)
+		(rect_delta 0 0.2827)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ddf39968-3ccd-44f9-ae83-64b8a20611f9")
+	)
+	(pad "1" smd trapezoid
+		(at -0.25 0.4 225)
+		(size 0.2828 0.2828)
+		(rect_delta 0 0.2827)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0bb7a62c-dcaa-4e36-b09e-c845096be727")
+	)
+	(pad "1" smd trapezoid
+		(at 0 -0.65)
+		(size 0.35 0.35)
+		(rect_delta 0 0.3499)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fb361f9e-dc6a-4111-bdd5-e5475af0437f")
+	)
+	(pad "1" smd rect
+		(at 0 -0.06)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d8c8bfd4-a9f2-4a32-b173-0164bd915c74")
+	)
+	(pad "1" smd trapezoid
+		(at 0.25 0.44 315)
+		(size 0.2475 0.2475)
+		(rect_delta 0 0.2474)
+		(layers "F.Cu" "F.Mask")
+		(uuid "21f9874e-2f30-4c4e-a47c-7d7412b1dc12")
+	)
+)
