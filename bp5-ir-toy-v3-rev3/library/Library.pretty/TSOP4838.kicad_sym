@@ -1,0 +1,107 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TSOP4838" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "TSOP4838" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "TSOP4838:TSOP18XX" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Vishay" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nDIODE, IR EMITTING, 38 KHZ, ANGLE OF HALF TRANSMISSION DISTANCE +/-45DEG/C | Vishay / Small Signal & Opto Products (SSP) TSOP4838\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "DIP-3 Vishay" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/TSOP4838/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TSOP4838" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=45083&manufacturer=Vishay&part_name=TSOP4838&search_term=None" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/TSOP4838/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TSOP4838_0_0"
+      (arc (start -5.08 5.08) (mid -10.16 -0.0) (end -5.08 -5.08)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -15.24 0.0) (xy -12.7 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -12.7 0.0) (xy -17.78 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 0.0) (xy -12.7 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -12.7 2.54) (xy -12.7 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 10.16) (xy -10.16 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -10.16 5.08) (xy -10.16 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -10.16 7.62) (xy -12.7 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -12.7 5.08) (xy -10.16 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 7.62) (xy 2.54 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 2.54 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -7.62) (xy -5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy -5.08 7.62)) (stroke (width 0.254))
+      )
+      (pin bidirectional line (at 7.62 -5.08 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 0.0 180.0) (length 5.08)
+        (name "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 5.08 180.0) (length 5.08)
+        (name "V+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
