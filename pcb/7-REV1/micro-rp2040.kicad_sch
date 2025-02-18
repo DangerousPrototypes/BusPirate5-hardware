@@ -5645,12 +5645,6 @@
 		(uuid "9d1eadd5-e6ad-47e5-bd32-2e6ded89a810")
 	)
 	(junction
-		(at 54.61 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a412a207-41ec-4b73-ba4d-fa172ff1e33a")
-	)
-	(junction
 		(at 114.3 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5775,6 +5769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f497a491-ec5b-4757-b0c5-92bf3005866e")
+	)
+	(junction
+		(at 54.61 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbefb14c-939a-4fa7-8397-50985649d92c")
 	)
 	(no_connect
 		(at 90.17 41.91)
@@ -6059,16 +6059,6 @@
 			(type default)
 		)
 		(uuid "1bdd769d-de5c-474a-87aa-70df15d25c11")
-	)
-	(wire
-		(pts
-			(xy 54.61 130.81) (xy 54.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3bf560-210e-4cef-a1a6-f22d607f215c")
 	)
 	(wire
 		(pts
@@ -7969,6 +7959,16 @@
 			(type default)
 		)
 		(uuid "d9ea17fe-1179-4d64-b8d2-712b7be20ba6")
+	)
+	(wire
+		(pts
+			(xy 54.61 127) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db815c59-f8d7-4b02-bc15-570eed16adfb")
 	)
 	(wire
 		(pts
@@ -16476,97 +16476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 52.07 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56017c6f-9aa8-47e3-a79d-e03abecb6593")
-		(property "Reference" "Q2"
-			(at 58.928 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT7002K"
-			(at 62.992 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 57.15 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.140017"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/544697.html"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "921f7379-3317-4626-97bb-ee9ae4e11318")
-		)
-		(pin "2"
-			(uuid "061cc0f8-cf62-43ba-b5c3-49b0652ceeb0")
-		)
-		(pin "3"
-			(uuid "41103a0f-c51b-4b38-bbf7-3641927b64ab")
-		)
-		(instances
-			(project "7-REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 163.83 0)
 		(unit 1)
@@ -17303,6 +17212,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 59.69 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83351099-d3d6-4f3c-941f-3f4b7d6dc3a6")
+		(property "Reference" "Q5"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002T"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+			(at 64.77 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.140017"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/544697.html"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a858ab84-8ecc-4301-82d6-93d30dffe8ad")
+		)
+		(pin "2"
+			(uuid "5de63b29-ae76-4c62-8184-5f7f36d45aee")
+		)
+		(pin "3"
+			(uuid "be263a49-dd80-4c9c-9ac9-fbfbeab7050f")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-memory:xm25qh128a")
 		(at 120.65 158.75 0)
 		(unit 1)
@@ -17837,97 +17837,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 59.69 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b12ebfb-ede9-4f2a-8ab4-a5424e4f8814")
-		(property "Reference" "Q1"
-			(at 55.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT7002K"
-			(at 54.61 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 64.77 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.140017"
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/544697.html"
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4276d38-ec05-4cd0-ba27-bb4863c8739b")
-		)
-		(pin "2"
-			(uuid "f17270b9-425c-42f7-a63d-b469fd6c785c")
-		)
-		(pin "3"
-			(uuid "ab933992-505f-446e-b7a7-31fc9af527c5")
-		)
-		(instances
-			(project "7-REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 151.13 0)
 		(unit 1)
@@ -18287,6 +18196,97 @@
 			(project "bp6-rev1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 52.07 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aab50a17-420b-4536-8f70-5d92a8609146")
+		(property "Reference" "Q1"
+			(at 49.276 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002T"
+			(at 49.022 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+			(at 57.15 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.140017"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/544697.html"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96748f17-e829-4930-8104-7586d393a9a4")
+		)
+		(pin "2"
+			(uuid "f7f1f4ea-573d-47c8-8027-c3c127e979d6")
+		)
+		(pin "3"
+			(uuid "b96036da-89e8-4cd4-a5bd-cce6f756f3e8")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "Q1")
 					(unit 1)
 				)
 			)

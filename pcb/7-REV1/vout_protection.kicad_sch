@@ -7082,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT7002K"
+		(property "Value" "2N7002T"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -7090,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 187.96 106.045 0)
 			(effects
 				(font
@@ -7101,7 +7101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
 			(at 193.04 104.14 0)
 			(effects
 				(font
