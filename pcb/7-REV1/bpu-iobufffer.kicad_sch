@@ -13162,31 +13162,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 72.39 175.26 90)
+		(at 72.39 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22820580-f155-4e6d-8f8f-b44c01f3f455")
-		(property "Reference" "C24"
-			(at 80.01 172.72 90)
+		(uuid "359ae259-0800-4cc9-b2e6-d9f59378f6c7")
+		(property "Reference" "C29"
+			(at 77.216 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 80.01 175.26 90)
+		(property "Value" "4.7uF"
+			(at 76.708 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 175.26 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 175.26 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 175.26 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,8 +13214,8 @@
 				(hide yes)
 			)
 		)
-		(property "RMB" "0.00628"
-			(at 72.39 175.26 0)
+		(property "RMB" "0.037726"
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13224,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/1877.html"
-			(at 72.39 175.26 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13231,15 +13233,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f832b52e-5537-46ff-bded-7541a805dfa0")
+			(uuid "79791b92-a62c-4cb1-b34a-f95abb097a0e")
 		)
 		(pin "2"
-			(uuid "3b82d50f-2d9a-49e0-809a-21e59bd00706")
+			(uuid "3738e457-0b96-495f-bdb7-11175d646aa5")
 		)
 		(instances
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "C24")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -13672,6 +13674,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63836e9d-95d7-47b5-a2b5-790486e0ecc3")
+		(property "Reference" "C23"
+			(at 77.216 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 76.708 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.037726"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae1abec7-c561-4c75-9e39-bd54819e7416")
+		)
+		(pin "2"
+			(uuid "68b2b0c6-cae8-40b5-87b7-9d989d51cfa6")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IP4220CZ6F:IP4220CZ6F")
 		(at 52.07 153.67 0)
 		(unit 1)
@@ -13890,91 +13979,6 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "738d3faa-a5bd-4222-911b-d66a58c033aa")
-		(property "Reference" "C23"
-			(at 80.01 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 80.01 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.00628"
-			(at 72.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/1877.html"
-			(at 72.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bc94aad-077c-4f37-a806-f9748c36dcbb")
-		)
-		(pin "2"
-			(uuid "f6edb9dc-330f-4ec4-8a47-62709057fdc3")
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "C23")
 					(unit 1)
 				)
 			)

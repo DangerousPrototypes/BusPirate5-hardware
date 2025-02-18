@@ -8422,6 +8422,16 @@
 		)
 		(uuid "303d56d4-0518-4561-8a13-c519a317bbbf")
 	)
+	(text "Place near USB-C connector"
+		(exclude_from_sim no)
+		(at 164.084 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42a5ec2a-c94a-4c71-8e17-dbb2ac176e9b")
+	)
 	(text "Power supply"
 		(exclude_from_sim no)
 		(at 377.19 82.55 0)
@@ -16236,21 +16246,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3edaebf3-b103-4380-95ad-7cf7631d38f1")
-		(property "Reference" "C25"
-			(at 191.77 30.48 90)
+		(uuid "3d3891d5-580a-4655-b437-eab99393651f")
+		(property "Reference" "C24"
+			(at 188.976 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 191.77 33.02 90)
+		(property "Value" "4.7uF"
+			(at 188.468 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -16280,7 +16292,7 @@
 				(hide yes)
 			)
 		)
-		(property "RMB" "0.00628"
+		(property "RMB" "0.037726"
 			(at 184.15 33.02 0)
 			(effects
 				(font
@@ -16299,15 +16311,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "27015b76-c8bc-4a5c-9aa6-1bfc79e974c6")
+			(uuid "4899b206-71a0-4d68-b6a8-478cd7b43d70")
 		)
 		(pin "2"
-			(uuid "3a77586d-fe1f-4b93-8455-c8e35f9df656")
+			(uuid "4b2211ae-5bbd-4570-9274-2bdb36e78910")
 		)
 		(instances
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
