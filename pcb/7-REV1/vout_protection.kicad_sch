@@ -4763,10 +4763,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c947564-e2c2-4bbf-8030-fd5553462b70")
+			(uuid "6c947564-e2c2-4bbf-8030-fd5553462b71")
 		)
 		(pin "8"
-			(uuid "6105d75b-7d71-41c0-9196-027068080cef")
+			(uuid "6105d75b-7d71-41c0-9196-027068080cf0")
 		)
 		(pin "2"
 			(uuid "74606770-e78d-47c3-b30d-23080ac4a2ca")
@@ -4781,10 +4781,10 @@
 			(uuid "cd51ac50-d18e-48d3-8e99-b981fafb82c1")
 		)
 		(pin "4"
-			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410af")
+			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410b0")
 		)
 		(pin "5"
-			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5d7")
+			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5d8")
 		)
 		(instances
 			(project "7-REV1"
@@ -5258,7 +5258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:DFN1010D-3_SOT1215_NEX"
+		(property "Footprint" "DFN1010D-3:DFN1010D-3_SOT1215_NEX"
 			(at 132.08 45.72 0)
 			(effects
 				(font
@@ -5374,28 +5374,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c947564-e2c2-4bbf-8030-fd5553462b70")
+			(uuid "6c947564-e2c2-4bbf-8030-fd5553462b72")
 		)
 		(pin "8"
-			(uuid "6105d75b-7d71-41c0-9196-027068080cef")
+			(uuid "6105d75b-7d71-41c0-9196-027068080cf1")
 		)
 		(pin "2"
-			(uuid "74606770-e78d-47c3-b30d-23080ac4a2ca")
+			(uuid "74606770-e78d-47c3-b30d-23080ac4a2cb")
 		)
 		(pin "7"
-			(uuid "083190d5-4b34-49c2-89a6-3b50bee0bc48")
+			(uuid "083190d5-4b34-49c2-89a6-3b50bee0bc49")
 		)
 		(pin "3"
-			(uuid "7af64c16-6ab8-4cc2-9be0-1771e8e37e68")
+			(uuid "7af64c16-6ab8-4cc2-9be0-1771e8e37e69")
 		)
 		(pin "6"
-			(uuid "558f12de-e506-4a57-bfe8-04c17b254252")
+			(uuid "558f12de-e506-4a57-bfe8-04c17b254253")
 		)
 		(pin "4"
-			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410af")
+			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410b1")
 		)
 		(pin "5"
-			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5d7")
+			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5d9")
 		)
 		(instances
 			(project "7-REV1"
@@ -5553,22 +5553,22 @@
 			(uuid "ab323b74-988b-4c38-82db-480179d4f5e2")
 		)
 		(pin "2"
-			(uuid "f88231bb-c4eb-41d0-be3e-de3547fc9cca")
+			(uuid "f88231bb-c4eb-41d0-be3e-de3547fc9ccb")
 		)
 		(pin "7"
-			(uuid "4ce51679-37ff-41d4-83d4-5a09563e985a")
+			(uuid "4ce51679-37ff-41d4-83d4-5a09563e985b")
 		)
 		(pin "3"
-			(uuid "7af64c16-6ab8-4cc2-9be0-1771e8e37e68")
+			(uuid "7af64c16-6ab8-4cc2-9be0-1771e8e37e6a")
 		)
 		(pin "6"
-			(uuid "558f12de-e506-4a57-bfe8-04c17b254252")
+			(uuid "558f12de-e506-4a57-bfe8-04c17b254254")
 		)
 		(pin "4"
-			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410af")
+			(uuid "7c9ec5bf-02e8-4e48-b7c2-93a1b5c410b2")
 		)
 		(pin "5"
-			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5d7")
+			(uuid "62a8d2f6-a9c6-4cc3-8dfe-9d7d3995c5da")
 		)
 		(instances
 			(project "7-REV1"
@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:DFN1010D-3_SOT1215_NEX"
+		(property "Footprint" "DFN1010D-3:DFN1010D-3_SOT1215_NEX"
 			(at 165.1 45.72 0)
 			(effects
 				(font
