@@ -2168,6 +2168,301 @@
 				)
 			)
 		)
+		(symbol "IP4220CZ6F:IP4220CZ6F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.509 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IP4220CZ6F"
+				(at -10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "IP4220CZ6F:SOT95P275X110-6N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Nexperia USA Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-457 Nexperia USA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "IP4220CZ6F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            - Clamp - Ipp Tvs Diode Surface Mount 6-TSOP\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "IP4220CZ6F_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "I/O_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "I/O_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "I/O_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "I/O_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:AP2204RA-3.3"
 			(pin_names
 				(offset 0.254)
@@ -5368,6 +5663,12 @@
 		(uuid "a6f1bb3a-6579-475e-bc0a-c2c48cbb45ec")
 	)
 	(junction
+		(at 179.07 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a833c8e8-9607-435b-a65b-2625d1a7f39d")
+	)
+	(junction
 		(at 312.42 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,6 +5791,14 @@
 	(no_connect
 		(at 218.44 182.88)
 		(uuid "ebab000d-2b35-44f1-8518-e63387e3f2ba")
+	)
+	(no_connect
+		(at 179.07 38.1)
+		(uuid "ee17ad43-b63f-4a7a-90b8-2c37e1a60f62")
+	)
+	(no_connect
+		(at 179.07 40.64)
+		(uuid "ef1e5550-098c-4172-b712-7e1345fd0a8d")
 	)
 	(wire
 		(pts
@@ -5643,7 +5952,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 57.15) (xy 165.1 57.15)
+			(xy 191.77 240.03) (xy 195.58 240.03)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6692,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 54.61) (xy 165.1 54.61)
+			(xy 191.77 237.49) (xy 195.58 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6713,6 +7022,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 31.75) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794b77b0-9731-4029-9f9e-29efb11e0374")
+	)
+	(wire
+		(pts
 			(xy 97.79 46.99) (xy 95.25 46.99)
 		)
 		(stroke
@@ -6863,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 165.1 52.07)
+			(xy 191.77 234.95) (xy 195.58 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7260,6 +7579,16 @@
 			(type default)
 		)
 		(uuid "b1f5a2b8-94a9-495e-943b-11fe105d846a")
+	)
+	(wire
+		(pts
+			(xy 181.61 33.02) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d6ebb6-6404-4999-8660-33dadfed98ab")
 	)
 	(wire
 		(pts
@@ -8104,6 +8433,16 @@
 		)
 		(uuid "5e8f90ee-5c1e-4bed-9a9e-3da4ecc4a2e0")
 	)
+	(text "ESD protection\nfor the USB port"
+		(exclude_from_sim no)
+		(at 163.322 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fc4059c-bcb6-4530-b66d-14103130cd09")
+	)
 	(text "AMUX_OUT, CURRENT_SENSE moved 1 pin"
 		(exclude_from_sim no)
 		(at 343.916 199.644 0)
@@ -8190,7 +8529,7 @@
 	)
 	(text "Programming header"
 		(exclude_from_sim no)
-		(at 153.67 64.77 0)
+		(at 184.15 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8641,7 +8980,7 @@
 	)
 	(global_label "SWCLK"
 		(shape output)
-		(at 161.29 57.15 180)
+		(at 191.77 240.03 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -8650,7 +8989,7 @@
 		)
 		(uuid "2c0afd57-d5e4-456b-9f72-5e77f8c29b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 57.15 0)
+			(at 191.77 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,6 +9404,26 @@
 			)
 		)
 	)
+	(global_label "USB_N"
+		(shape input)
+		(at 148.59 38.1 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "85e98a0f-6a23-45a2-9a59-792a872de9e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_CLK"
 		(shape output)
 		(at 297.18 167.64 0)
@@ -9431,6 +9790,26 @@
 			)
 		)
 	)
+	(global_label "USB_P"
+		(shape input)
+		(at 148.59 40.64 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "bf47d8e0-31c1-4654-bd10-132c10dace1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_SD1"
 		(shape bidirectional)
 		(at 226.06 99.06 180)
@@ -9743,7 +10122,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 161.29 54.61 180)
+		(at 191.77 237.49 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9752,7 +10131,7 @@
 		)
 		(uuid "eccf4e9f-dfbe-40f8-9f11-518f716547cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 54.61 0)
+			(at 191.77 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +11353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 52.07 270)
+		(at 191.77 234.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10982,7 +11361,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea90f33")
 		(property "Reference" "#PWR0202"
-			(at 154.94 52.07 0)
+			(at 185.42 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,7 +11370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 52.07 90)
+			(at 186.69 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 52.07 0)
+			(at 191.77 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 52.07 0)
+			(at 191.77 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 52.07 0)
+			(at 191.77 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +14519,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 170.18 54.61 0)
+		(at 200.66 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14148,7 +14527,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060faf170")
 		(property "Reference" "J201"
-			(at 168.91 46.99 0)
+			(at 199.39 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +14536,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 168.91 49.53 0)
+			(at 199.39 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14166,7 +14545,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 170.18 54.61 0)
+			(at 200.66 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,7 +14554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 54.61 0)
+			(at 200.66 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,7 +14563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 54.61 0)
+			(at 200.66 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15850,6 +16229,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3edaebf3-b103-4380-95ad-7cf7631d38f1")
+		(property "Reference" "C25"
+			(at 191.77 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 191.77 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.00628"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27015b76-c8bc-4a5c-9aa6-1bfc79e974c6")
+		)
+		(pin "2"
+			(uuid "3a77586d-fe1f-4b93-8455-c8e35f9df656")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 63.5 148.59 0)
 		(unit 1)
@@ -16221,6 +16685,97 @@
 		)
 	)
 	(symbol
+		(lib_id "IP4220CZ6F:IP4220CZ6F")
+		(at 163.83 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e882a0c-3424-44e0-8d95-56035915c2b8")
+		(property "Reference" "U16"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP3002-04JTG"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-array-spa-sp3002-datasheet?assetguid=c8b2f2f8-79d8-4a9c-8435-7393b0361abe"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Littelfuse"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "160fc22d-888b-403d-8631-8da70a8ebb7c")
+		)
+		(pin "6"
+			(uuid "0572f043-5e5b-4168-b2b9-c52c0969ed14")
+		)
+		(pin "2"
+			(uuid "789fffa2-efcb-4102-a7e2-c27e92587560")
+		)
+		(pin "3"
+			(uuid "6bd35078-09a1-4deb-8d81-f2d56db76036")
+		)
+		(pin "5"
+			(uuid "38361296-87e6-443f-b9e8-e931b5a6e639")
+		)
+		(pin "4"
+			(uuid "93143a61-d860-46ff-a2f7-db1ee6ac68bd")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 353.06 49.53 0)
 		(unit 1)
@@ -16450,6 +17005,71 @@
 			(project "bp6-rev2"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc4b373-ecb7-4163-8e26-efb8dc94e3a1")
+		(property "Reference" "#PWR092"
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cb9640f-2b99-4121-8b31-60d278f7db32")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -16768,6 +17388,72 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dp-power:+VUSB")
+		(at 179.07 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87231a6e-51e0-4fde-a3f2-cbfab7d0eeee")
+		(property "Reference" "#PWR091"
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VUSB"
+			(at 178.689 28.4988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69004158-e46a-4933-8555-d688a8765fec")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -18791,6 +19477,71 @@
 			(project "bp6-rev2"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f78693d1-1378-4ee4-9f93-170cba917a8e")
+		(property "Reference" "#PWR093"
+			(at 186.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "090fb8aa-aa63-4c76-86ee-20414f3ac0a3")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
