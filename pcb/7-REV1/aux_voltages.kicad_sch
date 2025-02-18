@@ -2490,7 +2490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "120pF"
 			(at 78.74 106.6799 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "180k"
 			(at 90.424 83.82 90)
 			(effects
 				(font
