@@ -7905,101 +7905,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 344.17 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060ce45ed")
-		(property "Reference" "Q?"
-			(at 340.36 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT7002K"
-			(at 339.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 349.25 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
-			(at 344.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 344.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.140017"
-			(at 344.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/544697.html"
-			(at 344.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5460e3cd-ea77-4c2f-99e0-67bbaace4d64")
-		)
-		(pin "2"
-			(uuid "a93f2644-f9a6-4c4b-a36f-98d934bcdcdc")
-		)
-		(pin "3"
-			(uuid "24bbdb65-c7ad-4da0-a067-122048e2b193")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
-					(reference "Q202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 346.71 62.23 180)
 		(unit 1)
@@ -11036,6 +10941,97 @@
 			(project "bp6-rev1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 344.17 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dcb7162-618e-40ae-9f02-fae3b2d93cb5")
+		(property "Reference" "Q2"
+			(at 340.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002T"
+			(at 339.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+			(at 349.25 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
+			(at 344.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.140017"
+			(at 344.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/544697.html"
+			(at 344.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d86558e-cb5a-477f-a6b5-19a81063b4fd")
+		)
+		(pin "2"
+			(uuid "4bc57262-48bc-4ff5-a916-93d414239926")
+		)
+		(pin "3"
+			(uuid "8cb97f5d-387c-441f-99fb-830a335637c9")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
