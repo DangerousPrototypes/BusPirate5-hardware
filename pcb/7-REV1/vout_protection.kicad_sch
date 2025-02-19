@@ -967,6 +967,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:BAS40-04"
 			(pin_names
 				(offset 1.016)
@@ -3062,12 +3224,6 @@
 		(uuid "26393aa1-1024-434a-96a2-3c1e79c241df")
 	)
 	(junction
-		(at 204.47 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e165136-e319-4b5a-b8f1-2e15eed0d3d8")
-	)
-	(junction
 		(at 160.02 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3140,6 +3296,12 @@
 		(uuid "c4fe3a4f-f0f9-4c7c-9714-36e2370dd68e")
 	)
 	(junction
+		(at 208.28 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15ef33a-7568-4f49-94ca-8beff45a3c85")
+	)
+	(junction
 		(at 40.64 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3148,10 +3310,6 @@
 	(no_connect
 		(at 97.79 163.83)
 		(uuid "68035282-ccf7-440f-b743-26e5ecceec72")
-	)
-	(no_connect
-		(at 204.47 71.12)
-		(uuid "b17a6136-461f-4cf8-a4c7-2c8439d272c4")
 	)
 	(wire
 		(pts
@@ -3295,16 +3453,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 48.26) (xy 238.76 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ead8e6-9506-47fb-b5db-95845288611e")
-	)
-	(wire
-		(pts
 			(xy 238.76 60.96) (xy 238.76 63.5)
 		)
 		(stroke
@@ -3395,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 204.47 48.26)
+			(xy 167.64 48.26) (xy 208.28 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3425,6 +3573,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4795b354-c3ba-49d8-96bf-f3d3a6186e88")
+	)
+	(wire
+		(pts
 			(xy 152.4 48.26) (xy 152.4 49.53)
 		)
 		(stroke
@@ -3435,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 63.5) (xy 212.09 66.04)
+			(xy 208.28 60.96) (xy 208.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3735,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 48.26) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48fc7ca-071f-4e9d-a44c-ac7e10f1775b")
+	)
+	(wire
+		(pts
 			(xy 99.06 48.26) (xy 105.41 48.26)
 		)
 		(stroke
@@ -3762,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "cae9c758-4e4a-47f7-b3f2-4740e1707b62")
-	)
-	(wire
-		(pts
-			(xy 209.55 63.5) (xy 212.09 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3ad5412-5de7-4780-aff6-8493dc0f9adc")
 	)
 	(wire
 		(pts
@@ -3892,16 +4050,6 @@
 			(type default)
 		)
 		(uuid "f2697ed2-4f21-44b5-b940-634eeac477f1")
-	)
-	(wire
-		(pts
-			(xy 204.47 48.26) (xy 204.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38b2e91-3018-43e9-81ae-76a7821161d7")
 	)
 	(wire
 		(pts
@@ -6239,115 +6387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAS40-04")
-		(at 207.01 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "621db10d-269e-4be1-b253-00556dd232fe")
-		(property "Reference" "D10"
-			(at 201.93 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS40-04"
-			(at 201.93 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 199.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
-			(at 204.47 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e40108d9-509a-4427-8256-67897f4b901d")
-		)
-		(pin "3"
-			(uuid "5489905b-2c41-446a-9d70-816ad09b1a6c")
-		)
-		(pin "2"
-			(uuid "14de79f2-1240-4027-823f-859293f305ec")
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/95c5ca91-1e6b-49a9-86b2-64918a8e6404"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 143.51 55.88 90)
 		(unit 1)
@@ -7441,6 +7480,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 208.28 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6d7d301-cb45-44bd-8d09-40233fc5af3c")
+		(property "Reference" "D18"
+			(at 210.82 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 210.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 203.835 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.182079"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/120141.html"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57c52eab-fbb4-49ae-920f-a255441b4862")
+		)
+		(pin "2"
+			(uuid "b4f65e94-4c5e-4208-98a0-5e4b6b828f1b")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/95c5ca91-1e6b-49a9-86b2-64918a8e6404"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 40.64 161.29 180)
 		(unit 1)
@@ -7614,7 +7776,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 212.09 66.04 180)
+		(at 208.28 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7623,7 +7785,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbdf9ccb-0d44-4c5b-8935-e72e48d0efd2")
 		(property "Reference" "#PWR094"
-			(at 212.09 62.23 0)
+			(at 208.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7794,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 212.09 71.12 0)
+			(at 208.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 66.04 0)
+			(at 208.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 66.04 0)
+			(at 208.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 212.09 66.04 0)
+			(at 208.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
