@@ -853,151 +853,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener_Small_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Small_Filled"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, small symbol, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Small_Filled_0_1"
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_Zener_Small_Filled_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2483,6 +2338,12 @@
 		(uuid "0fd21840-c1b1-4efb-9165-6cf91f618af8")
 	)
 	(junction
+		(at 67.31 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129f7cb5-97da-4a3a-856c-8ff2f7bb5c12")
+	)
+	(junction
 		(at 52.07 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2655,6 +2516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba1bef66-df6e-441e-9264-c2e8bf24090d")
+	)
+	(junction
+		(at 67.31 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbcbe680-7aa5-4793-a75a-d3b826012d16")
 	)
 	(junction
 		(at 121.92 157.48)
@@ -2928,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 175.26) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21162652-3e5a-45b0-9398-1a31fcd3c2ad")
+	)
+	(wire
+		(pts
 			(xy 52.07 31.75) (xy 52.07 30.48)
 		)
 		(stroke
@@ -3178,6 +3055,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 147.32) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a580b4a-bbdf-4128-9653-5e13b137c57d")
+	)
+	(wire
+		(pts
 			(xy 54.61 86.36) (xy 52.07 86.36)
 		)
 		(stroke
@@ -3358,16 +3245,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 140.97) (xy 176.53 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b10a02-fd5d-48ae-96fb-3a0ae28bd932")
-	)
-	(wire
-		(pts
 			(xy 177.8 85.09) (xy 177.8 83.82)
 		)
 		(stroke
@@ -3385,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "686360d5-b249-429b-a69d-e547a14af087")
+	)
+	(wire
+		(pts
+			(xy 67.31 173.99) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a374893-6ff4-463c-a544-f7c93bca736f")
 	)
 	(wire
 		(pts
@@ -4068,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 148.59) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b45984-60d8-40b6-9996-f454c4fefa9b")
+	)
+	(wire
+		(pts
 			(xy 184.15 31.75) (xy 184.15 30.48)
 		)
 		(stroke
@@ -4128,16 +4025,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 151.13) (xy 176.53 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdef350-30b8-48e4-a1e7-60a82cc4176f")
-	)
-	(wire
-		(pts
 			(xy 251.46 82.55) (xy 251.46 81.28)
 		)
 		(stroke
@@ -4187,6 +4074,16 @@
 			(justify right bottom)
 		)
 		(uuid "7762a820-ac33-44bc-acb2-2ca2e2153caf")
+	)
+	(text "IO-Port protection\n(overvoltage + ESD)"
+		(exclude_from_sim no)
+		(at 51.562 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da7c1d21-e4c2-470c-ade8-bf353232beb2")
 	)
 	(global_label "BPIO2_TVS"
 		(shape bidirectional)
@@ -4640,26 +4537,6 @@
 		(uuid "824230e2-9303-4b54-8eff-7dc40f119cfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_VOUT"
-		(shape input)
-		(at 176.53 140.97 90)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "8973c4ff-5039-4282-8c24-875452642f13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,16 +13161,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 154.94 0)
+		(lib_id "Device:C_Small")
+		(at 72.39 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1791ffa3-c5a9-456c-8935-2d3b465c4c52")
-		(property "Reference" "#PWR097"
-			(at 176.53 161.29 0)
+		(uuid "359ae259-0800-4cc9-b2e6-d9f59378f6c7")
+		(property "Reference" "C29"
+			(at 77.216 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 76.708 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13301,25 +13196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 154.94 0)
+		(property "Datasheet" "~"
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +13206,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 154.94 0)
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.037726"
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,12 +13233,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "23f88d78-2981-467e-bfe7-a5794df701d4")
+			(uuid "79791b92-a62c-4cb1-b34a-f95abb097a0e")
+		)
+		(pin "2"
+			(uuid "3738e457-0b96-495f-bdb7-11175d646aa5")
 		)
 		(instances
-			(project "7-REV0"
+			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "#PWR097")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -13365,7 +13264,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 119.126 183.388 90)
 			(effects
 				(font
@@ -13392,7 +13291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 175.26 0)
 			(effects
 				(font
@@ -13483,7 +13382,7 @@
 	)
 	(symbol
 		(lib_id "dp-power:+VUSB")
-		(at 67.31 175.26 0)
+		(at 67.31 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13491,7 +13390,7 @@
 		(dnp no)
 		(uuid "41721a58-ba85-417f-9496-ccdd9ccac6c3")
 		(property "Reference" "#PWR098"
-			(at 67.31 175.26 0)
+			(at 67.31 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +13399,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 66.929 172.0088 0)
+			(at 66.929 170.7388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 175.26 0)
+			(at 67.31 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,7 +13417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 175.26 0)
+			(at 67.31 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,7 +13426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 175.26 0)
+			(at 67.31 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,207 +13441,6 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IP4220CZ6F:IP4220CZ6F")
-		(at 52.07 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "457c8633-6c86-4bb2-870c-09af2865a739")
-		(property "Reference" "U15"
-			(at 52.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IP4220CZ6F"
-			(at 52.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "library:SOT95P275X110-6N"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Nexperia USA Inc."
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-457 Nexperia USA"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=eda"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=snap"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IP4220CZ6F"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            - Clamp - Ipp Tvs Diode Surface Mount 6-TSOP\n                        \n"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 52.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5dccbdc0-09a2-449a-9c84-ae2f5c1fa64b")
-		)
-		(pin "2"
-			(uuid "275df0b4-34cb-4c8d-9e9a-1c3633fc5df2")
-		)
-		(pin "4"
-			(uuid "cd76cb84-fee0-4417-b57e-004406166682")
-		)
-		(pin "5"
-			(uuid "dbab87b0-2403-4358-a59d-c100bd041655")
-		)
-		(pin "1"
-			(uuid "25602523-4448-43b8-9662-cac60b75336a")
-		)
-		(pin "6"
-			(uuid "1595caa0-7958-45da-9dac-961f2a5ed2c1")
-		)
-		(instances
-			(project ""
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -13765,7 +13463,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 120.65 156.21 90)
 			(effects
 				(font
@@ -13792,7 +13490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 160.02 0)
 			(effects
 				(font
@@ -13833,7 +13531,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 120.65 166.37 90)
 			(effects
 				(font
@@ -13860,7 +13558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 170.18 0)
 			(effects
 				(font
@@ -13886,6 +13584,184 @@
 	)
 	(symbol
 		(lib_id "IP4220CZ6F:IP4220CZ6F")
+		(at 52.07 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62104924-1358-4c47-8bdf-3ba67cb24fb4")
+		(property "Reference" "U15"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP3002-04JTG"
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-array-spa-sp3002-datasheet?assetguid=c8b2f2f8-79d8-4a9c-8435-7393b0361abe"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Littelfuse"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a4b70a-a7b1-40f4-b0a2-714f0b144860")
+		)
+		(pin "6"
+			(uuid "27d776e8-6ad7-4e38-b07c-07c9d399e81a")
+		)
+		(pin "2"
+			(uuid "c1f264c7-28cf-4c32-bba4-b61686002e66")
+		)
+		(pin "3"
+			(uuid "97dbf555-3343-472c-8279-bb2817fb0963")
+		)
+		(pin "5"
+			(uuid "8117883d-eafe-471d-8e78-889cd6c529e3")
+		)
+		(pin "4"
+			(uuid "71644745-359c-4024-8864-841d106d05e2")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63836e9d-95d7-47b5-a2b5-790486e0ecc3")
+		(property "Reference" "C23"
+			(at 77.216 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 76.708 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.037726"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae1abec7-c561-4c75-9e39-bd54819e7416")
+		)
+		(pin "2"
+			(uuid "68b2b0c6-cae8-40b5-87b7-9d989d51cfa6")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IP4220CZ6F:IP4220CZ6F")
 		(at 52.07 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13902,7 +13778,7 @@
 				)
 			)
 		)
-		(property "Value" "IP4220CZ6F"
+		(property "Value" "SP3002-04JTG"
 			(at 52.07 143.51 0)
 			(effects
 				(font
@@ -13910,7 +13786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:SOT95P275X110-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 153.67 0)
 			(effects
 				(font
@@ -13920,7 +13796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-array-spa-sp3002-datasheet?assetguid=c8b2f2f8-79d8-4a9c-8435-7393b0361abe"
 			(at 52.07 153.67 0)
 			(effects
 				(font
@@ -13938,117 +13814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Nexperia USA Inc."
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-457 Nexperia USA"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=eda"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP4220CZ6F/Nexperia/view-part/?ref=snap"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IP4220CZ6F"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            - Clamp - Ipp Tvs Diode Surface Mount 6-TSOP\n                        \n"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
+		(property "MANUFACTURER" "Littelfuse"
 			(at 52.07 153.67 0)
 			(effects
 				(font
@@ -14080,75 +13846,6 @@
 			(project ""
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small_Filled")
-		(at 176.53 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b9b98ad-a19f-48c7-8783-0f5b512f9b43")
-		(property "Reference" "D18"
-			(at 175.26 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DESD5Z5.0"
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 176.53 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol, filled shape"
-			(at 176.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02597e10-ffae-4e80-8ec0-aacd58212ddf")
-		)
-		(pin "1"
-			(uuid "6d04505e-9eee-43bd-995a-4052a6c6576b")
-		)
-		(instances
-			(project "7-REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -14236,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 120.65 163.83 90)
 			(effects
 				(font
@@ -14263,7 +13960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 167.64 0)
 			(effects
 				(font
@@ -14369,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 120.65 158.75 90)
 			(effects
 				(font
@@ -14396,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 162.56 0)
 			(effects
 				(font
@@ -14421,16 +14118,16 @@
 		)
 	)
 	(symbol
-		(lib_id "dp-power:+VUSB")
-		(at 67.31 148.59 0)
+		(lib_id "power:GND")
+		(at 74.93 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a290d691-4349-4e1e-ad36-820e9ec7746e")
-		(property "Reference" "#PWR099"
-			(at 67.31 148.59 0)
+		(uuid "9d69d3cc-23f5-4a9f-8239-b1e5f6d07d34")
+		(property "Reference" "#PWR015"
+			(at 74.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,17 +14135,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VUSB"
-			(at 66.929 145.3388 0)
+		(property "Value" "GND"
+			(at 72.39 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 148.59 0)
+			(at 74.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +14153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 148.59 0)
+			(at 74.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14162,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 148.59 0)
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7093b380-f856-4796-8f5b-2c84b57f3bfe")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dp-power:+VUSB")
+		(at 67.31 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a290d691-4349-4e1e-ad36-820e9ec7746e")
+		(property "Reference" "#PWR099"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VUSB"
+			(at 66.929 144.0688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14265,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 114.808 181.61 90)
 			(effects
 				(font
@@ -14530,7 +14292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 177.8 0)
 			(effects
 				(font
@@ -14571,7 +14333,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 120.65 161.29 90)
 			(effects
 				(font
@@ -14598,7 +14360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 165.1 0)
 			(effects
 				(font
@@ -14617,6 +14379,71 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c10b4c2a-2097-4526-957c-66a6049502d2")
+		(property "Reference" "#PWR090"
+			(at 74.93 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b7f8967-afc8-4397-977b-08f85d83c5c8")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f344f30"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -14730,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 0.5W"
 			(at 113.03 184.15 90)
 			(effects
 				(font
@@ -14757,7 +14584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, Thick-Film, 0.5W"
 			(at 120.65 172.72 0)
 			(effects
 				(font

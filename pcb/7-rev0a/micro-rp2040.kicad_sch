@@ -10839,7 +10839,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 39.37 48.26 90)
 			(effects
 				(font
@@ -12026,7 +12026,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 105.41 45.72 90)
 			(effects
 				(font
