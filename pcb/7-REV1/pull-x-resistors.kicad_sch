@@ -1321,6 +1321,14 @@
 		(color 0 0 0 0)
 		(uuid "fcdbe97a-a65c-483b-a26e-61b82c0db2cc")
 	)
+	(no_connect
+		(at 205.74 73.66)
+		(uuid "ea6dfc0a-e350-4bd7-b287-3820d496523a")
+	)
+	(no_connect
+		(at 105.41 74.93)
+		(uuid "f8a2e16a-ffcf-438f-bf77-f5ad0ea543f6")
+	)
 	(wire
 		(pts
 			(xy 210.82 96.52) (xy 213.36 96.52)
@@ -3870,6 +3878,71 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/70d89944-cef2-4c07-9520-6c47f8613415"
 					(reference "RN4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4852525f-9277-428b-8515-df2579d0d627")
+		(property "Reference" "#PWR0150"
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.262 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65ef695-42ab-4386-944f-fcb3bd5284d1")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/70d89944-cef2-4c07-9520-6c47f8613415"
+					(reference "#PWR0150")
+					(unit 1)
 				)
 			)
 		)
@@ -8848,6 +8921,71 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/70d89944-cef2-4c07-9520-6c47f8613415"
 					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0e7fce3-379c-4444-b154-6e42dbefdf96")
+		(property "Reference" "#PWR0151"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.592 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b91655-a6a9-4379-a1e5-ef79ab476176")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/70d89944-cef2-4c07-9520-6c47f8613415"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
