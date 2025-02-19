@@ -4299,7 +4299,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v"
 			(at 22.098 160.274 90)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUN"
 			(at 31.75 160.02 0)
 			(effects
 				(font
@@ -6148,7 +6148,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v"
 			(at 22.098 142.494 90)
 			(effects
 				(font
@@ -6175,7 +6175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUN"
 			(at 31.75 142.24 0)
 			(effects
 				(font
@@ -6434,7 +6434,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v"
 			(at 91.186 58.42 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUN"
 			(at 99.06 57.15 0)
 			(effects
 				(font
