@@ -1298,13 +1298,13 @@
 		(uuid "07da173e-1712-4730-a452-445637ce3cdc")
 	)
 	(junction
-		(at 195.58 67.31)
+		(at 215.9 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bbc7fce-09b8-487a-af31-15352654f664")
 	)
 	(junction
-		(at 189.23 69.85)
+		(at 209.55 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c4d32f-b3f4-4b94-8c98-bafc41caaabd")
@@ -1323,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 193.04 97.79)
+			(xy 210.82 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 107.95) (xy 142.24 107.95)
+			(xy 165.1 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1393,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 195.58 67.31)
+			(xy 205.74 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 139.7 95.25)
+			(xy 165.1 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 69.85) (xy 189.23 72.39)
+			(xy 209.55 68.58) (xy 209.55 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 92.71) (xy 139.7 92.71)
+			(xy 165.1 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 139.7 97.79)
+			(xy 165.1 96.52) (xy 160.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 105.41) (xy 195.58 105.41)
+			(xy 210.82 104.14) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 139.7 90.17)
+			(xy 165.1 88.9) (xy 160.02 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 193.04 90.17)
+			(xy 210.82 88.9) (xy 213.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 189.23 69.85)
+			(xy 205.74 68.58) (xy 209.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 92.71) (xy 193.04 92.71)
+			(xy 210.82 91.44) (xy 213.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 195.58 100.33)
+			(xy 210.82 99.06) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 142.24 102.87)
+			(xy 165.1 101.6) (xy 162.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 142.24 105.41)
+			(xy 165.1 104.14) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 67.31) (xy 195.58 68.58)
+			(xy 215.9 66.04) (xy 215.9 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 107.95) (xy 195.58 107.95)
+			(xy 210.82 106.68) (xy 215.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 64.77) (xy 189.23 69.85)
+			(xy 209.55 63.5) (xy 209.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 100.33) (xy 142.24 100.33)
+			(xy 165.1 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 193.04 95.25)
+			(xy 210.82 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 102.87) (xy 195.58 102.87)
+			(xy 210.82 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1773,7 @@
 	)
 	(text "7-bit I2C Address: 0b0100001 (0x21)\n8-bit Write Address: 0b01000010 (0x42)\n8-bit Read Address: 0b01000011 (0x43)"
 		(exclude_from_sim no)
-		(at 166.878 128.016 0)
+		(at 187.198 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 	)
 	(global_label "BPIO3_TVS"
 		(shape output)
-		(at 139.7 90.17 180)
+		(at 160.02 88.9 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1792,7 +1792,7 @@
 		)
 		(uuid "0659cef3-b485-490e-a789-e2f781f602dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 90.17 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1885,7 @@
 	)
 	(global_label "BPIO0_TVS"
 		(shape output)
-		(at 193.04 97.79 0)
+		(at 213.36 96.52 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1894,7 +1894,7 @@
 		)
 		(uuid "17695b73-1860-4aba-b80f-8fa5339c209e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 97.79 0)
+			(at 213.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1905,7 @@
 	)
 	(global_label "BPIO0_TVS"
 		(shape output)
-		(at 142.24 107.95 180)
+		(at 162.56 106.68 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1914,7 +1914,7 @@
 		)
 		(uuid "1983506f-db1c-4825-8c0b-c557d689394c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 107.95 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2047,7 @@
 	)
 	(global_label "BPIO3_TVS"
 		(shape output)
-		(at 195.58 100.33 0)
+		(at 215.9 99.06 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2056,7 +2056,7 @@
 		)
 		(uuid "38e8e2fa-8ffa-439d-ace5-e1ddae2e69c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 100.33 0)
+			(at 215.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 	)
 	(global_label "BPIO1_TVS"
 		(shape output)
-		(at 195.58 105.41 0)
+		(at 215.9 104.14 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2076,7 +2076,7 @@
 		)
 		(uuid "3a83c2b7-12c8-47e0-ad35-3ec97628b497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 105.41 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 	)
 	(global_label "I2C_RESET"
 		(shape input)
-		(at 149.86 74.93 180)
+		(at 170.18 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2179,7 +2179,7 @@
 		)
 		(uuid "5261e625-11c2-4106-9636-be1a05ec1736")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.732 74.93 0)
+			(at 158.052 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2191,7 @@
 	)
 	(global_label "BPIO0_TVS"
 		(shape output)
-		(at 139.7 97.79 180)
+		(at 160.02 96.52 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2200,7 +2200,7 @@
 		)
 		(uuid "6466318b-4132-4c35-92e8-3f5f7ba6022a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 97.79 0)
+			(at 160.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 	)
 	(global_label "BPIO1_TVS"
 		(shape output)
-		(at 193.04 95.25 0)
+		(at 213.36 93.98 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2220,7 +2220,7 @@
 		)
 		(uuid "64b8270d-e3cb-4c5b-849d-4b22502ad9e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 95.25 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2231,7 @@
 	)
 	(global_label "BPIO1_TVS"
 		(shape output)
-		(at 142.24 105.41 180)
+		(at 162.56 104.14 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2240,7 +2240,7 @@
 		)
 		(uuid "67ac6071-991b-4edd-ac6f-453a2841f46e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 105.41 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 	)
 	(global_label "BPIO2_TVS"
 		(shape output)
-		(at 193.04 92.71 0)
+		(at 213.36 91.44 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2280,7 +2280,7 @@
 		)
 		(uuid "7092d7de-eda3-4e64-8c23-0452cf5af2d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 92.71 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 	)
 	(global_label "BPIO3_TVS"
 		(shape output)
-		(at 193.04 90.17 0)
+		(at 213.36 88.9 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2300,7 +2300,7 @@
 		)
 		(uuid "73c8a71d-96bc-423f-8601-e58e9851a682")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 90.17 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2311,7 @@
 	)
 	(global_label "BPIO2_TVS"
 		(shape output)
-		(at 139.7 92.71 180)
+		(at 160.02 91.44 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2320,7 +2320,7 @@
 		)
 		(uuid "86e04f15-5a86-49a8-8b35-acb7ea06af2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 92.71 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2331,7 @@
 	)
 	(global_label "BPIO0_TVS"
 		(shape output)
-		(at 195.58 107.95 0)
+		(at 215.9 106.68 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2340,7 +2340,7 @@
 		)
 		(uuid "8eeb94c1-4ae3-4623-afee-69675ea5977f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 107.95 0)
+			(at 215.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2371,7 @@
 	)
 	(global_label "BPIO3_TVS"
 		(shape output)
-		(at 142.24 100.33 180)
+		(at 162.56 99.06 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2380,7 +2380,7 @@
 		)
 		(uuid "a5ce9fc2-281f-4100-ad60-80d963978701")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 100.33 0)
+			(at 162.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2411,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 149.86 80.01 180)
+		(at 170.18 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2421,7 +2421,7 @@
 		)
 		(uuid "ca32c18d-91ce-400a-9593-4ecca58debba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.9695 80.01 0)
+			(at 160.2895 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2453,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
-		(at 149.86 113.03 180)
+		(at 170.18 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2463,7 +2463,7 @@
 		)
 		(uuid "d98c75e6-a9e4-4628-b949-b70436674bc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.9565 113.03 0)
+			(at 159.2765 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 	)
 	(global_label "VREF_VOUT"
 		(shape input)
-		(at 189.23 64.77 90)
+		(at 209.55 63.5 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2484,7 +2484,7 @@
 		)
 		(uuid "e61bbfd5-7599-492f-a502-9ef98b2009bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 64.77 0)
+			(at 209.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2515,7 @@
 	)
 	(global_label "BPIO2_TVS"
 		(shape output)
-		(at 195.58 102.87 0)
+		(at 215.9 101.6 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2524,7 +2524,7 @@
 		)
 		(uuid "e92837a3-3ea8-4b8a-8611-9c93b265330c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 102.87 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2535,7 @@
 	)
 	(global_label "BPIO2_TVS"
 		(shape output)
-		(at 142.24 102.87 180)
+		(at 162.56 101.6 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2544,7 +2544,7 @@
 		)
 		(uuid "e9c40549-b772-4dd1-a283-ed60c9a7f0e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 102.87 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 	)
 	(global_label "BPIO1_TVS"
 		(shape output)
-		(at 139.7 95.25 180)
+		(at 160.02 93.98 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2564,7 +2564,7 @@
 		)
 		(uuid "eae1da06-bd6b-48b0-85b9-063288914a21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 95.25 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2700,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 100.33 90)
+		(at 167.64 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2708,7 +2708,7 @@
 		(dnp no)
 		(uuid "16132416-daca-4bb3-bee9-33ade13e0710")
 		(property "Reference" "RN7"
-			(at 143.256 110.744 90)
+			(at 163.576 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 140.97 96.52 90)
+			(at 161.29 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 102.362 90)
+			(at 168.91 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2734,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 96.52 0)
+			(at 166.878 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 100.33 0)
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 100.33 0)
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 100.33 0)
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3168,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 92.71 90)
+		(at 208.28 91.44 90)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -3177,7 +3177,7 @@
 		(dnp no)
 		(uuid "38e9bd96-b08c-4071-9b5a-abd526906544")
 		(property "Reference" "RN8"
-			(at 180.34 80.01 90)
+			(at 200.66 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 172.72 80.01 90)
+			(at 193.04 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 90.678 90)
+			(at 209.55 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 96.52 0)
+			(at 207.518 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 92.71 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 92.71 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3231,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 92.71 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3290,7 @@
 				)
 			)
 		)
-		(property "Value" "TCA6416RTWT"
+		(property "Value" "TCA6416ARTWR"
 			(at 87.63 62.23 0)
 			(effects
 				(font
@@ -3588,7 +3588,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 73.66 0)
+		(at 215.9 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3596,7 @@
 		(dnp no)
 		(uuid "4b76baec-5dbb-42e5-9f18-174420428c93")
 		(property "Reference" "#PWR062"
-			(at 195.58 80.01 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.707 78.0542 0)
+			(at 216.027 76.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 73.66 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 73.66 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 73.66 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 115.57 90)
+		(at 205.74 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3831,7 +3831,7 @@
 		(dnp no)
 		(uuid "59649361-991d-44e0-9e6b-42cc1a240c1a")
 		(property "Reference" "#PWR059"
-			(at 191.77 115.57 0)
+			(at 212.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.8142 115.443 0)
+			(at 210.1342 114.173 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 115.57 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 115.57 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 115.57 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 105.41 90)
+		(at 167.64 104.14 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3896,7 +3896,7 @@
 		(dnp no)
 		(uuid "68f5531b-52b8-40aa-8185-27f1380a30cc")
 		(property "Reference" "RN7"
-			(at 139.7 118.11 90)
+			(at 160.02 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3905,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 132.08 118.11 90)
+			(at 152.4 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 107.442 90)
+			(at 168.91 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +3923,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 101.6 0)
+			(at 166.878 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 105.41 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3941,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 105.41 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3950,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 105.41 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 195.58 71.12 180)
+		(at 215.9 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(uuid "68f87a39-671a-48e6-aae7-af30d3c7cf18")
 		(property "Reference" "C17"
-			(at 196.342 69.342 0)
+			(at 216.662 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 197.358 71.374 0)
+			(at 217.678 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.58 71.12 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 71.12 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 71.12 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 	)
 	(symbol
 		(lib_id "BusPirate-5-rev10-rescue:+3.3V-power")
-		(at 149.86 77.47 90)
+		(at 170.18 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4070,7 +4070,7 @@
 		(dnp no)
 		(uuid "6f3def18-21db-4047-90c9-c9b20d5d2b50")
 		(property "Reference" "#PWR058"
-			(at 153.67 77.47 0)
+			(at 173.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +4079,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.018 77.47 90)
+			(at 164.338 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 77.47 0)
+			(at 170.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 77.47 0)
+			(at 170.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 77.47 0)
+			(at 170.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4127,7 @@
 	)
 	(symbol
 		(lib_id "BusPirate-5-rev10-rescue:+3.3V-power")
-		(at 195.58 67.31 0)
+		(at 215.9 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4135,7 +4135,7 @@
 		(dnp no)
 		(uuid "7d105d81-01f8-4b82-800b-da69fc0b3c64")
 		(property "Reference" "#PWR061"
-			(at 195.58 71.12 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4144,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 195.961 62.9158 0)
+			(at 216.281 61.6458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 67.31 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 67.31 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 67.31 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4508,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 92.71 90)
+		(at 167.64 91.44 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4516,7 +4516,7 @@
 		(dnp no)
 		(uuid "8f239d5e-3e5a-4988-88df-46cc536c414b")
 		(property "Reference" "RN6"
-			(at 146.05 96.52 90)
+			(at 166.37 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4525,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 138.43 96.52 90)
+			(at 158.75 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4534,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 94.742 90)
+			(at 168.91 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 88.9 0)
+			(at 166.878 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 92.71 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4561,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 92.71 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4570,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 92.71 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 105.41 90)
+		(at 208.28 104.14 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(uuid "908e9dbb-0d6a-43c5-bb3b-6965e2673e7b")
 		(property "Reference" "RN9"
-			(at 186.69 101.6 90)
+			(at 207.01 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 179.07 101.6 90)
+			(at 199.39 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 103.378 90)
+			(at 209.55 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 109.22 0)
+			(at 207.518 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 105.41 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 105.41 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4676,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 105.41 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4889,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 100.33 90)
+		(at 208.28 99.06 90)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -4898,7 +4898,7 @@
 		(dnp no)
 		(uuid "961531b0-6079-4a98-87c0-4b9c1de520be")
 		(property "Reference" "RN9"
-			(at 186.69 96.52 90)
+			(at 207.01 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4907,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 179.07 96.52 90)
+			(at 199.39 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 98.298 90)
+			(at 209.55 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 104.14 0)
+			(at 207.518 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 100.33 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 100.33 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4952,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 100.33 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 95.25 90)
+		(at 208.28 93.98 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5214,7 +5214,7 @@
 		(dnp no)
 		(uuid "9cc4f058-4fe1-4666-9302-6df4a5f4964b")
 		(property "Reference" "RN8"
-			(at 180.34 82.55 90)
+			(at 200.66 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 172.72 82.55 90)
+			(at 193.04 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 93.218 90)
+			(at 209.55 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5241,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 99.06 0)
+			(at 207.518 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 95.25 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5259,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 95.25 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5268,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 95.25 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5417,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 90.17 90)
+		(at 208.28 88.9 90)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -5426,7 +5426,7 @@
 		(dnp no)
 		(uuid "a4fda4f1-1871-41ca-8e82-a64f21632fef")
 		(property "Reference" "RN8"
-			(at 180.34 77.47 90)
+			(at 200.66 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5435,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 187.706 87.376 90)
+			(at 208.026 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 88.138 90)
+			(at 209.55 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5452,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 93.98 0)
+			(at 207.518 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 90.17 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5470,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 90.17 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5479,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 90.17 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5522,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 97.79 90)
+		(at 167.64 96.52 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5530,7 +5530,7 @@
 		(dnp no)
 		(uuid "a86604ff-cec0-41a2-b200-fc29ef57e456")
 		(property "Reference" "RN6"
-			(at 146.05 101.6 90)
+			(at 166.37 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5539,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 138.43 101.6 90)
+			(at 158.75 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 99.822 90)
+			(at 168.91 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 93.98 0)
+			(at 166.878 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 97.79 0)
+			(at 167.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5575,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 97.79 0)
+			(at 167.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5584,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 97.79 0)
+			(at 167.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 107.95 90)
+		(at 167.64 106.68 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5700,7 +5700,7 @@
 		(dnp no)
 		(uuid "ad22917f-2b76-4680-9b94-8d5f690a03c1")
 		(property "Reference" "RN7"
-			(at 139.7 120.65 90)
+			(at 160.02 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5709,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 149.606 110.49 90)
+			(at 169.926 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 109.982 90)
+			(at 168.91 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5726,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 104.14 0)
+			(at 166.878 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 107.95 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5744,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 107.95 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5753,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 107.95 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 102.87 90)
+		(at 208.28 101.6 90)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -5909,7 +5909,7 @@
 		(dnp no)
 		(uuid "b7a03477-a5a2-40ee-b8cd-0f233951ae6c")
 		(property "Reference" "RN9"
-			(at 186.69 99.06 90)
+			(at 207.01 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5918,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 179.07 99.06 90)
+			(at 199.39 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 100.838 90)
+			(at 209.55 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 106.68 0)
+			(at 207.518 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 102.87 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5954,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 102.87 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5963,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 102.87 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6071,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 95.25 90)
+		(at 167.64 93.98 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6079,7 +6079,7 @@
 		(dnp no)
 		(uuid "c095f32d-556a-44cf-9c01-5c572e184702")
 		(property "Reference" "RN6"
-			(at 146.05 99.06 90)
+			(at 166.37 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6088,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 138.43 99.06 90)
+			(at 158.75 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6097,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 97.282 90)
+			(at 168.91 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6106,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 91.44 0)
+			(at 166.878 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 95.25 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6124,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 95.25 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6133,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 95.25 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6176,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 107.95 90)
+		(at 208.28 106.68 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6185,7 +6185,7 @@
 		(dnp no)
 		(uuid "c0977a7a-1630-43a4-bb71-56e653557485")
 		(property "Reference" "RN9"
-			(at 187.706 110.236 90)
+			(at 208.026 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 187.96 112.014 90)
+			(at 208.28 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 105.918 90)
+			(at 209.55 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 111.76 0)
+			(at 207.518 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 107.95 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6228,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 107.95 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 107.95 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6280,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 90.17 90)
+		(at 167.64 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6288,7 +6288,7 @@
 		(dnp no)
 		(uuid "c365b226-5bda-45bc-b9f2-7d28a99f5349")
 		(property "Reference" "RN6"
-			(at 142.494 87.884 90)
+			(at 162.814 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 147.828 87.884 90)
+			(at 168.148 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 92.202 90)
+			(at 168.91 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6313,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 86.36 0)
+			(at 166.878 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 90.17 0)
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6331,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 90.17 0)
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6340,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 90.17 0)
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6448,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 187.96 97.79 90)
+		(at 208.28 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6457,7 +6457,7 @@
 		(dnp no)
 		(uuid "d6aeff8d-0950-4aff-b14e-f3a383f0125d")
 		(property "Reference" "RN8"
-			(at 187.96 85.344 90)
+			(at 208.28 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6465,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 181.61 101.6 90)
+			(at 201.93 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 189.23 95.758 90)
+			(at 209.55 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 187.198 101.6 0)
+			(at 207.518 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 97.79 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6501,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 187.96 97.79 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6510,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 187.96 97.79 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6553,7 @@
 	)
 	(symbol
 		(lib_id "TCA6416RTWT:TCA6416RTWT")
-		(at 167.64 92.71 0)
+		(at 187.96 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6562,15 +6562,15 @@
 		(fields_autoplaced yes)
 		(uuid "d884e998-1f1d-4ac4-9a30-7b4e91a25f09")
 		(property "Reference" "U7"
-			(at 167.64 59.69 0)
+			(at 187.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TCA6416RTWT"
-			(at 167.64 62.23 0)
+		(property "Value" "TCA6416ARTWR"
+			(at 187.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 			)
 		)
 		(property "Footprint" "qfn24-4x4x50:QFN50P400X400X80-25N"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Description" "Low-voltage 16-bit I2C & SMBus I/O expander with interrupt output, reset & config registers 24-WQFN -40 to 85"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6607,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6617,7 @@
 			)
 		)
 		(property "Package" "WQFN-24 Texas Instruments"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6637,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6647,7 @@
 			)
 		)
 		(property "MP" "TCA6416RTWT"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +6657,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6667,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda"
-			(at 167.64 92.71 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +6867,7 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 147.32 102.87 90)
+		(at 167.64 101.6 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6875,7 +6875,7 @@
 		(dnp no)
 		(uuid "e063bd45-3475-4861-8ee0-cf18c41c2a18")
 		(property "Reference" "RN7"
-			(at 139.7 115.57 90)
+			(at 160.02 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +6884,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 132.08 115.57 90)
+			(at 152.4 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +6893,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 148.59 104.902 90)
+			(at 168.91 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 146.558 99.06 0)
+			(at 166.878 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 102.87 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +6920,7 @@
 			)
 		)
 		(property "RMB" "0.034572"
-			(at 147.32 102.87 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6929,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
-			(at 147.32 102.87 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 77.47 0)
+		(at 209.55 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7153,7 +7153,7 @@
 		(dnp no)
 		(uuid "e8c41ef5-548e-44f4-9947-4c6d451ad052")
 		(property "Reference" "#PWR060"
-			(at 189.23 83.82 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.357 81.8642 0)
+			(at 209.677 80.5942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 77.47 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 77.47 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 77.47 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 189.23 74.93 180)
+		(at 209.55 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7218,7 +7218,7 @@
 		(dnp no)
 		(uuid "eaf1887b-2efd-4bb2-ae5f-516b225b708d")
 		(property "Reference" "C16"
-			(at 189.484 71.374 0)
+			(at 209.804 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7227,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 189.484 73.406 0)
+			(at 209.804 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7236,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 189.23 74.93 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 74.93 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 74.93 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

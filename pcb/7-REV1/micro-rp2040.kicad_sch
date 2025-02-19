@@ -13839,7 +13839,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -14327,7 +14327,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 293.37 58.42 0)
 			(effects
 				(font
@@ -15483,7 +15483,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 135.89 134.62 0)
 			(effects
 				(font
@@ -16172,7 +16172,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 207.645 71.12 0)
 			(effects
 				(font
