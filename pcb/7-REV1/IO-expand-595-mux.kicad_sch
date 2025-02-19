@@ -3979,6 +3979,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 60.96) (xy 347.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f944aa-ddbc-4c7a-94b1-9e07232a22b3")
+	)
+	(wire
+		(pts
 			(xy 157.48 121.92) (xy 157.48 115.57)
 		)
 		(stroke
@@ -4036,6 +4046,16 @@
 			(type default)
 		)
 		(uuid "1f1fee9b-8c1b-4d85-b6da-cf0464468413")
+	)
+	(wire
+		(pts
+			(xy 360.68 60.96) (xy 360.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f38d38c-badd-4153-8ea8-d0f12ba58e0b")
 	)
 	(wire
 		(pts
@@ -4176,6 +4196,16 @@
 			(type default)
 		)
 		(uuid "324524ec-4ab4-439f-8694-ebb03f81fb3b")
+	)
+	(wire
+		(pts
+			(xy 353.06 74.93) (xy 353.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340d6a71-b578-4500-892e-92006c140771")
 	)
 	(wire
 		(pts
@@ -4609,6 +4639,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 86.36) (xy 374.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7337220c-ade5-49b9-abb1-c591396d6a37")
+	)
+	(wire
+		(pts
 			(xy 113.03 175.26) (xy 115.57 175.26)
 		)
 		(stroke
@@ -4646,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "78730499-525e-4d59-8cc8-f9ef6ebf0541")
+	)
+	(wire
+		(pts
+			(xy 353.06 60.96) (xy 347.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78933500-46a1-4e64-9f29-61051964494a")
 	)
 	(wire
 		(pts
@@ -4919,6 +4969,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 74.93) (xy 353.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfb086e-ace1-4d3c-954d-5381ee4e0fe1")
+	)
+	(wire
+		(pts
 			(xy 59.69 177.8) (xy 60.96 177.8)
 		)
 		(stroke
@@ -5099,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 69.85) (xy 339.09 69.85)
+			(xy 336.55 68.58) (xy 340.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5449,16 +5509,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 55.88) (xy 346.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4cf895-fe50-4c65-ae78-27476aaa795a")
-	)
-	(wire
-		(pts
 			(xy 48.26 223.52) (xy 50.8 223.52)
 		)
 		(stroke
@@ -5479,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 60.96) (xy 363.22 63.5)
+			(xy 363.22 60.96) (xy 363.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5649,6 +5699,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 86.36) (xy 363.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbeb01e7-a4a3-4a4f-8b92-6ada7e5c8f13")
+	)
+	(wire
+		(pts
 			(xy 46.99 101.6) (xy 46.99 102.87)
 		)
 		(stroke
@@ -5712,7 +5772,7 @@
 	)
 	(text "3 LEDs, 3.2Vf @ 20mA\n30R current limiting resistor @ 0.108W\nR209 minimum size should be 0805"
 		(exclude_from_sim no)
-		(at 336.55 91.44 0)
+		(at 334.01 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5723,7 +5783,7 @@
 	)
 	(text "2 inch solder mount IPS LCD"
 		(exclude_from_sim no)
-		(at 336.55 85.09 0)
+		(at 334.01 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5863,26 +5923,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_LED-K"
-		(shape output)
-		(at 346.71 55.88 90)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "13333387-765f-4009-86c5-23bd99cbcf45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 346.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6215,7 +6255,7 @@
 	)
 	(global_label "DISPLAY_BACKLIGHT"
 		(shape input)
-		(at 335.28 69.85 90)
+		(at 336.55 68.58 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6224,7 +6264,7 @@
 		)
 		(uuid "5c27c96e-0d44-4a60-839b-5926931992b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.28 69.85 0)
+			(at 336.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,26 +6449,6 @@
 		(uuid "82cab297-0ca2-46a7-b619-96026dd94612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_LED-K"
-		(shape input)
-		(at 360.68 60.96 270)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "84d94570-16c7-4b4f-9f15-6018a8f8ecf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 346.71 62.23 180)
+		(at 369.57 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8048,7 +8068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cebc1a")
 		(property "Reference" "R209"
-			(at 350.52 59.69 0)
+			(at 369.316 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8076,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 350.52 62.23 0)
+			(at 369.57 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8084,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8102,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8111,7 @@
 			)
 		)
 		(property "RMB" "0.019315"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +8120,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/139271.html"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8129,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +8138,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8147,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8156,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 74.93 0)
+		(at 347.98 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8169,7 +8189,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cee6fa")
 		(property "Reference" "#PWR0211"
-			(at 346.71 81.28 0)
+			(at 347.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8198,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.71 80.01 90)
+			(at 347.98 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8311,7 @@
 	)
 	(symbol
 		(lib_id "dp-power:+VUSB")
-		(at 363.22 63.5 180)
+		(at 374.65 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8299,7 +8319,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2151e")
 		(property "Reference" "#PWR0213"
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8328,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 363.601 66.7258 90)
+			(at 377.8758 85.979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +11736,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 344.17 69.85 0)
+		(at 345.44 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11724,7 +11744,7 @@
 		(dnp no)
 		(uuid "1dcb7162-618e-40ae-9f02-fae3b2d93cb5")
 		(property "Reference" "Q2"
-			(at 340.36 72.39 0)
+			(at 341.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11752,7 @@
 			)
 		)
 		(property "Value" "2N7002KT"
-			(at 339.09 74.93 0)
+			(at 340.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +11760,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 349.25 71.755 0)
+			(at 350.52 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +11781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +11790,7 @@
 			)
 		)
 		(property "RMB" "0.140017"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +11799,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/544697.html"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11808,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11817,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CBI"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11826,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +11835,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +11844,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
