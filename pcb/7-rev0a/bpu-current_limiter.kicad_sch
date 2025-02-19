@@ -3942,7 +3942,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 118.11 102.87 90)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 40.64 24.4348 90)
 			(effects
 				(font
