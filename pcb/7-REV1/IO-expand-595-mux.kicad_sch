@@ -3807,6 +3807,38 @@
 		(color 0 0 0 0)
 		(uuid "ffa16901-7989-4305-8020-9f508682a986")
 	)
+	(no_connect
+		(at 36.83 40.64)
+		(uuid "0027ca64-6dfc-416f-930a-4566ff43e524")
+	)
+	(no_connect
+		(at 139.7 39.37)
+		(uuid "2a277935-405b-48f2-b34a-5a1e05d18f82")
+	)
+	(no_connect
+		(at 204.47 246.38)
+		(uuid "3e4b22e4-a706-4af1-80f5-7a08bab315ed")
+	)
+	(no_connect
+		(at 95.25 241.3)
+		(uuid "52160471-b031-43f1-a373-e4c95d0a3581")
+	)
+	(no_connect
+		(at 95.25 243.84)
+		(uuid "66fe9c3a-8d9d-4b06-9c50-f2ccb195cfb8")
+	)
+	(no_connect
+		(at 69.85 39.37)
+		(uuid "732e4430-c12a-45cb-bb62-5d56e1c85e82")
+	)
+	(no_connect
+		(at 107.95 39.37)
+		(uuid "a44b7822-0a33-4816-a3da-f905500a70f0")
+	)
+	(no_connect
+		(at 95.25 246.38)
+		(uuid "fcd6147a-93a7-4104-95ae-bb7598b80250")
+	)
 	(wire
 		(pts
 			(xy 255.27 251.46) (xy 255.27 238.76)
@@ -3959,16 +3991,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 69.85) (xy 326.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1547108d-0c8c-4d9f-ad08-700bcd6c1d06")
-	)
-	(wire
-		(pts
 			(xy 106.68 233.68) (xy 100.33 233.68)
 		)
 		(stroke
@@ -3986,6 +4008,16 @@
 			(type default)
 		)
 		(uuid "1898f68d-1077-43d7-9ab7-4736520e769f")
+	)
+	(wire
+		(pts
+			(xy 347.98 60.96) (xy 347.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f944aa-ddbc-4c7a-94b1-9e07232a22b3")
 	)
 	(wire
 		(pts
@@ -4046,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "1f1fee9b-8c1b-4d85-b6da-cf0464468413")
+	)
+	(wire
+		(pts
+			(xy 360.68 60.96) (xy 360.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f38d38c-badd-4153-8ea8-d0f12ba58e0b")
 	)
 	(wire
 		(pts
@@ -4186,6 +4228,16 @@
 			(type default)
 		)
 		(uuid "324524ec-4ab4-439f-8694-ebb03f81fb3b")
+	)
+	(wire
+		(pts
+			(xy 353.06 74.93) (xy 353.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340d6a71-b578-4500-892e-92006c140771")
 	)
 	(wire
 		(pts
@@ -4619,6 +4671,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 86.36) (xy 374.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7337220c-ade5-49b9-abb1-c591396d6a37")
+	)
+	(wire
+		(pts
 			(xy 113.03 175.26) (xy 115.57 175.26)
 		)
 		(stroke
@@ -4656,6 +4718,16 @@
 			(type default)
 		)
 		(uuid "78730499-525e-4d59-8cc8-f9ef6ebf0541")
+	)
+	(wire
+		(pts
+			(xy 353.06 60.96) (xy 347.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78933500-46a1-4e64-9f29-61051964494a")
 	)
 	(wire
 		(pts
@@ -4929,6 +5001,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 74.93) (xy 353.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfb086e-ace1-4d3c-954d-5381ee4e0fe1")
+	)
+	(wire
+		(pts
 			(xy 59.69 177.8) (xy 60.96 177.8)
 		)
 		(stroke
@@ -5109,7 +5191,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 69.85) (xy 339.09 69.85)
+			(xy 336.55 68.58) (xy 340.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5459,16 +5541,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 55.88) (xy 346.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4cf895-fe50-4c65-ae78-27476aaa795a")
-	)
-	(wire
-		(pts
 			(xy 48.26 223.52) (xy 50.8 223.52)
 		)
 		(stroke
@@ -5489,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 60.96) (xy 363.22 63.5)
+			(xy 363.22 60.96) (xy 363.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5659,6 +5731,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 86.36) (xy 363.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbeb01e7-a4a3-4a4f-8b92-6ada7e5c8f13")
+	)
+	(wire
+		(pts
 			(xy 46.99 101.6) (xy 46.99 102.87)
 		)
 		(stroke
@@ -5722,7 +5804,7 @@
 	)
 	(text "3 LEDs, 3.2Vf @ 20mA\n30R current limiting resistor @ 0.108W\nR209 minimum size should be 0805"
 		(exclude_from_sim no)
-		(at 336.55 91.44 0)
+		(at 334.01 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5733,7 +5815,7 @@
 	)
 	(text "2 inch solder mount IPS LCD"
 		(exclude_from_sim no)
-		(at 336.55 85.09 0)
+		(at 334.01 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5873,26 +5955,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_LED-K"
-		(shape output)
-		(at 346.71 55.88 90)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "13333387-765f-4009-86c5-23bd99cbcf45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 346.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6225,7 +6287,7 @@
 	)
 	(global_label "DISPLAY_BACKLIGHT"
 		(shape input)
-		(at 326.39 69.85 90)
+		(at 336.55 68.58 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6234,7 +6296,7 @@
 		)
 		(uuid "5c27c96e-0d44-4a60-839b-5926931992b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 69.85 0)
+			(at 336.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,26 +6481,6 @@
 		(uuid "82cab297-0ca2-46a7-b619-96026dd94612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_LED-K"
-		(shape input)
-		(at 360.68 60.96 270)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "84d94570-16c7-4b4f-9f15-6018a8f8ecf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,6 +7281,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 314.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 314.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 314.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 314.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3325860f-25f0-4db5-a828-84aaf0a14d95")
 		)
@@ -7381,6 +7459,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 255.27 128.27 0)
 			(effects
 				(font
@@ -7533,6 +7647,42 @@
 			)
 		)
 		(property "USD" "0.762"
+			(at 260.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 260.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 260.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 260.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 157.48 0)
 			(effects
 				(font
@@ -7759,6 +7909,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b5f054d-80a7-4e39-9974-db39c042d712")
 		)
@@ -7906,7 +8092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 346.71 62.23 180)
+		(at 369.57 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7914,7 +8100,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cebc1a")
 		(property "Reference" "R209"
-			(at 350.52 59.69 0)
+			(at 369.316 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8108,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 350.52 62.23 0)
+			(at 369.57 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +8116,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +8125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +8134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +8143,7 @@
 			)
 		)
 		(property "RMB" "0.019315"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +8152,43 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/139271.html"
-			(at 346.71 62.23 0)
+			(at 369.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 369.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 369.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 369.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 369.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +8213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 74.93 0)
+		(at 347.98 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7999,7 +8221,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cee6fa")
 		(property "Reference" "#PWR0211"
-			(at 346.71 81.28 0)
+			(at 347.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.71 80.01 90)
+			(at 347.98 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +8256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 74.93 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8343,7 @@
 	)
 	(symbol
 		(lib_id "dp-power:+VUSB")
-		(at 363.22 63.5 180)
+		(at 374.65 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8129,7 +8351,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2151e")
 		(property "Reference" "#PWR0213"
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8360,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 363.601 66.7258 90)
+			(at 377.8758 85.979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 63.5 0)
+			(at 374.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,6 +8589,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 82.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 82.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 82.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 82.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdb82201-b491-42dd-9748-29e6c802ee01")
 		)
@@ -8502,92 +8760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 332.74 69.85 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006139a417")
-		(property "Reference" "R208"
-			(at 332.74 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 332.74 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 332.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.005749"
-			(at 332.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/61543.html"
-			(at 332.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c8ffd3c-c2bd-40d2-95d3-0cc83093388e")
-		)
-		(pin "2"
-			(uuid "89d167aa-080d-4ecd-891d-61bf4bf99382")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
-					(reference "R208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 220.98 90)
 		(unit 1)
@@ -8649,6 +8821,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 80.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 80.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 80.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 80.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 80.01 220.98 0)
 			(effects
 				(font
@@ -8937,6 +9145,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 100.33 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 100.33 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 100.33 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 100.33 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29dce17a-9bc2-4074-8efe-2e4445e6b040")
 		)
@@ -9036,6 +9280,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/26241.html"
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 104.14 236.22 0)
 			(effects
 				(font
@@ -9151,6 +9431,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fafabeff-8df4-43f1-86cf-0778b6f4db47")
 		)
@@ -9258,6 +9574,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 104.14 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 104.14 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 104.14 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 104.14 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8481fa47-acd1-4d6c-a6a3-1e406fb89ea0")
 		)
@@ -9341,6 +9693,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 368.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 368.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 368.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 368.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 368.3 39.37 0)
 			(effects
 				(font
@@ -9529,6 +9917,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cc81767-81d7-4956-895d-766211864da2")
 		)
@@ -9630,6 +10054,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -9747,6 +10207,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7a573fc-cdf0-41a0-9759-673ea202a957")
 		)
@@ -9856,6 +10352,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1d55e56-c8a9-44c6-87c4-5bde02acf20d")
 		)
@@ -9955,6 +10487,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 242.57 149.86 0)
 			(effects
 				(font
@@ -10072,6 +10640,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e9e1af3-9d85-43b2-9ed3-42b29e1dcf8e")
 		)
@@ -10181,6 +10785,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1362b0e-e734-478c-823d-c82e5828e4da")
 		)
@@ -10282,6 +10922,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 242.57 157.48 0)
 			(effects
 				(font
@@ -10400,6 +11076,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "062a6a8a-4bfd-4949-80d8-f4da37f622b5")
 		)
@@ -10478,6 +11190,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 118.11 175.26 0)
 			(effects
 				(font
@@ -10791,6 +11539,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42c4d37b-118b-407b-b783-e308001ff35f")
 		)
@@ -10855,6 +11639,42 @@
 			)
 		)
 		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 238.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 238.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 238.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 238.76 233.68 0)
 			(effects
 				(font
@@ -10948,7 +11768,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 344.17 69.85 0)
+		(at 345.44 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10956,15 +11776,15 @@
 		(dnp no)
 		(uuid "1dcb7162-618e-40ae-9f02-fae3b2d93cb5")
 		(property "Reference" "Q2"
-			(at 340.36 72.39 0)
+			(at 341.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2N7002T"
-			(at 339.09 74.93 0)
+		(property "Value" "2N7002KT"
+			(at 340.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11792,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 349.25 71.755 0)
+			(at 350.52 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +11803,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002t-d.pdf"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +11813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11822,7 @@
 			)
 		)
 		(property "RMB" "0.140017"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11831,52 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/544697.html"
-			(at 344.17 69.85 0)
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CBI"
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 345.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,6 +11964,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 198.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 198.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 198.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 198.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 198.12 238.76 0)
 			(effects
 				(font
@@ -11374,6 +12275,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c5cad9-2f7c-4c7c-9f50-9ca819590c0f")
 		)
@@ -11530,6 +12467,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "175ec93e-bc31-4b68-a83d-b238e1532b3c")
 		)
@@ -11607,6 +12580,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/26241.html"
+			(at 48.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 48.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 48.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 48.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 48.26 226.06 0)
 			(effects
 				(font
@@ -11711,6 +12720,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 36.83 140.97 0)
 			(effects
 				(font
@@ -11878,6 +12923,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c932174f-2cdd-4cc2-8e61-8fc3065c018c")
 		)
@@ -11968,6 +13049,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63ad37a2-ba0c-46e3-9d89-31335fa1db42")
 		)
@@ -12028,6 +13145,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 149.86 177.8 0)
 			(effects
 				(font
@@ -12324,6 +13477,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25fa4e33-848c-4815-9bb7-4ea321f0666f")
 		)
@@ -12391,6 +13580,42 @@
 			)
 		)
 		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 125.73 175.26 0)
 			(effects
 				(font
@@ -12474,6 +13699,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32841e88-5ac5-4319-bd17-cf33a5767954")
 		)
@@ -12537,6 +13798,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 149.86 146.05 0)
 			(effects
 				(font
@@ -12626,6 +13923,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -12805,6 +14138,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 50.8 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 50.8 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 50.8 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 50.8 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fafabeff-8df4-43f1-86cf-0778b6f4db48")
 		)
@@ -12901,6 +14270,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -13066,6 +14471,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "93f5141b-b3b2-4840-935a-13f78e99cef0")
 		)
@@ -13147,6 +14588,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -13313,6 +14790,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "297cb507-a48a-48c9-8276-25ea9262892a")
 		)
@@ -13376,6 +14889,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -13556,6 +15105,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "174d88d2-f83c-4882-b59a-6be5ffce6e5f")
 		)
@@ -13644,6 +15229,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49966b3b-ec83-4b04-9ada-b80c8450e85d")
 		)
@@ -13705,6 +15326,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -13929,6 +15586,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae17e171-8108-4d8c-ac43-7c3a0b3af1fc")
 		)
@@ -14079,6 +15772,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 45.72 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 45.72 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 45.72 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 45.72 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20b06ed4-bf61-4c79-b144-2838a392cf2d")
 		)
@@ -14157,6 +15886,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -14273,6 +16038,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53bb73f8-6ce3-4538-a5a0-78222c174111")
 		)
@@ -14351,6 +16152,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -14453,6 +16290,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18c563db-7c1f-4544-a666-3e22b3e432b4")
 		)
@@ -14535,6 +16408,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/61542.html"
+			(at 232.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 232.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 232.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 232.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 232.41 233.68 0)
 			(effects
 				(font
@@ -14825,6 +16734,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 62.23 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 62.23 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 62.23 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 62.23 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c3e1c1f-d1ba-4753-b3b4-2b0ddbb1cf78")
 		)
@@ -14902,6 +16847,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/26241.html"
+			(at 53.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 53.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 53.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 53.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 53.34 226.06 0)
 			(effects
 				(font
@@ -14997,6 +16978,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 262.89 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 262.89 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f2ccf432-c949-4e94-a23b-717d3155d843")
 		)
@@ -15078,6 +17095,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -15177,6 +17230,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "82937156-3f6f-465b-b01d-cfff6a02d98d")
 		)
@@ -15268,6 +17357,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 204.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 204.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 204.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 204.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f2ccf432-c949-4e94-a23b-717d3155d844")
 		)
@@ -15351,6 +17476,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -15727,6 +17888,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb1281ad-74e9-4a4b-a1a6-2a53c8fbb9f1")
 		)
@@ -15811,6 +18008,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 69.85 31.75 0)
 			(effects
 				(font
@@ -15973,6 +18206,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "27a19b28-5198-45a4-b9f4-d19676b89dd6")
 		)
@@ -16058,6 +18327,42 @@
 			)
 		)
 		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 125.73 143.51 0)
 			(effects
 				(font
@@ -16482,6 +18787,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 242.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 242.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 242.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 242.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6bfd4d0-ef8d-48aa-b397-bb03b70ebdf6")
 		)
@@ -16829,6 +19170,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2e9eccd-a23d-47b9-90e2-1a0259c668af")
 		)
@@ -16985,6 +19362,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f2ccf432-c949-4e94-a23b-717d3155d845")
 		)
@@ -17094,6 +19507,42 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57cd9ccf-3aea-43b7-97ad-ca9b5df240ef")
 		)
@@ -17172,6 +19621,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 36.83 110.49 0)
 			(effects
 				(font
@@ -17412,6 +19897,42 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/45893.html"
+			(at 36.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 36.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 36.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 36.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 36.83 172.72 0)
 			(effects
 				(font
