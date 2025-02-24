@@ -6052,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 149.86 101.6)
+			(xy 149.86 85.09) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6919,16 +6919,6 @@
 			(type default)
 		)
 		(uuid "6bcf25c9-6def-4a2b-b564-7aa686f8c5bd")
-	)
-	(wire
-		(pts
-			(xy 149.86 96.52) (xy 149.86 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cd2e081-045e-45cd-b7e9-8b497b5601e0")
 	)
 	(wire
 		(pts
@@ -8394,7 +8384,7 @@
 	)
 	(text "Pin for I2C RESET (100K pull-up)\n"
 		(exclude_from_sim no)
-		(at 330.708 175.514 0)
+		(at 327.914 165.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8477,7 +8467,7 @@
 	)
 	(text "Relocated for RGB_CDO"
 		(exclude_from_sim no)
-		(at 325.882 172.974 0)
+		(at 334.01 170.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9092,7 +9082,7 @@
 	)
 	(global_label "VREG_ADJ_MCU"
 		(shape output)
-		(at 364.49 195.58 0)
+		(at 297.18 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9101,7 +9091,7 @@
 		)
 		(uuid "4962c064-28bc-4cfe-a03c-b0ed445ee82a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.49 195.58 0)
+			(at 297.18 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +9186,7 @@
 	)
 	(global_label "CURRENT_ADJ_MCU"
 		(shape output)
-		(at 364.49 198.12 0)
+		(at 297.18 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9205,7 +9195,7 @@
 		)
 		(uuid "6aeecbdd-bbcb-4abb-924a-bdc893e08a46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.49 198.12 0)
+			(at 297.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +9774,7 @@
 	)
 	(global_label "I2C_RESET"
 		(shape output)
-		(at 297.18 175.26 0)
+		(at 297.18 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9794,7 +9784,7 @@
 		)
 		(uuid "c74eb259-4023-4489-b21b-c974380f50b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.308 175.26 0)
+			(at 309.308 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,127 +15360,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
 					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 149.86 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00006128dd22")
-		(property "Reference" "R102"
-			(at 153.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNF"
-			(at 153.67 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.006373"
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/116008.html"
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "152994c0-fe3e-431e-b49e-30c42b93cf46")
-		)
-		(pin "2"
-			(uuid "3257c2d9-0c9c-4874-8dad-5c7aa929acda")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
-					(reference "R102")
 					(unit 1)
 				)
 			)
