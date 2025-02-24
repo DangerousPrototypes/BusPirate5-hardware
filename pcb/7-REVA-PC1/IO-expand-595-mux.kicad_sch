@@ -6240,7 +6240,7 @@
 		)
 		(uuid "ffcf267b-9c93-4ffb-a6fb-c0f0ed2d4dd3")
 	)
-	(text "7-bit I2C Address: 0b0100110 (0x26)\n8-bit Write Address: 0b01000010 (0x4C)\n8-bit Read Address: 0b01000011 (0x4D)"
+	(text "7-bit I2C Address: 0b0100110 (0x26)\n8-bit Write Address: 0b01001100 (0x4C)\n8-bit Read Address: 0b01001101 (0x4D)"
 		(exclude_from_sim no)
 		(at 354.33 181.864 0)
 		(effects

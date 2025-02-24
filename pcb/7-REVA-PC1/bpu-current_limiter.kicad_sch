@@ -710,151 +710,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2355,12 +2210,6 @@
 		(uuid "1159c00b-256f-4031-9300-015d026d85f7")
 	)
 	(junction
-		(at 156.21 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb246c5-7e2f-4c41-8a9e-fe37bf308c18")
-	)
-	(junction
 		(at 201.93 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2533,12 +2382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7688f3b-9748-4057-9d84-e9717876c264")
-	)
-	(junction
-		(at 121.92 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebaf832c-96bb-43d0-a94e-231aff80c1af")
 	)
 	(junction
 		(at 151.13 116.84)
@@ -2816,16 +2659,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 106.68) (xy 162.56 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3212b133-9d02-4748-b1b4-6ca2eebf0c9e")
-	)
-	(wire
-		(pts
 			(xy 40.64 57.15) (xy 40.64 45.72)
 		)
 		(stroke
@@ -2983,16 +2816,6 @@
 			(type default)
 		)
 		(uuid "49172ff5-7db2-45df-b5d2-a86707facaf7")
-	)
-	(wire
-		(pts
-			(xy 119.38 106.68) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49271fac-7613-4482-a5b7-e5b4d4bd3ee4")
 	)
 	(wire
 		(pts
@@ -3166,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 156.21 106.68)
+			(xy 151.13 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3183,16 +3006,6 @@
 			(type default)
 		)
 		(uuid "6e79ba34-9315-4b7c-86ca-87ee9e31e6c9")
-	)
-	(wire
-		(pts
-			(xy 156.21 91.44) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f12bea7-4f7b-4a44-99f5-00e05007b0b7")
 	)
 	(wire
 		(pts
@@ -3296,16 +3109,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca780d6-4169-4478-8fd3-0005435f363c")
-	)
-	(wire
-		(pts
 			(xy 212.09 27.94) (xy 209.55 27.94)
 		)
 		(stroke
@@ -3396,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 121.92 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b4ef14-2eed-4adb-9733-6733e860a302")
-	)
-	(wire
-		(pts
 			(xy 224.79 114.3) (xy 224.79 116.84)
 		)
 		(stroke
@@ -3486,7 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 123.19 106.68)
+			(xy 119.38 106.68) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3816,16 +3609,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f583612f-f74d-4f8d-9c31-87b54fcb7889")
-	)
-	(wire
-		(pts
 			(xy 45.72 27.94) (xy 48.26 27.94)
 		)
 		(stroke
@@ -3907,6 +3690,16 @@
 			(justify left bottom)
 		)
 		(uuid "79635eb0-6a1b-470b-8f82-2550c204b512")
+	)
+	(text "Place D10 near VOUT pin"
+		(exclude_from_sim no)
+		(at 270.002 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7992f8e3-231b-402f-b9c8-5bd73e2f43a1")
 	)
 	(text "Allow current to flow back\nwithout damaging the regulator\nwhen VREG_VOUT > VUSB"
 		(exclude_from_sim no)
@@ -9181,119 +8974,6 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
 					(reference "R414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 138.43 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34a270bc-e33f-49a1-a54c-2fad25ca04f1")
-		(property "Reference" "D17"
-			(at 138.1125 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG2020EJ"
-			(at 138.1125 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2020EJ.pdf"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, 20V, 2A"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4865d3ed-5442-4a00-b56f-1acc71034f54")
-		)
-		(pin "1"
-			(uuid "979b59a6-1183-4967-91ba-23a289d3dae0")
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
-					(reference "D17")
 					(unit 1)
 				)
 			)
