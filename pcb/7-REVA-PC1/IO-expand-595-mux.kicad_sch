@@ -6240,7 +6240,7 @@
 		)
 		(uuid "ffcf267b-9c93-4ffb-a6fb-c0f0ed2d4dd3")
 	)
-	(text "7-bit I2C Address: 0b0100110 (0x26)\n8-bit Write Address: 0b01001100 (0x4C)\n8-bit Read Address: 0b01001101 (0x4D)"
+	(text "7-bit I2C Address: 0b0100010 (0x22)\n8-bit Write Address: 0b01000100 (0x44)\n8-bit Read Address: 0b01000101 (0x45)"
 		(exclude_from_sim no)
 		(at 354.33 181.864 0)
 		(effects
@@ -10090,6 +10090,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 336.55 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a06f7da-32c7-4aa1-b7a8-5b291aa591bc")
+		(property "Reference" "#PWR048"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e1bb88b-2fa5-469d-a772-add18b002be7")
+		)
+		(instances
+			(project "7-REVA-PC1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-rarray:R_Array")
 		(at 125.73 175.26 270)
 		(unit 4)
@@ -11228,71 +11293,6 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 336.55 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e464339-e31e-4a8a-89e5-b2de0ab61aa6")
-		(property "Reference" "#PWR048"
-			(at 340.36 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 330.2 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39f8d6e9-cbc0-4238-bd10-726b52cfe54d")
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
