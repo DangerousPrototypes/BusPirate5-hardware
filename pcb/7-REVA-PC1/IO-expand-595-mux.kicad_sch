@@ -6400,7 +6400,7 @@
 	)
 	(global_label "CURRENT_RESET"
 		(shape output)
-		(at 372.11 148.59 0)
+		(at 381 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6409,7 +6409,7 @@
 		)
 		(uuid "0832de0c-adf4-4fe2-9129-08a66ecd53bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 148.59 0)
+			(at 381 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6930,7 @@
 	)
 	(global_label "DISPLAY_RESET"
 		(shape output)
-		(at 372.11 161.29 0)
+		(at 381 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6939,7 +6939,7 @@
 		)
 		(uuid "78f3f227-94bb-4573-bf71-d577ace132ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 161.29 0)
+			(at 381 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7322,7 @@
 	)
 	(global_label "CURRENT_EN_OVERRIDE"
 		(shape output)
-		(at 372.11 146.05 0)
+		(at 381 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7331,7 +7331,7 @@
 		)
 		(uuid "a1f7ee31-0b83-4a39-9b8b-ba14b7673334")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 146.05 0)
+			(at 381 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7362,7 @@
 	)
 	(global_label "DISPLAY_BACKLIGHT"
 		(shape output)
-		(at 372.11 153.67 0)
+		(at 381 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7371,7 +7371,7 @@
 		)
 		(uuid "b4267f99-d37c-4473-9eb4-f13820a081c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 153.67 0)
+			(at 381 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7484,7 @@
 	)
 	(global_label "CURRENT_EN"
 		(shape output)
-		(at 372.11 151.13 0)
+		(at 381 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7493,7 +7493,7 @@
 		)
 		(uuid "cc99ca18-3862-473e-8077-ca0d418cb428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 151.13 0)
+			(at 381 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
