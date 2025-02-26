@@ -2228,12 +2228,6 @@
 		(uuid "26f52279-62c5-407d-b422-46a597d62b63")
 	)
 	(junction
-		(at 166.37 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290eb0ef-03b2-495a-9c19-b9b5a20d02d8")
-	)
-	(junction
 		(at 116.84 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2268,12 +2262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472a9ed8-3a92-4f17-bc18-a01b3799a737")
-	)
-	(junction
-		(at 176.53 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fc529e5-afc6-4ab6-a4ac-db001b76d9b8")
 	)
 	(junction
 		(at 196.85 33.02)
@@ -2749,16 +2737,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 22.86) (xy 166.37 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436be85d-c974-45a4-9956-38e11507c897")
-	)
-	(wire
-		(pts
 			(xy 172.72 106.68) (xy 173.99 106.68)
 		)
 		(stroke
@@ -3029,16 +3007,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 22.86) (xy 166.37 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a2ba88-dfbc-45a5-9cbc-3d7d675bf981")
-	)
-	(wire
-		(pts
 			(xy 201.93 48.26) (xy 201.93 45.72)
 		)
 		(stroke
@@ -3176,16 +3144,6 @@
 			(type default)
 		)
 		(uuid "9e3eb26f-7555-44bb-97c8-66bfda012455")
-	)
-	(wire
-		(pts
-			(xy 166.37 36.83) (xy 166.37 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8ce08d-fb76-40fa-bd97-0a7dee31eefd")
 	)
 	(wire
 		(pts
@@ -6957,129 +6915,6 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
 					(reference "#PWR0601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 166.37 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060d21f85")
-		(property "Reference" "D601"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 154.94 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 161.925 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RMB" "0.182079"
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "https://item.szlcsc.com/120141.html"
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0346f482-0f07-4bfb-8153-42a37c7e6e22")
-		)
-		(pin "2"
-			(uuid "53c9a55e-836b-44e1-848d-db53989d11d3")
-		)
-		(instances
-			(project "REV0"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
-					(reference "D601")
 					(unit 1)
 				)
 			)
