@@ -11490,15 +11490,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f97bdc")
 		(property "Reference" "RN301"
-			(at 33.02 33.02 90)
+			(at 33.274 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 33.02 37.9476 90)
+		(property "Value" "120R"
+			(at 33.02 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,15 +11630,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f9a461")
 		(property "Reference" "RN302"
-			(at 33.02 35.56 90)
+			(at 33.02 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 33.02 40.4876 90)
+		(property "Value" "4.7K"
+			(at 33.02 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,15 +11911,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610c5bdb")
 		(property "Reference" "RN301"
-			(at 34.29 88.9 90)
+			(at 34.29 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 34.29 93.8276 90)
+		(property "Value" "120R"
+			(at 34.29 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,15 +12050,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610f1e08")
 		(property "Reference" "RN302"
-			(at 34.29 91.44 90)
+			(at 34.29 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 34.29 96.52 90)
+		(property "Value" "4.7K"
+			(at 34.29 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,15 +12330,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611050a2")
 		(property "Reference" "RN301"
-			(at 97.79 31.75 90)
+			(at 97.79 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 97.79 36.6776 90)
+		(property "Value" "120R"
+			(at 97.79 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,15 +12469,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006110676d")
 		(property "Reference" "RN302"
-			(at 97.79 34.29 90)
+			(at 97.79 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 97.79 39.37 90)
+		(property "Value" "4.7K"
+			(at 97.79 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,15 +12749,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006111d83b")
 		(property "Reference" "RN301"
-			(at 97.79 87.63 90)
+			(at 97.79 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 97.79 92.5576 90)
+		(property "Value" "120R"
+			(at 97.79 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,15 +12888,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006111f93c")
 		(property "Reference" "RN306"
-			(at 166.37 33.02 90)
+			(at 166.37 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 166.37 37.9476 90)
+		(property "Value" "120R"
+			(at 166.37 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,15 +13027,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061120217")
 		(property "Reference" "RN302"
-			(at 97.79 90.17 90)
+			(at 97.79 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 97.79 95.25 90)
+		(property "Value" "4.7K"
+			(at 97.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,15 +13448,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061129f74")
 		(property "Reference" "RN307"
-			(at 166.37 35.56 90)
+			(at 166.37 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 166.37 40.64 90)
+		(property "Value" "4.7K"
+			(at 166.37 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13587,15 +13587,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611347a7")
 		(property "Reference" "RN306"
-			(at 233.68 83.82 90)
+			(at 233.68 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 233.68 88.7476 90)
+		(property "Value" "120R"
+			(at 233.68 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13726,15 +13726,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061135868")
 		(property "Reference" "RN307"
-			(at 233.68 86.36 90)
+			(at 233.68 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 233.68 91.44 90)
+		(property "Value" "4.7K"
+			(at 233.68 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14006,15 +14006,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061139538")
 		(property "Reference" "RN306"
-			(at 238.76 31.75 90)
+			(at 238.76 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 238.76 36.6776 90)
+		(property "Value" "120R"
+			(at 238.76 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,15 +14145,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006113b2b6")
 		(property "Reference" "RN307"
-			(at 238.76 34.29 90)
+			(at 238.76 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 238.76 39.37 90)
+		(property "Value" "4.7K"
+			(at 238.76 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,15 +14425,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611408a5")
 		(property "Reference" "RN306"
-			(at 165.1 86.36 90)
+			(at 165.1 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 165.1 91.2876 90)
+		(property "Value" "120R"
+			(at 165.1 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14564,15 +14564,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061142243")
 		(property "Reference" "RN307"
-			(at 165.1 88.9 90)
+			(at 165.1 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 165.1 93.98 90)
+		(property "Value" "4.7K"
+			(at 165.1 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

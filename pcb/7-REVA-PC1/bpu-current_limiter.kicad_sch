@@ -2401,10 +2401,6 @@
 		(color 0 0 0 0)
 		(uuid "fe59cae8-7dd7-461a-9271-db4301aaa94d")
 	)
-	(no_connect
-		(at 27.94 135.89)
-		(uuid "658954ba-2f40-428d-9107-541a3adad604")
-	)
 	(wire
 		(pts
 			(xy 213.36 59.69) (xy 213.36 55.88)
@@ -3693,7 +3689,7 @@
 	)
 	(text "Buffer circuit for Voltage Adjust, when using the MCU\nto do PWM instead U406 as DAC"
 		(exclude_from_sim no)
-		(at 29.21 143.51 0)
+		(at 26.67 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+		(property "Footprint" "library:SOT-523"
 			(at 211.455 45.72 0)
 			(effects
 				(font
@@ -9852,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+		(property "Footprint" "library:SOT-523"
 			(at 233.045 92.71 0)
 			(effects
 				(font
@@ -10246,6 +10242,71 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
 					(reference "C415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb26f34d-6bec-4f54-ab05-dbc8f93c257a")
+		(property "Reference" "#PWR094"
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.067 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f3ab83-58cd-45e1-8e8d-11a37a18c6fe")
+		)
+		(instances
+			(project "7-REVA-PC1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-00005f46fad3"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)

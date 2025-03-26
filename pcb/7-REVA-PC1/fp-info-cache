@@ -1,4 +1,4 @@
-24947935567266241
+24954560285809859
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98867,6 +98867,27 @@ USB Type-C PCB recessed, 3.25 mm from board edge
 0
 16
 16
+library
+SOT-523
+SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf
+SOT-523
+0
+3
+3
+library
+SOT95P275X110-6N
+
+
+0
+6
+6
+library
+USON-8-3x2mm_P0.5mm_EPthin
+SON, 8 Pin (http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+SON NoLead
+0
+11
+9
 logos
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
