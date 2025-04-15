@@ -4131,6 +4131,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C2858270"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1B12"
 			(uuid "5fa8b930-6537-4ebf-bbcc-1a1c104a4fb5")
 		)
@@ -4241,6 +4250,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C77848"
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0541f497-9648-4240-875d-8520bcbe65e8")
 		)
@@ -4339,6 +4357,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ecb5961-808f-4f3b-9255-8277d91df4cd")
 		)
@@ -4399,6 +4426,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" ""
 			(at 57.15 144.78 0)
 			(effects
 				(font
@@ -4627,6 +4663,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfe84b5-4920-4803-ba9c-948c1e2fd572")
 		)
@@ -4705,6 +4750,15 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/263551.html"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C139190"
 			(at 152.4 146.05 0)
 			(effects
 				(font
@@ -4792,6 +4846,15 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/107087.html"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C27834"
 			(at 172.72 88.9 0)
 			(effects
 				(font
@@ -4937,6 +5000,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C2907315"
+			(at 167.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "994a9059-bc27-48ba-97e8-7ad68c3a93d1")
 		)
@@ -4997,6 +5069,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C431540"
 			(at 50.8 69.85 0)
 			(effects
 				(font
@@ -5086,6 +5167,15 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/107087.html"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C27834"
 			(at 228.6 96.52 0)
 			(effects
 				(font
@@ -5222,6 +5312,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 34.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" ""
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -5389,6 +5488,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C602037"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -5660,6 +5768,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 162.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C2905434"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -6078,6 +6195,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C602037"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "459b2764-f747-498b-88b5-04b57e8f8678")
 		)
@@ -6138,6 +6264,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C456018"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -6289,6 +6424,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C2907315"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d580cd35-fdd2-4b0d-b635-2b70ef0bc7c2")
 		)
@@ -6351,6 +6495,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C602037"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -6512,6 +6665,15 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa935f21-2013-4bd0-90ef-67d8110dd1fb")
 		)
@@ -6574,6 +6736,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" ""
 			(at 45.72 93.98 0)
 			(effects
 				(font
@@ -6806,6 +6977,15 @@
 			)
 		)
 		(property "Description" "6-pin Mini-DIN connector"
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C77848"
 			(at 110.49 146.05 0)
 			(effects
 				(font

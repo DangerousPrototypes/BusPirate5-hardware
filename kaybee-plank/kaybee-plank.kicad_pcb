@@ -245,6 +245,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C2858270"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "969f434f-6a0d-453f-b28e-1408f0e583bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/06178bc8-d795-46d2-88e8-b60b87219e41")
 		(sheetname "Root")
 		(sheetfile "kaybee-plank.kicad_sch")
@@ -672,6 +685,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c06d91e1-eae1-410f-971f-6a736919f3a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/cb1ff13c-3a4d-4c08-9758-0db2b48a0628")
 		(sheetname "Root")
@@ -880,6 +906,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eae1ac4-c54a-4db2-ae39-27f3ff90a176")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1239,6 +1278,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C2907315"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be17e4d7-2fdf-4316-a64f-a6a54ac21cb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/414d4063-3601-489f-873a-fe01cc9fddb0")
 		(sheetname "Root")
@@ -1452,6 +1504,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C602037"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080a92b9-2b13-43fd-b90d-f8911cad748e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aed13ce5-c809-47a7-b7e7-19f34455c63e")
 		(sheetname "Root")
@@ -1660,6 +1725,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f8d78dc-c85f-474c-9a62-e2722ebf2ed8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2816,6 +2894,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C77848"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85c41792-fb6b-446f-8661-0595d3b5d95b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MINI?DIN*")
 		(path "/06742bd6-c3cb-4de6-9de5-9763e19d4dee")
 		(sheetname "Root")
@@ -3111,6 +3202,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" "C456018"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40be1515-107a-4cb5-aa6d-61aa6b1ce85a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3493,6 +3597,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b1d14b1-6a37-4c55-9bf3-37bb48e90ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/0a7dfdc3-8cb2-4aa9-85bb-344ed00a665f")
 		(sheetname "Root")
@@ -3732,6 +3849,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C27834"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50ccdca3-9325-4363-9d99-d4723e17c4e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2b2647c3-e793-4cb3-894f-61150e69b563")
 		(sheetname "Root")
@@ -3938,6 +4068,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" "C77848"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f1882ba-65bd-4214-870a-1fe85f6333e9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4241,6 +4384,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C2905434"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e8d45bb-19cd-40b0-a51f-72ed60d20b3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8d7c1e89-d0f6-43d9-879c-ee04f4523a1f")
 		(sheetname "Root")
@@ -4534,6 +4690,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb9e822-46f8-46fa-bf81-bf9f8e48bce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/2a4786cd-bcf0-4c9c-a4fa-9df6b85325bc")
 		(sheetname "Root")
@@ -4742,6 +4911,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" "C431540"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76f82fd9-e514-4339-b063-ee7b260ce257")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5183,6 +5365,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C2907315"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a84ffe5-d565-4c8e-b802-fdf6f8820608")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b66d793c-1e71-4e31-be36-cb3968808f17")
 		(sheetname "Root")
@@ -5392,6 +5587,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" "C602037"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d333106-40f4-4c28-b1c5-f3ad7a1a94d2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5635,6 +5843,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C139190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73a2dabd-871a-4488-a0bd-cf45f6f4e876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/219c56ff-f86c-4783-b9dc-7cb553c02213")
 		(sheetname "Root")
@@ -5848,6 +6069,19 @@
 				)
 			)
 		)
+		(property "szlcsc_partnum" "C602037"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce8fe0d5-a99a-4b00-a39e-3624762f5e13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c1b6bce2-cf4b-4775-a808-5dedd817ebfa")
 		(sheetname "Root")
@@ -6055,6 +6289,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec45a6e5-6219-43c3-b42e-b032ba6394f2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6313,6 +6560,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a104953f-0e39-4088-bc54-2f12f6fe1057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "szlcsc_partnum" "C27834"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b658504-4a37-4d4e-8fef-54bb930660cb")
 			(effects
 				(font
 					(size 1 1)
