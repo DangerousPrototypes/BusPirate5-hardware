@@ -15,4 +15,5 @@
   (lib (name "dp-switch")(type "KiCad")(uri "${KIPRJMOD}/library/dp-switch/dp-switch.pretty")(options "")(descr ""))
   (lib (name "dp-memory")(type "KiCad")(uri "${KIPRJMOD}/library/dp-memory/dp-memory.pretty")(options "")(descr ""))
   (lib (name "qfn80")(type "KiCad")(uri "${KIPRJMOD}/library/qfn80/qfn80.pretty")(options "")(descr ""))
+  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
 )
