@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\ian\Downloads\kaybee-plank-14042025\kaybee-plank.kicad_sch</source>
-    <date>2025-04-15T17:41:54+0200</date>
+    <source>C:\BP5hw\kaybee-plank\kaybee-plank.kicad_sch</source>
+    <date>2025-04-22T13:09:02+0200</date>
     <tool>Eeschema 8.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -29,11 +29,13 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="szlcsc_partnum">C602037</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="szlcsc_partnum" value="C602037"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -46,11 +48,13 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="szlcsc_partnum">C602037</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="szlcsc_partnum" value="C602037"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -63,11 +67,13 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="szlcsc_partnum">C602037</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="szlcsc_partnum" value="C602037"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -79,11 +85,13 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <fields>
+        <field name="szlcsc_partnum"/>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="szlcsc_partnum" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -97,11 +105,13 @@
       <datasheet>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</datasheet>
       <description>6-pin Mini-DIN connector</description>
       <fields>
+        <field name="szlcsc_partnum">C77848</field>
         <field name="Footprint">connector-mini-din-6:Connector_Mini-DIN_Female_6Pin_2rows</field>
         <field name="Datasheet">http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</field>
         <field name="Description">6-pin Mini-DIN connector</field>
       </fields>
       <libsource lib="Connector" part="Mini-DIN-6" description="6-pin Mini-DIN connector"/>
+      <property name="szlcsc_partnum" value="C77848"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="Mini-DIN"/>
@@ -113,11 +123,13 @@
       <value>Conn_01x10</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal</footprint>
       <fields>
+        <field name="szlcsc_partnum"/>
         <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="szlcsc_partnum" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -125,33 +137,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>72d8c0b0-9cf4-4e5f-b393-43864d29bfcf</tstamps>
     </comp>
-    <comp ref="J3">
-      <value>Conn_01x10</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cc232494-6230-448f-8ea9-ef9d5e2595e3</tstamps>
-    </comp>
     <comp ref="J4">
       <value>Mini-DIN-6</value>
       <footprint>connector-mini-din-6:Connector_Mini-DIN_Female_6Pin_2rows</footprint>
       <datasheet>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</datasheet>
       <description>6-pin Mini-DIN connector</description>
       <fields>
+        <field name="szlcsc_partnum">C77848</field>
         <field name="Footprint">connector-mini-din-6:Connector_Mini-DIN_Female_6Pin_2rows</field>
         <field name="Datasheet">http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</field>
         <field name="Description">6-pin Mini-DIN connector</field>
       </fields>
       <libsource lib="Connector" part="Mini-DIN-6" description="6-pin Mini-DIN connector"/>
+      <property name="szlcsc_partnum" value="C77848"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="Mini-DIN"/>
@@ -164,11 +162,13 @@
       <footprint>Connector_USB:USB_A_CONNFLY_DS1095-WNR0</footprint>
       <description>USB Type A connector</description>
       <fields>
+        <field name="szlcsc_partnum">C456018</field>
         <field name="Footprint">Connector_USB:USB_A_CONNFLY_DS1095-WNR0</field>
         <field name="Datasheet"/>
         <field name="Description">USB Type A connector</field>
       </fields>
       <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="szlcsc_partnum" value="C456018"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="connector USB"/>
@@ -184,6 +184,7 @@
         <field name="Field4">3.31mm</field>
         <field name="Field5">A</field>
         <field name="Field6">Manufacturer Recommendations</field>
+        <field name="szlcsc_partnum">C2858270</field>
         <field name="Footprint">TYPE-C-31-M-12:HRO_TYPE-C-31-M-12</field>
         <field name="Datasheet">HRO Electronics</field>
         <field name="Description"/>
@@ -192,6 +193,7 @@
       <property name="Field4" value="3.31mm"/>
       <property name="Field5" value="A"/>
       <property name="Field6" value="Manufacturer Recommendations"/>
+      <property name="szlcsc_partnum" value="C2858270"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -202,11 +204,13 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <description>Generic connector, single row, 01x02, script generated</description>
       <fields>
+        <field name="szlcsc_partnum">C2905434</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description">Generic connector, single row, 01x02, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="szlcsc_partnum" value="C2905434"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -220,6 +224,7 @@
       <fields>
         <field name="RMB">0.175802	0.175802</field>
         <field name="Supplier">https://item.szlcsc.com/263551.html</field>
+        <field name="szlcsc_partnum">C139190</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -227,6 +232,7 @@
       <libsource lib="kicad5-device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <property name="RMB" value="0.175802&#x9;0.175802"/>
       <property name="Supplier" value="https://item.szlcsc.com/263551.html"/>
+      <property name="szlcsc_partnum" value="C139190"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
@@ -240,6 +246,7 @@
       <fields>
         <field name="RMB">0.175802	0.175802</field>
         <field name="Supplier">https://item.szlcsc.com/263551.html</field>
+        <field name="szlcsc_partnum">C139190</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -247,6 +254,7 @@
       <libsource lib="kicad5-device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <property name="RMB" value="0.175802&#x9;0.175802"/>
       <property name="Supplier" value="https://item.szlcsc.com/263551.html"/>
+      <property name="szlcsc_partnum" value="C139190"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
@@ -260,6 +268,7 @@
       <fields>
         <field name="RMB">0.175802	0.175802</field>
         <field name="Supplier">https://item.szlcsc.com/263551.html</field>
+        <field name="szlcsc_partnum">C139190</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -267,6 +276,7 @@
       <libsource lib="kicad5-device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <property name="RMB" value="0.175802&#x9;0.175802"/>
       <property name="Supplier" value="https://item.szlcsc.com/263551.html"/>
+      <property name="szlcsc_partnum" value="C139190"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
@@ -280,6 +290,7 @@
       <fields>
         <field name="RMB">0.175802	0.175802</field>
         <field name="Supplier">https://item.szlcsc.com/263551.html</field>
+        <field name="szlcsc_partnum">C139190</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -287,6 +298,7 @@
       <libsource lib="kicad5-device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <property name="RMB" value="0.175802&#x9;0.175802"/>
       <property name="Supplier" value="https://item.szlcsc.com/263551.html"/>
+      <property name="szlcsc_partnum" value="C139190"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
@@ -300,6 +312,7 @@
       <fields>
         <field name="RMB">0.0065</field>
         <field name="Supplier">https://item.szlcsc.com/107087.html</field>
+        <field name="szlcsc_partnum">C27834</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -307,6 +320,7 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="RMB" value="0.0065"/>
       <property name="Supplier" value="https://item.szlcsc.com/107087.html"/>
+      <property name="szlcsc_partnum" value="C27834"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -318,11 +332,13 @@
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="szlcsc_partnum">C2907315</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="szlcsc_partnum" value="C2907315"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -334,11 +350,13 @@
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="szlcsc_partnum">C2907315</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="szlcsc_partnum" value="C2907315"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -352,6 +370,7 @@
       <fields>
         <field name="RMB">0.0065</field>
         <field name="Supplier">https://item.szlcsc.com/107087.html</field>
+        <field name="szlcsc_partnum">C27834</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -359,6 +378,7 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="RMB" value="0.0065"/>
       <property name="Supplier" value="https://item.szlcsc.com/107087.html"/>
+      <property name="szlcsc_partnum" value="C27834"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -370,11 +390,13 @@
       <value>SW_SPDT</value>
       <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
       <fields>
+        <field name="szlcsc_partnum">C431540</field>
         <field name="Footprint">Button_Switch_SMD:SW_SPDT_PCM12</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="szlcsc_partnum" value="C431540"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
       <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
@@ -630,13 +652,11 @@
     <net code="1" name="CLK">
       <node ref="J1" pin="5" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J4" pin="5" pintype="passive"/>
     </net>
     <net code="2" name="DAT">
       <node ref="J1" pin="1" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J4" pin="1" pintype="passive"/>
     </net>
     <net code="3" name="GND">
@@ -646,7 +666,6 @@
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="3" pintype="passive"/>
       <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J4" pin="3" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="J5" pin="5" pinfunction="Shield" pintype="passive"/>
@@ -662,15 +681,12 @@
     </net>
     <net code="4" name="IO3">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
     <net code="5" name="IO6">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
     <net code="6" name="IO7">
       <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
     <net code="7" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
@@ -703,20 +719,17 @@
     </net>
     <net code="14" name="TRIG">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
     <net code="15" name="USB_D+">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J7" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
       <node ref="J7" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
     </net>
     <net code="16" name="USB_D-">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J7" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
       <node ref="J7" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
@@ -735,7 +748,6 @@
     </net>
     <net code="18" name="VOUT">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
     </net>
     <net code="19" name="unconnected-(J1-Pad2)">
