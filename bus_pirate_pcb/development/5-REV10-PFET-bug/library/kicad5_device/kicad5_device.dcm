@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F ~
+$ENDCMP
+#
+#End Doc Library

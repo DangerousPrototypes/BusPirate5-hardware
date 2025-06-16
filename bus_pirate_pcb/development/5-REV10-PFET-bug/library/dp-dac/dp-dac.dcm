@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4812
+D 2-Channel 10-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 10-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP MCP4822
+D 2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 12-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP MCP48FVBx2
+D 2-Channel 8/10/12-Bit D/A Converters with SPI Interface
+K 8-Bit DAC SPI 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+#End Doc Library
