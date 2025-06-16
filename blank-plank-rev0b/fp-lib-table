@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "SIM_CARDS")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/SIM_CARDS.pretty")(options "")(descr ""))
-  (lib (name "pinheader-reduced")(type "KiCad")(uri "${KIPRJMOD}/libraries/pinheader-reduced.pretty")(options "")(descr ""))
-)

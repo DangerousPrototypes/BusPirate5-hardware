@@ -15179,7 +15179,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 44.45 143.51 0)
 			(effects
 				(font

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\BP5hw\sim-iccard-rev4\sim-iccard-rev4.kicad_sch</source>
+    <date>2025-06-13T15:22:55+0200</date>
+    <tool>Eeschema 9.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sim-iccard-rev4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55232c59-454b-4839-a853-f6991c6d253c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ca4ef5b-4ac1-43c4-b641-6ec7e5bdab4d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5145300-3</value>
+      <footprint>footprints:TE_5145300-3</footprint>
+      <description>
+Conn Smart Card RCP 8 POS 2.54mm Solder ST SMD Tray
+</description>
+      <fields>
+        <field name="Comment">5145300-3</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="PARTREV">C3</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=snap</field>
+        <field name="MP">5145300-3</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=543619&amp;manufacturer=TE Connectivity&amp;part_name=5145300-3&amp;search_term=smart card connector</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">TE Connectivity</field>
+        <field name="Footprint">footprints:TE_5145300-3</field>
+        <field name="Datasheet"/>
+        <field name="Description">
+Conn Smart Card RCP 8 POS 2.54mm Solder ST SMD Tray
+</field>
+      </fields>
+      <libsource lib="5145300-3" part="5145300-3" description="Conn Smart Card RCP 8 POS 2.54mm Solder ST SMD Tray"/>
+      <property name="Comment" value="5145300-3"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="PARTREV" value="C3"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"/>
+      <property name="MP" value="5145300-3"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=543619&amp;manufacturer=TE Connectivity&amp;part_name=5145300-3&amp;search_term=smart card connector"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE Connectivity"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f70818f-64f2-434a-a33f-4233124a749b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72d8c0b0-9cf4-4e5f-b393-43864d29bfcf</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3474657-919f-45c8-9db3-245b610a43c5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b66d793c-1e71-4e31-be36-cb3968808f17</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_PCM12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4459001-c752-4c96-b7ad-fc8cbf1eb4f0</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_PCM12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9419fe19-935c-4bba-b7b4-00f6ca1bbdb1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SIM 6P</value>
+      <footprint>footprints2:DGLZ-SIM-0004</footprint>
+      <fields>
+        <field name="Footprint">footprints2:DGLZ-SIM-0004</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="sim card" part="SIM 6P" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e87e2585-00ea-4b30-91a7-5396699775a4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SIM 8P</value>
+      <footprint>SIM_CARDS:SIM-0030</footprint>
+      <fields>
+        <field name="Footprint">SIM_CARDS:SIM-0030</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="sim card" part="SIM 8P" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74b10ded-b209-418c-8ea5-c2fccaa2d068</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SIM 6P</value>
+      <footprint>SIM_CARDS:SIM-0036</footprint>
+      <fields>
+        <field name="Footprint">SIM_CARDS:SIM-0036</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="sim card" part="SIM 6P" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="sim-iccard-rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b2a022e-9c6f-4f5f-bc6d-890610ca87a5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="5145300-3" part="5145300-3">
+      <description>Conn Smart Card RCP 8 POS 2.54mm Solder ST SMD Tray</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5145300-3</field>
+        <field name="Footprint">5145300-3:TE_5145300-3</field>
+        <field name="Datasheet"/>
+        <field name="Description">Conn Smart Card RCP 8 POS 2.54mm Solder ST SMD Tray</field>
+        <field name="Comment">5145300-3</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="PARTREV">C3</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5145300-3/TE+Connectivity+AMP+Connectors/view-part/?ref=snap</field>
+        <field name="MP">5145300-3</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=543619&amp;manufacturer=TE Connectivity&amp;part_name=5145300-3&amp;search_term=smart card connector</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">TE Connectivity</field>
+      </fields>
+      <pins>
+        <pin num="C1" name="C1" type="passive"/>
+        <pin num="C2" name="C2" type="passive"/>
+        <pin num="C3" name="C3" type="passive"/>
+        <pin num="C4" name="C4" type="passive"/>
+        <pin num="C5" name="C5" type="passive"/>
+        <pin num="C6" name="C6" type="passive"/>
+        <pin num="C7" name="C7" type="passive"/>
+        <pin num="C8" name="C8" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sim card" part="SIM 6P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM 6P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="input"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP" type="input"/>
+        <pin num="C7" name="I/O" type="bidirectional"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sim card" part="SIM 8P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM 8P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="input"/>
+        <pin num="C4" name="RSV1" type="passive"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP" type="input"/>
+        <pin num="C7" name="I/O" type="bidirectional"/>
+        <pin num="C8" name="RSV2" type="passive"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="sim card">
+      <uri>C:\BP5hw\sim-iccard-rev4/libraries/symbols/sim card.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/C4" class="Default">
+      <node ref="J1" pin="C4" pinfunction="C4" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U2" pin="C4" pinfunction="RSV1" pintype="passive"/>
+    </net>
+    <net code="2" name="/C8" class="Default">
+      <node ref="J1" pin="C8" pinfunction="C8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="C8" pinfunction="RSV2" pintype="passive"/>
+    </net>
+    <net code="3" name="/CLK" class="Default">
+      <node ref="J1" pin="C3" pinfunction="C3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="C3" pinfunction="CLK" pintype="input"/>
+      <node ref="U2" pin="C3" pinfunction="CLK" pintype="input"/>
+      <node ref="U3" pin="C3" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="4" name="/I/O" class="Default">
+      <node ref="J1" pin="C7" pinfunction="C7" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+      <node ref="U2" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+      <node ref="U3" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/RST" class="Default">
+      <node ref="J1" pin="C2" pinfunction="C2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="C2" pinfunction="RST" pintype="input"/>
+      <node ref="U2" pin="C2" pinfunction="RST" pintype="input"/>
+      <node ref="U3" pin="C2" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="6" name="/SIM_GND" class="Default">
+      <node ref="J1" pin="C5" pinfunction="C5" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="C5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="/VCC" class="Default">
+      <node ref="J1" pin="C1" pinfunction="C1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="C1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="C1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="C1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="8" name="/VPP" class="Default">
+      <node ref="J1" pin="C6" pinfunction="C6" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="C6" pinfunction="VPP" pintype="input"/>
+      <node ref="U2" pin="C6" pinfunction="VPP" pintype="input"/>
+      <node ref="U3" pin="C6" pinfunction="VPP" pintype="input"/>
+    </net>
+    <net code="9" name="GND" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="U2" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="U3" pin="SH" pinfunction="SH" pintype="passive"/>
+    </net>
+    <net code="10" name="GND_PIN" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="SW2" pinfunction="SW2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="VCC_PIN" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="VOUT" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+  </nets>
+</export>

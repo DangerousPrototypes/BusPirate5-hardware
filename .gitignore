@@ -3,3 +3,5 @@
 dso/*
 function-generator/*
 wave-gen/*
+pcb/*
+*.zip

@@ -21,4 +21,7 @@
   (lib (name "kicad5-device")(type "Legacy")(uri "${KIPRJMOD}/library/kicad5_device/kicad5_device.lib")(options "")(descr ""))
   (lib (name "DP_logo_kicad")(type "Legacy")(uri "${KIPRJMOD}/library/DP_logo_kicad.pretty/DP_logo_kicad.lib")(options "")(descr ""))
   (lib (name "BusPirate-5-rev10-rescue")(type "KiCad")(uri "${KIPRJMOD}/BusPirate-5-rev10-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "tpc5120")(type "KiCad")(uri "${KIPRJMOD}/tpc5120.kicad_sym")(options "")(descr ""))
+  (lib (name "tpc51201")(type "KiCad")(uri "${KIPRJMOD}/library/tpc5120.kicad_sym")(options "")(descr ""))
+  (lib (name "ws72324q")(type "KiCad")(uri "${KIPRJMOD}/library/ws72324q.kicad_sym")(options "")(descr ""))
 )

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\buspirate5-hardware\pcb\6-REV2\bp6-rev2a.kicad_sch</source>
-    <date>2024-07-25T12:33:40+0200</date>
-    <tool>Eeschema 8.0.3</tool>
+    <source>C:\BP5hw\pcb\7-rev0a\7-REV0.kicad_sch</source>
+    <date>2025-02-23T11:58:58+0100</date>
+    <tool>Eeschema 8.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>bp6-rev2a.kicad_sch</source>
+        <source>7-REV0.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -112,6 +112,24 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="7" name="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pull-x-resistors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="C3">
@@ -154,6 +172,26 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>70a4c7cc-22f7-435c-a084-6dcbeea2b487</tstamps>
     </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.00628</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.00628"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>21ff22aa-240e-48e4-a804-1cfbe1e28a66</tstamps>
+    </comp>
     <comp ref="C403">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -173,46 +211,6 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>00000000-0000-0000-0000-00005eb6acc2</tstamps>
-    </comp>
-    <comp ref="C405">
-      <value>2.2uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.00628</field>
-        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.00628"/>
-      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000614346e6</tstamps>
-    </comp>
-    <comp ref="C406">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.00628</field>
-        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.00628"/>
-      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000614675ae</tstamps>
     </comp>
     <comp ref="C503">
       <value>0.1uF</value>
@@ -234,48 +232,8 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>00000000-0000-0000-0000-00006139af62</tstamps>
     </comp>
-    <comp ref="C504">
-      <value>2.2uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.00628</field>
-        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.00628"/>
-      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>3214caa2-90db-48c9-9488-965412d20de5</tstamps>
-    </comp>
-    <comp ref="C506">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.00628</field>
-        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.00628"/>
-      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>824adfc2-a87f-4790-8166-8b3d1cb13212</tstamps>
-    </comp>
     <comp ref="C507">
-      <value>2.2uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.00628</field>
@@ -315,7 +273,7 @@
       <tstamps>03037a39-5738-4a85-9334-7df9a41adc57</tstamps>
     </comp>
     <comp ref="C509">
-      <value>2.2uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.00628</field>
@@ -354,90 +312,167 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>310a8906-91fb-4995-bb13-10d333147ca8</tstamps>
     </comp>
-    <comp ref="D500">
-      <value>BAS40T-05</value>
+    <comp ref="D1">
+      <value>BAS40-04</value>
       <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description"/>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
-      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="schottky diode common cathode"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>362b4537-b20a-41a0-be51-a3bc2a4c5c38</tstamps>
+      <tstamps>6ba3798a-2e77-4b95-9187-6ea32facfd20</tstamps>
     </comp>
-    <comp ref="D501">
-      <value>BAS40T-05</value>
+    <comp ref="D2">
+      <value>BAS40-04</value>
       <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description"/>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
-      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="schottky diode common cathode"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>26f3fc7a-8468-45fd-890c-3533a185d279</tstamps>
+      <tstamps>4fc23e2d-a248-4cbf-898b-d336aaeffbf7</tstamps>
     </comp>
-    <comp ref="D502">
-      <value>BAS40T-05</value>
+    <comp ref="D3">
+      <value>BAS40-04</value>
       <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description"/>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
-      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="schottky diode common cathode"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>bbb88bf6-698e-4b60-81c6-a0e179f280c5</tstamps>
+      <tstamps>2cd294ff-e980-4e54-8d34-b8f3b131be74</tstamps>
     </comp>
-    <comp ref="D503">
-      <value>BAS40T-05</value>
+    <comp ref="D4">
+      <value>BAS40-04</value>
       <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description"/>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
-      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="schottky diode common cathode"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>4dd61313-d961-4880-9a7e-28a6aed0df4b</tstamps>
+      <tstamps>3c8945f5-fae2-4ecc-b72a-d68c69e78970</tstamps>
     </comp>
-    <comp ref="D504">
-      <value>BAS40T-05</value>
+    <comp ref="D5">
+      <value>BAS40-04</value>
       <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description"/>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
-      <libsource lib="Diode" part="BAT54C" description="dual schottky barrier diode, common cathode"/>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="schottky diode common cathode"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>da5ee121-ca15-4b2d-b080-c7c75516e7cb</tstamps>
+      <tstamps>5190a5d2-7905-40c2-9714-95d357515276</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAS40-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
+      </fields>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>95e9853b-3dfe-4539-9af3-692f573b2fb2</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAS40-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
+      </fields>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>508ac513-137a-42e8-bb4b-28e35c794518</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BAS40-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
+      </fields>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>c96c6c3d-5bc7-4a33-a4c2-f8948efd4345</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAS40-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
+      </fields>
+      <libsource lib="Diode" part="BAS40-04" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky, Diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>18ae2cc8-c980-4896-a67a-d3ea15a37927</tstamps>
     </comp>
     <comp ref="LCD201">
       <value>TFT_20_QT200H1201</value>
@@ -474,161 +509,25 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>00000000-0000-0000-0000-000060ce45ed</tstamps>
     </comp>
-    <comp ref="Q300">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-000065026a0b</tstamps>
-    </comp>
-    <comp ref="Q301">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006504734a</tstamps>
-    </comp>
-    <comp ref="Q302">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006504a58b</tstamps>
-    </comp>
-    <comp ref="Q303">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006504b4e7</tstamps>
-    </comp>
-    <comp ref="Q304">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-000065250510</tstamps>
-    </comp>
-    <comp ref="Q305">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000652523fe</tstamps>
-    </comp>
-    <comp ref="Q306">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006525aa1b</tstamps>
-    </comp>
-    <comp ref="Q307">
-      <value>BC2301T 2.8A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
-        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006525b9b0</tstamps>
-    </comp>
     <comp ref="R3">
-      <value>100K</value>
+      <value>510R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="RMB">0.005749</field>
-        <field name="Supplier">https://item.szlcsc.com/61543.html</field>
+        <field name="RMB">0.004864</field>
+        <field name="Supplier">https://item.szlcsc.com/61542.html</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="RMB" value="0.005749"/>
-      <property name="Supplier" value="https://item.szlcsc.com/61543.html"/>
+      <property name="RMB" value="0.004864"/>
+      <property name="Supplier" value="https://item.szlcsc.com/61542.html"/>
       <property name="Sheetname" value="IO-expand-595-mux"/>
       <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>0e792866-48b6-4498-a808-b2501f536a62</tstamps>
+      <tstamps>94a5a56d-ff74-4ad5-be30-14f23ba53ed3</tstamps>
     </comp>
     <comp ref="R4">
       <value>100K</value>
@@ -649,6 +548,26 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>9d854df7-101f-4dc9-b63a-610fe55d7df6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>510R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.004864</field>
+        <field name="Supplier">https://item.szlcsc.com/61542.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.004864"/>
+      <property name="Supplier" value="https://item.szlcsc.com/61542.html"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>d717ebeb-afb2-46f1-b8ab-b5ff70079cc0</tstamps>
     </comp>
     <comp ref="R208">
       <value>200R</value>
@@ -791,48 +710,6 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>8d82b3b0-2ad3-4153-bd43-034343686f22 5a9c0734-e322-4a97-91d7-25ba9698d2af 9fc0821e-dd7b-49a1-bf6e-c96383c8c22d 31683ba8-5ca2-48a8-b73c-aab6aa56e1f9</tstamps>
     </comp>
-    <comp ref="RN311">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="RMB">0.034572</field>
-        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
-        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
-      <property name="RMB" value="0.034572"/>
-      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="R network star-topology"/>
-      <property name="ki_fp_filters" value="R?Array?SIP*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006501f94e 00000000-0000-0000-0000-00006501f558 00000000-0000-0000-0000-00006501f01e 00000000-0000-0000-0000-00006501d0a1</tstamps>
-    </comp>
-    <comp ref="RN312">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="RMB">0.034572</field>
-        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
-        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
-      <property name="RMB" value="0.034572"/>
-      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="R network star-topology"/>
-      <property name="ki_fp_filters" value="R?Array?SIP*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000650789eb 00000000-0000-0000-0000-000065078ffc 00000000-0000-0000-0000-000065078d59 00000000-0000-0000-0000-00006507786a</tstamps>
-    </comp>
     <comp ref="RN315">
       <value>510R</value>
       <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
@@ -852,7 +729,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-000061f2d49f 00000000-0000-0000-0000-000061f1ad3f 00000000-0000-0000-0000-000061f2e926 00000000-0000-0000-0000-000061f04090</tstamps>
+      <tstamps>00000000-0000-0000-0000-000061f1ad3f 00000000-0000-0000-0000-000061f2d49f 00000000-0000-0000-0000-000061f2e926 00000000-0000-0000-0000-000061f04090</tstamps>
     </comp>
     <comp ref="RN317">
       <value>100K</value>
@@ -873,7 +750,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>fa6bc814-640e-44d8-a9eb-387684da3043 f2ca18a4-01e2-4aa3-ae3d-5361c1d42e4e 95d53e1e-06f8-42d1-a33a-e731d0bf4a0d 34b75dbe-0e23-4429-8696-9fe847102830</tstamps>
+      <tstamps>fa6bc814-640e-44d8-a9eb-387684da3043 95d53e1e-06f8-42d1-a33a-e731d0bf4a0d f2ca18a4-01e2-4aa3-ae3d-5361c1d42e4e 34b75dbe-0e23-4429-8696-9fe847102830</tstamps>
     </comp>
     <comp ref="RN318">
       <value>100K</value>
@@ -894,7 +771,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>e7ae6aa5-ec52-44ed-84fd-2afb9298f309 6225c884-ee1a-46bd-95b1-89d0d3e18ffb c019c7e9-e4b2-4f93-bc80-8df301a33cd8 0b175143-2850-46ff-8394-ddc862d99e13</tstamps>
+      <tstamps>e7ae6aa5-ec52-44ed-84fd-2afb9298f309 c019c7e9-e4b2-4f93-bc80-8df301a33cd8 6225c884-ee1a-46bd-95b1-89d0d3e18ffb 0b175143-2850-46ff-8394-ddc862d99e13</tstamps>
     </comp>
     <comp ref="RN400">
       <value>510R</value>
@@ -915,7 +792,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000650df626 00000000-0000-0000-0000-0000650e00ce 00000000-0000-0000-0000-0000650dfb7e 00000000-0000-0000-0000-0000650db90d</tstamps>
+      <tstamps>00000000-0000-0000-0000-0000650dfb7e 00000000-0000-0000-0000-0000650e00ce 00000000-0000-0000-0000-0000650df626 00000000-0000-0000-0000-0000650db90d</tstamps>
     </comp>
     <comp ref="RN401">
       <value>510R</value>
@@ -936,28 +813,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-00006514681e 00000000-0000-0000-0000-000065145dac 00000000-0000-0000-0000-0000651464c0 00000000-0000-0000-0000-0000651450c2</tstamps>
-    </comp>
-    <comp ref="RN402">
-      <value>510R</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="RMB">0.034572</field>
-        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
-        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
-      <property name="RMB" value="0.034572"/>
-      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="R network star-topology"/>
-      <property name="ki_fp_filters" value="R?Array?SIP*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-0000651a7f0d 00000000-0000-0000-0000-0000651a8545 00000000-0000-0000-0000-0000651a77e5 00000000-0000-0000-0000-0000651a6a17</tstamps>
+      <tstamps>00000000-0000-0000-0000-0000651464c0 00000000-0000-0000-0000-00006514681e 00000000-0000-0000-0000-000065145dac 00000000-0000-0000-0000-0000651450c2</tstamps>
     </comp>
     <comp ref="U2">
       <value>74LVC8T245BQ</value>
@@ -975,6 +831,96 @@
       <property name="ki_fp_filters" value="TSSOP*4.4x7.8mm*P0.65mm*"/>
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>7586a61d-b014-4fe8-b258-7ce1b2608f8c</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="DFN*2x2mm*P0.5mm*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>b4eb32f9-ffc9-4720-b112-f63f2fc69b26 5477ef93-5eb8-442f-bb4f-26d6ef6ee492 4084294c-d67c-4f89-8d4c-87588258c9ad</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="DFN*2x2mm*P0.5mm*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>a73f05ba-fc13-4289-90b4-19d34d6d04ab 6e0db6d4-d1d7-4160-8857-748fdc62579f 65108565-4a0d-4850-a632-4a8ce2e8eddc</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="DFN*2x2mm*P0.5mm*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>9415fbe5-701f-43e5-afcb-105e6be4dd4f af07bc57-7092-4fed-95ef-b2a18cad6604 55067001-b9c1-4225-9437-baf1c6edec73</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="DFN*2x2mm*P0.5mm*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>c6d90d7a-f3de-4048-afc2-504ffedf97a4 c0623358-0201-4ab5-8832-272155bd3ea0 653bc2d4-fd3a-42cd-8d97-45684662accf</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value="IO-expand-595-mux"/>
+      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="DFN*2x2mm*P0.5mm*"/>
+      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
+      <tstamps>affa0ba1-ba16-40c3-a12d-cb16631e7409 eaac8b40-21b6-4b01-aa0a-dc3e160ff10b a59c76c2-4966-45f8-8af4-de99eafc88cf</tstamps>
     </comp>
     <comp ref="U402">
       <value>CD4067</value>
@@ -997,23 +943,6 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>00000000-0000-0000-0000-00005f4fe5c7</tstamps>
     </comp>
-    <comp ref="U404">
-      <value>LMV321</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lmv331.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmv331.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Comparator" part="LMV331" description="Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="single comparator"/>
-      <property name="ki_fp_filters" value="SOT?23* *SC?70*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>00000000-0000-0000-0000-000065145997</tstamps>
-    </comp>
     <comp ref="U503">
       <value>74HCT245BQ</value>
       <footprint>Package_DFN_QFN:DHVQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm</footprint>
@@ -1031,59 +960,88 @@
       <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
       <tstamps>00000000-0000-0000-0000-000061397d7f</tstamps>
     </comp>
-    <comp ref="U504">
-      <value>GS324MT/TR</value>
-      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</field>
+        <field name="RMB">0.037726</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="quad opamp"/>
-      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>5b53b216-a2b6-4112-ae49-5ca71ca28413 76110b38-d418-4230-a315-df2a67f63c01 c1e7ee06-d350-4f34-bd68-09e44e69a707 5f905a13-c8cd-4fa3-9e7e-d7965716bbdd 3a9a075d-7063-4ce1-8b6f-8be3051ec338</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.037726"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>3fc13297-1ae4-4ae5-9323-ce72c2a1de88</tstamps>
     </comp>
-    <comp ref="U505">
-      <value>GS324MT/TR</value>
-      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</field>
+        <field name="RMB">0.037726</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="quad opamp"/>
-      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>cd93e391-053a-4e6e-a6c2-7a4ae773ea3e dd7d48cf-310a-44f8-aa48-58aaee95f5da 6c77b32b-7774-4615-8134-d10135fe62e4 dc2946b5-489c-4d8c-8eaa-dd6e6e52fe2d 1bf3c075-a61a-4333-bc83-3309ac604951</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.037726"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>22dfd107-d999-44d4-85a7-c2ae0c304bf2</tstamps>
     </comp>
-    <comp ref="U506">
-      <value>LMV321</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lmv331.pdf</datasheet>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmv331.pdf</field>
+        <field name="RMB">0.037726</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="Comparator" part="LMV331" description="Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5"/>
-      <property name="Sheetname" value="IO-expand-595-mux"/>
-      <property name="Sheetfile" value="IO-expand-595-mux.kicad_sch"/>
-      <property name="ki_keywords" value="single comparator"/>
-      <property name="ki_fp_filters" value="SOT?23* *SC?70*"/>
-      <sheetpath names="/IO-expand-595-mux/" tstamps="/00000000-0000-0000-0000-000060e58ecc/"/>
-      <tstamps>fa079919-899d-47e0-9f08-23fd9c1f6e7e</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.037726"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>71d0dd3b-b07f-4301-8802-4f1a161f2372</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="RMB">0.037726</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.037726"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>b5e98874-1cee-4207-b018-bae7b84530cc</tstamps>
     </comp>
     <comp ref="C404">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -1103,7 +1061,7 @@
       <tstamps>00000000-0000-0000-0000-00005eb84592</tstamps>
     </comp>
     <comp ref="C407">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -1142,80 +1100,8 @@
       <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
       <tstamps>00000000-0000-0000-0000-000064dfce75</tstamps>
     </comp>
-    <comp ref="C413">
-      <value>2.2uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.043101</field>
-        <field name="Supplier">https://item.szlcsc.com/108589.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.043101"/>
-      <property name="Supplier" value="https://item.szlcsc.com/108589.html"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-00006393915d</tstamps>
-    </comp>
-    <comp ref="C414">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="RMB">0.00628</field>
-        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="RMB" value="0.00628"/>
-      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-00006393a501</tstamps>
-    </comp>
-    <comp ref="C415">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-00006394e5a3</tstamps>
-    </comp>
-    <comp ref="C416">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-0000639682c3</tstamps>
-    </comp>
     <comp ref="C601">
-      <value>2.2uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.043101</field>
@@ -1592,38 +1478,6 @@
       <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
       <tstamps>00000000-0000-0000-0000-00005ea0d5a0</tstamps>
     </comp>
-    <comp ref="R414">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-00006394f9d8</tstamps>
-    </comp>
-    <comp ref="R415">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-000063967916</tstamps>
-    </comp>
     <comp ref="R601">
       <value>0R2</value>
       <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
@@ -1836,6 +1690,40 @@
       <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
       <tstamps>00000000-0000-0000-0000-00006135e936</tstamps>
     </comp>
+    <comp ref="U4">
+      <value>MCP4725xxx-xCH</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Analog_DAC" part="MCP4725xxx-xCH" description="12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="dac twi"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>591509d9-0d43-45a5-8cd3-6fbfb544dd02</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP4725xxx-xCH</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Analog_DAC" part="MCP4725xxx-xCH" description="12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"/>
+      <property name="Sheetname" value="bpu-current_limiter"/>
+      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
+      <property name="ki_keywords" value="dac twi"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
+      <tstamps>393e5bdf-1c0e-4d42-be27-0ccd24c89728</tstamps>
+    </comp>
     <comp ref="U403">
       <value>AP2127</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -1888,23 +1776,6 @@
       <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
       <tstamps>00000000-0000-0000-0000-00006500bc1a</tstamps>
     </comp>
-    <comp ref="U603">
-      <value>LMV321</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lmv331.pdf</datasheet>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmv331.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Comparator" part="LMV331" description="Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5"/>
-      <property name="Sheetname" value="bpu-current_limiter"/>
-      <property name="Sheetfile" value="bpu-current_limiter.kicad_sch"/>
-      <property name="ki_keywords" value="single comparator"/>
-      <property name="ki_fp_filters" value="SOT?23* *SC?70*"/>
-      <sheetpath names="/bpu-current_limiter/" tstamps="/00000000-0000-0000-0000-00005f46fad3/"/>
-      <tstamps>00000000-0000-0000-0000-0000651307cc</tstamps>
-    </comp>
     <comp ref="C1">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -1946,7 +1817,7 @@
       <tstamps>73a91159-6150-470b-a5be-3bd16ae79669</tstamps>
     </comp>
     <comp ref="C4">
-      <value>2.2uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.022142</field>
@@ -2006,7 +1877,7 @@
       <tstamps>a7353a31-63a1-466a-bd83-30a1358dc78a</tstamps>
     </comp>
     <comp ref="C10">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -2026,7 +1897,7 @@
       <tstamps>2453d6ae-a9f9-45ea-af58-baf0195106b7</tstamps>
     </comp>
     <comp ref="C11">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.043101</field>
@@ -2044,6 +1915,86 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
       <tstamps>eb5c0362-0ce9-4175-975a-2bca789f08cb</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.00628</field>
+        <field name="Supplier">https://item.szlcsc.com/1877.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.00628"/>
+      <property name="Supplier" value="https://item.szlcsc.com/1877.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>80d29650-3170-46b8-a4d3-02c8451ae729</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.043101</field>
+        <field name="Supplier">https://item.szlcsc.com/108589.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.043101"/>
+      <property name="Supplier" value="https://item.szlcsc.com/108589.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>0bf99b14-8102-475a-9c2e-e7df65bdc168</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.043101</field>
+        <field name="Supplier">https://item.szlcsc.com/108589.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.043101"/>
+      <property name="Supplier" value="https://item.szlcsc.com/108589.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>147dbecb-51c2-414e-aec2-975c20d3a42d</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.043101</field>
+        <field name="Supplier">https://item.szlcsc.com/108589.html</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="RMB" value="0.043101"/>
+      <property name="Supplier" value="https://item.szlcsc.com/108589.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>de36fb35-57fe-480b-8865-9a8990438407</tstamps>
     </comp>
     <comp ref="C103">
       <value>0.1uF</value>
@@ -2066,7 +2017,7 @@
       <tstamps>00000000-0000-0000-0000-000060c90c9b</tstamps>
     </comp>
     <comp ref="C104">
-      <value>2.2uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.043101</field>
@@ -2126,7 +2077,7 @@
       <tstamps>00000000-0000-0000-0000-000060c953a9</tstamps>
     </comp>
     <comp ref="C109">
-      <value>2.2uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.043101</field>
@@ -2346,7 +2297,7 @@
       <tstamps>00000000-0000-0000-0000-000065558a1c</tstamps>
     </comp>
     <comp ref="C201">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -2366,7 +2317,7 @@
       <tstamps>00000000-0000-0000-0000-000060cd03b5</tstamps>
     </comp>
     <comp ref="C202">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -2386,7 +2337,7 @@
       <tstamps>00000000-0000-0000-0000-000060cd158b</tstamps>
     </comp>
     <comp ref="C401">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.037726</field>
@@ -2406,7 +2357,7 @@
       <tstamps>00000000-0000-0000-0000-00005e96d856</tstamps>
     </comp>
     <comp ref="C402">
-      <value>4.7uF</value>
+      <value>10uF/6.3v CL05A106MQ5NUN</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.043101</field>
@@ -2482,6 +2433,48 @@
       <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
       <tstamps>00000000-0000-0000-0000-00005e9f04e0</tstamps>
     </comp>
+    <comp ref="Q1">
+      <value>MMBT7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.140017</field>
+        <field name="Supplier">https://item.szlcsc.com/544697.html</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="RMB" value="0.140017"/>
+      <property name="Supplier" value="https://item.szlcsc.com/544697.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>9b12ebfb-ede9-4f2a-8ab4-a5424e4f8814</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.140017</field>
+        <field name="Supplier">https://item.szlcsc.com/544697.html</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="RMB" value="0.140017"/>
+      <property name="Supplier" value="https://item.szlcsc.com/544697.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>56017c6f-9aa8-47e3-a79d-e03abecb6593</tstamps>
+    </comp>
     <comp ref="R1">
       <value>10R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
@@ -2522,7 +2515,107 @@
       <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
       <tstamps>73e49bd0-671d-4c54-bf92-c6f0ecc00dbe</tstamps>
     </comp>
-    <comp ref="R101">
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.006373</field>
+        <field name="Supplier">https://item.szlcsc.com/116008.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.006373"/>
+      <property name="Supplier" value="https://item.szlcsc.com/116008.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>bf53f39f-1108-4480-bcc8-196c0bf60291</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.006373</field>
+        <field name="Supplier">https://item.szlcsc.com/116008.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.006373"/>
+      <property name="Supplier" value="https://item.szlcsc.com/116008.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>caf06f80-c31f-4d2e-a4ea-770dbb58d0bb</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.006373</field>
+        <field name="Supplier">https://item.szlcsc.com/116008.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.006373"/>
+      <property name="Supplier" value="https://item.szlcsc.com/116008.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>9800574b-65b3-4e05-839d-a95f52b56d32</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.006373</field>
+        <field name="Supplier">https://item.szlcsc.com/116008.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.006373"/>
+      <property name="Supplier" value="https://item.szlcsc.com/116008.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>3046a3ca-753c-4a33-8ac9-42cfe08ecc60</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.006373</field>
+        <field name="Supplier">https://item.szlcsc.com/116008.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.006373"/>
+      <property name="Supplier" value="https://item.szlcsc.com/116008.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>2fb79691-04f7-418d-a26e-b71c4924fb59</tstamps>
+    </comp>
+    <comp ref="R12">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
@@ -2540,7 +2633,7 @@
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
-      <tstamps>00000000-0000-0000-0000-000060f5d7b1</tstamps>
+      <tstamps>4ad5f4ae-36e4-46dd-8e5f-9a0cd2104687</tstamps>
     </comp>
     <comp ref="R103">
       <value>200R</value>
@@ -2583,7 +2676,7 @@
       <tstamps>00000000-0000-0000-0000-00005e9f71ab</tstamps>
     </comp>
     <comp ref="R202">
-      <value>22R</value>
+      <value>27R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.006505</field>
@@ -2603,7 +2696,7 @@
       <tstamps>00000000-0000-0000-0000-00005e9fbff1</tstamps>
     </comp>
     <comp ref="R203">
-      <value>22R</value>
+      <value>27R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="RMB">0.006505</field>
@@ -2702,6 +2795,24 @@
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
       <tstamps>b511d459-905f-4e59-9631-4341f98b77bb</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>APS6404L-3SQR-ZR</value>
+      <footprint>Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm</footprint>
+      <fields>
+        <field name="RMB">9.85</field>
+        <field name="Supplier">https://item.szlcsc.com/98729.html</field>
+        <field name="Footprint">Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-memory" part="xm25qh128a" description=""/>
+      <property name="RMB" value="9.85"/>
+      <property name="Supplier" value="https://item.szlcsc.com/98729.html"/>
+      <property name="Sheetname" value="micro-rp2040"/>
+      <property name="Sheetfile" value="micro-rp2040.kicad_sch"/>
+      <sheetpath names="/micro-rp2040/" tstamps="/00000000-0000-0000-0000-000060c8ec36/"/>
+      <tstamps>8451953e-293b-4273-a70a-9164fc500258</tstamps>
     </comp>
     <comp ref="U102">
       <value>W25Q128JVSIQ</value>
@@ -3208,27 +3319,6 @@
       <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
       <tstamps>00000000-0000-0000-0000-0000611213da 00000000-0000-0000-0000-000061107a4e 00000000-0000-0000-0000-0000610f45a2 00000000-0000-0000-0000-000060fa273d</tstamps>
     </comp>
-    <comp ref="RN304">
-      <value>1M</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="RMB">0.03666</field>
-        <field name="Supplier">https://item.szlcsc.com/635571.html</field>
-        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
-      <property name="RMB" value="0.03666"/>
-      <property name="Supplier" value="https://item.szlcsc.com/635571.html"/>
-      <property name="Sheetname" value="bpu-iobufffer"/>
-      <property name="Sheetfile" value="bpu-iobufffer.kicad_sch"/>
-      <property name="ki_keywords" value="R network star-topology"/>
-      <property name="ki_fp_filters" value="R?Array?SIP*"/>
-      <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
-      <tstamps>00000000-0000-0000-0000-000061122b20 00000000-0000-0000-0000-000061108cb2 00000000-0000-0000-0000-0000610f6d31 00000000-0000-0000-0000-000060fab3a2</tstamps>
-    </comp>
     <comp ref="RN305">
       <value>120R</value>
       <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
@@ -3311,7 +3401,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
-      <tstamps>00000000-0000-0000-0000-000061137232 00000000-0000-0000-0000-00006113c606 00000000-0000-0000-0000-00006114354a 00000000-0000-0000-0000-0000611287d6</tstamps>
+      <tstamps>00000000-0000-0000-0000-00006113c606 00000000-0000-0000-0000-000061137232 00000000-0000-0000-0000-00006114354a 00000000-0000-0000-0000-0000611287d6</tstamps>
     </comp>
     <comp ref="RN309">
       <value>120R</value>
@@ -3332,28 +3422,7 @@
       <property name="ki_keywords" value="R network star-topology"/>
       <property name="ki_fp_filters" value="R?Array?SIP*"/>
       <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
-      <tstamps>00000000-0000-0000-0000-0000611445a2 00000000-0000-0000-0000-00006113e5ee 00000000-0000-0000-0000-000061138419 00000000-0000-0000-0000-0000611265df</tstamps>
-    </comp>
-    <comp ref="RN310">
-      <value>1M</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="RMB">0.03666</field>
-        <field name="Supplier">https://item.szlcsc.com/635571.html</field>
-        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
-      <property name="RMB" value="0.03666"/>
-      <property name="Supplier" value="https://item.szlcsc.com/635571.html"/>
-      <property name="Sheetname" value="bpu-iobufffer"/>
-      <property name="Sheetfile" value="bpu-iobufffer.kicad_sch"/>
-      <property name="ki_keywords" value="R network star-topology"/>
-      <property name="ki_fp_filters" value="R?Array?SIP*"/>
-      <sheetpath names="/bpu-iobufffer/" tstamps="/00000000-0000-0000-0000-00005f344f30/"/>
-      <tstamps>00000000-0000-0000-0000-00006113764a 00000000-0000-0000-0000-000061143baa 00000000-0000-0000-0000-00006113d315 00000000-0000-0000-0000-00006112771c</tstamps>
+      <tstamps>00000000-0000-0000-0000-000061138419 00000000-0000-0000-0000-0000611445a2 00000000-0000-0000-0000-00006113e5ee 00000000-0000-0000-0000-0000611265df</tstamps>
     </comp>
     <comp ref="U301">
       <value>AiP74LVC1T45GC363.TR</value>
@@ -3899,11 +3968,11 @@
     </comp>
     <comp ref="LED702">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3917,11 +3986,11 @@
     </comp>
     <comp ref="LED703">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3949,11 +4018,11 @@
     </comp>
     <comp ref="LED705">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3967,11 +4036,11 @@
     </comp>
     <comp ref="LED706">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4013,11 +4082,11 @@
     </comp>
     <comp ref="LED710">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4045,11 +4114,11 @@
     </comp>
     <comp ref="LED713">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4063,11 +4132,11 @@
     </comp>
     <comp ref="LED714">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4081,11 +4150,11 @@
     </comp>
     <comp ref="LED715">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4127,11 +4196,11 @@
     </comp>
     <comp ref="LED718">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4145,11 +4214,11 @@
     </comp>
     <comp ref="LED719">
       <value>SK6812-mini-e</value>
-      <footprint>dp-LED:SK6812-mini-e</footprint>
+      <footprint>dp-LED:SK6812-MINI-E</footprint>
       <fields>
         <field name="RMB">0.5296</field>
         <field name="Supplier">https://item.szlcsc.com/542109.html</field>
-        <field name="Footprint">dp-LED:SK6812-mini-e</field>
+        <field name="Footprint">dp-LED:SK6812-MINI-E</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4194,6 +4263,316 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/leds/" tstamps="/00000000-0000-0000-0000-000060edd46d/"/>
       <tstamps>00000000-0000-0000-0000-000061b54215</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>e6d431a0-7f83-418c-b2ea-356ad9f44a6d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>ecd87837-1918-43a5-9fab-753616187c0b</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>eaf1887b-2efd-4bb2-ae5f-516b225b708d</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>68f87a39-671a-48e6-aae7-af30d3c7cf18</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="RMB">0.005749</field>
+        <field name="Supplier">https://item.szlcsc.com/61543.html</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.005749"/>
+      <property name="Supplier" value="https://item.szlcsc.com/61543.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>2e702987-171d-48af-9429-055f679fd7d8</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>89a4e744-ec1b-4439-931a-1588860ee818 d98c9b11-50c7-49c9-b691-17bdc880da63 54c2a1a7-41e6-4530-8a5a-ce9029905cba 2330c45e-7493-4133-a6c5-ad0c8278f08e</tstamps>
+    </comp>
+    <comp ref="RN3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>a235aee6-91d4-4dc5-bba2-7a837812b4cf 9bd2dc59-a2b5-4510-8616-6a054108ae8f 98290f93-bc54-4d4d-b2da-a9b1866e6bd4 38cc6a13-1300-4fbf-ad5f-d05967d88e91</tstamps>
+    </comp>
+    <comp ref="RN4">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>ae86f0d4-ab47-4ae1-a5c6-96392e87403f 928b7367-6516-4686-9fe0-bbf0ce3ce99c e2e56e4a-f962-4774-a044-1a19437d1f71 46288135-02f4-4ef6-b232-931c264b3556</tstamps>
+    </comp>
+    <comp ref="RN5">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>f034b770-c4f6-4438-b4ec-130e89c21370 8902abdc-0e86-4a4a-a8ed-724b985ab54b 7d6fe0f5-d37e-4421-ae6f-b29409ed9d6f 12998a72-3317-4592-994d-e966187ccda6</tstamps>
+    </comp>
+    <comp ref="RN6">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>c365b226-5bda-45bc-b9f2-7d28a99f5349 c095f32d-556a-44cf-9c01-5c572e184702 a86604ff-cec0-41a2-b200-fc29ef57e456 8f239d5e-3e5a-4988-88df-46cc536c414b</tstamps>
+    </comp>
+    <comp ref="RN7">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>ad22917f-2b76-4680-9b94-8d5f690a03c1 68f5531b-52b8-40aa-8185-27f1380a30cc e063bd45-3475-4861-8ee0-cf18c41c2a18 16132416-daca-4bb3-bee9-33ade13e0710</tstamps>
+    </comp>
+    <comp ref="RN8">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>a4fda4f1-1871-41ca-8e82-a64f21632fef 9cc4f058-4fe1-4666-9302-6df4a5f4964b d6aeff8d-0950-4aff-b14e-f3a383f0125d 38e9bd96-b08c-4071-9b5a-abd526906544</tstamps>
+    </comp>
+    <comp ref="RN9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.034572</field>
+        <field name="Supplier">https://item.szlcsc.com/45893.html</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0402</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="dp-rarray" part="R_Array" description="4 resistor network, star topology, bussed resistors, split"/>
+      <property name="RMB" value="0.034572"/>
+      <property name="Supplier" value="https://item.szlcsc.com/45893.html"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>b7a03477-a5a2-40ee-b8cd-0f233951ae6c 961531b0-6079-4a98-87c0-4b9c1de520be c0977a7a-1630-43a4-bb71-56e653557485 908e9dbb-0d6a-43c5-bb3b-6965e2673e7b</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TCA6416RTWT</value>
+      <footprint>qfn24-4x4x50:QFN50P400X400X80-25N</footprint>
+      <description>Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85</description>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="Package">WQFN-24 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TCA6416RTWT</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Footprint">qfn24-4x4x50:QFN50P400X400X80-25N</field>
+        <field name="Datasheet"/>
+        <field name="Description">Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85</field>
+      </fields>
+      <libsource lib="TCA6416RTWT" part="TCA6416RTWT" description="&#xA;Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85&#xA;"/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Package" value="WQFN-24 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="TCA6416RTWT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>3cd6e8fe-a23d-44a1-86fb-88b9cdb93dd9</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TCA6416RTWT</value>
+      <footprint>qfn24-4x4x50:QFN50P400X400X80-25N</footprint>
+      <description>Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85</description>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="Package">WQFN-24 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TCA6416RTWT</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Footprint">qfn24-4x4x50:QFN50P400X400X80-25N</field>
+        <field name="Datasheet"/>
+        <field name="Description">Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85</field>
+      </fields>
+      <libsource lib="TCA6416RTWT" part="TCA6416RTWT" description="&#xA;Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85&#xA;"/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Package" value="WQFN-24 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="TCA6416RTWT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Pull-X resistor system"/>
+      <property name="Sheetfile" value="pull-x-resistors.kicad_sch"/>
+      <sheetpath names="/Pull-X resistor system/" tstamps="/70d89944-cef2-4c07-9520-6c47f8613415/"/>
+      <tstamps>d884e998-1f1d-4ac4-9a30-7b4e91a25f09</tstamps>
     </comp>
   </components>
   <libparts>
@@ -4304,38 +4683,51 @@
         <pin num="24" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Operational" part="LM324">
-      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+    <libpart lib="Amplifier_Operational" part="LM358_DFN">
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <docs>www.st.com/resource/en/datasheet/lm358.pdf</docs>
       <footprints>
-        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
-        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
-        <fp>MSOP*3x3mm*P0.5mm*</fp>
+        <fp>DFN*2x2mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM324</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</field>
-        <field name="Description">Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</field>
+        <field name="Value">LM358_DFN</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+        <field name="Description">Low-Power, Dual Operational Amplifiers, DFN-8</field>
       </fields>
       <pins>
         <pin num="1" name="" type="output"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V+" type="power_in"/>
+        <pin num="4" name="V-" type="power_in"/>
         <pin num="5" name="+" type="input"/>
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="" type="output"/>
-        <pin num="8" name="" type="output"/>
-        <pin num="9" name="-" type="input"/>
-        <pin num="10" name="+" type="input"/>
-        <pin num="11" name="V-" type="power_in"/>
-        <pin num="12" name="+" type="input"/>
-        <pin num="13" name="-" type="input"/>
-        <pin num="14" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_DAC" part="MCP4725xxx-xCH">
+      <description>12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4725xxx-xCH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</field>
+        <field name="Description">12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="A0" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Comparator" part="LMV331">
@@ -4477,6 +4869,27 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="D_Zener_Small_Filled">
+      <description>Zener diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small_Filled</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol, filled shape</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -4533,18 +4946,18 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="BAT54C">
-      <description>dual schottky barrier diode, common cathode</description>
-      <docs>http://www.diodes.com/_files/datasheets/ds11005.pdf</docs>
+    <libpart lib="Diode" part="BAS40-04">
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <docs>http://www.vishay.com/docs/85701/bas40v.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">BAT54C</field>
+        <field name="Value">BAS40-04</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
-        <field name="Description">dual schottky barrier diode, common cathode</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85701/bas40v.pdf</field>
+        <field name="Description">40V 0.2A Dual Small Signal Schottky Diodes</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -4789,6 +5202,54 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="TCA6416RTWT" part="TCA6416RTWT">
+      <description>
+Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85
+</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA6416RTWT</field>
+        <field name="Footprint">TCA6416RTWT:QFN50P400X400X80-25N</field>
+        <field name="Datasheet"/>
+        <field name="Description">
+Low-voltage 16-bit I2C &amp; SMBus I/O expander with interrupt output, reset &amp; config registers 24-WQFN -40 to 85
+</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Package">WQFN-24 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TCA6416RTWT</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TCA6416RTWT/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P00" type="bidirectional"/>
+        <pin num="2" name="P01" type="bidirectional"/>
+        <pin num="3" name="P02" type="bidirectional"/>
+        <pin num="4" name="P03" type="bidirectional"/>
+        <pin num="5" name="P04" type="bidirectional"/>
+        <pin num="6" name="P05" type="bidirectional"/>
+        <pin num="7" name="P06" type="bidirectional"/>
+        <pin num="8" name="P07" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="P10" type="bidirectional"/>
+        <pin num="11" name="P11" type="bidirectional"/>
+        <pin num="12" name="P12" type="bidirectional"/>
+        <pin num="13" name="P13" type="bidirectional"/>
+        <pin num="14" name="P14" type="bidirectional"/>
+        <pin num="15" name="P15" type="bidirectional"/>
+        <pin num="16" name="P16" type="bidirectional"/>
+        <pin num="17" name="P17" type="bidirectional"/>
+        <pin num="18" name="ADDR" type="input"/>
+        <pin num="19" name="SCL" type="input"/>
+        <pin num="20" name="SDA" type="bidirectional"/>
+        <pin num="21" name="VCCP" type="power_in"/>
+        <pin num="22" name="~{INT}" type="output"/>
+        <pin num="23" name="VCCI" type="power_in"/>
+        <pin num="24" name="~{RESET}" type="input"/>
+        <pin num="25" name="EP" type="bidirectional"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="BSS138">
       <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
       <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
@@ -5027,6 +5488,9 @@
     <library logical="Amplifier_Operational">
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
     </library>
+    <library logical="Analog_DAC">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Analog_DAC.kicad_sym</uri>
+    </library>
     <library logical="Comparator">
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
     </library>
@@ -5034,16 +5498,13 @@
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="DP_logo_kicad">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/DP_logo_kicad.pretty/DP_logo_kicad.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/DP_logo_kicad.pretty/DP_logo_kicad.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Diode.kicad_sym</uri>
-    </library>
-    <library logical="ESPx">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/ESP32x.kicad_sym</uri>
     </library>
     <library logical="Logic_LevelTranslator">
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Logic_LevelTranslator.kicad_sym</uri>
@@ -5061,25 +5522,25 @@
       <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="dp-LED">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-LED/dp-LED.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-LED/dp-LED.lib</uri>
     </library>
     <library logical="dp-lcd">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-lcd/dp-lcd.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-lcd/dp-lcd.lib</uri>
     </library>
     <library logical="dp-memory">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-memory/dp-memory.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-memory/dp-memory.lib</uri>
     </library>
     <library logical="dp-rarray">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-rarray/r_network04_split.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-rarray/r_network04_split.lib</uri>
     </library>
     <library logical="dp-switch">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-switch/dp-switch.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-switch/dp-switch.lib</uri>
     </library>
     <library logical="dp-vreg">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/dp-vreg/dp-vreg.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/dp-vreg/dp-vreg.lib</uri>
     </library>
     <library logical="kicad5-device">
-      <uri>C:\buspirate5-hardware\pcb\6-REV2/library/kicad5_device/kicad5_device.lib</uri>
+      <uri>C:\BP5hw\pcb\7-rev0a/library/kicad5_device/kicad5_device.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -5104,7 +5565,13 @@
       <node ref="C114" pin="1" pintype="passive"/>
       <node ref="C115" pin="1" pintype="passive"/>
       <node ref="C116" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C121" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C301" pin="2" pintype="passive"/>
       <node ref="C302" pin="2" pintype="passive"/>
@@ -5115,8 +5582,8 @@
       <node ref="C313" pin="2" pintype="passive"/>
       <node ref="C314" pin="2" pintype="passive"/>
       <node ref="C402" pin="1" pintype="passive"/>
-      <node ref="C413" pin="1" pintype="passive"/>
-      <node ref="C414" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C605" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
@@ -5126,13 +5593,16 @@
       <node ref="Q601" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R103" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R609" pin="1" pintype="passive"/>
       <node ref="R613" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U1" pin="24" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U1" pin="29" pinfunction="IOVDD" pintype="power_in"/>
-      <node ref="U1" pin="35" pinfunction="RUN" pintype="input"/>
       <node ref="U1" pin="41" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U1" pin="5" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U1" pin="50" pinfunction="IOVDD" pintype="power_in"/>
@@ -5153,21 +5623,24 @@
       <node ref="U306" pin="1" pinfunction="VCCA" pintype="power_in"/>
       <node ref="U307" pin="1" pinfunction="VCCA" pintype="power_in"/>
       <node ref="U308" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="U401" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U5" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="A0" pintype="input"/>
+      <node ref="U6" pin="23" pinfunction="VCCI" pintype="power_in"/>
       <node ref="U602" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U603" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U7" pin="18" pinfunction="ADDR" pintype="input"/>
+      <node ref="U7" pin="23" pinfunction="VCCI" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="3" name="+VUSB">
       <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C201" pin="2" pintype="passive"/>
       <node ref="C202" pin="2" pintype="passive"/>
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="C403" pin="2" pintype="passive"/>
-      <node ref="C405" pin="2" pintype="passive"/>
-      <node ref="C406" pin="1" pintype="passive"/>
       <node ref="C503" pin="2" pintype="passive"/>
-      <node ref="C504" pin="2" pintype="passive"/>
-      <node ref="C506" pin="1" pintype="passive"/>
       <node ref="C507" pin="2" pintype="passive"/>
       <node ref="C508" pin="2" pintype="passive"/>
       <node ref="C509" pin="2" pintype="passive"/>
@@ -5192,11 +5665,15 @@
       <node ref="C718" pin="2" pintype="passive"/>
       <node ref="C719" pin="2" pintype="passive"/>
       <node ref="C720" pin="2" pintype="passive"/>
-      <node ref="D500" pin="3" pintype="passive"/>
-      <node ref="D501" pin="3" pintype="passive"/>
-      <node ref="D502" pin="3" pintype="passive"/>
-      <node ref="D503" pin="3" pintype="passive"/>
-      <node ref="D504" pin="3" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pintype="passive"/>
+      <node ref="D8" pin="2" pintype="passive"/>
+      <node ref="D9" pin="2" pintype="passive"/>
       <node ref="L201" pin="1" pintype="passive"/>
       <node ref="LCD201" pin="3" pinfunction="LED-A" pintype="bidirectional"/>
       <node ref="LED701" pin="3" pinfunction="VDD" pintype="power_in"/>
@@ -5220,22 +5697,23 @@
       <node ref="R320" pin="2" pintype="passive"/>
       <node ref="R601" pin="1" pintype="passive"/>
       <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U11" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U13" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="~{SHDN}" pintype="input"/>
       <node ref="U401" pin="2" pinfunction="VIN" pintype="power_in"/>
       <node ref="U402" pin="24" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U404" pin="5" pinfunction="V+" pintype="power_in"/>
       <node ref="U503" pin="1" pinfunction="A-&gt;B" pintype="input"/>
       <node ref="U503" pin="20" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U504" pin="4" pinfunction="V+" pintype="power_in"/>
-      <node ref="U505" pin="4" pinfunction="V+" pintype="power_in"/>
-      <node ref="U506" pin="5" pinfunction="V+" pintype="power_in"/>
       <node ref="U601" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="4" name="AMUX_OUT">
       <node ref="R406" pin="2" pintype="passive"/>
       <node ref="R407" pin="2" pintype="passive"/>
-      <node ref="U1" pin="57" pinfunction="GPIO46_ADC6" pintype="bidirectional"/>
+      <node ref="U1" pin="56" pinfunction="GPIO45_ADC5" pintype="bidirectional"/>
     </net>
     <net code="5" name="AMUX_S0">
       <node ref="RN315" pin="4" pinfunction="R1.1" pintype="passive"/>
@@ -5277,64 +5755,88 @@
       <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="RN305" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN312" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN318" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN318" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN6" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN7" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN8" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN9" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="B8" pintype="bidirectional"/>
     </net>
     <net code="14" name="BPIO1">
       <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J302" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="RN305" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN312" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN318" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN318" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN6" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN7" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN8" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN9" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="B7" pintype="bidirectional"/>
     </net>
     <net code="15" name="BPIO2">
       <node ref="J301" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J302" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="RN305" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN312" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN318" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN318" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN6" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN7" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN8" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN9" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="B6" pintype="bidirectional"/>
     </net>
     <net code="16" name="BPIO3">
       <node ref="J301" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J302" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="RN305" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN312" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN318" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN318" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN6" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN7" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN8" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN9" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U2" pin="17" pinfunction="B5" pintype="bidirectional"/>
     </net>
     <net code="17" name="BPIO4">
       <node ref="J301" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J302" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RN2" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN3" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="RN309" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN311" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN317" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN317" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN4" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN5" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="B4" pintype="bidirectional"/>
     </net>
     <net code="18" name="BPIO5">
       <node ref="J301" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J302" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RN2" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN3" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="RN309" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN311" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN317" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN317" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN4" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN5" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="U2" pin="19" pinfunction="B3" pintype="bidirectional"/>
     </net>
     <net code="19" name="BPIO6">
       <node ref="J301" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J302" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="RN2" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN3" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="RN309" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN311" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN317" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN317" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN4" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN5" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="B2" pintype="bidirectional"/>
     </net>
     <net code="20" name="BPIO7">
       <node ref="J301" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J302" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="RN2" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN3" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="RN309" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN311" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN317" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN317" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="RN4" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN5" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="B1" pintype="bidirectional"/>
     </net>
     <net code="21" name="BUFDIR0">
@@ -5411,16 +5913,15 @@
     </net>
     <net code="37" name="BUTTONS">
       <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="54" pinfunction="GPIO43_ADC3" pintype="bidirectional"/>
+      <node ref="U1" pin="55" pinfunction="GPIO44_ADC4" pintype="bidirectional"/>
     </net>
     <net code="38" name="CURRENT_ADJ_MCU">
-      <node ref="R415" pin="2" pintype="passive"/>
-      <node ref="U1" pin="56" pinfunction="GPIO45_ADC5" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="VOUT" pintype="output"/>
+      <node ref="U602" pin="1" pinfunction="+" pintype="input"/>
     </net>
     <net code="39" name="CURRENT_DETECT">
       <node ref="Q602" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R610" pin="2" pintype="passive"/>
-      <node ref="RN402" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="GPIO19" pintype="bidirectional"/>
       <node ref="U602" pin="4" pintype="open_collector"/>
     </net>
@@ -5440,7 +5941,7 @@
     <net code="43" name="CURRENT_SENSE">
       <node ref="R605" pin="1" pintype="passive"/>
       <node ref="R606" pin="2" pintype="passive"/>
-      <node ref="U1" pin="58" pinfunction="GPIO47_ADC7" pintype="bidirectional"/>
+      <node ref="U1" pin="57" pinfunction="GPIO46_ADC6" pintype="bidirectional"/>
       <node ref="U601" pin="4" pintype="open_collector"/>
     </net>
     <net code="44" name="DISPLAY_BACKLIGHT">
@@ -5461,7 +5962,7 @@
     </net>
     <net code="48" name="DISPLAY_RESET">
       <node ref="LCD201" pin="11" pinfunction="RESET" pintype="input"/>
-      <node ref="U1" pin="38" pinfunction="GPIO30" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="GPIO36" pintype="bidirectional"/>
     </net>
     <net code="49" name="FLASH_CS">
       <node ref="U1" pin="39" pinfunction="GPIO31" pintype="bidirectional"/>
@@ -5485,10 +5986,21 @@
       <node ref="C116" pin="2" pintype="passive"/>
       <node ref="C117" pin="2" pintype="passive"/>
       <node ref="C118" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C121" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C201" pin="1" pintype="passive"/>
       <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C301" pin="1" pintype="passive"/>
       <node ref="C302" pin="1" pintype="passive"/>
@@ -5511,20 +6023,14 @@
       <node ref="C402" pin="2" pintype="passive"/>
       <node ref="C403" pin="1" pintype="passive"/>
       <node ref="C404" pin="2" pintype="passive"/>
-      <node ref="C405" pin="1" pintype="passive"/>
-      <node ref="C406" pin="2" pintype="passive"/>
       <node ref="C407" pin="2" pintype="passive"/>
-      <node ref="C413" pin="2" pintype="passive"/>
-      <node ref="C414" pin="1" pintype="passive"/>
-      <node ref="C415" pin="1" pintype="passive"/>
-      <node ref="C416" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C503" pin="1" pintype="passive"/>
-      <node ref="C504" pin="1" pintype="passive"/>
-      <node ref="C506" pin="2" pintype="passive"/>
       <node ref="C507" pin="1" pintype="passive"/>
       <node ref="C508" pin="1" pintype="passive"/>
       <node ref="C509" pin="1" pintype="passive"/>
       <node ref="C510" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C601" pin="2" pintype="passive"/>
       <node ref="C602" pin="1" pintype="passive"/>
       <node ref="C605" pin="2" pintype="passive"/>
@@ -5549,6 +6055,15 @@
       <node ref="C720" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pintype="passive"/>
+      <node ref="D8" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pintype="passive"/>
       <node ref="J201" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J202" pin="A1B12" pinfunction="GND" pintype="power_in"/>
       <node ref="J202" pin="B1A12" pinfunction="GND" pintype="power_in"/>
@@ -5580,7 +6095,10 @@
       <node ref="LED718" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="LED719" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="LED720" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q202" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R201" pin="1" pintype="passive"/>
       <node ref="R204" pin="1" pintype="passive"/>
       <node ref="R301" pin="2" pintype="passive"/>
@@ -5603,10 +6121,6 @@
       <node ref="RN303" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN303" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN303" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN304" pin="5" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN304" pin="6" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN304" pin="7" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN304" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="RN307" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="3" pinfunction="R1.1" pintype="passive"/>
@@ -5615,15 +6129,14 @@
       <node ref="RN308" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN308" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN308" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="RN310" pin="5" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="6" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="7" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="8" pinfunction="R1.8" pintype="passive"/>
-      <node ref="SW101" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW102" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U1" pin="81" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U102" pin="4" pinfunction="VSS" pintype="power_in"/>
       <node ref="U105" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U12" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U13" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U2" pin="11" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="12" pinfunction="GND" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="GND" pintype="passive"/>
@@ -5638,6 +6151,8 @@
       <node ref="U306" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U307" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U308" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="A0" pintype="input"/>
       <node ref="U401" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U402" pin="12" pinfunction="GND" pintype="power_in"/>
       <node ref="U402" pin="15" pinfunction="~{E}" pintype="input"/>
@@ -5645,248 +6160,266 @@
       <node ref="U402" pin="17" pinfunction="I14" pintype="passive"/>
       <node ref="U402" pin="18" pinfunction="I13" pintype="passive"/>
       <node ref="U402" pin="19" pinfunction="I12" pintype="passive"/>
+      <node ref="U402" pin="20" pinfunction="I11" pintype="passive"/>
       <node ref="U403" pin="2" pinfunction="GND" pintype="input"/>
-      <node ref="U404" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VSS" pintype="power_in"/>
       <node ref="U503" pin="10" pinfunction="GND" pintype="power_in"/>
       <node ref="U503" pin="19" pinfunction="CE" pintype="input"/>
       <node ref="U503" pin="7" pinfunction="A5" pintype="tri_state"/>
       <node ref="U503" pin="8" pinfunction="A6" pintype="tri_state"/>
-      <node ref="U504" pin="11" pinfunction="V-" pintype="power_in"/>
-      <node ref="U505" pin="11" pinfunction="V-" pintype="power_in"/>
-      <node ref="U506" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U503" pin="9" pinfunction="A7" pintype="tri_state"/>
+      <node ref="U6" pin="18" pinfunction="ADDR" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="GND" pintype="power_in"/>
       <node ref="U601" pin="2" pinfunction="V-" pintype="power_in"/>
       <node ref="U602" pin="2" pinfunction="V-" pintype="power_in"/>
-      <node ref="U603" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="Y101" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y101" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="51" name="LA_BPIO0">
+    <net code="51" name="I2C_RESET">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="GPIO37" pintype="bidirectional"/>
+      <node ref="U6" pin="24" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U7" pin="24" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="52" name="I2C_SCL">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="GPIO43_ADC3" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="U6" pin="19" pinfunction="SCL" pintype="input"/>
+      <node ref="U7" pin="19" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="53" name="I2C_SDA">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="GPIO42_ADC2" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="20" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="20" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="LA_BPIO0">
       <node ref="U1" pin="20" pinfunction="GPIO20" pintype="bidirectional"/>
       <node ref="U2" pin="10" pinfunction="A8" pintype="bidirectional"/>
     </net>
-    <net code="52" name="LA_BPIO1">
+    <net code="55" name="LA_BPIO1">
       <node ref="U1" pin="21" pinfunction="GPIO21" pintype="bidirectional"/>
       <node ref="U2" pin="9" pinfunction="A7" pintype="bidirectional"/>
     </net>
-    <net code="53" name="LA_BPIO2">
+    <net code="56" name="LA_BPIO2">
       <node ref="U1" pin="22" pinfunction="GPIO22" pintype="bidirectional"/>
       <node ref="U2" pin="8" pinfunction="A6" pintype="bidirectional"/>
     </net>
-    <net code="54" name="LA_BPIO3">
+    <net code="57" name="LA_BPIO3">
       <node ref="U1" pin="23" pinfunction="GPIO23" pintype="bidirectional"/>
       <node ref="U2" pin="7" pinfunction="A5" pintype="bidirectional"/>
     </net>
-    <net code="55" name="LA_BPIO4">
+    <net code="58" name="LA_BPIO4">
       <node ref="U1" pin="25" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="U2" pin="6" pinfunction="A4" pintype="bidirectional"/>
     </net>
-    <net code="56" name="LA_BPIO5">
+    <net code="59" name="LA_BPIO5">
       <node ref="U1" pin="26" pinfunction="GPIO25" pintype="bidirectional"/>
       <node ref="U2" pin="5" pinfunction="A3" pintype="bidirectional"/>
     </net>
-    <net code="57" name="LA_BPIO6">
+    <net code="60" name="LA_BPIO6">
       <node ref="U1" pin="27" pinfunction="GPIO26" pintype="bidirectional"/>
       <node ref="U2" pin="4" pinfunction="A2" pintype="bidirectional"/>
     </net>
-    <net code="58" name="LA_BPIO7">
+    <net code="61" name="LA_BPIO7">
       <node ref="U1" pin="28" pinfunction="GPIO27" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="A1" pintype="bidirectional"/>
     </net>
-    <net code="59" name="LEDS_CDO">
+    <net code="62" name="LEDS_CDO">
       <node ref="R502" pin="1" pintype="passive"/>
       <node ref="U503" pin="18" pinfunction="B0" pintype="tri_state"/>
     </net>
-    <net code="60" name="MUX_BPIO0">
+    <net code="63" name="MCU_BOOTLOAD">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="75" pinfunction="QSPI_SS" pintype="bidirectional"/>
+      <node ref="U102" pin="1" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="64" name="MCU_RESET">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="65" name="MUX_BPIO0">
       <node ref="RN401" pin="5" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U505" pin="1" pintype="output"/>
-      <node ref="U505" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="1" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="61" name="MUX_BPIO1">
+    <net code="66" name="MUX_BPIO1">
       <node ref="RN401" pin="6" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U505" pin="6" pinfunction="-" pintype="input"/>
-      <node ref="U505" pin="7" pintype="output"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="7" pintype="output"/>
     </net>
-    <net code="62" name="MUX_BPIO2">
+    <net code="67" name="MUX_BPIO2">
       <node ref="RN401" pin="7" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U505" pin="8" pintype="output"/>
-      <node ref="U505" pin="9" pinfunction="-" pintype="input"/>
+      <node ref="U10" pin="1" pintype="output"/>
+      <node ref="U10" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="63" name="MUX_BPIO3">
+    <net code="68" name="MUX_BPIO3">
       <node ref="RN401" pin="8" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U505" pin="13" pinfunction="-" pintype="input"/>
-      <node ref="U505" pin="14" pintype="output"/>
+      <node ref="U10" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U10" pin="7" pintype="output"/>
     </net>
-    <net code="64" name="MUX_BPIO4">
+    <net code="69" name="MUX_BPIO4">
       <node ref="RN400" pin="5" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U504" pin="13" pinfunction="-" pintype="input"/>
-      <node ref="U504" pin="14" pintype="output"/>
+      <node ref="U11" pin="1" pintype="output"/>
+      <node ref="U11" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="65" name="MUX_BPIO5">
+    <net code="70" name="MUX_BPIO5">
       <node ref="RN400" pin="6" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U504" pin="8" pintype="output"/>
-      <node ref="U504" pin="9" pinfunction="-" pintype="input"/>
+      <node ref="U11" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U11" pin="7" pintype="output"/>
     </net>
-    <net code="66" name="MUX_BPIO6">
+    <net code="71" name="MUX_BPIO6">
       <node ref="RN400" pin="7" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U504" pin="1" pintype="output"/>
-      <node ref="U504" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U12" pin="1" pintype="output"/>
+      <node ref="U12" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="67" name="MUX_BPIO7">
+    <net code="72" name="MUX_BPIO7">
       <node ref="RN400" pin="8" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U504" pin="6" pinfunction="-" pintype="input"/>
-      <node ref="U504" pin="7" pintype="output"/>
+      <node ref="U12" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U12" pin="7" pintype="output"/>
     </net>
-    <net code="68" name="MUX_VREF_VOUT">
-      <node ref="RN402" pin="8" pinfunction="R1.8" pintype="passive"/>
-      <node ref="U506" pin="3" pinfunction="-" pintype="input"/>
-      <node ref="U506" pin="4" pintype="open_collector"/>
+    <net code="73" name="MUX_VREF_VOUT">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="output"/>
+      <node ref="U13" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="69" name="Net-(C106-Pad1)">
+    <net code="74" name="Net-(C106-Pad1)">
       <node ref="C106" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="Y101" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(D401-A)">
+    <net code="75" name="Net-(D401-A)">
       <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q401" pin="3" pinfunction="C2" pintype="passive"/>
       <node ref="Q401" pin="5" pinfunction="B2" pintype="input"/>
       <node ref="R408" pin="2" pintype="passive"/>
       <node ref="R410" pin="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(D601-A)">
+    <net code="76" name="Net-(D601-A)">
       <node ref="D601" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q601" pin="3" pinfunction="C2" pintype="passive"/>
       <node ref="R606" pin="1" pintype="passive"/>
       <node ref="U602" pin="3" pinfunction="-" pintype="input"/>
     </net>
-    <net code="72" name="Net-(D602-A)">
+    <net code="77" name="Net-(D602-A)">
       <node ref="D602" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q602" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(J202-CC1)">
+    <net code="78" name="Net-(J202-CC1)">
       <node ref="J202" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R201" pin="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(J202-CC2)">
+    <net code="79" name="Net-(J202-CC2)">
       <node ref="J202" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R204" pin="2" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(J202-VBUS-PadA4B9)">
+    <net code="80" name="Net-(J202-VBUS-PadA4B9)">
       <node ref="J202" pin="A4B9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="J202" pin="B4A9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="L201" pin="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(LED701-DI)">
+    <net code="81" name="Net-(LED701-DI)">
       <node ref="LED701" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED702" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="77" name="Net-(LED701-DO)">
+    <net code="82" name="Net-(LED701-DO)">
       <node ref="LED701" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED704" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="78" name="Net-(LED702-DI)">
+    <net code="83" name="Net-(LED702-DI)">
       <node ref="LED702" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED706" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="79" name="Net-(LED703-DI)">
+    <net code="84" name="Net-(LED703-DI)">
       <node ref="LED703" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED704" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="80" name="Net-(LED703-DO)">
+    <net code="85" name="Net-(LED703-DO)">
       <node ref="LED703" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED705" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="81" name="Net-(LED705-DO)">
+    <net code="86" name="Net-(LED705-DO)">
       <node ref="LED705" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED720" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="82" name="Net-(LED706-DI)">
+    <net code="87" name="Net-(LED706-DI)">
       <node ref="LED706" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED708" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="83" name="Net-(LED707-DI)">
+    <net code="88" name="Net-(LED707-DI)">
       <node ref="LED707" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED719" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="84" name="Net-(LED707-DO)">
+    <net code="89" name="Net-(LED707-DO)">
       <node ref="LED707" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED713" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="85" name="Net-(LED708-DI)">
+    <net code="90" name="Net-(LED708-DI)">
       <node ref="LED708" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED710" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="86" name="Net-(LED710-DI)">
+    <net code="91" name="Net-(LED710-DI)">
       <node ref="LED710" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED712" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="87" name="Net-(LED712-DI)">
+    <net code="92" name="Net-(LED712-DI)">
       <node ref="LED712" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED714" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="88" name="Net-(LED713-DO)">
+    <net code="93" name="Net-(LED713-DO)">
       <node ref="LED713" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED715" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="89" name="Net-(LED714-DI)">
+    <net code="94" name="Net-(LED714-DI)">
       <node ref="LED714" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="LED718" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="90" name="Net-(LED715-DO)">
+    <net code="95" name="Net-(LED715-DO)">
       <node ref="LED715" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED716" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="91" name="Net-(LED716-DO)">
+    <net code="96" name="Net-(LED716-DO)">
       <node ref="LED716" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED717" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="92" name="Net-(LED717-DO)">
+    <net code="97" name="Net-(LED717-DO)">
       <node ref="LED717" pin="2" pinfunction="DO" pintype="output"/>
       <node ref="LED718" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="93" name="Net-(LED719-DI)">
+    <net code="98" name="Net-(LED719-DI)">
       <node ref="LED719" pin="4" pinfunction="DI" pintype="input"/>
       <node ref="R502" pin="2" pintype="passive"/>
     </net>
-    <net code="94" name="Net-(Q202-D)">
+    <net code="99" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(Q2-D)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(Q2-G)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(Q202-D)">
       <node ref="Q202" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R209" pin="1" pintype="passive"/>
     </net>
-    <net code="95" name="Net-(Q202-G)">
+    <net code="103" name="Net-(Q202-G)">
       <node ref="Q202" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R208" pin="2" pintype="passive"/>
-    </net>
-    <net code="96" name="Net-(Q300-D)">
-      <node ref="Q300" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN311" pin="6" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="97" name="Net-(Q301-D)">
-      <node ref="Q301" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN311" pin="8" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="98" name="Net-(Q302-D)">
-      <node ref="Q302" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN311" pin="7" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="99" name="Net-(Q303-D)">
-      <node ref="Q303" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN311" pin="5" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="100" name="Net-(Q304-D)">
-      <node ref="Q304" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN312" pin="6" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="101" name="Net-(Q305-D)">
-      <node ref="Q305" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN312" pin="8" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="102" name="Net-(Q306-D)">
-      <node ref="Q306" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN312" pin="7" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="103" name="Net-(Q307-D)">
-      <node ref="Q307" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="RN312" pin="5" pinfunction="R1.8" pintype="passive"/>
     </net>
     <net code="104" name="Net-(Q401A-B1)">
       <node ref="Q401" pin="2" pinfunction="B1" pintype="input"/>
@@ -5919,342 +6452,435 @@
       <node ref="R408" pin="1" pintype="passive"/>
       <node ref="R409" pin="1" pintype="passive"/>
     </net>
-    <net code="111" name="Net-(RN301A-R1.1)">
+    <net code="111" name="Net-(RN2A-R1.1)">
+      <node ref="RN2" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="P13" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="Net-(RN2B-R1.1)">
+      <node ref="RN2" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="P12" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="Net-(RN2C-R1.1)">
+      <node ref="RN2" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="P11" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="Net-(RN2D-R1.1)">
+      <node ref="RN2" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="P10" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="Net-(RN3A-R1.1)">
+      <node ref="RN3" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="P17" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="Net-(RN3B-R1.1)">
+      <node ref="RN3" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="P16" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="Net-(RN3C-R1.1)">
+      <node ref="RN3" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="P15" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="Net-(RN3D-R1.1)">
+      <node ref="RN3" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="P14" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="Net-(RN4A-R1.8)">
+      <node ref="RN4" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="P04" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="Net-(RN4B-R1.8)">
+      <node ref="RN4" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="P05" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="Net-(RN4C-R1.8)">
+      <node ref="RN4" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="P06" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="Net-(RN4D-R1.8)">
+      <node ref="RN4" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="P07" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="Net-(RN5A-R1.8)">
+      <node ref="RN5" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="P00" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="Net-(RN5B-R1.8)">
+      <node ref="RN5" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="P01" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="Net-(RN5C-R1.8)">
+      <node ref="RN5" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="P02" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="Net-(RN5D-R1.8)">
+      <node ref="RN5" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="P03" pintype="bidirectional"/>
+    </net>
+    <net code="127" name="Net-(RN6A-R1.8)">
+      <node ref="RN6" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="P00" pintype="bidirectional"/>
+    </net>
+    <net code="128" name="Net-(RN6B-R1.8)">
+      <node ref="RN6" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="P01" pintype="bidirectional"/>
+    </net>
+    <net code="129" name="Net-(RN6C-R1.8)">
+      <node ref="RN6" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="P02" pintype="bidirectional"/>
+    </net>
+    <net code="130" name="Net-(RN6D-R1.8)">
+      <node ref="RN6" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="P03" pintype="bidirectional"/>
+    </net>
+    <net code="131" name="Net-(RN7A-R1.8)">
+      <node ref="RN7" pin="8" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="P04" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="Net-(RN7B-R1.8)">
+      <node ref="RN7" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="P05" pintype="bidirectional"/>
+    </net>
+    <net code="133" name="Net-(RN7C-R1.8)">
+      <node ref="RN7" pin="6" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="P06" pintype="bidirectional"/>
+    </net>
+    <net code="134" name="Net-(RN7D-R1.8)">
+      <node ref="RN7" pin="5" pinfunction="R1.8" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="P07" pintype="bidirectional"/>
+    </net>
+    <net code="135" name="Net-(RN8A-R1.1)">
+      <node ref="RN8" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="P13" pintype="bidirectional"/>
+    </net>
+    <net code="136" name="Net-(RN8B-R1.1)">
+      <node ref="RN8" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="P12" pintype="bidirectional"/>
+    </net>
+    <net code="137" name="Net-(RN8C-R1.1)">
+      <node ref="RN8" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="P11" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="Net-(RN8D-R1.1)">
+      <node ref="RN8" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="P10" pintype="bidirectional"/>
+    </net>
+    <net code="139" name="Net-(RN9A-R1.1)">
+      <node ref="RN9" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="17" pinfunction="P17" pintype="bidirectional"/>
+    </net>
+    <net code="140" name="Net-(RN9B-R1.1)">
+      <node ref="RN9" pin="2" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="P16" pintype="bidirectional"/>
+    </net>
+    <net code="141" name="Net-(RN9C-R1.1)">
+      <node ref="RN9" pin="3" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="P15" pintype="bidirectional"/>
+    </net>
+    <net code="142" name="Net-(RN9D-R1.1)">
+      <node ref="RN9" pin="4" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="P14" pintype="bidirectional"/>
+    </net>
+    <net code="143" name="Net-(RN301A-R1.1)">
       <node ref="RN301" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN302" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="U301" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="112" name="Net-(RN301B-R1.1)">
+    <net code="144" name="Net-(RN301B-R1.1)">
       <node ref="RN301" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN302" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="U302" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="113" name="Net-(RN301C-R1.1)">
+    <net code="145" name="Net-(RN301C-R1.1)">
       <node ref="RN301" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN302" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="U303" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="114" name="Net-(RN301D-R1.1)">
+    <net code="146" name="Net-(RN301D-R1.1)">
       <node ref="RN301" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN302" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U304" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="115" name="Net-(RN304A-R1.1)">
-      <node ref="RN304" pin="1" pinfunction="R1.1" pintype="passive"/>
+    <net code="147" name="Net-(RN305A-R1.8)">
       <node ref="RN305" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="U301" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="116" name="Net-(RN304B-R1.1)">
-      <node ref="RN304" pin="2" pinfunction="R1.1" pintype="passive"/>
+    <net code="148" name="Net-(RN305B-R1.8)">
       <node ref="RN305" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="U302" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="117" name="Net-(RN304C-R1.1)">
-      <node ref="RN304" pin="3" pinfunction="R1.1" pintype="passive"/>
+    <net code="149" name="Net-(RN305C-R1.8)">
       <node ref="RN305" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="U303" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="118" name="Net-(RN304D-R1.1)">
-      <node ref="RN304" pin="4" pinfunction="R1.1" pintype="passive"/>
+    <net code="150" name="Net-(RN305D-R1.8)">
       <node ref="RN305" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U304" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="119" name="Net-(RN306A-R1.1)">
+    <net code="151" name="Net-(RN306A-R1.1)">
       <node ref="RN306" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="U305" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="120" name="Net-(RN306B-R1.1)">
+    <net code="152" name="Net-(RN306B-R1.1)">
       <node ref="RN306" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="U306" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="121" name="Net-(RN306C-R1.1)">
+    <net code="153" name="Net-(RN306C-R1.1)">
       <node ref="RN306" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="U307" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="122" name="Net-(RN306D-R1.1)">
+    <net code="154" name="Net-(RN306D-R1.1)">
       <node ref="RN306" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="RN307" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U308" pin="3" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="123" name="Net-(RN309A-R1.8)">
+    <net code="155" name="Net-(RN309A-R1.8)">
       <node ref="RN309" pin="8" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="U305" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="124" name="Net-(RN309B-R1.8)">
+    <net code="156" name="Net-(RN309B-R1.8)">
       <node ref="RN309" pin="7" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="U306" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="125" name="Net-(RN309C-R1.8)">
+    <net code="157" name="Net-(RN309C-R1.8)">
       <node ref="RN309" pin="6" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="U307" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="126" name="Net-(RN309D-R1.8)">
+    <net code="158" name="Net-(RN309D-R1.8)">
       <node ref="RN309" pin="5" pinfunction="R1.8" pintype="passive"/>
-      <node ref="RN310" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="U308" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="127" name="Net-(RN315A-R1.8)">
+    <net code="159" name="Net-(RN315A-R1.8)">
       <node ref="RN315" pin="8" pinfunction="R1.8" pintype="passive"/>
       <node ref="U503" pin="14" pinfunction="B4" pintype="tri_state"/>
     </net>
-    <net code="128" name="Net-(RN315B-R1.8)">
+    <net code="160" name="Net-(RN315B-R1.8)">
       <node ref="RN315" pin="7" pinfunction="R1.8" pintype="passive"/>
       <node ref="U503" pin="15" pinfunction="B3" pintype="tri_state"/>
     </net>
-    <net code="129" name="Net-(RN315C-R1.8)">
+    <net code="161" name="Net-(RN315C-R1.8)">
       <node ref="RN315" pin="6" pinfunction="R1.8" pintype="passive"/>
       <node ref="U503" pin="16" pinfunction="B2" pintype="tri_state"/>
     </net>
-    <net code="130" name="Net-(RN315D-R1.8)">
+    <net code="162" name="Net-(RN315D-R1.8)">
       <node ref="RN315" pin="5" pinfunction="R1.8" pintype="passive"/>
       <node ref="U503" pin="17" pinfunction="B1" pintype="tri_state"/>
     </net>
-    <net code="131" name="Net-(RN317A-R1.1)">
-      <node ref="D502" pin="2" pintype="passive"/>
+    <net code="163" name="Net-(RN317A-R1.1)">
+      <node ref="D1" pin="3" pintype="passive"/>
       <node ref="RN317" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U504" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U12" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="132" name="Net-(RN317B-R1.1)">
-      <node ref="D502" pin="1" pintype="passive"/>
+    <net code="164" name="Net-(RN317B-R1.1)">
+      <node ref="D2" pin="3" pintype="passive"/>
       <node ref="RN317" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U504" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U12" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="133" name="Net-(RN317C-R1.1)">
-      <node ref="D501" pin="2" pintype="passive"/>
+    <net code="165" name="Net-(RN317C-R1.1)">
+      <node ref="D4" pin="3" pintype="passive"/>
       <node ref="RN317" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U504" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="134" name="Net-(RN317D-R1.1)">
-      <node ref="D501" pin="1" pintype="passive"/>
+    <net code="166" name="Net-(RN317D-R1.1)">
+      <node ref="D3" pin="3" pintype="passive"/>
       <node ref="RN317" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U504" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="135" name="Net-(RN318A-R1.1)">
-      <node ref="D504" pin="2" pintype="passive"/>
+    <net code="167" name="Net-(RN318A-R1.1)">
+      <node ref="D5" pin="3" pintype="passive"/>
       <node ref="RN318" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U505" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U10" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="136" name="Net-(RN318B-R1.1)">
-      <node ref="D504" pin="1" pintype="passive"/>
+    <net code="168" name="Net-(RN318B-R1.1)">
+      <node ref="D6" pin="3" pintype="passive"/>
       <node ref="RN318" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U505" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="137" name="Net-(RN318C-R1.1)">
-      <node ref="D503" pin="2" pintype="passive"/>
+    <net code="169" name="Net-(RN318C-R1.1)">
+      <node ref="D8" pin="3" pintype="passive"/>
       <node ref="RN318" pin="3" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U505" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="138" name="Net-(RN318D-R1.1)">
-      <node ref="D503" pin="1" pintype="passive"/>
+    <net code="170" name="Net-(RN318D-R1.1)">
+      <node ref="D7" pin="3" pintype="passive"/>
       <node ref="RN318" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U505" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="139" name="Net-(RN400A-R1.1)">
+    <net code="171" name="Net-(RN400A-R1.1)">
       <node ref="RN400" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="9" pinfunction="I0" pintype="passive"/>
     </net>
-    <net code="140" name="Net-(RN400B-R1.1)">
+    <net code="172" name="Net-(RN400B-R1.1)">
       <node ref="RN400" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="8" pinfunction="I1" pintype="passive"/>
     </net>
-    <net code="141" name="Net-(RN400C-R1.1)">
+    <net code="173" name="Net-(RN400C-R1.1)">
       <node ref="RN400" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="7" pinfunction="I2" pintype="passive"/>
     </net>
-    <net code="142" name="Net-(RN400D-R1.1)">
+    <net code="174" name="Net-(RN400D-R1.1)">
       <node ref="RN400" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="6" pinfunction="I3" pintype="passive"/>
     </net>
-    <net code="143" name="Net-(RN401A-R1.1)">
+    <net code="175" name="Net-(RN401A-R1.1)">
       <node ref="RN401" pin="1" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="5" pinfunction="I4" pintype="passive"/>
     </net>
-    <net code="144" name="Net-(RN401B-R1.1)">
+    <net code="176" name="Net-(RN401B-R1.1)">
       <node ref="RN401" pin="2" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="4" pinfunction="I5" pintype="passive"/>
     </net>
-    <net code="145" name="Net-(RN401C-R1.1)">
+    <net code="177" name="Net-(RN401C-R1.1)">
       <node ref="RN401" pin="3" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="3" pinfunction="I6" pintype="passive"/>
     </net>
-    <net code="146" name="Net-(RN401D-R1.1)">
+    <net code="178" name="Net-(RN401D-R1.1)">
       <node ref="RN401" pin="4" pinfunction="R1.1" pintype="passive"/>
       <node ref="U402" pin="2" pinfunction="I7" pintype="passive"/>
     </net>
-    <net code="147" name="Net-(RN402A-R1.1)">
-      <node ref="RN402" pin="1" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U402" pin="20" pinfunction="I11" pintype="passive"/>
-    </net>
-    <net code="148" name="Net-(RN402B-R1.1)">
-      <node ref="RN402" pin="2" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U402" pin="21" pinfunction="I10" pintype="passive"/>
-    </net>
-    <net code="149" name="Net-(RN402D-R1.1)">
-      <node ref="RN402" pin="4" pinfunction="R1.1" pintype="passive"/>
-      <node ref="U402" pin="22" pinfunction="I9" pintype="passive"/>
-    </net>
-    <net code="150" name="Net-(SW101-A)">
-      <node ref="R101" pin="2" pintype="passive"/>
-      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="151" name="Net-(U1-ADC_AVDD)">
+    <net code="179" name="Net-(U1-ADC_AVDD)">
       <node ref="C109" pin="1" pintype="passive"/>
       <node ref="R103" pin="2" pintype="passive"/>
       <node ref="U1" pin="59" pinfunction="ADC_AVDD" pintype="power_in"/>
     </net>
-    <net code="152" name="Net-(U1-VREG_AVDD)">
+    <net code="180" name="Net-(U1-VREG_AVDD)">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="61" pinfunction="VREG_AVDD" pintype="power_in"/>
       <node ref="U1" pin="64" pinfunction="VREG_VIN" pintype="power_in"/>
     </net>
-    <net code="153" name="Net-(U1-XIN)">
+    <net code="181" name="Net-(U1-XIN)">
       <node ref="C105" pin="1" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="XIN" pintype="input"/>
       <node ref="Y101" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="154" name="Net-(U1-XOUT)">
+    <net code="182" name="Net-(U1-XOUT)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(U402-COM)">
-      <node ref="U402" pin="1" pinfunction="COM" pintype="passive"/>
-      <node ref="U404" pin="1" pinfunction="+" pintype="input"/>
+    <net code="183" name="Net-(U13A-+)">
+      <node ref="D9" pin="3" pintype="passive"/>
+      <node ref="R319" pin="1" pintype="passive"/>
+      <node ref="U13" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="156" name="Net-(U402-I8)">
+    <net code="184" name="Net-(U13B-+)">
+      <node ref="U13" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U402" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="185" name="Net-(U13B--)">
+      <node ref="R406" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U13" pin="7" pintype="output"/>
+    </net>
+    <net code="186" name="Net-(U402-I8)">
       <node ref="R320" pin="1" pintype="passive"/>
       <node ref="U402" pin="23" pinfunction="I8" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(U403-ADJ)">
+    <net code="187" name="Net-(U402-I9)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U402" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="188" name="Net-(U402-I10)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U402" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="189" name="Net-(U403-ADJ)">
       <node ref="C408" pin="2" pintype="passive"/>
       <node ref="R403" pin="2" pintype="passive"/>
       <node ref="R404" pin="2" pintype="passive"/>
       <node ref="R405" pin="1" pintype="passive"/>
       <node ref="U403" pin="4" pinfunction="ADJ" pintype="input"/>
     </net>
-    <net code="158" name="Net-(U404--)">
-      <node ref="R406" pin="1" pintype="passive"/>
-      <node ref="U404" pin="3" pinfunction="-" pintype="input"/>
-      <node ref="U404" pin="4" pintype="open_collector"/>
-    </net>
-    <net code="159" name="Net-(U506-+)">
-      <node ref="D500" pin="1" pintype="passive"/>
-      <node ref="R319" pin="1" pintype="passive"/>
-      <node ref="U506" pin="1" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="160" name="Net-(U601-+)">
+    <net code="190" name="Net-(U601-+)">
       <node ref="R602" pin="1" pintype="passive"/>
       <node ref="R604" pin="2" pintype="passive"/>
       <node ref="U601" pin="1" pinfunction="+" pintype="input"/>
     </net>
-    <net code="161" name="Net-(U601--)">
+    <net code="191" name="Net-(U601--)">
       <node ref="R603" pin="1" pintype="passive"/>
       <node ref="R605" pin="2" pintype="passive"/>
       <node ref="U601" pin="3" pinfunction="-" pintype="input"/>
     </net>
-    <net code="162" name="Net-(U602-+)">
-      <node ref="C416" pin="2" pintype="passive"/>
-      <node ref="R415" pin="1" pintype="passive"/>
-      <node ref="U602" pin="1" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="163" name="Net-(U603-+)">
-      <node ref="C415" pin="2" pintype="passive"/>
-      <node ref="R414" pin="1" pintype="passive"/>
-      <node ref="U603" pin="1" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="164" name="PULLUP_EN">
-      <node ref="Q300" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q301" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q302" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q303" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q304" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q305" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q306" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q307" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U503" pin="11" pinfunction="B7" pintype="tri_state"/>
-    </net>
-    <net code="165" name="PULLUP_EN_3V3">
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U1" pin="53" pinfunction="GPIO42_ADC2" pintype="bidirectional"/>
-      <node ref="U503" pin="9" pinfunction="A7" pintype="tri_state"/>
-    </net>
-    <net code="166" name="QSPI_SCLK">
+    <net code="192" name="QSPI_SCLK">
       <node ref="U1" pin="71" pinfunction="QSPI_SCLK" pintype="output"/>
       <node ref="U102" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="CLK" pintype="input"/>
     </net>
-    <net code="167" name="QSPI_SD0">
+    <net code="193" name="QSPI_SD0">
       <node ref="U1" pin="72" pinfunction="QSPI_SD0" pintype="bidirectional"/>
       <node ref="U102" pin="5" pinfunction="DI" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="168" name="QSPI_SD1">
+    <net code="194" name="QSPI_SD1">
       <node ref="U1" pin="74" pinfunction="QSPI_SD1" pintype="bidirectional"/>
       <node ref="U102" pin="2" pinfunction="DO" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="169" name="QSPI_SD2">
+    <net code="195" name="QSPI_SD2">
       <node ref="U1" pin="73" pinfunction="QSPI_SD2" pintype="bidirectional"/>
       <node ref="U102" pin="3" pinfunction="WP" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="WP" pintype="input"/>
     </net>
-    <net code="170" name="QSPI_SD3">
+    <net code="196" name="QSPI_SD3">
       <node ref="U1" pin="70" pinfunction="QSPI_SD3" pintype="bidirectional"/>
       <node ref="U102" pin="7" pinfunction="HOLD" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="HOLD" pintype="input"/>
     </net>
-    <net code="171" name="QSPI_SS">
-      <node ref="R101" pin="1" pintype="passive"/>
-      <node ref="U1" pin="75" pinfunction="QSPI_SS" pintype="bidirectional"/>
-      <node ref="U102" pin="1" pinfunction="CS" pintype="input"/>
+    <net code="197" name="QSPI_SS_2">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="GPIO47_ADC7" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="CS" pintype="input"/>
     </net>
-    <net code="172" name="RGB_CDO">
+    <net code="198" name="RGB_CDO">
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="45" pinfunction="GPIO36" pintype="bidirectional"/>
+      <node ref="U1" pin="38" pinfunction="GPIO30" pintype="bidirectional"/>
       <node ref="U503" pin="2" pinfunction="A0" pintype="tri_state"/>
     </net>
-    <net code="173" name="SPI_CDI">
+    <net code="199" name="SPI_CDI">
       <node ref="U1" pin="40" pinfunction="GPIO32" pintype="bidirectional"/>
       <node ref="U105" pin="2" pinfunction="SO/IO1" pintype="bidirectional"/>
     </net>
-    <net code="174" name="SPI_CDO">
+    <net code="200" name="SPI_CDO">
       <node ref="LCD201" pin="10" pinfunction="SPI_SDA" pintype="bidirectional"/>
       <node ref="U1" pin="44" pinfunction="GPIO35" pintype="bidirectional"/>
       <node ref="U105" pin="5" pinfunction="SI/IO0" pintype="bidirectional"/>
     </net>
-    <net code="175" name="SPI_CLK">
+    <net code="201" name="SPI_CLK">
       <node ref="LCD201" pin="9" pinfunction="RS/SPI_SCL" pintype="input"/>
       <node ref="U1" pin="43" pinfunction="GPIO34" pintype="bidirectional"/>
       <node ref="U105" pin="6" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="176" name="SWCLK">
+    <net code="202" name="SWCLK">
       <node ref="J201" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="SWCLK" pintype="output"/>
     </net>
-    <net code="177" name="SWDIO">
+    <net code="203" name="SWDIO">
       <node ref="J201" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="SWD" pintype="bidirectional"/>
     </net>
-    <net code="178" name="USB_D+">
+    <net code="204" name="USB_D+">
       <node ref="R203" pin="1" pintype="passive"/>
       <node ref="U1" pin="67" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="179" name="USB_D-">
+    <net code="205" name="USB_D-">
       <node ref="R202" pin="1" pintype="passive"/>
       <node ref="U1" pin="66" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="180" name="USB_N">
+    <net code="206" name="USB_N">
       <node ref="J202" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
       <node ref="J202" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
       <node ref="R202" pin="2" pintype="passive"/>
     </net>
-    <net code="181" name="USB_P">
+    <net code="207" name="USB_P">
       <node ref="J202" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
       <node ref="J202" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
       <node ref="R203" pin="2" pintype="passive"/>
     </net>
-    <net code="182" name="VREF_VOUT">
+    <net code="208" name="VREF_VOUT">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C304" pin="1" pintype="passive"/>
       <node ref="C305" pin="1" pintype="passive"/>
       <node ref="C306" pin="1" pintype="passive"/>
@@ -6265,14 +6891,6 @@
       <node ref="C316" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q300" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q301" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q302" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q303" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q304" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q305" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q306" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q307" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q401" pin="1" pinfunction="E1" pintype="passive"/>
       <node ref="Q402" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R301" pin="1" pintype="passive"/>
@@ -6287,82 +6905,97 @@
       <node ref="U306" pin="6" pinfunction="VCCB" pintype="power_in"/>
       <node ref="U307" pin="6" pinfunction="VCCB" pintype="power_in"/>
       <node ref="U308" pin="6" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U6" pin="21" pinfunction="VCCP" pintype="power_in"/>
+      <node ref="U7" pin="21" pinfunction="VCCP" pintype="power_in"/>
     </net>
-    <net code="183" name="VREG_ADJ">
+    <net code="209" name="VREG_ADJ">
       <node ref="R403" pin="1" pintype="passive"/>
-      <node ref="U603" pin="3" pinfunction="-" pintype="input"/>
-      <node ref="U603" pin="4" pintype="open_collector"/>
+      <node ref="U5" pin="1" pinfunction="VOUT" pintype="output"/>
     </net>
-    <net code="184" name="VREG_ADJ_MCU">
-      <node ref="R414" pin="2" pintype="passive"/>
-      <node ref="U1" pin="55" pinfunction="GPIO44_ADC4" pintype="bidirectional"/>
-    </net>
-    <net code="185" name="VREG_EN">
+    <net code="210" name="VREG_EN">
       <node ref="D602" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D603" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R401" pin="1" pintype="passive"/>
       <node ref="U403" pin="3" pinfunction="SHUTDOWN" pintype="input"/>
     </net>
-    <net code="186" name="VREG_OUT">
+    <net code="211" name="VREG_OUT">
       <node ref="C407" pin="1" pintype="passive"/>
       <node ref="C408" pin="1" pintype="passive"/>
       <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q401" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="Q402" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R404" pin="1" pintype="passive"/>
-      <node ref="RN402" pin="7" pinfunction="R1.8" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U403" pin="5" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="187" name="VREG_VIN">
+    <net code="212" name="VREG_VIN">
       <node ref="C404" pin="1" pintype="passive"/>
       <node ref="R601" pin="2" pintype="passive"/>
       <node ref="R603" pin="2" pintype="passive"/>
       <node ref="U403" pin="1" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="188" name="unconnected-(D500-Pad2)">
-      <node ref="D500" pin="2" pintype="passive"/>
-    </net>
-    <net code="189" name="unconnected-(J202-SBU1-PadA8)">
+    <net code="213" name="unconnected-(J202-SBU1-PadA8)">
       <node ref="J202" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="190" name="unconnected-(J202-SBU2-PadB8)">
+    <net code="214" name="unconnected-(J202-SBU2-PadB8)">
       <node ref="J202" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(LED720-DO-Pad2)">
+    <net code="215" name="unconnected-(LED720-DO-Pad2)">
       <node ref="LED720" pin="2" pinfunction="DO" pintype="output"/>
     </net>
-    <net code="192" name="unconnected-(RN402C-R1.1-Pad3)">
-      <node ref="RN402" pin="3" pinfunction="R1.1" pintype="passive"/>
-    </net>
-    <net code="193" name="unconnected-(RN402C-R1.8-Pad6)">
-      <node ref="RN402" pin="6" pinfunction="R1.8" pintype="passive"/>
-    </net>
-    <net code="194" name="unconnected-(SW102-Pad2)">
+    <net code="216" name="unconnected-(SW102-Pad2)">
       <node ref="SW102" pin="2" pinfunction="2" pintype="passive+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(SW102-Pad3)">
+    <net code="217" name="unconnected-(SW102-Pad3)">
       <node ref="SW102" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(U1-GPIO37-Pad46)">
-      <node ref="U1" pin="46" pinfunction="GPIO37" pintype="bidirectional"/>
-    </net>
-    <net code="197" name="unconnected-(U1-VREG_FB-Pad65)">
+    <net code="218" name="unconnected-(U1-VREG_FB-Pad65)">
       <node ref="U1" pin="65" pinfunction="VREG_FB" pintype="input"/>
     </net>
-    <net code="198" name="unconnected-(U1-VREG_LX-Pad63)">
+    <net code="219" name="unconnected-(U1-VREG_LX-Pad63)">
       <node ref="U1" pin="63" pinfunction="VREG_LX" pintype="power_out"/>
     </net>
-    <net code="199" name="unconnected-(U1-VREG_PGND-Pad62)">
+    <net code="220" name="unconnected-(U1-VREG_PGND-Pad62)">
       <node ref="U1" pin="62" pinfunction="VREG_PGND" pintype="power_in"/>
     </net>
-    <net code="200" name="unconnected-(U3-NC-Pad4)">
+    <net code="221" name="unconnected-(U3-NC-Pad4)">
       <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U503-B5-Pad13)">
+    <net code="222" name="unconnected-(U6-EP-Pad25)">
+      <node ref="U6" pin="25" pinfunction="EP" pintype="bidirectional"/>
+    </net>
+    <net code="223" name="unconnected-(U6-~{INT}-Pad22)">
+      <node ref="U6" pin="22" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="224" name="unconnected-(U7-EP-Pad25)">
+      <node ref="U7" pin="25" pinfunction="EP" pintype="bidirectional"/>
+    </net>
+    <net code="225" name="unconnected-(U7-~{INT}-Pad22)">
+      <node ref="U7" pin="22" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="226" name="unconnected-(U9C-PAD-Pad9)">
+      <node ref="U9" pin="9" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="227" name="unconnected-(U10C-PAD-Pad9)">
+      <node ref="U10" pin="9" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="228" name="unconnected-(U11C-PAD-Pad9)">
+      <node ref="U11" pin="9" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="229" name="unconnected-(U12C-PAD-Pad9)">
+      <node ref="U12" pin="9" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="230" name="unconnected-(U13C-PAD-Pad9)">
+      <node ref="U13" pin="9" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="231" name="unconnected-(U503-B5-Pad13)">
       <node ref="U503" pin="13" pinfunction="B5" pintype="tri_state"/>
     </net>
-    <net code="202" name="unconnected-(U503-B6-Pad12)">
+    <net code="232" name="unconnected-(U503-B6-Pad12)">
       <node ref="U503" pin="12" pinfunction="B6" pintype="tri_state"/>
+    </net>
+    <net code="233" name="unconnected-(U503-B7-Pad11)">
+      <node ref="U503" pin="11" pinfunction="B7" pintype="tri_state"/>
     </net>
   </nets>
 </export>

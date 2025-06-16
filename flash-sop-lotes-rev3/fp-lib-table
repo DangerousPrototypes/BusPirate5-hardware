@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "dp_connector")(type "KiCad")(uri "${KIPRJMOD}/library/dp_connector.pretty")(options "")(descr ""))
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/library/Library.pretty")(options "")(descr ""))
-  (lib (name "TEST_SOCKETS")(type "KiCad")(uri "${KIPRJMOD}/library/TEST_SOCKETS.pretty")(options "")(descr ""))
-)

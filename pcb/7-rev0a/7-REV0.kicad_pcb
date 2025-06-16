@@ -2682,7 +2682,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "2935a3ef-a70f-406d-b3ff-639877a6697f")
@@ -4617,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "615c7459-f22e-4012-8ed7-678529ff1b72")
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "1fd7a970-6db9-4783-af92-a784b97ea4be")
@@ -7921,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b5d9acde-225d-494e-ad3b-e410d6c098e5")
@@ -10915,7 +10915,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "43d6c2b4-fd3b-4e51-bad9-002c84869e4f")
@@ -11150,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "1a2c6642-0cbf-4668-b423-56ee0aff91d5")
@@ -11385,7 +11385,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "7f443082-4c44-4340-b538-489c843050eb")
@@ -11927,7 +11927,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-00006110676d")
+		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-000061120217")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -14445,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "edd92d9d-ac9c-47e1-9b33-0bbe2cd3ddae")
@@ -18895,7 +18895,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "25187945-3da7-437e-81f7-adce7c9dbeaa")
@@ -21073,7 +21073,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "2c60acf9-d354-471d-bdca-bc9362a30e65")
@@ -24335,7 +24335,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "3457d4db-55af-409c-9d3a-a20eb3c0716e")
@@ -25943,7 +25943,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-0000611445a2")
+		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-000061138419")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -28762,7 +28762,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-0000611050a2")
+		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-00006111d83b")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -33720,7 +33720,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-000061f2d49f")
+		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-000061f1ad3f")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(clearance 0.08)
@@ -34010,7 +34010,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-0000610f8526")
+		(path "/00000000-0000-0000-0000-00005f344f30/00000000-0000-0000-0000-0000611240bb")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -36367,7 +36367,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-0000650df626")
+		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-0000650dfb7e")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -36658,7 +36658,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-00006514681e")
+		(path "/00000000-0000-0000-0000-000060e58ecc/00000000-0000-0000-0000-0000651464c0")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(solder_mask_margin 0.03)
@@ -41566,7 +41566,7 @@
 			)
 		)
 		(property ki_fp_filters "DFN*2x2mm*P0.5mm*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/eaac8b40-21b6-4b01-aa0a-dc3e160ff10b")
+		(path "/00000000-0000-0000-0000-000060e58ecc/affa0ba1-ba16-40c3-a12d-cb16631e7409")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(attr smd)
@@ -42062,7 +42062,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "358ec50b-b3aa-405a-884c-55d58847779d")
@@ -44221,7 +44221,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "9f43d73e-f329-48d2-8b96-590ffa28b001")
@@ -45231,7 +45231,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "ce7304e6-cf3b-40e2-a259-3eabf2abba85")
@@ -45713,7 +45713,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "18b0e353-c460-4e19-8035-fd68dd27370a")
@@ -46006,7 +46006,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/721cd658-6474-4065-9930-f061a9bcb52e")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -47838,7 +47838,7 @@
 			)
 		)
 		(property ki_fp_filters "DFN*2x2mm*P0.5mm*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/6e0db6d4-d1d7-4160-8857-748fdc62579f")
+		(path "/00000000-0000-0000-0000-000060e58ecc/a73f05ba-fc13-4289-90b4-19d34d6d04ab")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(attr smd)
@@ -48172,7 +48172,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/70d89944-cef2-4c07-9520-6c47f8613415/d6aeff8d-0950-4aff-b14e-f3a383f0125d")
+		(path "/70d89944-cef2-4c07-9520-6c47f8613415/a4fda4f1-1871-41ca-8e82-a64f21632fef")
 		(sheetname "Pull-X resistor system")
 		(sheetfile "pull-x-resistors.kicad_sch")
 		(attr smd)
@@ -48990,7 +48990,7 @@
 			)
 		)
 		(property ki_fp_filters "DFN*2x2mm*P0.5mm*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/5477ef93-5eb8-442f-bb4f-26d6ef6ee492")
+		(path "/00000000-0000-0000-0000-000060e58ecc/b4eb32f9-ffc9-4720-b112-f63f2fc69b26")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(attr smd)
@@ -49856,7 +49856,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/00000000-0000-0000-0000-000060e58ecc/5a9c0734-e322-4a97-91d7-25ba9698d2af")
+		(path "/00000000-0000-0000-0000-000060e58ecc/8d82b3b0-2ad3-4153-bd43-034343686f22")
 		(sheetname "IO-expand-595-mux")
 		(sheetfile "IO-expand-595-mux.kicad_sch")
 		(attr smd)
@@ -51670,7 +51670,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "24234456-d268-41cb-81a5-1968e7fc1985")
@@ -52564,7 +52564,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/dc1b02e1-2bf4-48c4-a60f-f712e0726aad")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -54196,7 +54196,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/6b9b98ad-a19f-48c7-8783-0f5b512f9b43")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -54504,7 +54504,7 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/70d89944-cef2-4c07-9520-6c47f8613415/c0977a7a-1630-43a4-bb71-56e653557485")
+		(path "/70d89944-cef2-4c07-9520-6c47f8613415/b7a03477-a5a2-40ee-b8cd-0f233951ae6c")
 		(sheetname "Pull-X resistor system")
 		(sheetfile "pull-x-resistors.kicad_sch")
 		(attr smd)
@@ -56772,7 +56772,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/27393d63-c225-4d5c-82ce-b30fd2a35a22")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -57057,7 +57057,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/d99c2d9c-d0ba-464d-8d23-f8a08bf5cfd7")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -58533,7 +58533,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "10uF/6.3v CL05A106MQ5NUN"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "d533e3e2-e2c5-4e9c-ba9d-df3a8dd04dbb")
@@ -59739,7 +59739,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/676aedec-36cf-4e94-8b0e-4548eff140f5")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -60476,7 +60476,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/a9303ee0-babb-4a9f-b96d-41dbfe8100f6")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -60995,7 +60995,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/75952004-7be9-4526-b992-8d21514d020c")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -61493,7 +61493,7 @@
 		(path "/00000000-0000-0000-0000-00005f344f30/0eea2fa5-6578-424b-a37c-c088af73fc34")
 		(sheetname "bpu-iobufffer")
 		(sheetfile "bpu-iobufffer.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)

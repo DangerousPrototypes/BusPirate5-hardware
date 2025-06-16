@@ -2359,6 +2359,607 @@
 				)
 			)
 		)
+		(symbol "TCA6416RTWT:XL9555QF24"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 28.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -12.7 -31.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.524 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0.762 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 7.112 -31.75 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0.762 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at -2.286 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at -4.826 -31.75 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XL9555QF24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 23.114 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at -4.318 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XL9555QF24_0_0"
+				(rectangle
+					(start -12.7 27.94)
+					(end 12.7 -27.94)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "P00"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "P10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "P11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "P12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "P13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "P14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "P15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "P16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "P17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "P01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "P02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "P03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "P04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "P05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "P06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "P07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XL9555QF24_1_0"
+				(pin input line
+					(at -17.78 25.4 0)
+					(length 5.08)
+					(name "ADDR0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 22.86 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 22.86 0)
+					(length 5.08)
+					(name "ADDR1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 20.32 0)
+					(length 5.08)
+					(name "ADDR2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3518,6 +4119,395 @@
 				)
 			)
 		)
+		(symbol "ws72324q:WS72324Q"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "WS72324Q"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS72324Q_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WS72324Q_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WS72324Q_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WS72324Q_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WS72324Q_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 243.84 241.3)
@@ -3542,6 +4532,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f596bc-ab8e-442c-855c-9450610d482d")
+	)
+	(junction
+		(at 377.19 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ff6be6-4108-4b7e-87e5-6770d3794e33")
 	)
 	(junction
 		(at 92.71 215.9)
@@ -4002,6 +4998,16 @@
 			(type default)
 		)
 		(uuid "18f944aa-ddbc-4c7a-94b1-9e07232a22b3")
+	)
+	(wire
+		(pts
+			(xy 372.11 125.73) (xy 377.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191dab91-6f72-488e-b0bb-3f8f6235c9f3")
 	)
 	(wire
 		(pts
@@ -5623,6 +6629,16 @@
 		)
 		(uuid "ffcf267b-9c93-4ffb-a6fb-c0f0ed2d4dd3")
 	)
+	(text "7-bit I2C Address: 0b0100110 (0x26)\n8-bit Write Address: 0b01000010 (0x4C)\n8-bit Read Address: 0b01000011 (0x4D)"
+		(exclude_from_sim no)
+		(at 354.33 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27638e93-def8-4a13-8f42-89ada0abe703")
+	)
 	(text "IO expander and logic level translation"
 		(exclude_from_sim no)
 		(at 231.14 162.56 0)
@@ -5763,6 +6779,26 @@
 		(uuid "071b8b07-5c32-4d30-a57a-78a8c1ddd43f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CURRENT_RESET"
+		(shape output)
+		(at 372.11 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0832de0c-adf4-4fe2-9129-08a66ecd53bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,6 +7317,26 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_RESET"
+		(shape output)
+		(at 372.11 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78f3f227-94bb-4573-bf71-d577ace132ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREF_VOUT"
 		(shape input)
 		(at 82.55 215.9 180)
@@ -6567,6 +7623,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 336.55 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c5bbe47-6ace-4452-9c19-ed88439ed0bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.6465 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AMUX_S1_3V3"
 		(shape input)
 		(at 218.44 125.73 180)
@@ -6631,6 +7709,26 @@
 			)
 		)
 	)
+	(global_label "CURRENT_EN_OVERRIDE"
+		(shape output)
+		(at 372.11 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1f7ee31-0b83-4a39-9b8b-ba14b7673334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUX_BPIO7_TVS"
 		(shape input)
 		(at 234.95 205.74 180)
@@ -6643,6 +7741,26 @@
 		(uuid "adcae29b-0c1b-4ed3-af56-9971bf985510")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.95 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_BACKLIGHT"
+		(shape output)
+		(at 372.11 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4267f99-d37c-4473-9eb4-f13820a081c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,6 +7863,26 @@
 		(uuid "cae0fed6-93b1-4d85-89f5-de0b360bd79e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CURRENT_EN"
+		(shape output)
+		(at 372.11 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc99ca18-3862-473e-8077-ca0d418cb428")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,6 +8199,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 336.55 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff59f65f-25bf-4a06-8295-35b15736cc39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.6595 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9130,6 +10290,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 105.41 287.02 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f85971-999c-430d-8866-6cfa489924fe")
+		(property "Reference" "U18"
+			(at 105.41 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 105.41 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 104.14 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 106.68 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 105.41 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "643f2324-05df-4e21-974a-8651bbd84568")
+		)
+		(pin "9"
+			(uuid "f6efb6da-2308-4781-a475-ef32f5ce52a0")
+		)
+		(pin "16"
+			(uuid "e8ce5ff1-80a5-4dc7-84d0-4c62cf67a733")
+		)
+		(pin "6"
+			(uuid "641ad47a-3516-4542-88a6-ec5b5c2b8b83")
+		)
+		(pin "5"
+			(uuid "2cf4ad90-48e2-467d-b1bf-de68e133f013")
+		)
+		(pin "12"
+			(uuid "abe2f11f-9cbf-4026-aece-5aec2adea3ab")
+		)
+		(pin "2"
+			(uuid "a78f3db0-95c4-4770-b23e-18e430076b97")
+		)
+		(pin "1"
+			(uuid "be87bd4a-0de3-4e42-a779-bd08e2d3adeb")
+		)
+		(pin "13"
+			(uuid "db29435e-10b1-4ea5-af7b-3a5bd49e45b7")
+		)
+		(pin "7"
+			(uuid "3cb3bab7-401e-4160-819e-5feb21f7ca7e")
+		)
+		(pin "4"
+			(uuid "418a803c-31e9-4ecf-8aec-3803a7ba4970")
+		)
+		(pin "14"
+			(uuid "b927ec15-fc9d-4d1c-8ea7-8335dcbaa406")
+		)
+		(pin "15"
+			(uuid "e198c20e-22f5-4a1b-b815-b319503f5f12")
+		)
+		(pin "8"
+			(uuid "8d85a6e8-e06e-454c-8080-dbc8e58cf32d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 62.23 31.75 180)
 		(unit 1)
@@ -9249,6 +10513,177 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "C508")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 377.19 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03df4179-9077-4453-8628-dfcb1ac6c97e")
+		(property "Reference" "#PWR047"
+			(at 377.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 377.19 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "006a9369-dbc4-492e-a7e0-1f4f4b2f7b1c")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 105.41 322.58 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0692e321-da2e-456a-b112-9f18324c2668")
+		(property "Reference" "U18"
+			(at 104.14 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 104.14 323.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 104.14 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 106.68 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 105.41 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "643f2324-05df-4e21-974a-8651bbd84568")
+		)
+		(pin "9"
+			(uuid "f6efb6da-2308-4781-a475-ef32f5ce52a0")
+		)
+		(pin "16"
+			(uuid "e8ce5ff1-80a5-4dc7-84d0-4c62cf67a733")
+		)
+		(pin "6"
+			(uuid "641ad47a-3516-4542-88a6-ec5b5c2b8b83")
+		)
+		(pin "5"
+			(uuid "2cf4ad90-48e2-467d-b1bf-de68e133f013")
+		)
+		(pin "12"
+			(uuid "abe2f11f-9cbf-4026-aece-5aec2adea3ab")
+		)
+		(pin "2"
+			(uuid "a78f3db0-95c4-4770-b23e-18e430076b97")
+		)
+		(pin "1"
+			(uuid "be87bd4a-0de3-4e42-a779-bd08e2d3adeb")
+		)
+		(pin "13"
+			(uuid "db29435e-10b1-4ea5-af7b-3a5bd49e45b7")
+		)
+		(pin "7"
+			(uuid "3cb3bab7-401e-4160-819e-5feb21f7ca7e")
+		)
+		(pin "4"
+			(uuid "418a803c-31e9-4ecf-8aec-3803a7ba4970")
+		)
+		(pin "14"
+			(uuid "b927ec15-fc9d-4d1c-8ea7-8335dcbaa406")
+		)
+		(pin "15"
+			(uuid "e198c20e-22f5-4a1b-b815-b319503f5f12")
+		)
+		(pin "8"
+			(uuid "8d85a6e8-e06e-454c-8080-dbc8e58cf32d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U18")
+					(unit 5)
 				)
 			)
 		)
@@ -9529,6 +10964,112 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 31.75 284.48 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155be29c-6493-439d-aac3-76980d4d2f8c")
+		(property "Reference" "U17"
+			(at 30.48 283.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 30.48 285.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 30.48 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 33.02 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 31.75 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6537c168-da1a-49d3-9e61-3798294920cc")
+		)
+		(pin "2"
+			(uuid "585285e5-10a6-4de2-8eca-420b268b5984")
+		)
+		(pin "4"
+			(uuid "a9d5b644-419b-4761-b1e9-e53964c92c58")
+		)
+		(pin "12"
+			(uuid "c73b29f5-eeb9-41d0-b5d5-efe3efbb3633")
+		)
+		(pin "15"
+			(uuid "cf7eed5a-2503-4ceb-b612-b5d43708c919")
+		)
+		(pin "1"
+			(uuid "96745beb-8da8-443a-b990-a9fdb82eddbd")
+		)
+		(pin "11"
+			(uuid "e8f5aac7-4914-4cb9-8da6-ca9637bb3538")
+		)
+		(pin "9"
+			(uuid "360438a2-7f90-49e8-9a04-23a245bf464a")
+		)
+		(pin "7"
+			(uuid "20233116-8a0e-4f23-9e96-5c2607d8f881")
+		)
+		(pin "5"
+			(uuid "19880b35-e67a-41d2-96a5-36b075a2fb2d")
+		)
+		(pin "16"
+			(uuid "b009b0ee-522c-4002-adf8-03ef23225394")
+		)
+		(pin "6"
+			(uuid "bb4ef2ab-b4e8-46a8-8ef9-6bc63614500d")
+		)
+		(pin "8"
+			(uuid "ab696607-90c8-4a08-b9e3-e419dc421c65")
+		)
+		(pin "14"
+			(uuid "fc0c693c-6b21-4f71-b424-24e7294ec5f7")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U17")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 270.51 238.76 90)
 		(unit 1)
@@ -9699,6 +11240,71 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 372.11 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1978a284-289b-40dc-884b-ddf3e43b0955")
+		(property "Reference" "#PWR045"
+			(at 378.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0375de0f-4670-4eec-8f1d-9d26d14f98e1")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10027,6 +11633,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at -19.05 264.16 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2543a1f2-7722-4f41-b363-6e53ee080b11")
+		(property "Reference" "U5"
+			(at -19.05 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at -19.05 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at -20.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at -17.78 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at -19.05 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "001bec53-ed7c-48d3-98a8-9759e62ea681")
+		)
+		(pin "12"
+			(uuid "d283fc6b-94e0-4109-9b45-e269f62d20e8")
+		)
+		(pin "1"
+			(uuid "a8d5bd5a-060c-4a22-be7b-70057b26c63e")
+		)
+		(pin "6"
+			(uuid "a4ed7f0c-ba5e-4d84-ac58-be8a7cbaa590")
+		)
+		(pin "2"
+			(uuid "cb5e6d2e-ee4d-4923-83be-bac67d28aa84")
+		)
+		(pin "5"
+			(uuid "770187cc-e947-4f0b-88cb-6cb365b9999c")
+		)
+		(pin "7"
+			(uuid "4130aa4a-16b8-43d3-8dbf-18c60cdaf75e")
+		)
+		(pin "14"
+			(uuid "f7e157b0-5cd2-4e3e-8a8a-d2e5acd08acd")
+		)
+		(pin "16"
+			(uuid "3b677798-8c28-477f-9b8f-8a842d1b1dd6")
+		)
+		(pin "13"
+			(uuid "50edc743-dfb0-40dc-9053-58c77a94d3a4")
+		)
+		(pin "11"
+			(uuid "0078f3f8-96b9-4068-a4de-c212df593d6a")
+		)
+		(pin "15"
+			(uuid "d6797379-bb85-4844-a20b-cde426d30de2")
+		)
+		(pin "8"
+			(uuid "3d68f464-4c13-42e3-9291-dea057c2ed7c")
+		)
+		(pin "4"
+			(uuid "04bf1422-37b2-4a54-920d-cc6cf8b1c6ae")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-power:+VUSB")
 		(at 34.29 25.4 0)
 		(unit 1)
@@ -10333,6 +12043,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 336.55 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e464339-e31e-4a8a-89e5-b2de0ab61aa6")
+		(property "Reference" "#PWR048"
+			(at 340.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 330.2 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f8d6e9-cbc0-4238-bd10-726b52cfe54d")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-power:+VUSB")
 		(at 67.31 24.13 0)
 		(unit 1)
@@ -10516,6 +12291,110 @@
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "C510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 105.41 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "315cb8af-4dee-4101-94ce-e1e6871fb079")
+		(property "Reference" "U18"
+			(at 105.41 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 105.41 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 104.14 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 106.68 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 105.41 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "643f2324-05df-4e21-974a-8651bbd84568")
+		)
+		(pin "9"
+			(uuid "f6efb6da-2308-4781-a475-ef32f5ce52a0")
+		)
+		(pin "16"
+			(uuid "e8ce5ff1-80a5-4dc7-84d0-4c62cf67a733")
+		)
+		(pin "6"
+			(uuid "641ad47a-3516-4542-88a6-ec5b5c2b8b83")
+		)
+		(pin "5"
+			(uuid "2cf4ad90-48e2-467d-b1bf-de68e133f013")
+		)
+		(pin "12"
+			(uuid "abe2f11f-9cbf-4026-aece-5aec2adea3ab")
+		)
+		(pin "2"
+			(uuid "a78f3db0-95c4-4770-b23e-18e430076b97")
+		)
+		(pin "1"
+			(uuid "be87bd4a-0de3-4e42-a779-bd08e2d3adeb")
+		)
+		(pin "13"
+			(uuid "db29435e-10b1-4ea5-af7b-3a5bd49e45b7")
+		)
+		(pin "7"
+			(uuid "3cb3bab7-401e-4160-819e-5feb21f7ca7e")
+		)
+		(pin "4"
+			(uuid "418a803c-31e9-4ecf-8aec-3803a7ba4970")
+		)
+		(pin "14"
+			(uuid "b927ec15-fc9d-4d1c-8ea7-8335dcbaa406")
+		)
+		(pin "15"
+			(uuid "e198c20e-22f5-4a1b-b815-b319503f5f12")
+		)
+		(pin "8"
+			(uuid "8d85a6e8-e06e-454c-8080-dbc8e58cf32d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -11301,6 +13180,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at -19.05 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eccf922-0d7a-4b29-b3bc-c82ecec7611f")
+		(property "Reference" "U5"
+			(at -19.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at -19.05 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at -20.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at -17.78 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at -19.05 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "001bec53-ed7c-48d3-98a8-9759e62ea681")
+		)
+		(pin "12"
+			(uuid "d283fc6b-94e0-4109-9b45-e269f62d20e8")
+		)
+		(pin "1"
+			(uuid "a8d5bd5a-060c-4a22-be7b-70057b26c63e")
+		)
+		(pin "6"
+			(uuid "a4ed7f0c-ba5e-4d84-ac58-be8a7cbaa590")
+		)
+		(pin "2"
+			(uuid "cb5e6d2e-ee4d-4923-83be-bac67d28aa84")
+		)
+		(pin "5"
+			(uuid "770187cc-e947-4f0b-88cb-6cb365b9999c")
+		)
+		(pin "7"
+			(uuid "4130aa4a-16b8-43d3-8dbf-18c60cdaf75e")
+		)
+		(pin "14"
+			(uuid "f7e157b0-5cd2-4e3e-8a8a-d2e5acd08acd")
+		)
+		(pin "16"
+			(uuid "3b677798-8c28-477f-9b8f-8a842d1b1dd6")
+		)
+		(pin "13"
+			(uuid "50edc743-dfb0-40dc-9053-58c77a94d3a4")
+		)
+		(pin "11"
+			(uuid "0078f3f8-96b9-4068-a4de-c212df593d6a")
+		)
+		(pin "15"
+			(uuid "d6797379-bb85-4844-a20b-cde426d30de2")
+		)
+		(pin "8"
+			(uuid "3d68f464-4c13-42e3-9291-dea057c2ed7c")
+		)
+		(pin "4"
+			(uuid "04bf1422-37b2-4a54-920d-cc6cf8b1c6ae")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAS40-04")
 		(at 44.45 110.49 270)
 		(mirror x)
@@ -11949,6 +13932,112 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at -15.24 289.56 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58413e94-e458-4a9f-ba5d-99b034078fa6")
+		(property "Reference" "U5"
+			(at -15.24 288.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at -15.24 290.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at -16.51 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at -13.97 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at -15.24 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "001bec53-ed7c-48d3-98a8-9759e62ea681")
+		)
+		(pin "12"
+			(uuid "d283fc6b-94e0-4109-9b45-e269f62d20e8")
+		)
+		(pin "1"
+			(uuid "a8d5bd5a-060c-4a22-be7b-70057b26c63e")
+		)
+		(pin "6"
+			(uuid "a4ed7f0c-ba5e-4d84-ac58-be8a7cbaa590")
+		)
+		(pin "2"
+			(uuid "cb5e6d2e-ee4d-4923-83be-bac67d28aa84")
+		)
+		(pin "5"
+			(uuid "770187cc-e947-4f0b-88cb-6cb365b9999c")
+		)
+		(pin "7"
+			(uuid "4130aa4a-16b8-43d3-8dbf-18c60cdaf75e")
+		)
+		(pin "14"
+			(uuid "f7e157b0-5cd2-4e3e-8a8a-d2e5acd08acd")
+		)
+		(pin "16"
+			(uuid "3b677798-8c28-477f-9b8f-8a842d1b1dd6")
+		)
+		(pin "13"
+			(uuid "50edc743-dfb0-40dc-9053-58c77a94d3a4")
+		)
+		(pin "11"
+			(uuid "0078f3f8-96b9-4068-a4de-c212df593d6a")
+		)
+		(pin "15"
+			(uuid "d6797379-bb85-4844-a20b-cde426d30de2")
+		)
+		(pin "8"
+			(uuid "3d68f464-4c13-42e3-9291-dea057c2ed7c")
+		)
+		(pin "4"
+			(uuid "04bf1422-37b2-4a54-920d-cc6cf8b1c6ae")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-rarray:R_Array")
 		(at 224.79 118.11 0)
 		(unit 3)
@@ -12083,6 +14172,110 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "RN1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 105.41 302.26 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ebd7aa4-0580-4aa1-9cc8-a7482ff5f18f")
+		(property "Reference" "U18"
+			(at 105.41 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 105.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 104.14 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 106.68 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 105.41 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "643f2324-05df-4e21-974a-8651bbd84568")
+		)
+		(pin "9"
+			(uuid "f6efb6da-2308-4781-a475-ef32f5ce52a0")
+		)
+		(pin "16"
+			(uuid "e8ce5ff1-80a5-4dc7-84d0-4c62cf67a733")
+		)
+		(pin "6"
+			(uuid "641ad47a-3516-4542-88a6-ec5b5c2b8b83")
+		)
+		(pin "5"
+			(uuid "2cf4ad90-48e2-467d-b1bf-de68e133f013")
+		)
+		(pin "12"
+			(uuid "abe2f11f-9cbf-4026-aece-5aec2adea3ab")
+		)
+		(pin "2"
+			(uuid "a78f3db0-95c4-4770-b23e-18e430076b97")
+		)
+		(pin "1"
+			(uuid "be87bd4a-0de3-4e42-a779-bd08e2d3adeb")
+		)
+		(pin "13"
+			(uuid "db29435e-10b1-4ea5-af7b-3a5bd49e45b7")
+		)
+		(pin "7"
+			(uuid "3cb3bab7-401e-4160-819e-5feb21f7ca7e")
+		)
+		(pin "4"
+			(uuid "418a803c-31e9-4ecf-8aec-3803a7ba4970")
+		)
+		(pin "14"
+			(uuid "b927ec15-fc9d-4d1c-8ea7-8335dcbaa406")
+		)
+		(pin "15"
+			(uuid "e198c20e-22f5-4a1b-b815-b319503f5f12")
+		)
+		(pin "8"
+			(uuid "8d85a6e8-e06e-454c-8080-dbc8e58cf32d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U18")
+					(unit 4)
 				)
 			)
 		)
@@ -12549,6 +14742,226 @@
 		)
 	)
 	(symbol
+		(lib_id "TCA6416RTWT:XL9555QF24")
+		(at 354.33 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659e872b-4dd0-4d26-9911-018ab995ac30")
+		(property "Reference" "U4"
+			(at 354.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL9555QF24"
+			(at 354.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+			(at 355.854 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 355.092 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 361.442 180.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 355.092 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 352.044 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 349.504 180.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XL9555QF24"
+			(at 354.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 377.444 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 350.012 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5f718307-a730-4a0c-826c-54d0796e4746")
+		)
+		(pin "17"
+			(uuid "492c22f3-3bd0-482d-ace9-7b2441eb4e3d")
+		)
+		(pin "16"
+			(uuid "285881f5-3e41-4512-9d1f-31bb817ea218")
+		)
+		(pin "12"
+			(uuid "7e6b334d-346e-4554-a804-0fbb26575925")
+		)
+		(pin "13"
+			(uuid "1f7ae70a-9b3e-442f-bc21-d149936d5d14")
+		)
+		(pin "24"
+			(uuid "890bc8d7-b737-4a1b-aeeb-602d19081eab")
+		)
+		(pin "9"
+			(uuid "87d6bdcf-acc5-4005-b7b0-275ab19c5a7e")
+		)
+		(pin "8"
+			(uuid "0c6c82fa-41e8-4ae2-aa50-f783c34f7a1a")
+		)
+		(pin "10"
+			(uuid "3b793386-8d42-440a-ab95-d267aeccfe8e")
+		)
+		(pin "18"
+			(uuid "215fbfa3-a285-44cb-a768-6876980c758d")
+		)
+		(pin "23"
+			(uuid "2b031bbd-1c8d-4d0e-8008-61166f516869")
+		)
+		(pin "1"
+			(uuid "c74fd555-497d-48f4-b8e1-3ff55d92b1c8")
+		)
+		(pin "20"
+			(uuid "d57196ef-08ff-4c5b-8319-fba91c0be344")
+		)
+		(pin "22"
+			(uuid "4021907d-e7d6-4247-a454-f2c8cbda6be6")
+		)
+		(pin "5"
+			(uuid "78f68849-6c78-4b5a-8dfa-dc25a1b8fcbc")
+		)
+		(pin "3"
+			(uuid "e792e3a9-cfaf-48be-a377-61ef8c91ab84")
+		)
+		(pin "6"
+			(uuid "4be9bc5e-3b11-4350-aaa0-912572eb76d7")
+		)
+		(pin "15"
+			(uuid "fb27ee21-ea0a-48d8-b2f5-0fc58cc0b666")
+		)
+		(pin "7"
+			(uuid "34b8530d-d2e9-45ac-a78a-f8f96ecc8657")
+		)
+		(pin "11"
+			(uuid "cee31431-7ae5-4f1d-b494-742e297cd5d5")
+		)
+		(pin "2"
+			(uuid "80759178-9b13-4ee2-9ba0-2b94a4cc1cff")
+		)
+		(pin "25"
+			(uuid "2e77a176-aa48-4e54-8475-38ceabfb8987")
+		)
+		(pin "14"
+			(uuid "31c5b986-11b4-4b96-b3d3-cc33d6ed1e3f")
+		)
+		(pin "21"
+			(uuid "44733436-bdae-47d0-8299-7004092ad092")
+		)
+		(pin "19"
+			(uuid "07fb67ec-0045-4748-869d-11dd02ad2f6d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-power:+VUSB")
 		(at 46.99 69.85 0)
 		(unit 1)
@@ -12911,6 +15324,110 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "#PWR081")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 27.94 262.89 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f784f72-6ad9-4465-b65a-b41c586ff2fc")
+		(property "Reference" "U17"
+			(at 27.94 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 27.94 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 26.67 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 29.21 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 27.94 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6537c168-da1a-49d3-9e61-3798294920cc")
+		)
+		(pin "2"
+			(uuid "585285e5-10a6-4de2-8eca-420b268b5984")
+		)
+		(pin "4"
+			(uuid "a9d5b644-419b-4761-b1e9-e53964c92c58")
+		)
+		(pin "12"
+			(uuid "c73b29f5-eeb9-41d0-b5d5-efe3efbb3633")
+		)
+		(pin "15"
+			(uuid "cf7eed5a-2503-4ceb-b612-b5d43708c919")
+		)
+		(pin "1"
+			(uuid "96745beb-8da8-443a-b990-a9fdb82eddbd")
+		)
+		(pin "11"
+			(uuid "e8f5aac7-4914-4cb9-8da6-ca9637bb3538")
+		)
+		(pin "9"
+			(uuid "360438a2-7f90-49e8-9a04-23a245bf464a")
+		)
+		(pin "7"
+			(uuid "20233116-8a0e-4f23-9e96-5c2607d8f881")
+		)
+		(pin "5"
+			(uuid "19880b35-e67a-41d2-96a5-36b075a2fb2d")
+		)
+		(pin "16"
+			(uuid "b009b0ee-522c-4002-adf8-03ef23225394")
+		)
+		(pin "6"
+			(uuid "bb4ef2ab-b4e8-46a8-8ef9-6bc63614500d")
+		)
+		(pin "8"
+			(uuid "ab696607-90c8-4a08-b9e3-e419dc421c65")
+		)
+		(pin "14"
+			(uuid "fc0c693c-6b21-4f71-b424-24e7294ec5f7")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U17")
+					(unit 4)
 				)
 			)
 		)
@@ -13332,6 +15849,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 377.19 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc879ca-44ed-4b19-b36c-aa0ca60ced94")
+		(property "Reference" "#PWR046"
+			(at 377.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbe7d91-1cd1-4a43-9d8c-d350169da965")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-power:+VUSB")
 		(at 46.99 132.08 0)
 		(unit 1)
@@ -13513,6 +16095,110 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "C3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at -19.05 222.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8894b02e-2254-401c-948c-6fe591cbaa78")
+		(property "Reference" "U5"
+			(at -19.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at -19.05 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at -20.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at -17.78 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at -19.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "001bec53-ed7c-48d3-98a8-9759e62ea681")
+		)
+		(pin "12"
+			(uuid "d283fc6b-94e0-4109-9b45-e269f62d20e8")
+		)
+		(pin "1"
+			(uuid "a8d5bd5a-060c-4a22-be7b-70057b26c63e")
+		)
+		(pin "6"
+			(uuid "a4ed7f0c-ba5e-4d84-ac58-be8a7cbaa590")
+		)
+		(pin "2"
+			(uuid "cb5e6d2e-ee4d-4923-83be-bac67d28aa84")
+		)
+		(pin "5"
+			(uuid "770187cc-e947-4f0b-88cb-6cb365b9999c")
+		)
+		(pin "7"
+			(uuid "4130aa4a-16b8-43d3-8dbf-18c60cdaf75e")
+		)
+		(pin "14"
+			(uuid "f7e157b0-5cd2-4e3e-8a8a-d2e5acd08acd")
+		)
+		(pin "16"
+			(uuid "3b677798-8c28-477f-9b8f-8a842d1b1dd6")
+		)
+		(pin "13"
+			(uuid "50edc743-dfb0-40dc-9053-58c77a94d3a4")
+		)
+		(pin "11"
+			(uuid "0078f3f8-96b9-4068-a4de-c212df593d6a")
+		)
+		(pin "15"
+			(uuid "d6797379-bb85-4844-a20b-cde426d30de2")
+		)
+		(pin "8"
+			(uuid "3d68f464-4c13-42e3-9291-dea057c2ed7c")
+		)
+		(pin "4"
+			(uuid "04bf1422-37b2-4a54-920d-cc6cf8b1c6ae")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -14226,6 +16912,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 336.55 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b060c7-fb33-4854-8d3a-eb8c3d672c83")
+		(property "Reference" "#PWR050"
+			(at 330.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeddadda-c6ba-40db-9a83-3ccd9d4b563f")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 46.99 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14543,6 +17294,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 105.41 270.51 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e33cb39-55ce-4ee0-9e04-43d05f5631e7")
+		(property "Reference" "U18"
+			(at 105.41 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 105.41 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 104.14 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 106.68 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 105.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "643f2324-05df-4e21-974a-8651bbd84568")
+		)
+		(pin "9"
+			(uuid "f6efb6da-2308-4781-a475-ef32f5ce52a0")
+		)
+		(pin "16"
+			(uuid "e8ce5ff1-80a5-4dc7-84d0-4c62cf67a733")
+		)
+		(pin "6"
+			(uuid "641ad47a-3516-4542-88a6-ec5b5c2b8b83")
+		)
+		(pin "5"
+			(uuid "2cf4ad90-48e2-467d-b1bf-de68e133f013")
+		)
+		(pin "12"
+			(uuid "abe2f11f-9cbf-4026-aece-5aec2adea3ab")
+		)
+		(pin "2"
+			(uuid "a78f3db0-95c4-4770-b23e-18e430076b97")
+		)
+		(pin "1"
+			(uuid "be87bd4a-0de3-4e42-a779-bd08e2d3adeb")
+		)
+		(pin "13"
+			(uuid "db29435e-10b1-4ea5-af7b-3a5bd49e45b7")
+		)
+		(pin "7"
+			(uuid "3cb3bab7-401e-4160-819e-5feb21f7ca7e")
+		)
+		(pin "4"
+			(uuid "418a803c-31e9-4ecf-8aec-3803a7ba4970")
+		)
+		(pin "14"
+			(uuid "b927ec15-fc9d-4d1c-8ea7-8335dcbaa406")
+		)
+		(pin "15"
+			(uuid "e198c20e-22f5-4a1b-b815-b319503f5f12")
+		)
+		(pin "8"
+			(uuid "8d85a6e8-e06e-454c-8080-dbc8e58cf32d")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dp-rarray:R_Array")
 		(at 227.33 118.11 0)
 		(unit 4)
@@ -14677,6 +17532,127 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "RN1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 377.19 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a84ee2-315a-47b9-a871-92b1d03d7a09")
+		(property "Reference" "C5"
+			(at 374.65 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 379.73 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.00628"
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/1877.html"
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 377.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db326247-9646-4f05-92b3-4478b5ddab13")
+		)
+		(pin "2"
+			(uuid "edc3cefc-0c91-43de-8809-e4aa7e581c51")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "C5")
+					(unit 1)
 				)
 			)
 		)
@@ -16036,6 +19012,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 336.55 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c76e9794-c8a4-4114-8ed9-9290fee07253")
+		(property "Reference" "#PWR049"
+			(at 340.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 330.2 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87dd2cec-2249-470d-80c5-4bdb0b248245")
+		)
+		(instances
+			(project "7-REV1"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAS40-04")
 		(at 133.35 143.51 270)
 		(mirror x)
@@ -16147,6 +19188,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 26.67 222.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb7ec382-3328-475f-a971-c09e177cc07a")
+		(property "Reference" "U17"
+			(at 26.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 26.67 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 25.4 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 27.94 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 26.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6537c168-da1a-49d3-9e61-3798294920cc")
+		)
+		(pin "2"
+			(uuid "585285e5-10a6-4de2-8eca-420b268b5984")
+		)
+		(pin "4"
+			(uuid "a9d5b644-419b-4761-b1e9-e53964c92c58")
+		)
+		(pin "12"
+			(uuid "c73b29f5-eeb9-41d0-b5d5-efe3efbb3633")
+		)
+		(pin "15"
+			(uuid "cf7eed5a-2503-4ceb-b612-b5d43708c919")
+		)
+		(pin "1"
+			(uuid "96745beb-8da8-443a-b990-a9fdb82eddbd")
+		)
+		(pin "11"
+			(uuid "e8f5aac7-4914-4cb9-8da6-ca9637bb3538")
+		)
+		(pin "9"
+			(uuid "360438a2-7f90-49e8-9a04-23a245bf464a")
+		)
+		(pin "7"
+			(uuid "20233116-8a0e-4f23-9e96-5c2607d8f881")
+		)
+		(pin "5"
+			(uuid "19880b35-e67a-41d2-96a5-36b075a2fb2d")
+		)
+		(pin "16"
+			(uuid "b009b0ee-522c-4002-adf8-03ef23225394")
+		)
+		(pin "6"
+			(uuid "bb4ef2ab-b4e8-46a8-8ef9-6bc63614500d")
+		)
+		(pin "8"
+			(uuid "ab696607-90c8-4a08-b9e3-e419dc421c65")
+		)
+		(pin "14"
+			(uuid "fc0c693c-6b21-4f71-b424-24e7294ec5f7")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U17")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 39.37 0)
 		(unit 1)
@@ -16207,6 +19352,110 @@
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "#PWR067")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 29.21 243.84 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd9f8a74-c062-4c83-a75f-030fb429102a")
+		(property "Reference" "U17"
+			(at 29.21 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 29.21 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 27.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 30.48 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 29.21 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6537c168-da1a-49d3-9e61-3798294920cc")
+		)
+		(pin "2"
+			(uuid "585285e5-10a6-4de2-8eca-420b268b5984")
+		)
+		(pin "4"
+			(uuid "a9d5b644-419b-4761-b1e9-e53964c92c58")
+		)
+		(pin "12"
+			(uuid "c73b29f5-eeb9-41d0-b5d5-efe3efbb3633")
+		)
+		(pin "15"
+			(uuid "cf7eed5a-2503-4ceb-b612-b5d43708c919")
+		)
+		(pin "1"
+			(uuid "96745beb-8da8-443a-b990-a9fdb82eddbd")
+		)
+		(pin "11"
+			(uuid "e8f5aac7-4914-4cb9-8da6-ca9637bb3538")
+		)
+		(pin "9"
+			(uuid "360438a2-7f90-49e8-9a04-23a245bf464a")
+		)
+		(pin "7"
+			(uuid "20233116-8a0e-4f23-9e96-5c2607d8f881")
+		)
+		(pin "5"
+			(uuid "19880b35-e67a-41d2-96a5-36b075a2fb2d")
+		)
+		(pin "16"
+			(uuid "b009b0ee-522c-4002-adf8-03ef23225394")
+		)
+		(pin "6"
+			(uuid "bb4ef2ab-b4e8-46a8-8ef9-6bc63614500d")
+		)
+		(pin "8"
+			(uuid "ab696607-90c8-4a08-b9e3-e419dc421c65")
+		)
+		(pin "14"
+			(uuid "fc0c693c-6b21-4f71-b424-24e7294ec5f7")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U17")
+					(unit 3)
 				)
 			)
 		)
@@ -17337,6 +20586,110 @@
 		)
 	)
 	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at -19.05 241.3 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f319c92c-9350-48e8-80da-9a05388f01fd")
+		(property "Reference" "U5"
+			(at -19.05 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at -19.05 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at -20.32 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at -17.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at -19.05 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "001bec53-ed7c-48d3-98a8-9759e62ea681")
+		)
+		(pin "12"
+			(uuid "d283fc6b-94e0-4109-9b45-e269f62d20e8")
+		)
+		(pin "1"
+			(uuid "a8d5bd5a-060c-4a22-be7b-70057b26c63e")
+		)
+		(pin "6"
+			(uuid "a4ed7f0c-ba5e-4d84-ac58-be8a7cbaa590")
+		)
+		(pin "2"
+			(uuid "cb5e6d2e-ee4d-4923-83be-bac67d28aa84")
+		)
+		(pin "5"
+			(uuid "770187cc-e947-4f0b-88cb-6cb365b9999c")
+		)
+		(pin "7"
+			(uuid "4130aa4a-16b8-43d3-8dbf-18c60cdaf75e")
+		)
+		(pin "14"
+			(uuid "f7e157b0-5cd2-4e3e-8a8a-d2e5acd08acd")
+		)
+		(pin "16"
+			(uuid "3b677798-8c28-477f-9b8f-8a842d1b1dd6")
+		)
+		(pin "13"
+			(uuid "50edc743-dfb0-40dc-9053-58c77a94d3a4")
+		)
+		(pin "11"
+			(uuid "0078f3f8-96b9-4068-a4de-c212df593d6a")
+		)
+		(pin "15"
+			(uuid "d6797379-bb85-4844-a20b-cde426d30de2")
+		)
+		(pin "8"
+			(uuid "3d68f464-4c13-42e3-9291-dea057c2ed7c")
+		)
+		(pin "4"
+			(uuid "04bf1422-37b2-4a54-920d-cc6cf8b1c6ae")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 87.63 0)
 		(unit 1)
@@ -17463,6 +20816,110 @@
 			(project "7-REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ws72324q:WS72324Q")
+		(at 27.94 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f7ec5e-e955-4348-8e9b-3aeb1c1aef2a")
+		(property "Reference" "U17"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72324Q"
+			(at 27.94 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+			(at 26.67 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 29.21 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 27.94 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6537c168-da1a-49d3-9e61-3798294920cc")
+		)
+		(pin "2"
+			(uuid "585285e5-10a6-4de2-8eca-420b268b5984")
+		)
+		(pin "4"
+			(uuid "a9d5b644-419b-4761-b1e9-e53964c92c58")
+		)
+		(pin "12"
+			(uuid "c73b29f5-eeb9-41d0-b5d5-efe3efbb3633")
+		)
+		(pin "15"
+			(uuid "cf7eed5a-2503-4ceb-b612-b5d43708c919")
+		)
+		(pin "1"
+			(uuid "96745beb-8da8-443a-b990-a9fdb82eddbd")
+		)
+		(pin "11"
+			(uuid "e8f5aac7-4914-4cb9-8da6-ca9637bb3538")
+		)
+		(pin "9"
+			(uuid "360438a2-7f90-49e8-9a04-23a245bf464a")
+		)
+		(pin "7"
+			(uuid "20233116-8a0e-4f23-9e96-5c2607d8f881")
+		)
+		(pin "5"
+			(uuid "19880b35-e67a-41d2-96a5-36b075a2fb2d")
+		)
+		(pin "16"
+			(uuid "b009b0ee-522c-4002-adf8-03ef23225394")
+		)
+		(pin "6"
+			(uuid "bb4ef2ab-b4e8-46a8-8ef9-6bc63614500d")
+		)
+		(pin "8"
+			(uuid "ab696607-90c8-4a08-b9e3-e419dc421c65")
+		)
+		(pin "14"
+			(uuid "fc0c693c-6b21-4f71-b424-24e7294ec5f7")
+		)
+		(instances
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "U17")
 					(unit 1)
 				)
 			)

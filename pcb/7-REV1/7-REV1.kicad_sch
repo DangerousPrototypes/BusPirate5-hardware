@@ -240,18 +240,6 @@
 			)
 		)
 	)
-	(text "VOUT protection"
-		(exclude_from_sim no)
-		(at 32.766 54.483 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "12173159-4b0f-47e5-86c6-8b4553df105d")
-	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 128.27 38.1 0)
@@ -377,18 +365,6 @@
 			)
 		)
 		(uuid "f11c4db4-734a-4497-9c2c-b4d0e22445e2")
-	)
-	(text "Auxiliary Voltages\n"
-		(exclude_from_sim no)
-		(at 33.528 76.708 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f9fa3d8e-df4d-4053-8f14-a5d307b56cbb")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1703,82 +1679,6 @@
 			(project "7-REV1"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 21.59 46.99)
-		(size 24.765 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "95c5ca91-1e6b-49a9-86b2-64918a8e6404")
-		(property "Sheetname" "VOUT protection"
-			(at 21.59 46.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "vout_protection.kicad_sch"
-			(at 21.59 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 21.59 68.58)
-		(size 24.765 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a10886b0-1bb2-4849-bbfb-dd2334cfdc53")
-		(property "Sheetname" "Auxilary Voltages"
-			(at 21.59 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "aux_voltages.kicad_sch"
-			(at 21.59 84.4046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
-					(page "8")
 				)
 			)
 		)

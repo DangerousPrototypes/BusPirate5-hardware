@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "90758ff8-2eb0-4ed7-a6e9-d97935fe0348")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -261,6 +270,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dp-LED:SK6812-mini-e"
 			(pin_names
@@ -315,18 +325,6 @@
 			(symbol "SK6812-mini-e_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
 					)
 					(stroke
@@ -339,19 +337,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -364,6 +350,18 @@
 				(polyline
 					(pts
 						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -397,6 +395,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 5.08 5.08)
 					(end -5.08 -5.08)
@@ -416,6 +426,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -427,24 +455,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,17 +480,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "DI"
+					(name "DO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -489,6 +499,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dp-LED:SK6812-side-a_b"
 			(pin_names
@@ -543,18 +554,6 @@
 			(symbol "SK6812-side-a_b_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
 					)
 					(stroke
@@ -567,19 +566,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -592,6 +579,18 @@
 				(polyline
 					(pts
 						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -625,6 +624,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 5.08 5.08)
 					(end -5.08 -5.08)
@@ -641,6 +652,42 @@
 					(effects
 						(font
 							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
@@ -680,43 +727,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dp-power:+VUSB"
 			(power)
@@ -782,18 +794,6 @@
 			(symbol "+VUSB_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.54) (xy -0.762 1.27)
 					)
 					(stroke
@@ -816,11 +816,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "+VUSB_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+VUSB"
 						(effects
 							(font
@@ -837,6 +850,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -916,7 +930,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -933,7 +948,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "I have LEDs"
+		(exclude_from_sim no)
+		(at 142.24 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef4fc7de-9bae-4f63-817a-63c33b9cc89a")
 	)
 	(junction
 		(at 199.39 26.67)
@@ -1803,18 +1831,6 @@
 		)
 		(uuid "fe4d19b9-2d0c-4f2d-8f89-fb19d83ca6dd")
 	)
-	(text "I have LEDs"
-		(exclude_from_sim no)
-		(at 142.24 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef4fc7de-9bae-4f63-817a-63c33b9cc89a")
-	)
 	(global_label "LEDS_CDO"
 		(shape input)
 		(at 134.62 38.1 180)
@@ -1844,7 +1860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0dc7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0704"
 			(at 44.45 74.93 0)
 			(effects
 				(font
@@ -1913,7 +1929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0dcd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0708"
 			(at 53.34 82.55 0)
 			(effects
 				(font
@@ -1982,7 +1998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0dd5")
-		(property "Reference" "C?"
+		(property "Reference" "C704"
 			(at 44.45 80.01 90)
 			(effects
 				(font
@@ -2071,7 +2087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0ddb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0712"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -2141,7 +2157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0de8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0703"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -2210,7 +2226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0dee")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0707"
 			(at 53.34 59.69 0)
 			(effects
 				(font
@@ -2279,7 +2295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0df6")
-		(property "Reference" "C?"
+		(property "Reference" "C703"
 			(at 44.45 57.15 90)
 			(effects
 				(font
@@ -2368,7 +2384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0dfc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0711"
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -2438,7 +2454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee0e12")
-		(property "Reference" "LED?"
+		(property "Reference" "LED703"
 			(at 68.58 59.69 0)
 			(effects
 				(font
@@ -2539,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0a55e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0714"
 			(at 82.55 24.13 0)
 			(effects
 				(font
@@ -2608,7 +2624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0a564")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0713"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -2677,7 +2693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0a56a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0715"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -2747,7 +2763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0a57a")
-		(property "Reference" "LED?"
+		(property "Reference" "LED705"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -2848,7 +2864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0a582")
-		(property "Reference" "C?"
+		(property "Reference" "C705"
 			(at 77.47 24.13 90)
 			(effects
 				(font
@@ -2937,7 +2953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f19331")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0738"
 			(at 199.39 24.13 0)
 			(effects
 				(font
@@ -3006,7 +3022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f19337")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0737"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -3075,7 +3091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f1933d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0739"
 			(at 199.39 52.07 0)
 			(effects
 				(font
@@ -3145,7 +3161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f19345")
-		(property "Reference" "LED?"
+		(property "Reference" "LED713"
 			(at 191.77 48.26 0)
 			(effects
 				(font
@@ -3246,7 +3262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f1934d")
-		(property "Reference" "C?"
+		(property "Reference" "C713"
 			(at 194.31 24.13 90)
 			(effects
 				(font
@@ -3335,7 +3351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31081")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0752"
 			(at 242.57 71.12 0)
 			(effects
 				(font
@@ -3404,7 +3420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31087")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0748"
 			(at 233.68 63.5 0)
 			(effects
 				(font
@@ -3473,7 +3489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f3108f")
-		(property "Reference" "C?"
+		(property "Reference" "C716"
 			(at 242.57 66.04 90)
 			(effects
 				(font
@@ -3562,7 +3578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31095")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0744"
 			(at 214.63 71.12 0)
 			(effects
 				(font
@@ -3632,7 +3648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f3109c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0751"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -3701,7 +3717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310a2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0747"
 			(at 233.68 43.18 0)
 			(effects
 				(font
@@ -3770,7 +3786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310a8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0743"
 			(at 214.63 50.8 0)
 			(effects
 				(font
@@ -3840,7 +3856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310b8")
-		(property "Reference" "LED?"
+		(property "Reference" "LED715"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -3941,7 +3957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310c0")
-		(property "Reference" "C?"
+		(property "Reference" "C715"
 			(at 242.57 45.72 90)
 			(effects
 				(font
@@ -4030,7 +4046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310cf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0753"
 			(at 242.57 114.3 0)
 			(effects
 				(font
@@ -4099,7 +4115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0749"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -4168,7 +4184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310dd")
-		(property "Reference" "C?"
+		(property "Reference" "C717"
 			(at 242.57 109.22 90)
 			(effects
 				(font
@@ -4257,7 +4273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f310e3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0745"
 			(at 214.63 114.3 0)
 			(effects
 				(font
@@ -4327,7 +4343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31119")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0754"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -4396,7 +4412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f3111f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0750"
 			(at 233.68 129.54 0)
 			(effects
 				(font
@@ -4465,7 +4481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31125")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0746"
 			(at 214.63 137.16 0)
 			(effects
 				(font
@@ -4535,7 +4551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f3112d")
-		(property "Reference" "LED?"
+		(property "Reference" "LED718"
 			(at 218.44 129.54 0)
 			(effects
 				(font
@@ -4636,7 +4652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f31135")
-		(property "Reference" "C?"
+		(property "Reference" "C718"
 			(at 242.57 132.08 90)
 			(effects
 				(font
@@ -4725,7 +4741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6654f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0735"
 			(at 163.83 158.75 0)
 			(effects
 				(font
@@ -4794,7 +4810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66555")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0736"
 			(at 171.45 149.86 0)
 			(effects
 				(font
@@ -4863,7 +4879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6655d")
-		(property "Reference" "C?"
+		(property "Reference" "C712"
 			(at 168.91 158.75 90)
 			(effects
 				(font
@@ -4952,7 +4968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66563")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0734"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -5022,7 +5038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6656a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0741"
 			(at 184.15 158.75 0)
 			(effects
 				(font
@@ -5091,7 +5107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66570")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0742"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -5160,7 +5176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66576")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0740"
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -5230,7 +5246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66586")
-		(property "Reference" "LED?"
+		(property "Reference" "LED714"
 			(at 191.77 134.62 0)
 			(effects
 				(font
@@ -5331,7 +5347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6658e")
-		(property "Reference" "C?"
+		(property "Reference" "C714"
 			(at 189.23 158.75 90)
 			(effects
 				(font
@@ -5420,7 +5436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6659d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0723"
 			(at 120.65 158.75 0)
 			(effects
 				(font
@@ -5489,7 +5505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665a3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0724"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -5558,7 +5574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665ab")
-		(property "Reference" "C?"
+		(property "Reference" "C708"
 			(at 125.73 158.75 90)
 			(effects
 				(font
@@ -5647,7 +5663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665b1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0722"
 			(at 120.65 130.81 0)
 			(effects
 				(font
@@ -5717,7 +5733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0729"
 			(at 140.97 158.75 0)
 			(effects
 				(font
@@ -5786,7 +5802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665be")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0730"
 			(at 148.59 149.86 0)
 			(effects
 				(font
@@ -5855,7 +5871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0728"
 			(at 140.97 130.81 0)
 			(effects
 				(font
@@ -5925,7 +5941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665d4")
-		(property "Reference" "LED?"
+		(property "Reference" "LED710"
 			(at 148.59 134.62 0)
 			(effects
 				(font
@@ -6026,7 +6042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665dc")
-		(property "Reference" "C?"
+		(property "Reference" "C710"
 			(at 146.05 158.75 90)
 			(effects
 				(font
@@ -6115,7 +6131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665e7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0717"
 			(at 97.79 158.75 0)
 			(effects
 				(font
@@ -6184,7 +6200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665ed")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0718"
 			(at 105.41 149.86 0)
 			(effects
 				(font
@@ -6253,7 +6269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665f3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0716"
 			(at 97.79 130.81 0)
 			(effects
 				(font
@@ -6323,7 +6339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f665fb")
-		(property "Reference" "LED?"
+		(property "Reference" "LED706"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -6424,7 +6440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f66603")
-		(property "Reference" "C?"
+		(property "Reference" "C706"
 			(at 102.87 158.75 90)
 			(effects
 				(font
@@ -6513,7 +6529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e8f4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0701"
 			(at 43.18 107.95 0)
 			(effects
 				(font
@@ -6582,7 +6598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e8fa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0705"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -6651,7 +6667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e902")
-		(property "Reference" "C?"
+		(property "Reference" "C701"
 			(at 43.18 113.03 90)
 			(effects
 				(font
@@ -6740,7 +6756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e908")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0709"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -6810,7 +6826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e90f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0702"
 			(at 43.18 128.27 0)
 			(effects
 				(font
@@ -6879,7 +6895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e915")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0706"
 			(at 52.07 135.89 0)
 			(effects
 				(font
@@ -6948,7 +6964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e91b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0710"
 			(at 72.39 128.27 0)
 			(effects
 				(font
@@ -7018,7 +7034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e92b")
-		(property "Reference" "LED?"
+		(property "Reference" "LED702"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -7119,7 +7135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f6e934")
-		(property "Reference" "C?"
+		(property "Reference" "C702"
 			(at 43.18 133.35 90)
 			(effects
 				(font
@@ -7208,7 +7224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a80157")
-		(property "Reference" "C?"
+		(property "Reference" "C707"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -7297,7 +7313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a80b1b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 171.45 24.13 0)
 			(effects
 				(font
@@ -7366,7 +7382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a9030a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 170.18 21.59 0)
 			(effects
 				(font
@@ -7435,7 +7451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061adb9df")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0130"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -7505,7 +7521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b54215")
-		(property "Reference" "R?"
+		(property "Reference" "R502"
 			(at 134.62 35.56 90)
 			(effects
 				(font
@@ -8125,7 +8141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000655cd52e")
-		(property "Reference" "LED?"
+		(property "Reference" "LED719"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -8226,7 +8242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000655f0509")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0146"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -8296,7 +8312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000655f0a49")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0147"
 			(at 147.32 24.13 0)
 			(effects
 				(font
@@ -8365,7 +8381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000655f3f8e")
-		(property "Reference" "C?"
+		(property "Reference" "C719"
 			(at 140.97 24.13 90)
 			(effects
 				(font
@@ -8454,7 +8470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000655f48ca")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0148"
 			(at 138.43 33.02 0)
 			(effects
 				(font
@@ -8523,7 +8539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dfa5e3f-611a-4b17-8105-5cb3700c3985")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 105.41 52.07 0)
 			(effects
 				(font
@@ -8593,7 +8609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3709dfaf-ba20-4697-9705-c71b07287546")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 105.41 24.13 0)
 			(effects
 				(font
@@ -8662,7 +8678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb34e423-7fae-4931-b48f-175547aea8f5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 104.14 21.59 0)
 			(effects
 				(font
@@ -8731,7 +8747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd66a74e-424b-40a1-9d39-bf89239da7ba")
-		(property "Reference" "C?"
+		(property "Reference" "C720"
 			(at 95.25 27.94 0)
 			(effects
 				(font

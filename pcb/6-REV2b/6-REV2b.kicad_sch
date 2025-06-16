@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1f56410a-eaac-4444-b0f7-cfd3531e22ac")
 	(paper "A4")
 	(lib_symbols
@@ -77,6 +77,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -156,6 +157,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -238,6 +240,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(text "Microcontroller"
@@ -1001,6 +1004,10 @@
 	(sheet
 		(at 152.4 83.82)
 		(size 24.13 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1029,7 +1036,7 @@
 			)
 		)
 		(instances
-			(project "bp6-rev2a"
+			(project "6-REV2b"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "5")
 				)
@@ -1039,6 +1046,10 @@
 	(sheet
 		(at 119.38 85.09)
 		(size 24.13 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1067,7 +1078,7 @@
 			)
 		)
 		(instances
-			(project "bp6-rev2a"
+			(project "6-REV2b"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "3")
 				)
@@ -1077,6 +1088,10 @@
 	(sheet
 		(at 120.65 44.45)
 		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1105,7 +1120,7 @@
 			)
 		)
 		(instances
-			(project "bp6-rev2a"
+			(project "6-REV2b"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "4")
 				)
@@ -1115,6 +1130,10 @@
 	(sheet
 		(at 85.09 85.09)
 		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1143,7 +1162,7 @@
 			)
 		)
 		(instances
-			(project "bp6-rev2a"
+			(project "6-REV2b"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "2")
 				)
@@ -1153,6 +1172,10 @@
 	(sheet
 		(at 180.34 83.82)
 		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1181,7 +1204,7 @@
 			)
 		)
 		(instances
-			(project "bp6-rev2a"
+			(project "6-REV2b"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
 					(page "6")
 				)
@@ -1193,4 +1216,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

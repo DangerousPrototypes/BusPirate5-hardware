@@ -8600,26 +8600,6 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_RESET"
-		(shape output)
-		(at 297.18 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04a0ef48-b3e1-458c-bb4e-833ff16445ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUFIO1"
 		(shape bidirectional)
 		(at 311.15 104.14 0)
@@ -8988,26 +8968,6 @@
 			)
 		)
 	)
-	(global_label "~{Activate_VOUT}"
-		(shape output)
-		(at 297.18 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c9dafc4-e4c1-49bb-8cd9-0cd04bc540e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "QSPI_SD1"
 		(shape bidirectional)
 		(at 107.95 148.59 180)
@@ -9020,26 +8980,6 @@
 		(uuid "2ca0c738-750d-4ac0-84f8-9218aa0e7c09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.95 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CURRENT_EN"
-		(shape output)
-		(at 297.18 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "307d1ff0-b8a2-4fd6-8d39-31bc78fd334f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,26 +9048,6 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_BACKLIGHT"
-		(shape output)
-		(at 297.18 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d44726f-3046-44c7-bca0-12e2789534c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTONS"
 		(shape input)
 		(at 304.8 195.58 0)
@@ -9140,26 +9060,6 @@
 		(uuid "41c96dbc-dc83-402f-8711-9c48dc60c965")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 304.8 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CURRENT_EN_OVERRIDE"
-		(shape output)
-		(at 297.18 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46303d8f-50ec-485f-b9b5-2c97cf35357b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,6 +9086,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREG_ADJ_MCU"
+		(shape output)
+		(at 364.49 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4962c064-28bc-4cfe-a03c-b0ed445ee82a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9274,6 +9194,26 @@
 			)
 		)
 	)
+	(global_label "CURRENT_ADJ_MCU"
+		(shape output)
+		(at 364.49 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6aeecbdd-bbcb-4abb-924a-bdc893e08a46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_SD2"
 		(shape bidirectional)
 		(at 133.35 153.67 0)
@@ -9286,26 +9226,6 @@
 		(uuid "6db7a4e3-2b28-44de-a387-dd62f93c0f2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.35 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CURRENT_RESET"
-		(shape output)
-		(at 297.18 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70751f0a-80a7-43f2-bb3b-bc11d69ad2c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
