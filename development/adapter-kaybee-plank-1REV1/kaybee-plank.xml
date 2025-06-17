@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\BP5hw\kaybee-plank\kaybee-plank.kicad_sch</source>
-    <date>2025-04-22T13:09:02+0200</date>
-    <tool>Eeschema 8.0.7</tool>
+    <source>C:\BP5hw\development\adapter-kaybee-plank-1REV1\kaybee-plank.kicad_sch</source>
+    <date>2025-06-17T12:05:02+0200</date>
+    <tool>Eeschema 9.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -98,6 +98,33 @@
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ca4ef5b-4ac1-43c4-b641-6ec7e5bdab4d</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>1N4148WT</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.182079</field>
+        <field name="Supplier">https://item.szlcsc.com/120141.html</field>
+        <field name="szlcsc_partnumber">C2828426</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/2976401.html?fromZone=s_s__%25221N4148WT%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRfXlBUQ1ZeVzsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D</field>
+        <field name="szlcsc_partnum">C2828426</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="RMB" value="0.182079"/>
+      <property name="Supplier" value="https://item.szlcsc.com/120141.html"/>
+      <property name="szlcsc_partnumber" value="C2828426"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/2976401.html?fromZone=s_s__%25221N4148WT%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRfXlBUQ1ZeVzsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"/>
+      <property name="szlcsc_partnum" value="C2828426"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5912563a-d745-4071-98c9-eafddf2f1b4f</tstamps>
     </comp>
     <comp ref="J1">
       <value>Mini-DIN-6</value>
@@ -218,6 +245,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d7c1e89-d0f6-43d9-879c-ee04f4523a1f</tstamps>
     </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="szlcsc_partnum">C2905434</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="szlcsc_partnum" value="C2905434"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>068b58e7-f190-416e-abf1-2185e82da988</tstamps>
+    </comp>
     <comp ref="L1">
       <value>CBW201209U300T</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
@@ -306,6 +352,55 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2a4786cd-bcf0-4c9c-a4fa-9df6b85325bc</tstamps>
     </comp>
+    <comp ref="Q401">
+      <value>BCM857BS-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <fields>
+        <field name="szlcsc_partnumber">C105896</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/107111.html</field>
+        <field name="szlcsc_partnum">C105896</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="kicad5-device" part="Q_DUAL_PNP_PNP_E1B1C2E2B2C1" description="Dual PNP transistor, 6 pin package"/>
+      <property name="szlcsc_partnumber" value="C105896"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/107111.html"/>
+      <property name="szlcsc_partnum" value="C105896"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="transistor PNP"/>
+      <property name="ki_fp_filters" value="SC?70* SC?88* SOT?363* SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab73cba1-7cf8-45ca-a630-5a35bfc4df64 a01cfa7d-3331-4037-aa88-063b707c94e9</tstamps>
+    </comp>
+    <comp ref="Q402">
+      <value>BC2301T 2.8A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="RMB">0.232494</field>
+        <field name="Supplier">https://item.szlcsc.com/76686.html</field>
+        <field name="szlcsc_partnumber">C21714127</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/23141038.html?fromZone=s_s__%2522BC2301T%25202.8A%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRfXlxWQ1hXUDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D</field>
+        <field name="szlcsc_partnum">C21714127</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="RMB" value="0.232494"/>
+      <property name="Supplier" value="https://item.szlcsc.com/76686.html"/>
+      <property name="szlcsc_partnumber" value="C21714127"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/23141038.html?fromZone=s_s__%2522BC2301T%25202.8A%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRfXlxWQ1hXUDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"/>
+      <property name="szlcsc_partnum" value="C21714127"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbc90eea-139d-400a-a13c-e31573ff0f7f</tstamps>
+    </comp>
     <comp ref="R1">
       <value>5.1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
@@ -385,6 +480,84 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4b8bca9b-45dc-4c6b-b541-a66cd970c7a6</tstamps>
+    </comp>
+    <comp ref="R408">
+      <value>68K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="RMB">0.005541</field>
+        <field name="Supplier">https://item.szlcsc.com/141563.html</field>
+        <field name="szlcsc_partnumber">C25779</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/26522.html?fromZone=s_s__%252233K%25200402%2522&amp;spm=sc.gb.xh2.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D</field>
+        <field name="szlcsc_partnum">C17801</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.005541"/>
+      <property name="Supplier" value="https://item.szlcsc.com/141563.html"/>
+      <property name="szlcsc_partnumber" value="C25779"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/26522.html?fromZone=s_s__%252233K%25200402%2522&amp;spm=sc.gb.xh2.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"/>
+      <property name="szlcsc_partnum" value="C17801"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8694228b-01ac-4e11-8857-ae5f2309dbd3</tstamps>
+    </comp>
+    <comp ref="R410">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="RMB">0.005541</field>
+        <field name="Supplier">https://item.szlcsc.com/141563.html</field>
+        <field name="szlcsc_partnumber">C25744</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/26487.html?fromZone=s_s__%252210K%25200402%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D</field>
+        <field name="szlcsc_partnum">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.005541"/>
+      <property name="Supplier" value="https://item.szlcsc.com/141563.html"/>
+      <property name="szlcsc_partnumber" value="C25744"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/26487.html?fromZone=s_s__%252210K%25200402%2522&amp;spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"/>
+      <property name="szlcsc_partnum" value="C17414"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e467a50-f521-4427-b29a-d6ac0a7da17e</tstamps>
+    </comp>
+    <comp ref="R412">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="RMB">0.005749</field>
+        <field name="Supplier">https://item.szlcsc.com/61543.html</field>
+        <field name="szlcsc_partnumber">C25741</field>
+        <field name="szlcsc_url">https://item.szlcsc.com/26484.html?fromZone=s_s__%2522100K%25200402%2522&amp;spm=sc.gb.xh1.zy.n&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D</field>
+        <field name="szlcsc_partnum">C149504</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="RMB" value="0.005749"/>
+      <property name="Supplier" value="https://item.szlcsc.com/61543.html"/>
+      <property name="szlcsc_partnumber" value="C25741"/>
+      <property name="szlcsc_url" value="https://item.szlcsc.com/26484.html?fromZone=s_s__%2522100K%25200402%2522&amp;spm=sc.gb.xh1.zy.n&amp;lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"/>
+      <property name="szlcsc_partnum" value="C149504"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="kaybee-plank.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbf22a69-b103-4fa7-a8ac-1818fe99823f</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_SPDT</value>
@@ -597,6 +770,26 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Switch" part="SW_SPDT">
       <description>Switch, single pole double throw</description>
       <docs>~</docs>
@@ -611,6 +804,25 @@
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="B" type="passive"/>
         <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS84">
+      <description>-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS84</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
+        <field name="Description">-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="kicad5-device" part="Ferrite_Bead_Small">
@@ -633,33 +845,64 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="kicad5-device" part="Q_DUAL_PNP_PNP_E1B1C2E2B2C1">
+      <description>Dual PNP transistor, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_DUAL_PNP_PNP_E1B1C2E2B2C1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Dual PNP transistor, 6 pin package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="CLK">
+    <net code="1" name="CLK" class="Default">
       <node ref="J1" pin="5" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J4" pin="5" pintype="passive"/>
     </net>
-    <net code="2" name="DAT">
+    <net code="2" name="DAT" class="Default">
       <node ref="J1" pin="1" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J4" pin="1" pintype="passive"/>
     </net>
-    <net code="3" name="GND">
+    <net code="3" name="GND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -676,99 +919,126 @@
       <node ref="J7" pin="S3" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J7" pin="S4" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R408" pin="2" pintype="passive"/>
+      <node ref="R412" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="4" name="IO3">
+    <net code="4" name="IO3" class="Default">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="5" name="IO6">
+    <net code="5" name="IO6" class="Default">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="6" name="IO7">
+    <net code="6" name="IO7" class="Default">
       <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(D2-A)">
+    <net code="7" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(J1-Pad4)">
+    <net code="8" name="Net-(D401-A)" class="Default">
+      <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q401" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="Q401" pin="5" pinfunction="B2" pintype="input"/>
+      <node ref="R408" pin="1" pintype="passive"/>
+      <node ref="R410" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pintype="passive"/>
       <node ref="L4" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(J4-Pad4)">
+    <net code="10" name="Net-(J4-Pad4)" class="Default">
       <node ref="J4" pin="4" pintype="passive"/>
       <node ref="L5" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(J5-VBUS)">
+    <net code="11" name="Net-(J5-VBUS)" class="Default">
       <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
       <node ref="L2" pin="2" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(J7-CC1)">
+    <net code="12" name="Net-(J7-CC1)" class="Default">
       <node ref="J7" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(J7-CC2)">
+    <net code="13" name="Net-(J7-CC2)" class="Default">
       <node ref="J7" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(J7-VBUS-PadA4B9)">
+    <net code="14" name="Net-(J7-VBUS-PadA4B9)" class="Default">
       <node ref="J7" pin="A4B9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="J7" pin="B4A9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="L1" pin="2" pintype="passive"/>
     </net>
-    <net code="14" name="TRIG">
+    <net code="15" name="Net-(Q401A-B1)" class="Default">
+      <node ref="Q401" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="R410" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q401A-C1)" class="Default">
+      <node ref="Q401" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="Q402" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R412" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="TRIG" class="Default">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="USB_D+">
+    <net code="18" name="USB_D+" class="Default">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J7" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
       <node ref="J7" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
     </net>
-    <net code="16" name="USB_D-">
+    <net code="19" name="USB_D-" class="Default">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J7" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
       <node ref="J7" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
     </net>
-    <net code="17" name="VDD">
+    <net code="20" name="VDD" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="L2" pin="1" pintype="passive"/>
       <node ref="L4" pin="2" pintype="passive"/>
       <node ref="L5" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="18" name="VOUT">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="21" name="VOUT" class="Default">
+      <node ref="Q401" pin="1" pinfunction="E1" pintype="passive"/>
+      <node ref="Q402" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="19" name="unconnected-(J1-Pad2)">
+    <net code="22" name="VOUT_BP_SIDE" class="Default">
+      <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q401" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="Q402" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pad2)" class="Default">
       <node ref="J1" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="unconnected-(J1-Pad6)">
+    <net code="24" name="unconnected-(J1-Pad6)" class="Default">
       <node ref="J1" pin="6" pintype="passive"/>
     </net>
-    <net code="21" name="unconnected-(J4-Pad2)">
+    <net code="25" name="unconnected-(J4-Pad2)" class="Default">
       <node ref="J4" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="unconnected-(J4-Pad6)">
+    <net code="26" name="unconnected-(J4-Pad6)" class="Default">
       <node ref="J4" pin="6" pintype="passive"/>
     </net>
-    <net code="23" name="unconnected-(J7-SBU1-PadA8)">
+    <net code="27" name="unconnected-(J7-SBU1-PadA8)" class="Default">
       <node ref="J7" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(J7-SBU2-PadB8)">
+    <net code="28" name="unconnected-(J7-SBU2-PadB8)" class="Default">
       <node ref="J7" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(SW1-C-Pad3)">
+    <net code="29" name="unconnected-(SW1-C-Pad3)" class="Default">
       <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
   </nets>

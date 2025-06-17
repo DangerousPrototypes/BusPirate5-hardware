@@ -6520,6 +6520,14 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C2828426"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e117643-c04e-414d-85e3-ffcfbade4cd9")
 		)
@@ -6623,6 +6631,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C17414"
+			(at 204.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7178,7 +7194,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "66K"
+		(property "Value" "68K"
 			(at 198.12 118.364 0)
 			(effects
 				(font
@@ -7248,6 +7264,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C17801"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7615,6 +7639,14 @@
 				(hide yes)
 			)
 		)
+		(property "szlcsc_partnum" "C105896"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3245a2a5-02f0-4bcd-b14d-d175f3d3b319")
 		)
@@ -7919,6 +7951,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C105896"
+			(at 213.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8346,6 +8386,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C21714127"
+			(at 204.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9094,6 +9142,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "szlcsc_partnum" "C149504"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
