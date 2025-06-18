@@ -4692,7 +4692,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "VOUT_BP_SIDE"
 		(shape input)
 		(at 167.64 33.02 90)
 		(fields_autoplaced yes)
@@ -4702,9 +4702,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4f9304c4-d21a-4679-b04f-e5ded0948285")
+		(uuid "528abe5d-9c5d-42ff-a875-6c7e710e6b46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 25.3176 90)
+			(at 167.64 16.6091 90)
 			(effects
 				(font
 					(size 1.27 1.27)
