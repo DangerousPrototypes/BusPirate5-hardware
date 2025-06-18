@@ -1604,8 +1604,12 @@
       "Pull-X resistor system"
     ],
     [
-      "1a77fff9-fc40-4d52-be06-5f2036ff73cf",
+      "1e8f124d-b26b-4fe2-98c8-28529b98a735",
       "VOUT protection"
+    ],
+    [
+      "2356877c-fee6-4e29-8f4d-f4ded40a3ed1",
+      "Aux voltages"
     ]
   ],
   "text_variables": {}

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ac86e13b-2d1c-4ee1-b9b2-804690445827")
 	(paper "A4")
 	(lib_symbols
@@ -73,18 +73,6 @@
 			(symbol "74LVC2G14_1_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
@@ -98,6 +86,18 @@
 				(polyline
 					(pts
 						(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -147,18 +147,6 @@
 			(symbol "74LVC2G14_2_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
@@ -172,6 +160,18 @@
 				(polyline
 					(pts
 						(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -233,24 +233,6 @@
 			)
 			(symbol "74LVC2G14_3_1"
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 10.16 270)
 					(length 5.08)
 					(name "VCC"
@@ -268,10 +250,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -344,7 +347,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -356,7 +359,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -405,11 +408,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -479,10 +487,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -491,10 +499,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -540,11 +548,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -662,6 +675,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:BAS40-04"
 			(pin_names
@@ -737,6 +751,18 @@
 			(symbol "BAS40-04_0_1"
 				(polyline
 					(pts
+						(xy -4.445 3.81) (xy -4.445 1.27) (xy -2.54 2.54) (xy -4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -3.81 2.54) (xy -1.27 2.54)
 					)
 					(stroke
@@ -750,6 +776,18 @@
 				(polyline
 					(pts
 						(xy -3.175 1.27) (xy -3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.905 3.81)
 					)
 					(stroke
 						(width 0)
@@ -785,7 +823,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy -1.905 3.81)
+						(xy -1.905 3.81) (xy -1.905 3.556)
 					)
 					(stroke
 						(width 0)
@@ -807,16 +845,15 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy -1.905 3.556)
-					)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -833,7 +870,31 @@
 				)
 				(polyline
 					(pts
+						(xy 1.905 3.81) (xy 1.905 1.27) (xy 3.81 2.54) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.175 1.27) (xy 3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 4.445 3.81)
 					)
 					(stroke
 						(width 0)
@@ -869,18 +930,6 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 4.445 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 4.445 3.81) (xy 4.445 3.556)
 					)
 					(stroke
@@ -889,41 +938,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 3.81) (xy -4.445 1.27) (xy -2.54 2.54) (xy -4.445 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.81) (xy 1.905 1.27) (xy 3.81 2.54) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -939,24 +953,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -982,13 +978,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_10"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1079,12 +1098,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_8"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1175,12 +1199,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_9"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1271,6 +1300,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dp-power:+VUSB"
 			(power)
@@ -1336,18 +1366,6 @@
 			(symbol "+VUSB_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.54) (xy -0.762 1.27)
 					)
 					(stroke
@@ -1370,11 +1388,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "+VUSB_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+VUSB"
 						(effects
 							(font
@@ -1391,12 +1422,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1468,7 +1504,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1480,7 +1516,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1511,12 +1547,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1607,12 +1648,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1703,7 +1749,64 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Bigger decoupling cap\nthan usual"
+		(exclude_from_sim no)
+		(at 105.156 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "102365a5-f577-458d-96c9-75f09ce87c24")
+	)
+	(text "Place caps\nnear diode"
+		(exclude_from_sim no)
+		(at 139.446 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "562ff586-a151-43d7-bceb-fb888301a6b8")
+	)
+	(text "Unregulated positive charge pump\nOutput about 9V\nfor single digit milliamps"
+		(exclude_from_sim no)
+		(at 191.77 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "874735b9-50c3-422a-a760-2ed2902b050f")
+	)
+	(text "Unregulated negative charge pump\nOutput about -4.5V\nfor single digit milliamps"
+		(exclude_from_sim no)
+		(at 196.596 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91742d08-5008-4f84-bf4d-c16d7a7aadca")
+	)
+	(text "RC-Oscillator\nabout 50 kHz"
+		(exclude_from_sim no)
+		(at 88.9 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e45372d5-46fe-4262-bed2-0f9dd817617f")
 	)
 	(junction
 		(at 74.93 100.33)
@@ -2091,62 +2194,6 @@
 		)
 		(uuid "ffd866be-f656-4051-b860-f921aeb50f2b")
 	)
-	(text "Bigger decoupling cap\nthan usual"
-		(exclude_from_sim no)
-		(at 105.156 174.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "102365a5-f577-458d-96c9-75f09ce87c24")
-	)
-	(text "Place caps\nnear diode"
-		(exclude_from_sim no)
-		(at 139.446 79.248 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "562ff586-a151-43d7-bceb-fb888301a6b8")
-	)
-	(text "Unregulated positive charge pump\nOutput about 9V\nfor single digit milliamps"
-		(exclude_from_sim no)
-		(at 191.77 88.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "874735b9-50c3-422a-a760-2ed2902b050f")
-	)
-	(text "Unregulated negative charge pump\nOutput about -4.5V\nfor single digit milliamps"
-		(exclude_from_sim no)
-		(at 196.596 120.904 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91742d08-5008-4f84-bf4d-c16d7a7aadca")
-	)
-	(text "RC-Oscillator\nabout 50 kHz"
-		(exclude_from_sim no)
-		(at 88.9 112.522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e45372d5-46fe-4262-bed2-0f9dd817617f")
-	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 154.94 100.33 90)
@@ -2261,7 +2308,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C28")
 					(unit 1)
 				)
@@ -2328,7 +2375,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -2460,7 +2507,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C30")
 					(unit 1)
 				)
@@ -2581,7 +2628,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C32")
 					(unit 1)
 				)
@@ -2687,7 +2734,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C26")
 					(unit 1)
 				)
@@ -2803,7 +2850,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "U18")
 					(unit 1)
 				)
@@ -2868,7 +2915,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0132")
 					(unit 1)
 				)
@@ -2933,7 +2980,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -3000,7 +3047,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0117")
 					(unit 1)
 				)
@@ -3132,7 +3179,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C33")
 					(unit 1)
 				)
@@ -3248,7 +3295,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "U18")
 					(unit 2)
 				)
@@ -3380,7 +3427,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C34")
 					(unit 1)
 				)
@@ -3447,7 +3494,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0119")
 					(unit 1)
 				)
@@ -3554,7 +3601,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "D16")
 					(unit 1)
 				)
@@ -3620,7 +3667,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0120")
 					(unit 1)
 				)
@@ -3686,7 +3733,7 @@
 		)
 		(instances
 			(project ""
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0139")
 					(unit 1)
 				)
@@ -3753,7 +3800,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0133")
 					(unit 1)
 				)
@@ -3820,7 +3867,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0128")
 					(unit 1)
 				)
@@ -3952,7 +3999,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "C27")
 					(unit 1)
 				)
@@ -4019,7 +4066,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -4084,7 +4131,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0121")
 					(unit 1)
 				)
@@ -4150,7 +4197,7 @@
 		)
 		(instances
 			(project ""
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "#PWR0140")
 					(unit 1)
 				)
@@ -4268,7 +4315,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "U18")
 					(unit 3)
 				)
@@ -4375,7 +4422,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "D14")
 					(unit 1)
 				)
@@ -4498,7 +4545,7 @@
 		)
 		(instances
 			(project "7-REV1"
-				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/a10886b0-1bb2-4849-bbfb-dd2334cfdc53"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/2356877c-fee6-4e29-8f4d-f4ded40a3ed1"
 					(reference "R39")
 					(unit 1)
 				)

@@ -4240,7 +4240,7 @@
 			)
 		)
 	)
-	(global_label "VREF_VOUT"
+	(global_label "VREF_VOUT_PROTECTED"
 		(shape input)
 		(at 115.57 157.48 180)
 		(effects

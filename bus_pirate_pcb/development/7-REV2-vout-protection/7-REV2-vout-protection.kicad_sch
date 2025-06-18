@@ -1867,7 +1867,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 51.435)
+		(at 24.765 48.26)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1881,9 +1881,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1a77fff9-fc40-4d52-be06-5f2036ff73cf")
+		(uuid "1e8f124d-b26b-4fe2-98c8-28529b98a735")
 		(property "Sheetname" "VOUT protection"
-			(at 26.67 50.7234 0)
+			(at 24.765 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1892,7 @@
 			)
 		)
 		(property "Sheetfile" "vout_protection.kicad_sch"
-			(at 26.67 55.8296 0)
+			(at 24.765 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1903,49 @@
 		(instances
 			(project "7-REV2-vout-protection"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
-					(page "8")
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 68.58)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2356877c-fee6-4e29-8f4d-f4ded40a3ed1")
+		(property "Sheetname" "Aux voltages"
+			(at 33.02 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aux_voltages.kicad_sch"
+			(at 33.02 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "7-REV2-vout-protection"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac"
+					(page "9")
 				)
 			)
 		)
