@@ -1599,7 +1599,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Gravity\nJST|2.0mm|4P\n1.SDA, SCL, GND, VCC"
+	(text "Gravity\nJST PH|2.0mm|4P\n1.SDA, SCL, GND, VCC"
 		(exclude_from_sim no)
 		(at 100.33 130.175 0)
 		(effects
@@ -1891,16 +1891,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 95.25 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9dd447-a8ee-4a70-8664-0cebd2c04076")
-	)
-	(wire
-		(pts
 			(xy 40.64 96.52) (xy 64.77 96.52)
 		)
 		(stroke
@@ -1938,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "d33bbb3c-2fe8-446d-9a45-98f625226234")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbda9745-fe27-48e8-b736-26b0a9c2acbf")
 	)
 	(wire
 		(pts
@@ -2299,7 +2299,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 95.25 71.12 180)
+		(at 95.25 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2309,7 +2309,7 @@
 		)
 		(uuid "69425617-101e-43d3-9dd5-b3430b26df82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.5854 71.12 0)
+			(at 87.5854 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 66.04 270)
+		(at 88.9 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5405,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4b362f6-fe4a-4640-9fad-d1d5c8855f4b")
 		(property "Reference" "#PWR08"
-			(at 85.09 66.04 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 66.0399 90)
+			(at 85.09 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 66.04 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 66.04 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 66.04 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
