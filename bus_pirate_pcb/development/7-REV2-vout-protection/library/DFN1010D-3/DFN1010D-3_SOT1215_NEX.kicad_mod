@@ -1,7 +1,7 @@
 (footprint "DFN1010D-3_SOT1215_NEX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN1010D-3 / Nexperia SOT1215, 1.1 x 1mm, 3 pins")
 	(tags "PMXB56ENZ")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3f771bf1-9828-4267-b2fa-126950baeccb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -94,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f6b361ba-ef12-4d02-9353-9f51b2dee100")
 	)
@@ -270,28 +258,40 @@
 			)
 		)
 	)
-	(pad "" smd rect
-		(at 0 0)
-		(size 0.2286 0.9398)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "9e88074f-b28d-4a65-99d0-613a1c79de6b")
-	)
 	(pad "1" smd rect
 		(at -0.5334 -0.375001)
 		(size 0.5842 0.2794)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f2f8bfc-08ad-4054-b51a-a8d6b4a231bf")
 	)
 	(pad "2" smd rect
 		(at -0.5334 0.375001)
 		(size 0.5842 0.2794)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bb02338-f98c-4cf1-b061-277d063b3615")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 0.2286 0.9398)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e88074f-b28d-4a65-99d0-613a1c79de6b")
 	)
 	(pad "3" smd rect
 		(at 0.5334 0)
 		(size 0.5842 0.2794)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4f25a4b6-83f3-4ed9-9e19-973b6eb6f3cf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/DFN1010D-3_SOT1215_NEX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

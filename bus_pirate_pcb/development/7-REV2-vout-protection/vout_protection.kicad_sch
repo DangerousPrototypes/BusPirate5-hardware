@@ -4641,31 +4641,35 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 77.47 109.22 180)
+		(at 77.47 97.79 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1be1d432-5cbc-44c3-b1aa-efa3083cfb04")
 		(property "Reference" "RN12"
-			(at 81.534 104.648 0)
+			(at 80.01 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 80.01 109.22 90)
+			(at 80.01 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 79.502 107.95 90)
+			(at 79.502 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4678,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 73.66 109.982 0)
+			(at 73.66 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4696,7 @@
 			)
 		)
 		(property "RMB" "0.03666"
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4705,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4714,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4723,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4732,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4741,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 77.47 109.22 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5077,8 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 106.68 143.51 180)
+		(at 106.68 143.51 0)
+		(mirror y)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5081,23 +5086,25 @@
 		(dnp no)
 		(uuid "24be3808-7f4c-47c0-aeaa-2ef8c083133e")
 		(property "Reference" "RN12"
-			(at 110.744 138.938 0)
+			(at 109.22 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 109.22 143.51 90)
+			(at 109.22 142.2401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 108.712 142.24 90)
+			(at 108.712 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5113,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 102.87 144.272 0)
+			(at 102.87 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,19 +5924,21 @@
 		(dnp no)
 		(uuid "4a21d680-aa6e-4580-b0fd-9da11811de59")
 		(property "Reference" "RN12"
-			(at 105.664 104.648 0)
+			(at 104.14 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 104.14 109.22 90)
+			(at 104.14 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
@@ -6154,31 +6163,34 @@
 	)
 	(symbol
 		(lib_id "dp-rarray:R_Array")
-		(at 77.47 97.79 180)
+		(at 77.47 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "58875cd8-669f-460c-98c7-9037f9883d36")
 		(property "Reference" "RN12"
-			(at 81.534 93.218 0)
+			(at 80.01 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 80.01 97.79 90)
+			(at 80.01 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 79.502 96.52 90)
+			(at 79.502 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6199,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 73.66 98.552 0)
+			(at 73.66 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6217,7 @@
 			)
 		)
 		(property "RMB" "0.03666"
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6226,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/635571.html"
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6235,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6244,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6253,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6262,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 77.47 97.79 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7941,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc4afc35-9896-4e95-bf7f-47a9a68687e8")
 		(property "Reference" "U117"
-			(at 121.92 143.51 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7949,7 @@
 			)
 		)
 		(property "Value" "LM393BIDSGR"
-			(at 121.92 146.05 0)
+			(at 121.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

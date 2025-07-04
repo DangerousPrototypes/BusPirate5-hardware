@@ -1777,7 +1777,7 @@
 	)
 	(text "Unregulated positive charge pump\nOutput about 9V\nfor single digit milliamps"
 		(exclude_from_sim no)
-		(at 191.77 88.138 0)
+		(at 196.215 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,7 +1788,7 @@
 	)
 	(text "Unregulated negative charge pump\nOutput about -4.5V\nfor single digit milliamps"
 		(exclude_from_sim no)
-		(at 196.596 120.904 0)
+		(at 201.041 120.396 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 162.56) (xy 95.25 163.83)
+			(xy 86.36 162.56) (xy 86.36 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 139.7) (xy 95.25 142.24)
+			(xy 86.36 139.7) (xy 86.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2390,23 +2390,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "39e71fe7-2b89-4442-95ee-41584dea7749")
 		(property "Reference" "C30"
-			(at 121.92 154.94 0)
+			(at 118.11 154.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF/6.3v"
-			(at 121.92 157.48 0)
+			(at 118.11 157.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -2865,6 +2866,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6efc7142-db4e-4274-9502-64947066d69a")
 		(property "Reference" "#PWR0132"
 			(at 115.57 151.13 0)
@@ -2876,7 +2878,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 115.189 146.7358 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,23 +3064,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "954330e2-687b-491a-952f-9574e2d8d081")
 		(property "Reference" "C33"
-			(at 191.77 119.38 0)
+			(at 187.96 119.3862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF/6.3v"
-			(at 191.77 121.92 0)
+			(at 187.96 121.9262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3310,23 +3313,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a72e1a0b-c2b4-4b06-9bc1-b56ceedb36f9")
 		(property "Reference" "C34"
-			(at 182.372 83.82 0)
+			(at 180.34 83.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF/16v"
-			(at 185.166 86.36 0)
+			(at 180.34 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -3810,7 +3814,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 95.25 163.83 0)
+		(at 86.36 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3819,7 +3823,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc3b2156-cc77-4efd-92be-5ddd85c5cb88")
 		(property "Reference" "#PWR0128"
-			(at 95.25 170.18 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 168.91 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 163.83 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 163.83 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 163.83 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,23 +3886,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e05b6846-c124-44e0-b3a7-1849ab150d3e")
 		(property "Reference" "C27"
-			(at 160.02 80.01 0)
+			(at 156.21 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF/6.3v"
-			(at 160.02 82.55 0)
+			(at 156.21 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -4075,15 +4080,16 @@
 	)
 	(symbol
 		(lib_id "dp-power:+VUSB")
-		(at 95.25 139.7 0)
+		(at 86.36 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e32517e3-f5ae-47d9-a036-0e8c869eae9a")
 		(property "Reference" "#PWR0121"
-			(at 95.25 139.7 0)
+			(at 86.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4098,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 94.869 135.3058 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 139.7 0)
+			(at 86.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 139.7 0)
+			(at 86.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 139.7 0)
+			(at 86.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4152,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e92835ba-2e49-4f59-bae9-17ebe546094c")
 		(property "Reference" "#PWR0140"
 			(at 185.42 113.03 0)
@@ -4206,7 +4211,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G14")
-		(at 95.25 152.4 0)
+		(at 86.36 152.4 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4215,7 +4220,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec794da5-a2f3-40cd-b5de-dcad13b727b6")
 		(property "Reference" "U18"
-			(at 101.6 151.1299 0)
+			(at 92.71 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4229,7 @@
 			)
 		)
 		(property "Value" "74LVC2G14"
-			(at 101.6 153.6699 0)
+			(at 92.71 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4238,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4247,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf"
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4256,7 @@
 			)
 		)
 		(property "Description" "Dual NOT Gate, Schmitt Triggered, Low-Voltage CMOS"
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4265,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4274,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4283,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4292,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 95.25 152.4 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

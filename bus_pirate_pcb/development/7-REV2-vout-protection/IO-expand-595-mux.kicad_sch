@@ -12,23 +12,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 16.51 0)
+			(property "Reference" "U503"
+				(at 7.62 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74HC245"
-				(at -7.62 -16.51 0)
+			(property "Value" "74HCT245BQ"
+				(at 7.62 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:DHVQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Octal BUS Transceivers, 3-State outputs"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "szlcsc_partnumber" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "szlcsc_url" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -315,6 +369,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -20.32 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4321,7 +4393,7 @@
 		(uuid "65bafc14-8eaa-47d9-9179-630e2d5d9c1c")
 	)
 	(junction
-		(at 58.42 213.36)
+		(at 29.21 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1faede-def3-4a44-8650-da3d54d63745")
@@ -4387,6 +4459,12 @@
 		(uuid "9b38f8c7-39b5-49cf-97fd-ca71c95d749b")
 	)
 	(junction
+		(at 256.54 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc2249d-2d30-467e-af40-b3e254d91f5a")
+	)
+	(junction
 		(at 224.79 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4397,12 +4475,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3680f2-ba12-4095-9b6d-f0434e06c1d5")
-	)
-	(junction
-		(at 307.34 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0dff300-b42b-4e93-803f-e65364f38de7")
 	)
 	(junction
 		(at 256.54 39.37)
@@ -4423,7 +4495,7 @@
 		(uuid "a2f3ce0c-b943-4c79-a676-80dd08826926")
 	)
 	(junction
-		(at 58.42 228.6)
+		(at 29.21 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2818ed-c136-484c-b558-7ef068b68f54")
@@ -4507,6 +4579,12 @@
 		(uuid "e18f2dc1-a38e-44ba-a5ef-02314b6402f1")
 	)
 	(junction
+		(at 307.34 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed9bff69-3b5a-4773-b764-1ecf7dbeda01")
+	)
+	(junction
 		(at 165.1 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4537,7 +4615,7 @@
 		(uuid "2a277935-405b-48f2-b34a-5a1e05d18f82")
 	)
 	(no_connect
-		(at 60.96 228.6)
+		(at 31.75 226.06)
 		(uuid "3e4b22e4-a706-4af1-80f5-7a08bab315ed")
 	)
 	(no_connect
@@ -4680,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 213.36) (xy 58.42 213.36)
+			(xy 25.4 210.82) (xy 29.21 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 228.6) (xy 58.42 228.6)
+			(xy 25.4 226.06) (xy 29.21 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 218.44) (xy 54.61 213.36)
+			(xy 25.4 215.9) (xy 25.4 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5267,6 +5345,16 @@
 			(type default)
 		)
 		(uuid "5ddbb6d4-78af-415c-be7f-28bf7be95178")
+	)
+	(wire
+		(pts
+			(xy 242.57 231.14) (xy 245.11 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f165b7f-eb8f-44b8-9300-f17fba348b6f")
 	)
 	(wire
 		(pts
@@ -5400,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 231.14) (xy 245.11 231.14)
+			(xy 234.95 231.14) (xy 237.49 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6020,7 +6108,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 223.52) (xy 54.61 228.6)
+			(xy 25.4 220.98) (xy 25.4 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6500,6 +6588,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 153.67) (xy 259.08 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef312a29-81a3-4174-99f2-fbd348c82b17")
+	)
+	(wire
+		(pts
 			(xy 243.84 233.68) (xy 243.84 236.22)
 		)
 		(stroke
@@ -6842,6 +6940,26 @@
 			)
 		)
 	)
+	(global_label "VREF_VOUT"
+		(shape input)
+		(at 82.55 215.9 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "2b34d129-d9ff-435f-8395-aaf4ecf7a345")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUX_VREF_VOUT"
 		(shape output)
 		(at 132.08 218.44 0)
@@ -6978,26 +7096,6 @@
 		(uuid "43ea7476-9f3f-4a34-b180-69773bcc0b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREG_OUT"
-		(shape input)
-		(at 234.95 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ce02c57-c3a6-460c-a202-eaebc3429296")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,26 +7400,6 @@
 		(uuid "78f3f227-94bb-4573-bf71-d577ace132ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 372.11 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_VOUT"
-		(shape input)
-		(at 82.55 215.9 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "80569771-d365-46bd-97d1-1345b968d3ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,6 +8302,26 @@
 		(uuid "fbba19df-fd4d-49ea-9fc0-03a784d458bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREF_VOUT_PROTECTED"
+		(shape input)
+		(at 234.95 231.14 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "fc611589-a10a-48d9-90cc-1d3357d366f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,6 +9956,9 @@
 		(pin "9"
 			(uuid "28fed7ed-3482-43a5-b3a0-8792b96fe2fd")
 		)
+		(pin "21"
+			(uuid "09ca8c6b-a385-46bc-beca-ddb39c3e46f2")
+		)
 		(instances
 			(project "REV0"
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
@@ -10411,7 +10512,11 @@
 			(uuid "20e1e7f2-cee7-46b0-8f68-8ea27ed3d6fc")
 		)
 		(instances
-			(project "REV0"
+			(project ""
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060c8ec36"
+					(reference "LCD201")
+					(unit 1)
+				)
 				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
 					(reference "LCD201")
 					(unit 1)
@@ -11692,7 +11797,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 54.61 220.98 180)
+		(at 25.4 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11700,7 +11805,7 @@
 		(dnp no)
 		(uuid "21ff22aa-240e-48e4-a804-1cfbe1e28a66")
 		(property "Reference" "C20"
-			(at 49.53 219.71 90)
+			(at 20.32 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11813,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 52.07 219.71 90)
+			(at 22.86 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +11821,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +11830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +11839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,7 +11848,7 @@
 			)
 		)
 		(property "RMB" "0.00628"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11857,7 @@
 			)
 		)
 		(property "Supplier" "https://item.szlcsc.com/1877.html"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +11866,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +11875,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +11884,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11893,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11902,7 @@
 			)
 		)
 		(property "szlcsc_partnumber" "C1525"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11911,7 @@
 			)
 		)
 		(property "szlcsc_url" "https://item.szlcsc.com/1877.html?fromZone=s_s__%25220.1uF%25200402%2522&spm=sc.gb.xh2.zy.n&lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRfXlBUQ1ZeVzsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
-			(at 54.61 220.98 0)
+			(at 25.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,7 +15074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 228.6 0)
+		(at 29.21 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14977,7 +15082,7 @@
 		(dnp no)
 		(uuid "62bbb00d-cef3-4f36-a005-3d591bbdedde")
 		(property "Reference" "#PWR013"
-			(at 58.42 234.95 0)
+			(at 29.21 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14986,7 +15091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.547 232.9942 0)
+			(at 29.337 230.4542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 228.6 0)
+			(at 29.21 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 228.6 0)
+			(at 29.21 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +15117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 228.6 0)
+			(at 29.21 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18360,7 +18465,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358_DFN")
-		(at 119.38 218.44 0)
+		(at 299.72 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18369,7 +18474,7 @@
 		(fields_autoplaced yes)
 		(uuid "a59c76c2-4966-45f8-8af4-de99eafc88cf")
 		(property "Reference" "U13"
-			(at 119.38 208.28 0)
+			(at 299.72 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18483,7 @@
 			)
 		)
 		(property "Value" "GS358-FR"
-			(at 119.38 210.82 0)
+			(at 299.72 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18386,7 +18491,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18395,7 +18500,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/lm358.pdf"
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,7 +18509,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18518,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18422,7 +18527,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18431,7 +18536,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18440,7 +18545,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18449,7 +18554,7 @@
 			)
 		)
 		(property "szlcsc_partnumber" "C431311"
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18458,7 +18563,7 @@
 			)
 		)
 		(property "szlcsc_url" "https://item.szlcsc.com/427634.html?fromZone=s_s__%2522GS358%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
-			(at 119.38 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18950,7 +19055,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358_DFN")
-		(at 60.96 220.98 0)
+		(at 31.75 218.44 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18959,7 +19064,7 @@
 		(fields_autoplaced yes)
 		(uuid "affa0ba1-ba16-40c3-a12d-cb16631e7409")
 		(property "Reference" "U13"
-			(at 62.23 219.7099 0)
+			(at 33.02 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18968,7 +19073,7 @@
 			)
 		)
 		(property "Value" "GS358-FR"
-			(at 62.23 222.2499 0)
+			(at 33.02 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18977,7 +19082,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18986,7 +19091,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/lm358.pdf"
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18995,7 +19100,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19004,7 +19109,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19013,7 +19118,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19022,7 +19127,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19031,7 +19136,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19040,7 +19145,7 @@
 			)
 		)
 		(property "szlcsc_partnumber" "C431311"
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19049,7 +19154,7 @@
 			)
 		)
 		(property "szlcsc_url" "https://item.szlcsc.com/427634.html?fromZone=s_s__%2522GS358%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
-			(at 60.96 220.98 0)
+			(at 31.75 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20536,6 +20641,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 240.03 231.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d4872f8c-f6c7-412b-bc00-061110a51be7")
+		(property "Reference" "R320"
+			(at 240.03 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 240.03 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RMB" "0.004864"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://item.szlcsc.com/61542.html"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_partnumber" "C25741"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "szlcsc_url" "https://item.szlcsc.com/26484.html?fromZone=s_s__%2522100K%25200402%2522&spm=sc.gb.xh1.zy.n&lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001c5b94-d36f-4249-be04-adeaee6f9da2")
+		)
+		(pin "2"
+			(uuid "5e8ea3b1-8615-4103-9f03-dcd040511546")
+		)
+		(instances
+			(project "7-REV2-vout-protection"
+				(path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac/00000000-0000-0000-0000-000060e58ecc"
+					(reference "R320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 116.84 0)
 		(unit 1)
@@ -20602,7 +20847,7 @@
 	)
 	(symbol
 		(lib_id "dp-power:+VUSB")
-		(at 58.42 213.36 0)
+		(at 29.21 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20610,7 +20855,7 @@
 		(dnp no)
 		(uuid "dea2e1be-784a-4df8-9359-3131d5836f80")
 		(property "Reference" "#PWR05"
-			(at 58.42 213.36 0)
+			(at 29.21 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20619,7 +20864,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 58.039 208.9658 0)
+			(at 28.829 206.4258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20627,7 +20872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 213.36 0)
+			(at 29.21 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +20881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 213.36 0)
+			(at 29.21 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +20890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 213.36 0)
+			(at 29.21 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21183,7 +21428,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358_DFN")
-		(at 299.72 213.36 0)
+		(at 119.38 218.44 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21192,7 +21437,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaac8b40-21b6-4b01-aa0a-dc3e160ff10b")
 		(property "Reference" "U13"
-			(at 299.72 203.2 0)
+			(at 119.38 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21201,7 +21446,7 @@
 			)
 		)
 		(property "Value" "GS358-FR"
-			(at 299.72 205.74 0)
+			(at 119.38 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21209,7 +21454,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21218,7 +21463,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/lm358.pdf"
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21227,7 +21472,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21236,7 +21481,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21245,7 +21490,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21254,7 +21499,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21263,7 +21508,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21272,7 +21517,7 @@
 			)
 		)
 		(property "szlcsc_partnumber" "C431311"
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21281,7 +21526,7 @@
 			)
 		)
 		(property "szlcsc_url" "https://item.szlcsc.com/427634.html?fromZone=s_s__%2522GS358%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&lcsc_vid=RlENUlJWE1QKBlBWRAVaUFNTT1leBQZXRFNcVAVQQVAxVlNSRFRcV1ZTQFNZVDsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
-			(at 299.72 213.36 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

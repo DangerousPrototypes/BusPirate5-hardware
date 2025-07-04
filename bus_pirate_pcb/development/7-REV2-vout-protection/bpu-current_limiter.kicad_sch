@@ -3315,6 +3315,26 @@
 			)
 		)
 	)
+	(global_label "VREF_VOUT"
+		(shape output)
+		(at 173.99 106.68 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "2f806751-856c-491b-a9f1-085d3ebba8d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREG_ADJ"
 		(shape output)
 		(at 74.93 113.03 0)
@@ -3409,26 +3429,6 @@
 		(uuid "4c51085f-89bb-42db-ac1f-0cb670f11327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREG_OUT"
-		(shape output)
-		(at 173.99 106.68 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "80087250-8dc0-4761-9de0-4d7f7980f684")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

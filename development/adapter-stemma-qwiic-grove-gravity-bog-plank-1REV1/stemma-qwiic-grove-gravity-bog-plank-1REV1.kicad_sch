@@ -1689,7 +1689,7 @@
 		)
 		(uuid "e1edd6f7-7798-49a4-af3f-cf3c7d10a356")
 	)
-	(text "Breakout Garden\nDK925A-10M|2.54mm|5P\n1.VCC, SDA, SCL, N/A, GND"
+	(text "Breakout Garden\nDK925A-10M|2.54mm|5P\n1.VCC, SDA, SCL, INT, GND"
 		(exclude_from_sim no)
 		(at 113.665 165.1 0)
 		(effects
@@ -2143,7 +2143,7 @@
 			)
 		)
 	)
-	(global_label "IO2"
+	(global_label "INT"
 		(shape bidirectional)
 		(at 64.77 91.44 0)
 		(fields_autoplaced yes)
@@ -2155,7 +2155,7 @@
 		)
 		(uuid "3a280891-0cb2-433e-a687-e1757c27db2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.0113 91.44 0)
+			(at 71.7694 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,6 +2293,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape bidirectional)
+		(at 119.38 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67e45bb3-c04d-4bb8-b608-a1e84a268968")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.3794 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2821,6 +2843,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape bidirectional)
+		(at 106.68 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f503ceee-0eb6-46b8-a8b4-93716bbc1ea4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.6806 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

@@ -6136,10 +6136,6 @@
 		(uuid "41c72c1d-3286-4f12-aca5-70e1aab3d2b7")
 	)
 	(no_connect
-		(at 328.93 157.48)
-		(uuid "5a608688-63cd-4e36-b444-221503ffe70d")
-	)
-	(no_connect
 		(at 328.93 109.22)
 		(uuid "779186c5-6a8f-4409-9962-626344d8f41e")
 	)
@@ -6156,11 +6152,11 @@
 		(uuid "a0236877-0843-40ac-95ba-d5baa45f6ebe")
 	)
 	(no_connect
-		(at 40.64 215.9)
+		(at 40.64 213.36)
 		(uuid "dca180dd-0abc-4440-97db-67aee2bf9dba")
 	)
 	(no_connect
-		(at 50.8 215.9)
+		(at 50.8 213.36)
 		(uuid "ebab000d-2b35-44f1-8518-e63387e3f2ba")
 	)
 	(no_connect
@@ -6643,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 213.36) (xy 40.64 213.36)
+			(xy 36.83 215.9) (xy 40.64 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9371,6 +9367,28 @@
 			)
 		)
 	)
+	(global_label "~{Activate_VOUT}"
+		(shape output)
+		(at 328.93 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d7cc1fb-4561-483d-89cc-66f968d6bede")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.3844 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LA_BPIO3_TVS"
 		(shape input)
 		(at 342.9 124.46 0)
@@ -9641,7 +9659,7 @@
 	)
 	(global_label "BUTTONS"
 		(shape output)
-		(at 36.83 213.36 180)
+		(at 36.83 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9650,7 +9668,7 @@
 		)
 		(uuid "937e1343-8ea2-49d3-9000-4a9b937e9075")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 213.36 0)
+			(at 36.83 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16428,6 +16446,7 @@
 	(symbol
 		(lib_id "dp-switch:4P_button_sw")
 		(at 45.72 214.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17533,15 +17552,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 213.36 90)
+		(at 50.8 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "27ce87eb-2beb-4149-8ff1-f5876671a10b")
 		(property "Reference" "#PWR028"
-			(at 57.15 213.36 0)
+			(at 57.15 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.1942 213.233 0)
+			(at 55.1942 215.773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,7 +17578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 213.36 0)
+			(at 50.8 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 213.36 0)
+			(at 50.8 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17576,7 +17596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 213.36 0)
+			(at 50.8 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
